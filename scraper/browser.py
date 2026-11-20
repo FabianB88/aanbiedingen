@@ -135,7 +135,7 @@ def kaarten_lezen(page, selector):
     return []
 
 
-def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None):
+def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, traag=False):
     """Opent de eerste werkende URL en geeft (kaarten, json_responses) terug."""
     os.makedirs(DEBUG, exist_ok=True)
     responses = []
@@ -177,6 +177,11 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None):
         for t in klik_teksten or []:
             _klik_tekst(page, [t])
             time.sleep(1)
+        if traag:
+            # rustig scrollen zodat alle tegels hun gegevens laden
+            for _ in range(80):
+                page.mouse.wheel(0, 700)
+                time.sleep(0.5)
         scroll_tot_einde(page)
         kaarten = kaarten_lezen(page, selector)
         if tabs:
@@ -209,3 +214,38 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None):
     with open(os.path.join(DEBUG, f"{winkel}-xhr.json"), "w", encoding="utf-8") as f:
         json.dump([{"url": r["url"], "body": r["body"][:60000]} for r in responses[:40]], f, ensure_ascii=False, indent=1)
     return gebruikt, kaarten, responses
+
+
+def haal_details(winkel, urls, wacht=2.5, max_urls=200):
+    """Bezoekt een reeks detailpagina's in één browser en geeft {url: kaarten} terug.
+    De eerste drie pagina's worden als dump bewaard."""
+    uit = {}
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(
+            locale="nl-NL",
+            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                        "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"),
+            viewport={"width": 1366, "height": 900},
+        )
+        page = ctx.new_page()
+        eerste = True
+        for i, url in enumerate(urls[:max_urls]):
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                if eerste:
+                    time.sleep(2)
+                    cookies_weg(page)
+                    eerste = False
+                time.sleep(wacht)
+                page.mouse.wheel(0, 3000)
+                time.sleep(0.8)
+                kaarten = kaarten_lezen(page, None)
+                uit[url] = kaarten
+                if i < 3:
+                    with open(os.path.join(DEBUG, f"{winkel}-detail{i}.json"), "w", encoding="utf-8") as f:
+                        json.dump({"url": url, "kaarten": kaarten[:60]}, f, ensure_ascii=False, indent=1)
+            except Exception as e:
+                print(f"[{winkel}] detail {url} faalde: {str(e)[:100]}")
+        browser.close()
+    return uit

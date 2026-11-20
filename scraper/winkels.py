@@ -11,7 +11,7 @@ import requests
 
 import os
 
-from browser import haal, DEBUG
+from browser import haal, haal_details, DEBUG
 from korting import prijs
 
 UA_APP = "Appie/8.22.3 Model/phone Android/14"
@@ -274,15 +274,102 @@ def lidl_kaart(k):
             "img": k.get("img", ""), "url": k.get("href", ""), "geldig": geldig}
 
 
+def _jumbo_normaalprijzen(kaarten):
+    """Uit de productkaarten op een Jumbo-actiepagina de normale prijzen halen."""
+    prijzen = []
+    for k in kaarten:
+        regels = _regels(k)
+        losse = [prijs(x) for x in regels if re.fullmatch(r"€?\s*\d+[.,]\d{2}", x)]
+        # euro en centen staan bij Jumbo soms op aparte regels: "2" + "49"
+        t = "\n".join(regels)
+        for a, b in re.findall(r"(?m)^(\d{1,3})\n(\d{2})$", t):
+            losse.append(float(f"{a}.{b}"))
+        losse = [p for p in losse if p and 0.05 < p < 200]
+        if losse:
+            prijzen.append(max(losse))
+    return prijzen
+
+
 def jumbo():
-    return _met_parser("jumbo", ["https://www.jumbo.com/aanbiedingen/nu",
-                                 "https://www.jumbo.com/aanbiedingen"], jumbo_kaart)
+    items = _met_parser("jumbo", ["https://www.jumbo.com/aanbiedingen/nu",
+                                  "https://www.jumbo.com/aanbiedingen"], jumbo_kaart)
+    # voor acties zonder normale prijs: bezoek de actiepagina
+    nodig = [a for a in items if a.get("url") and "/aanbiedingen/" in a["url"]
+             and not PCT_RX.search(a.get("actie", ""))]
+    urls = list(dict.fromkeys(a["url"] for a in nodig))
+    print(f"[jumbo] {len(urls)} actiepagina's bezoeken voor normale prijzen")
+    details = haal_details("jumbo", urls, max_urls=180)
+    for a in nodig:
+        prijzen = _jumbo_normaalprijzen(details.get(a["url"], []))
+        if not prijzen:
+            continue
+        laag, hoog = min(prijzen), max(prijzen)
+        a["prijs_was"] = laag                   # voorzichtigste korting
+        a["tot"] = hoog > laag * 1.05
+        # "2 voor 5,00": prijs_nu is het totaalbedrag; zet om naar per stuk
+        m = re.search(r"(\d+)\s*voor\s*([\d.,]+)", a.get("actie", ""))
+        if m and int(m.group(1)) > 1:
+            a["prijs_nu"] = round(prijs(m.group(2)) / int(m.group(1)), 2)
+        if a.get("prijs_nu") and a["prijs_nu"] >= laag:
+            a["prijs_was"] = None               # geen echte korting af te leiden
+    return items
+
+
+def lidl_grid(g):
+    """Eén product uit Lidl's data-grid-data JSON."""
+    titel = re.sub(r"^[-\s]+", "", g.get("fullTitle") or g.get("title") or "")
+    normaal = (g.get("price") or {}).get("price")
+    lp = (g.get("lidlPlus") or [{}])[0] or {}
+    lp_prijs = (lp.get("price") or {}).get("price")
+    highlight = lp.get("highlightText") or ""
+    disc = (g.get("price") or {}).get("discount") or {}
+    actie, nu, was = "", normaal, None
+    if lp_prijs and normaal and lp_prijs < normaal:
+        nu, was = lp_prijs, normaal
+        actie = f"{highlight} met Lidl Plus".strip() if highlight else "met Lidl Plus"
+    elif lp_prijs and not normaal:
+        nu = lp_prijs
+        actie = f"{highlight} met Lidl Plus".strip()
+    if disc.get("deletedPrice") and normaal and disc["deletedPrice"] > normaal:
+        was, nu = disc["deletedPrice"], normaal
+        actie = disc.get("discountText") or actie
+    badges = ((g.get("stockAvailability") or {}).get("badgeInfo") or {}).get("badges") or []
+    geldig = ""
+    for b in badges:
+        m = re.search(r"\d{1,2}/\d{1,2}\s*-\s*\d{1,2}/\d{1,2}", b.get("text", ""))
+        if m:
+            geldig = m.group(0)
+    pack = ((g.get("price") or {}).get("packaging") or {}).get("text", "")
+    return {"titel": titel, "merk": (g.get("brand") or {}).get("name", ""), "actie": actie,
+            "prijs_nu": nu, "prijs_was": was, "eenheid": pack, "img": g.get("image", ""),
+            "url": "https://www.lidl.nl" + (g.get("canonicalPath") or ""), "geldig": geldig,
+            "cat_hint": g.get("category", "")}
 
 
 def lidl():
-    return _met_parser("lidl", ["https://www.lidl.nl/c/aanbiedingen/a10008785",
-                                "https://www.lidl.nl/aanbiedingen"], lidl_kaart,
-                       tabs=r"^vanaf\s")
+    import html as _html
+    url, kaarten, _ = haal("lidl", ["https://www.lidl.nl/c/aanbiedingen/a10008785",
+                                    "https://www.lidl.nl/aanbiedingen"], traag=True)
+    with open(os.path.join(DEBUG, "lidl.html"), encoding="utf-8") as f:
+        h = f.read()
+    uit, gezien = [], set()
+    for ruw in re.findall(r'data-grid-data="([^"]+)"', h):
+        try:
+            g = json.loads(_html.unescape(ruw))
+        except Exception:
+            continue
+        if g.get("erpNumber") in gezien:
+            continue
+        gezien.add(g.get("erpNumber"))
+        uit.append(lidl_grid(g))
+    print(f"[lidl] {len(uit)} producten uit grid-data, {len(kaarten)} zichtbare kaarten")
+    titels = {a["titel"].lower() for a in uit}
+    for k in kaarten:                      # aanvullen met kaarten zonder grid-data
+        a = lidl_kaart(k)
+        if a and a["titel"] and a["titel"].lower() not in titels:
+            titels.add(a["titel"].lower())
+            uit.append(a)
+    return _uniek(uit)
 
 
 def aldi():
