@@ -299,9 +299,27 @@ def aldi_sued():
                                         "https://www.aldi-sued.de/angebote"], aldi_sued_kaart)
 
 
+def kaufland_kaart(k):
+    r = [x for x in _regels(k) if not x.startswith("(")]
+    merk = r[0].title() if r and r[0].isupper() and len(r) > 1 else ""
+    if merk:
+        r = r[1:]
+    titel = r[0] if r else ""
+    eenheid = next((x for x in r if x.lower().startswith("je ")), "")
+    pct = next((x for x in r if re.fullmatch(r"-?\d{1,2}\s*%", x)), "")
+    prijzen = [prijs(x) for x in r if re.fullmatch(r"\d+[.,]\d{2}", x)]
+    nu = prijzen[0] if prijzen else None
+    was = prijzen[1] if len(prijzen) > 1 else None
+    actie = pct or next((x for x in r if ACTIE_RX.search(x) and x not in (titel, eenheid)), "")
+    if nu is None and not actie:
+        return None                      # kaart nog niet volledig geladen
+    return {"titel": f"{merk} {titel}".strip(), "merk": merk, "actie": actie, "prijs_nu": nu, "prijs_was": was,
+            "eenheid": eenheid, "img": k.get("img", ""), "url": k.get("href", ""), "geldig": ""}
+
+
 def kaufland():
-    return _generiek("kaufland_de", ["https://filiale.kaufland.de/angebote/uebersicht.html",
-                                     "https://www.kaufland.de/angebote/"])
+    return _met_parser("kaufland_de", ["https://filiale.kaufland.de/angebote/uebersicht.html",
+                                       "https://www.kaufland.de/angebote/"], kaufland_kaart)
 
 
 WINKELS = {
