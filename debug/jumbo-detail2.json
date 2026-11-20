@@ -1,0 +1,26 @@
+{
+ "url": "https://www.jumbo.com/aanbiedingen/rivella/3022412",
+ "kaarten": [
+  {
+   "tekst": "Rivella\n\nFles 1 liter\n\nvoor 1,00\nGeldig van wo 18 t/m di 24 nov\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 18 t/m di 24 nov.",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_119.png",
+   "alt": "Rivella",
+   "href": "",
+   "attrs": {
+    "data-testid": "jum-grid",
+    "data-v-81dd4833": "",
+    "data-v-52f4ce32": "",
+    "data-v-0deaba2d": ""
+   }
+  },
+  {
+   "tekst": "Rivella Original Fles 1L\nvoor 1,00\nOude prijs: € 2,49\n2,49\nNieuwe prijs: € 1,00\n1\n00\n€ 1,00 per liter\n1,00/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/15122023_1702611475373_1702611481490_429185_FLS_08715600243444_C1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/rivella-original-fles-1l-429185FLS",
+   "attrs": {
+    "data-v-b08dd1a6": ""
+   }
+  }
+ ]
+}
