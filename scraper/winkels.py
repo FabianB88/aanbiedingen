@@ -275,18 +275,13 @@ def lidl_kaart(k):
 
 
 def _jumbo_normaalprijzen(kaarten):
-    """Uit de productkaarten op een Jumbo-actiepagina de normale prijzen halen."""
+    """De 'Oude prijs' van elk product op een Jumbo-actiepagina."""
     prijzen = []
     for k in kaarten:
-        regels = _regels(k)
-        losse = [prijs(x) for x in regels if re.fullmatch(r"€?\s*\d+[.,]\d{2}", x)]
-        # euro en centen staan bij Jumbo soms op aparte regels: "2" + "49"
-        t = "\n".join(regels)
-        for a, b in re.findall(r"(?m)^(\d{1,3})\n(\d{2})$", t):
-            losse.append(float(f"{a}.{b}"))
-        losse = [p for p in losse if p and 0.05 < p < 200]
-        if losse:
-            prijzen.append(max(losse))
+        t = k.get("tekst", "").replace("\u00a0", " ")
+        m = re.search(r"Oude prijs:\s*€\s*(\d+),(\d{2})", t)
+        if m:
+            prijzen.append(float(f"{m.group(1)}.{m.group(2)}"))
     return prijzen
 
 
