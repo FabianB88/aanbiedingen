@@ -124,10 +124,11 @@ def scroll_tot_einde(page, max_rondes=60):
         vorige = h
 
 
-def kaarten_lezen(page, selector):
+def kaarten_lezen(page, selector, wachten=True):
     for poging in range(3):
         try:
-            page.wait_for_load_state("load", timeout=15000)
+            if wachten:
+                page.wait_for_load_state("load", timeout=15000)
             return page.evaluate(KAART_JS, {"selector": selector})
         except Exception as e:
             print("   lezen mislukt, opnieuw:", str(e)[:120])
@@ -216,7 +217,7 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, tra
     return gebruikt, kaarten, responses
 
 
-def haal_details(winkel, urls, wacht=2.5, max_urls=200):
+def haal_details(winkel, urls, wacht=2.0, max_urls=200, budget_s=480):
     """Bezoekt een reeks detailpagina's in één browser en geeft {url: kaarten} terug.
     De eerste drie pagina's worden als dump bewaard."""
     uit = {}
@@ -230,7 +231,11 @@ def haal_details(winkel, urls, wacht=2.5, max_urls=200):
         )
         page = ctx.new_page()
         eerste = True
+        begin = time.time()
         for i, url in enumerate(urls[:max_urls]):
+            if time.time() - begin > budget_s:
+                print(f"[{winkel}] tijdsbudget op na {i} pagina's")
+                break
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 if eerste:
@@ -240,7 +245,7 @@ def haal_details(winkel, urls, wacht=2.5, max_urls=200):
                 time.sleep(wacht)
                 page.mouse.wheel(0, 3000)
                 time.sleep(0.8)
-                kaarten = kaarten_lezen(page, None)
+                kaarten = kaarten_lezen(page, None, wachten=False)
                 uit[url] = kaarten
                 if i < 3:
                     with open(os.path.join(DEBUG, f"{winkel}-detail{i}.json"), "w", encoding="utf-8") as f:
