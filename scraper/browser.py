@@ -88,12 +88,32 @@ def cookies_weg(page):
     return geklikt
 
 
-def scroll_tot_einde(page, max_rondes=40):
+MEER_KNOPPEN = re.compile(r"^(meer laden|laad meer|toon meer|meer tonen|meer aanbiedingen|bekijk meer aanbiedingen|mehr laden|mehr anzeigen|weitere (angebote|artikel|produkte)( anzeigen| laden)?|alle angebote anzeigen)$", re.I)
+
+
+def klik_meer(page):
+    try:
+        knoppen = page.get_by_role("button", name=MEER_KNOPPEN)
+        for i in range(knoppen.count()):
+            b = knoppen.nth(i)
+            if b.is_visible():
+                b.click(timeout=2000)
+                time.sleep(1.2)
+                return True
+    except Exception:
+        pass
+    return False
+
+
+def scroll_tot_einde(page, max_rondes=60):
     vorige = 0
     stil = 0
     for _ in range(max_rondes):
         page.mouse.wheel(0, 2500)
         time.sleep(0.8)
+        if klik_meer(page):
+            stil = 0
+            continue
         h = page.evaluate("document.body.scrollHeight")
         if h == vorige:
             stil += 1
@@ -104,7 +124,18 @@ def scroll_tot_einde(page, max_rondes=40):
         vorige = h
 
 
-def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4):
+def kaarten_lezen(page, selector):
+    for poging in range(3):
+        try:
+            page.wait_for_load_state("load", timeout=15000)
+            return page.evaluate(KAART_JS, {"selector": selector})
+        except Exception as e:
+            print("   lezen mislukt, opnieuw:", str(e)[:120])
+            time.sleep(3)
+    return []
+
+
+def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None):
     """Opent de eerste werkende URL en geeft (kaarten, json_responses) terug."""
     os.makedirs(DEBUG, exist_ok=True)
     responses = []
@@ -147,7 +178,26 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4):
             _klik_tekst(page, [t])
             time.sleep(1)
         scroll_tot_einde(page)
-        kaarten = page.evaluate(KAART_JS, {"selector": selector})
+        kaarten = kaarten_lezen(page, selector)
+        if tabs:
+            # klik elk tabblad (bijv. "vanaf DO 19/11") en voeg de kaarten toe
+            gezien = {k["tekst"] for k in kaarten}
+            tab_loc = page.get_by_text(re.compile(tabs, re.I))
+            n = tab_loc.count()
+            print(f"[{winkel}] {n} tabbladen")
+            for i in range(min(n, 8)):
+                try:
+                    tab_loc.nth(i).scroll_into_view_if_needed(timeout=3000)
+                    tab_loc.nth(i).click(timeout=3000)
+                    time.sleep(2.5)
+                    page.mouse.wheel(0, -100000)
+                    scroll_tot_einde(page, 40)
+                    for k in kaarten_lezen(page, selector):
+                        if k["tekst"] not in gezien:
+                            gezien.add(k["tekst"])
+                            kaarten.append(k)
+                except Exception as e:
+                    print(f"[{winkel}] tab {i} faalde: {str(e)[:120]}")
         html = page.content()
         page.screenshot(path=os.path.join(DEBUG, f"{winkel}.png"), full_page=False)
         browser.close()

@@ -36,6 +36,15 @@ def bereken(actie="", prijs_nu=None, prijs_was=None):
     t = re.sub(r"\s+", " ", t)
     tot = bool(re.search(r"\btot( wel)?\b|\bbis zu\b", t))
 
+    # expliciet percentage op de kaart wint
+    m = re.search(r"(?<![\d.,])(\d{1,2}(?:[.,]\d)?)\s*%", t)
+    if m and 0 < float(m.group(1).replace(",", ".")) < 100:
+        return round(float(m.group(1).replace(",", "."))), tot
+
+    # anders: beide prijzen bekend
+    if prijs_nu and prijs_was and prijs_was > prijs_nu > 0:
+        return round(100 * (1 - prijs_nu / prijs_was)), tot
+
     # 1+1 gratis, 2+1 gratis, 3+2 gratis
     m = re.search(r"(\d+)\s*\+\s*(\d+)\s*(gratis|kostenlos|umsonst)?", t)
     if m and (m.group(3) or "gratis" in t or "+" in t and "%" not in t):
@@ -57,9 +66,9 @@ def bereken(actie="", prijs_nu=None, prijs_was=None):
         return 25, tot
 
     # expliciet percentage: "30% korting", "-30%", "25% voordeel"
-    m = re.search(r"(\d{1,2})\s*%", t)
+    m = re.search(r"(?<![\d.,])(\d{1,2}(?:[.,]\d)?)\s*%", t)
     if m:
-        p = int(m.group(1))
+        p = round(float(m.group(1).replace(",", ".")))
         if 0 < p < 100:
             return p, tot
 

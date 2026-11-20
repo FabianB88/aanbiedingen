@@ -22,10 +22,16 @@ def laad(pad, standaard):
         return standaard
 
 
+def cat(titel, hint):
+    c = categorie(titel)
+    return c if c != "Overig" or not hint else categorie(hint)
+
+
 def normaliseer(winkel, a):
     nu = prijs(a.get("prijs_nu"))
     was = prijs(a.get("prijs_was"))
     pct, tot = bereken(a.get("actie", ""), nu, was)
+    tot = tot or bool(a.get("tot"))
     titel = " ".join(str(a.get("titel", "")).split())
     return {
         "winkel": winkel,
@@ -37,7 +43,7 @@ def normaliseer(winkel, a):
         "tot": tot,
         "prijs_nu": nu,
         "prijs_was": was,
-        "categorie": categorie(titel, a.get("cat_hint", "")),
+        "categorie": cat(titel, a.get("cat_hint", "")),
         "img": a.get("img", ""),
         "url": a.get("url", ""),
         "geldig": a.get("geldig", ""),
