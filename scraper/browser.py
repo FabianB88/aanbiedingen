@@ -217,7 +217,7 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, tra
     return gebruikt, kaarten, responses
 
 
-def haal_details(winkel, urls, wacht=1.2, max_urls=200, budget_s=900):
+def haal_details(winkel, urls, wacht=0.5, max_urls=200, budget_s=1200):
     """Bezoekt een reeks detailpagina's in één browser en geeft {url: kaarten} terug.
     De eerste drie pagina's worden als dump bewaard."""
     uit = {}
@@ -240,18 +240,21 @@ def haal_details(winkel, urls, wacht=1.2, max_urls=200, budget_s=900):
                 print(f"[{winkel}] tijdsbudget op na {i} pagina's")
                 break
             try:
-                page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                t0 = time.time()
+                page.goto(url, wait_until="commit", timeout=30000)
                 if eerste:
                     time.sleep(2)
                     cookies_weg(page)
                     eerste = False
                 try:
-                    page.wait_for_selector("text=Oude prijs", timeout=6000)
+                    page.wait_for_selector("text=Oude prijs", timeout=10000)
                 except Exception:
                     pass
                 time.sleep(wacht)
                 kaarten = kaarten_lezen(page, None, wachten=False)
                 uit[url] = kaarten
+                if i < 5:
+                    print(f"[{winkel}] pagina {i}: {time.time() - t0:.1f}s, {len(kaarten)} kaarten")
                 if i < 3:
                     with open(os.path.join(DEBUG, f"{winkel}-detail{i}.json"), "w", encoding="utf-8") as f:
                         json.dump({"url": url, "kaarten": kaarten[:60]}, f, ensure_ascii=False, indent=1)
