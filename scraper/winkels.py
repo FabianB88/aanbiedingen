@@ -292,10 +292,25 @@ def jumbo():
     nodig = [a for a in items if a.get("url") and "/aanbiedingen/" in a["url"]
              and not PCT_RX.search(a.get("actie", ""))]
     urls = list(dict.fromkeys(a["url"] for a in nodig))
-    print(f"[jumbo] {len(urls)} actiepagina's bezoeken voor normale prijzen")
-    details = haal_details("jumbo", urls, max_urls=180)
+    # cache: oude prijzen per actiepagina, geldig zolang de actie loopt
+    cache_pad = os.path.join(DEBUG, "..", "data", "jumbo-oudeprijzen.json")
+    try:
+        with open(cache_pad, encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        cache = {}
+    cache = {u: v for u, v in cache.items() if u in urls}          # verlopen acties weg
+    nieuw = [u for u in urls if u not in cache]
+    print(f"[jumbo] {len(urls)} acties, {len(nieuw)} nieuwe actiepagina's bezoeken")
+    details = haal_details("jumbo", nieuw, max_urls=200)
+    for u, kaarten in details.items():
+        pr = _jumbo_normaalprijzen(kaarten)
+        if pr:
+            cache[u] = pr
+    with open(cache_pad, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False)
     for a in nodig:
-        prijzen = _jumbo_normaalprijzen(details.get(a["url"], []))
+        prijzen = cache.get(a["url"], [])
         if not prijzen:
             continue
         laag, hoog = min(prijzen), max(prijzen)

@@ -217,7 +217,7 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, tra
     return gebruikt, kaarten, responses
 
 
-def haal_details(winkel, urls, wacht=2.0, max_urls=200, budget_s=480):
+def haal_details(winkel, urls, wacht=1.2, max_urls=200, budget_s=900):
     """Bezoekt een reeks detailpagina's in één browser en geeft {url: kaarten} terug.
     De eerste drie pagina's worden als dump bewaard."""
     uit = {}
@@ -229,6 +229,9 @@ def haal_details(winkel, urls, wacht=2.0, max_urls=200, budget_s=480):
                         "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"),
             viewport={"width": 1366, "height": 900},
         )
+        # alleen tekst nodig: afbeeldingen, fonts en media niet laden
+        ctx.route("**/*", lambda route: route.abort()
+                  if route.request.resource_type in ("image", "font", "media") else route.continue_())
         page = ctx.new_page()
         eerste = True
         begin = time.time()
@@ -242,9 +245,11 @@ def haal_details(winkel, urls, wacht=2.0, max_urls=200, budget_s=480):
                     time.sleep(2)
                     cookies_weg(page)
                     eerste = False
+                try:
+                    page.wait_for_selector("text=Oude prijs", timeout=6000)
+                except Exception:
+                    pass
                 time.sleep(wacht)
-                page.mouse.wheel(0, 3000)
-                time.sleep(0.8)
                 kaarten = kaarten_lezen(page, None, wachten=False)
                 uit[url] = kaarten
                 if i < 3:
