@@ -1,6 +1,6 @@
 {
  "url": "https://www.lidl.nl/c/aanbiedingen/a10008785",
- "aantal": 26,
+ "aantal": 20,
  "kaarten": [
   {
    "tekst": "Vierkante donut\n0.69\nPer stuk\nAlleen in de winkel 16/11 - 22/11",
@@ -178,60 +178,6 @@
    "img": "https://www.lidl.nl/assets/gcpb9c101ce137840338add8042aae89e8c.png",
    "alt": "Milbona Extra Oud Goudse kaas 48+ plakken in XXL-verpakking van 500 g.",
    "href": "https://www.lidl.nl/p/milbona-goudse-oude-kaas-plakken/p11342971",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nSpeklappen\n6.49\nmet Lidl Plus\n-15%\n5.49\n600 g\nZonder Lidl Plus 6.49\n1 KG = 10.82\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpefeee6d6f3f04e89a38d2dc4b2d60741.png",
-   "alt": "Verpakking met 600 gram varkensspeklapjes.",
-   "href": "https://www.lidl.nl/p/speklappen/p11322234",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Iglo vissticks\n2.99\nmet Lidl Plus\nGoedkoper\n2.79\n15 stuks\nZonder Lidl Plus 2.99\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp584fb8ac66cd4876a49870abcdefd051.png",
-   "alt": "Verpakking met 15 vissticks van filet, 420g",
-   "href": "https://www.lidl.nl/p/iglo-vissticks/p11322419",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Kaastwister\n0.79\nmet Lidl Plus\n-25%\n0.59\nPer stuk\nZonder Lidl Plus 0.79\n100 g = 1.05\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp3e3a7fe45c0146e8a560d9e3d08b1a6e.png",
-   "alt": "Krokante, goudbruine Käsetwister van bladerdeeg met kaas.",
-   "href": "https://www.lidl.nl/p/kaastwister/p11335309",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nFries Suikerbrood\n2.47\nmet Lidl Plus\n-19%\n1.99\n700 g\nZonder Lidl Plus 2.47\n1 KG = 3.53\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5d1479e9ae3c48ed9ec2e6f5a5ff1b48.png",
-   "alt": "Verpakt Fries suikerbrood",
-   "href": "https://www.lidl.nl/p/fries-suikerbrood/p11559166",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Stoofperencake\n3.49\n350 g\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp6ea64f3d1542469cbd83941fd7a1a617.png",
-   "alt": "Cake met strooisel in verpakking, bovenaanzicht",
-   "href": "https://www.lidl.nl/p/stoofperencake/p11563384",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Kersenpencee\n4-pack\n2.49\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5222e717024d4e68bdf0282b7f02cd0b.png",
-   "alt": "Twee ronde jamtaartjes in een zwarte tray",
-   "href": "https://www.lidl.nl/p/kersenpencee/p11654480",
    "attrs": {
     "data-v-da35d506": ""
    }

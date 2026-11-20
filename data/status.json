@@ -5,43 +5,43 @@
   "ok": true,
   "aantal": 1400,
   "met_korting": 1400,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "jumbo": {
   "naam": "Jumbo",
   "land": "NL",
   "ok": true,
-  "aantal": 22,
+  "aantal": 134,
   "met_korting": 0,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "lidl": {
   "naam": "Lidl",
   "land": "NL",
   "ok": true,
-  "aantal": 12,
-  "met_korting": 12,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "aantal": 20,
+  "met_korting": 8,
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "aldi": {
   "naam": "Aldi",
   "land": "NL",
   "ok": true,
-  "aantal": 56,
-  "met_korting": 50,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "aantal": 196,
+  "met_korting": 38,
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "plus": {
   "naam": "PLUS",
   "land": "NL",
   "ok": true,
-  "aantal": 147,
-  "met_korting": 146,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "aantal": 164,
+  "met_korting": 161,
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "aldi_sued": {
@@ -49,18 +49,17 @@
   "land": "DE",
   "ok": true,
   "aantal": 51,
-  "met_korting": 51,
-  "bijgewerkt": "2026-11-20T15:37+00:00",
+  "met_korting": 24,
+  "bijgewerkt": "2026-11-20T15:42+00:00",
   "fout": ""
  },
  "kaufland": {
   "naam": "Kaufland",
   "land": "DE",
-  "ok": false,
-  "aantal": 0,
-  "met_korting": 0,
-  "bijgewerkt": "",
-  "fout": "Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation",
-  "geprobeerd": "2026-11-20T15:37+00:00"
+  "ok": true,
+  "aantal": 222,
+  "met_korting": 222,
+  "bijgewerkt": "2026-11-20T15:42+00:00",
+  "fout": ""
  }
 }
