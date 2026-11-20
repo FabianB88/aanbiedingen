@@ -3,18 +3,18 @@
  "aantal": 151,
  "kaarten": [
   {
-   "tekst": "Alleen in de winkel\nvoor 2,49",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
-   "alt": "Handsinaasappelen",
+   "tekst": "Alleen in de winkel\n36.71% korting",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_1.png",
+   "alt": "Alle Jumbo's krokantjes",
    "href": "",
    "attrs": {
     "data-v-0d7607c7": ""
    }
   },
   {
-   "tekst": "Alleen in de winkel\nvoor 4,99",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_3.png",
-   "alt": "Zespri kiwi Sungold",
+   "tekst": "Alleen in de winkel\nvoor 2,49",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
+   "alt": "Handsinaasappelen",
    "href": "",
    "attrs": {
     "data-v-0d7607c7": ""
@@ -30,9 +30,9 @@
    }
   },
   {
-   "tekst": "Alleen in de winkel\n36.71% korting",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_1.png",
-   "alt": "Alle Jumbo's krokantjes",
+   "tekst": "Alleen in de winkel\nvoor 4,99",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_3.png",
+   "alt": "Zespri kiwi Sungold",
    "href": "",
    "attrs": {
     "data-v-0d7607c7": ""

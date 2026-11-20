@@ -1,10 +1,10 @@
 {
- "url": "https://www.jumbo.com/aanbiedingen/alle-knorr-maaltijdmixen/3022296",
+ "url": "https://www.jumbo.com/aanbiedingen/alle-1fruit/3022529",
  "kaarten": [
   {
-   "tekst": "Alle Knorr maaltijdmixen\n\nPer verpakking\nM.u.v. Voordeelverpakkingen\n\n\n\nvoor 1,00\nGeldig van wo 18 t/m di 24 nov\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 18 t/m di 24 nov.",
-   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_97.png",
-   "alt": "Alle Knorr maaltijdmixen",
+   "tekst": "Alle 1FRUIT\n\n2 voor 1,00\nGeldig van wo 18 t/m di 24 nov\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 18 t/m di 24 nov.",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_19.png",
+   "alt": "Alle 1FRUIT",
    "href": "",
    "attrs": {
     "data-testid": "jum-grid",
@@ -14,208 +14,28 @@
    }
   },
   {
-   "tekst": "Knorr Maaltijdmix voor Macaroni Carbonara\nvoor 1,00\nOude prijs: € 1,39\n1,39\nNieuwe prijs: € 1,00\n1\n00\n€ 15,63 per kilo\n15,63/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201959868_1792437166969_08721201959868_H1N1.png",
+   "tekst": "1FRUIT Peer 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/23072026_1784810164630_1784810167689_8720157404101_1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-voor-macaroni-carbonara-692608ZK",
+   "href": "https://www.jumbo.com/producten/1fruit-peer-200ml-764449PAK",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
   },
   {
-   "tekst": "Knorr Mix voor Ovenschotel Broccoli\nvoor 1,00\nOude prijs: € 1,85\n1,85\nNieuwe prijs: € 1,00\n1\n00\n€ 16,67 per kilo\n16,67/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201972348_1790318116744_08721201972348_H1N1.png",
+   "tekst": "1FRUIT Appel 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557769279_1786557774642_8720157404088_1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-mix-voor-ovenschotel-broccoli-692605ZK",
+   "href": "https://www.jumbo.com/producten/1fruit-appel-200ml-764448PAK",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
   },
   {
-   "tekst": "Knorr Maaltijdmix Hollandse Gehaktschotel 57 g\n\n57 g\n\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 17,54 per kilo\n17,54/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201970276_1790318010758_08721201970276_H1N1.png",
+   "tekst": "1FRUIT Sinaasappel 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557770420_1786557773226_8720157404125_1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-hollandse-gehaktschotel-57-g-692609ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Hollandse Hachee 59 g\n\n59 g\n\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 16,95 per kilo\n16,95/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522977965_1790317979318_08710522977965_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-hollandse-hachee-59-g-440016ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Kip Madras 80 g\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 12,50 per kilo\n12,50/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/27102026_1793085062916_1793085114155_796921_PAK_08721201971792_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-kip-madras-80-g-796921PAK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Boerenomelet 2 x 12 g\n\n2 x 12 g\n\nvoor 1,00\nOude prijs: € 2,15\n2,15\nNieuwe prijs: € 1,00\n1\n00\n€ 41,67 per kilo\n41,67/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8720181135002_1790318063311_08720181135002_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-boerenomelet-2-x-12-g-439796DS",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Macaroni 61 g\n\n61 g\n\nvoor 1,00\nOude prijs: € 1,89\n1,89\nNieuwe prijs: € 1,00\n1\n00\n€ 16,39 per kilo\n16,39/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522979495_1790317970710_08710522979495_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-macaroni-61-g-439491ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Kip Teriyaki 65 g\n\n65 g\n\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 15,38 per kilo\n15,38/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201952784_1790317992044_08721201952784_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-kip-teriyaki-65-g-703715ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Spaghetti Bolognese 65 g\n\n65 g\n\nvoor 1,00\nOude prijs: € 1,75\n1,75\nNieuwe prijs: € 1,00\n1\n00\n€ 15,38 per kilo\n15,38/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522972717_1790317965807_08710522972717_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-spaghetti-bolognese-65-g-439492ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Ovenpasta Tomaat Mozzarella 64 g\n\n64 g\n\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 15,63 per kilo\n15,63/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201953033_1790318215767_08721201953033_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-ovenpasta-tomaat-mozzarella-64-g-692607ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Airfryer Mix Krokante Kip Nuggets 70g\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 14,29 per kilo\n14,29/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721317708640_1790318146680_08721317708640_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-airfryer-mix-krokante-kip-nuggets-70g-749177PAK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Sweet & Sour Maaltijd Mix 59g\nvoor 1,00\nOude prijs: € 2,05\n2,05\nNieuwe prijs: € 1,00\n1\n00\n€ 16,95 per kilo\n16,95/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201955914_1790318118577_08721201955914_C1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-sweet-sour-maaltijd-mix-59g-703740ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Bami 35 g\n\n35 g\n\nvoor 1,00\nOude prijs: € 1,75\n1,75\nNieuwe prijs: € 1,00\n1\n00\n€ 28,57 per kilo\n28,57/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522979594_1790318001346_08710522979594_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-bami-35-g-439655ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Tikka Massala Maaltijd Mix 60g\nvoor 1,00\nOude prijs: € 2,19\n2,19\nNieuwe prijs: € 1,00\n1\n00\n€ 16,67 per kilo\n16,67/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201967993_1790318163499_08721201967993_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-tikka-massala-maaltijd-mix-60g-703742ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Mix voor Tagliatelle\nvoor 1,00\nOude prijs: € 1,85\n1,85\nNieuwe prijs: € 1,00\n1\n00\n€ 16,13 per kilo\n16,13/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201956287_1790318234266_08721201956287_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-mix-voor-tagliatelle-692603ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Lasagne Bolognese Maaltijd Mix 67g\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 14,93 per kilo\n14,93/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201952791_1790318156447_08721201952791_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-lasagne-bolognese-maaltijd-mix-67g-703727ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Nasi 44 g\nvoor 1,00\nOude prijs: € 1,75\n1,75\nNieuwe prijs: € 1,00\n1\n00\n€ 22,73 per kilo\n22,73/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522979549_1790317988517_08710522979549_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-nasi-44-g-439493ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Kebab Maaltijd Mix 30g\nvoor 1,00\nOude prijs: € 2,05\n2,05\nNieuwe prijs: € 1,00\n1\n00\n€ 33,33 per kilo\n33,33/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201953026_1790317971314_08721201953026_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-kebab-maaltijd-mix-30g-703726ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Ovenpasta Ham-Kaas 60 g\n\n60 g\n\nvoor 1,00\nOude prijs: € 1,89\n1,89\nNieuwe prijs: € 1,00\n1\n00\n€ 16,67 per kilo\n16,67/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522987766_1790317933768_08710522987766_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-ovenpasta-ham-kaas-60-g-439989ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Airfryer Mix Krokante Kip Knoflook 70g\nvoor 1,00\nOude prijs: € 1,99\n1,99\nNieuwe prijs: € 1,00\n1\n00\n€ 14,29 per kilo\n14,29/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721317707025_1790318133812_08721317707025_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-airfryer-mix-krokante-kip-knoflook-70g-757626PAK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Mac & Cheese Maaltijd Mix 64g\nvoor 1,00\nOude prijs: € 2,19\n2,19\nNieuwe prijs: € 1,00\n1\n00\n€ 15,63 per kilo\n15,63/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201953897_1790318116497_08721201953897_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-mac-cheese-maaltijd-mix-64g-703728ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Enchiladas Maaltijd Mix 33g\nvoor 1,00\nOude prijs: € 2,19\n2,19\nNieuwe prijs: € 1,00\n1\n00\n€ 30,30 per kilo\n30,30/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8721201967306_1790317970861_08721201967306_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-enchiladas-maaltijd-mix-33g-703716ZK",
-   "attrs": {
-    "data-v-b08dd1a6": ""
-   }
-  },
-  {
-   "tekst": "Knorr Maaltijdmix Chili con Carne 42 g\n\n42 g\n\nvoor 1,00\nOude prijs: € 1,75\n1,75\nNieuwe prijs: € 1,00\n1\n00\n€ 23,81 per kilo\n23,81/kilo",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8710522982587_1790317968355_08710522982587_H1N1.png",
-   "alt": "",
-   "href": "https://www.jumbo.com/producten/knorr-maaltijdmix-chili-con-carne-42-g-439496ZK",
+   "href": "https://www.jumbo.com/producten/1fruit-sinaasappel-200ml-764460PAK",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
