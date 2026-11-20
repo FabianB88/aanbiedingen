@@ -1,0 +1,48 @@
+name: Aanbiedingen ophalen
+
+on:
+  schedule:
+    - cron: "17 4 * * *"      # elke ochtend
+    - cron: "47 10 * * 0,2"   # extra rond de folderwissel (zo/di = ma/wo-folders)
+  workflow_dispatch:
+    inputs:
+      winkels:
+        description: "Alleen deze winkels (bijv. ah,lidl). Leeg = alle."
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: ["scraper/**", ".github/workflows/scrape.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installeren
+        run: |
+          pip install -r scraper/requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Ophalen
+        working-directory: scraper
+        run: python run.py ${{ github.event.inputs.winkels }}
+      - name: Opslaan
+        run: |
+          git config user.name "aanbiedingen-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data debug
+          git diff --cached --quiet && echo "geen wijzigingen" && exit 0
+          git commit -m "Aanbiedingen bijgewerkt $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase -X theirs origin main || true
+          git push
