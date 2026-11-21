@@ -67358,7 +67358,7 @@
     {
      "id": "sp_include_intolerance_geen_eieren",
      "label": "eieren",
-     "count": 13135,
+     "count": 13136,
      "display": true
     },
     {
@@ -67370,73 +67370,73 @@
     {
      "id": "sp_include_intolerance_geen_lactose",
      "label": "lactose",
-     "count": 10037,
+     "count": 10038,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_lupine",
      "label": "lupine",
-     "count": 15250,
+     "count": 15251,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_melk",
      "label": "melk",
-     "count": 10061,
+     "count": 10062,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_mosterd",
      "label": "mosterd",
-     "count": 13914,
+     "count": 13915,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_noten",
      "label": "noten",
-     "count": 13009,
+     "count": 13010,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_pindas",
      "label": "pinda's",
-     "count": 13400,
+     "count": 13401,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_schelpdieren",
      "label": "schelpdieren",
-     "count": 15345,
+     "count": 15346,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_selderij",
      "label": "selderij",
-     "count": 14487,
+     "count": 14488,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sesam",
      "label": "sesam",
-     "count": 14405,
+     "count": 14406,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_soja",
      "label": "soja",
-     "count": 11427,
+     "count": 11428,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sulfiet",
      "label": "sulfiet",
-     "count": 14664,
+     "count": 14665,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_vis",
      "label": "vis",
-     "count": 14830,
+     "count": 14831,
      "display": true
     }
    ],
@@ -67469,13 +67469,13 @@
     {
      "id": "sp_include_dieet_veganistisch",
      "label": "Veganistisch",
-     "count": 6390,
+     "count": 6391,
      "display": true
     },
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10018,
+     "count": 10019,
      "display": true
     }
    ],
@@ -67625,7 +67625,7 @@
     {
      "id": "np_nieuw",
      "label": "Nieuw",
-     "count": 265,
+     "count": 227,
      "display": true
     }
    ],
@@ -67640,7 +67640,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10018,
+     "count": 10019,
      "display": true
     }
    ],
@@ -67655,7 +67655,7 @@
     {
      "id": "sp_include_dieet_veganistisch",
      "label": "Veganistisch",
-     "count": 6390,
+     "count": 6391,
      "display": true
     }
    ],
