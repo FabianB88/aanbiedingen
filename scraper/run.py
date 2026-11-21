@@ -24,8 +24,7 @@ def laad(pad, standaard):
 
 
 def cat(titel, hint):
-    c = categorie(titel)
-    return c if c != "Overig" or not hint else categorie(hint)
+    return categorie(titel, hint)
 
 
 GEWICHT_ACTIE = re.compile(r"(\d+)\s*(gram|gr|g|kilo|kg)\s*voor\s*€?\s*(\d+[.,]\d{2})", re.I)
@@ -113,6 +112,11 @@ def main(alleen=None):
                             "fout": f"{type(e).__name__}: {e}"[:300], "geprobeerd": nu}
 
     alles = [a for code in WINKELS for a in per_winkel.get(code, [])]
+    try:
+        from llm_categorie import deel_in
+        deel_in(alles)
+    except Exception as e:
+        print("[categorie] indeling via model overgeslagen:", e)
     with open(os.path.join(DATA, "aanbiedingen.json"), "w", encoding="utf-8") as f:
         json.dump({"bijgewerkt": nu, "aanbiedingen": alles}, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(DATA, "status.json"), "w", encoding="utf-8") as f:

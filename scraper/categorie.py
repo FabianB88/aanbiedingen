@@ -10,7 +10,7 @@ CATEGORIEEN = [
     ("Zuivel & eieren", r"melk|milch|yoghurt|joghurt|kwark|quark|vla|pudding|kaas|käse|boter|butter|room|sahne|eieren|eier|margarine|skyr|schnittkäse|frischkäse|mozzarella|burrata|babybel|feta|parmigiano|parmezaan|brie|camembert|gouda|zuivel|creme fraiche|crème"),
     ("Diepvries", r"diepvries|tiefkühl|ijs|eis |magnum|ben & jerry|pizza|friet|pommes|frites|kroketten|loempia|bitterbal"),
     ("Snoep & snacks", r"chips|snoep|süßigkeit|chocola|schokolade|koek|keks|biscuit|drop|lakritz|noten|nüsse|pinda|erdnuss|haselnuss|mandeln|walnuss|cashew|popcorn|reep|riegel|haribo|m&m|snickers|twix|lay's|doritos|pringles|tony|milka|verkade|tuc|liga|snack|bonbon"),
-    ("Voorraad", r"olijfolie|olijf|pasta|spaghetti|macaroni|nudel|rijst|reis|saus|soße|sauce|soep|suppe|olie|öl|azijn|essig|meel|mehl|suiker|zucker|pindakaas|jam|konfitüre|hagelslag|nutella|honing|honig|kruiden|gewürz|bouillon|conserven|dose|ketchup|mayonaise|mayonnaise|mosterd|senf|muesli|müsli|cornflakes|havermout|cruesli|ontbijtgranen|noedels|curry|wereldkeuken|calvé|conimex|knorr|maggi|unox|grand italia|bertolli"),
+    ("Voorraad", r"olijfolie|olijf|pasta|spaghetti|macaroni|nudel|noodles|noedel|rijst|reis|saus|soße|sauce|soep|suppe|olie|öl|azijn|essig|meel|mehl|suiker|zucker|pindakaas|jam|konfitüre|hagelslag|nutella|honing|honig|kruiden|gewürz|bouillon|conserven|dose|ketchup|mayonaise|mayonnaise|mosterd|senf|muesli|müsli|cornflakes|havermout|cruesli|ontbijtgranen|noedels|curry|wereldkeuken|calvé|conimex|knorr|maggi|unox|grand italia|bertolli"),
     ("Huishouden", r"wasmiddel|waschmittel|vaatwas|spülmaschine|afwas|spülmittel|toiletpapier|toilettenpapier|keukenrol|küchenrolle|schoonmaak|reiniger|vuilniszak|müllbeutel|wasverzachter|weichspüler|ariel|persil|dreft|robijn|omo|finish|sun |glorix|wc-|batterij|batterie|kaars|kerze|aluminiumfolie|vershoudfolie|tissues|zakdoek"),
     ("Verzorging", r"shampoo|douche|dusche|zeep|seife|deo|deodorant|tandpasta|zahnpasta|tandenborstel|zahnbürste|scheer|rasier|luier|windel|maandverband|crème|creme|lotion|nivea|dove|axe|gillette|pampers|andrélon|elvital|zonnebrand|sonnencreme|make-up|parfum|lippen|haarverf|wattenschijf"),
     ("Dier", r"kattenvoer|katzenfutter|hondenvoer|hundefutter|whiskas|felix|sheba|pedigree|kattenbak|katzenstreu|dieren"),
@@ -33,9 +33,35 @@ def _rx(patroon):
 _COMPILED = [(naam, _rx(patroon)) for naam, patroon in CATEGORIEEN]
 
 
+NAMEN = ["Groente & fruit", "Vlees & vis", "Vegetarisch", "Zuivel & eieren", "Kaas", "Brood & bakkerij",
+         "Maaltijden & salades", "Voorraad", "Ontbijt & beleg", "Snoep & snacks", "Diepvries", "Dranken",
+         "Koffie & thee", "Bier & wijn", "Huishouden", "Verzorging", "Dier", "Non-food"]
+
+# eigen categorieen van winkels (AH, Lidl) omzetten naar de onze
+WINKEL_CATS = {
+    "zuivel, eieren": "Zuivel & eieren", "groente, aardappelen": "Groente & fruit",
+    "fruit, verse sappen": "Groente & fruit", "bakkerij": "Brood & bakkerij", "vlees": "Vlees & vis",
+    "vleeswaren": "Vlees & vis", "vis": "Vlees & vis", "frisdrank, sappen, water": "Dranken",
+    "kaas": "Kaas", "borrel, chips, snacks": "Snoep & snacks", "koek, snoep, chocolade": "Snoep & snacks",
+    "vegetarisch, vegan en plantaardig": "Vegetarisch", "ontbijtgranen, beleg": "Ontbijt & beleg",
+    "huishouden": "Huishouden", "pasta, rijst, wereldkeuken": "Voorraad", "diepvries": "Diepvries",
+    "soepen, sauzen, kruiden, olie": "Voorraad", "maaltijden, salades": "Maaltijden & salades",
+    "drogisterij": "Verzorging", "koffie, thee": "Koffie & thee", "bier, wijn, aperitieven": "Bier & wijn",
+    "baby en kind": "Verzorging", "huisdier": "Dier", "gezondheid en sport": "Verzorging",
+}
+
+
 def categorie(titel, hint=""):
-    tekst = f"{titel} {hint or ''}".lower()
+    """Winkelcategorie als die bekend is; anders het trefwoord dat het laatst
+    in de titel staat (in het Nederlands staat het producttype achteraan:
+    'kip noodles' is noodles)."""
+    h = (hint or "").strip().lower()
+    if h in WINKEL_CATS:
+        return WINKEL_CATS[h]
+    tekst = titel.lower()
+    beste, pos = "Overig", -1
     for naam, rx in _COMPILED:
-        if rx.search(tekst):
-            return naam
-    return "Overig"
+        for m in rx.finditer(tekst):
+            if m.start() > pos:
+                beste, pos = naam, m.start()
+    return beste
