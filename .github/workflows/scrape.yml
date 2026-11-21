@@ -12,11 +12,10 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: ["scraper/**", "!scraper/llm_categorie.py", ".github/workflows/scrape.yml"]
+    paths: ["scraper/**", ".github/workflows/scrape.yml"]
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: scrape
@@ -37,8 +36,6 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Ophalen
         working-directory: scraper
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python run.py ${{ github.event.inputs.winkels }}
       - name: Opslaan
         run: |

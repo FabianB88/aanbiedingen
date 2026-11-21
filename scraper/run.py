@@ -45,6 +45,8 @@ def per_gewicht(actie, eenheid, nu):
 
 
 NONFOOD_CATS = {"Overig"}
+# kaartfragmenten die geen product zijn ("500 gram 2.99", "OP=OP", "coupons")
+RUIS_TITEL = re.compile(r"^(\d+\s*(gram|g|kg|ml|l|stuks?)\s*[\d.,]+|op=op|niet verkrijgbaar|\d+\s*%|coupons|hot dog mit|biozidprodukte.*)$", re.I)
 
 
 def normaliseer(winkel, a):
@@ -90,7 +92,7 @@ def main(alleen=None):
         try:
             ruw = functie()
             items = [normaliseer(code, a) for a in ruw]
-            items = [i for i in items if i["titel"]]
+            items = [i for i in items if i["titel"] and not RUIS_TITEL.match(i["titel"])]
             for i in items:
                 # onbekend: food, tenzij het taalmodel straks "Non-food" zegt
                 i["nonfood"] = bool(i["nonfood"])
