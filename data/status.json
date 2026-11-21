@@ -5,7 +5,7 @@
   "ok": true,
   "aantal": 1405,
   "met_korting": 1405,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "jumbo": {
@@ -14,7 +14,7 @@
   "ok": true,
   "aantal": 134,
   "met_korting": 95,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "lidl": {
@@ -23,25 +23,25 @@
   "ok": true,
   "aantal": 46,
   "met_korting": 26,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "aldi": {
   "naam": "Aldi",
   "land": "NL",
   "ok": true,
-  "aantal": 196,
+  "aantal": 194,
   "met_korting": 38,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "plus": {
   "naam": "PLUS",
   "land": "NL",
   "ok": true,
-  "aantal": 163,
-  "met_korting": 160,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "aantal": 153,
+  "met_korting": 150,
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "aldi_sued": {
@@ -50,16 +50,16 @@
   "ok": true,
   "aantal": 51,
   "met_korting": 24,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  },
  "kaufland": {
   "naam": "Kaufland",
   "land": "DE",
   "ok": true,
-  "aantal": 235,
-  "met_korting": 160,
-  "bijgewerkt": "2026-11-21T09:19+00:00",
+  "aantal": 232,
+  "met_korting": 157,
+  "bijgewerkt": "2026-11-21T09:29+00:00",
   "fout": ""
  }
 }
