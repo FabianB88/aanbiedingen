@@ -432,12 +432,19 @@ def kaufland():
                                        "https://www.kaufland.de/angebote/"], kaufland_kaart)
 
 
+def nettorama():
+    return _generiek("nettorama", ["https://www.nettorama.nl/aanbiedingen",
+                                   "https://www.nettorama.nl/acties",
+                                   "https://www.nettorama.nl/"])
+
+
 WINKELS = {
     "ah": ("Albert Heijn", "NL", ah),
     "jumbo": ("Jumbo", "NL", jumbo),
     "lidl": ("Lidl", "NL", lidl),
     "aldi": ("Aldi", "NL", aldi),
     "plus": ("PLUS", "NL", plus),
+    "nettorama": ("Nettorama", "NL", nettorama),
     "aldi_sued": ("Aldi Süd", "DE", aldi_sued),
     "kaufland": ("Kaufland", "DE", kaufland),
 }

@@ -74,6 +74,12 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .term{display:inline-flex;align-items:center;gap:6px;background:var(--groen-l);color:var(--groen-d);padding:6px 6px 6px 12px;border-radius:999px;font-size:13px;font-weight:600;margin:4px 4px 0 0}
 .term button{border:0;background:#fff8;border-radius:50%;width:22px;height:22px;cursor:pointer;color:var(--groen-d)}
 .term .n{background:var(--groen);color:#fff;border-radius:999px;padding:1px 7px;font-size:11px}
+.nieuw{position:absolute;left:10px;bottom:10px;background:var(--groen);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
+.nieuw.inline{position:static;display:inline-block;padding:1px 6px}
+.badge{background:#fff;color:var(--groen-d);border-radius:999px;padding:1px 7px;font-size:11px}
+.nav:not(.actief) .badge{background:var(--groen);color:#fff}
+.term.uit{background:#eee;color:#8a8a8a}.term.uit .n{background:#bbb}
+.zoekbalk{display:flex;flex-direction:column;gap:8px;padding:12px 14px}.zoekbalk span{font-size:13.5px}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -122,11 +128,11 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
 const WINKELS = {
   ah:{naam:"Albert Heijn",kleur:"#00A0E2"}, jumbo:{naam:"Jumbo",kleur:"#E8B400"},
   lidl:{naam:"Lidl",kleur:"#0050AA"}, aldi:{naam:"Aldi",kleur:"#1E2D78"},
-  plus:{naam:"PLUS",kleur:"#3C9A3A"}, aldi_sued:{naam:"Aldi Süd",kleur:"#00A0DE"},
+  plus:{naam:"PLUS",kleur:"#3C9A3A"}, nettorama:{naam:"Nettorama",kleur:"#D9261C"}, aldi_sued:{naam:"Aldi Süd",kleur:"#00A0DE"},
   kaufland:{naam:"Kaufland",kleur:"#E10915"}
 };
 const OPSLAG = "aanbiedingen-v1";
-const standaard = {verborgen:[], gevolgd:[], lijstjes:[], sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
+const standaard = {verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
 let st = laadState();
 let data = [], status = {}, view = "alle", zoekterm = "";
 
@@ -135,7 +141,11 @@ function bewaar(){ try{ localStorage.setItem(OPSLAG, JSON.stringify(st)); }catch
 const esc = s => String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const euro = n => n==null ? "" : "€" + n.toFixed(2).replace(".", ",");
 const norm = s => String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
-const matcht = (a, term) => { const h = norm(a.titel+" "+a.merk+" "+a.categorie); return norm(term).split(/\s+/).filter(Boolean).every(w => h.includes(w)); };
+const hooiberg = a => a._h || (a._h = norm([a.titel, a.merk, a.actie, a.categorie, a.eenheid, (WINKELS[a.winkel]||{}).naam].join(" ")));
+// "koffie lavazza" = beide woorden; "koffie, thee" = een van beide
+const matcht = (a, term) => norm(term).split(",").map(d => d.trim()).filter(Boolean)
+  .some(deel => deel.split(/\s+/).every(w => hooiberg(a).includes(w)));
+const sleutelVan = a => a.winkel + "|" + a.titel + "|" + a.actie;
 const isMeerkoop = a => /\+|2\s*(e|de)\b|voor\s*€?\d|für|\d\.?\s*(artikel|stück)/i.test(a.actie);
 const gevolgd = a => st.gevolgd.some(t => matcht(a, t));
 
@@ -161,6 +171,20 @@ function nonfood(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood);
 }
 
+function alleWinkels(){ return data.filter(a => !st.verborgen.includes(a.winkel)); }
+function lijstHits(l){
+  return alleWinkels().filter(a => l.termen.some(t => matcht(a,t)))
+    .sort((a,b) => (b.korting??-1)-(a.korting??-1));
+}
+function nieuwIn(l){
+  const gezien = new Set(st.gezien[l.naam] || []);
+  return lijstHits(l).filter(a => !gezien.has(sleutelVan(a)));
+}
+function markeerGezien(){
+  st.lijstjes.forEach(l => { st.gezien[l.naam] = lijstHits(l).map(sleutelVan); });
+  bewaar();
+}
+
 function gefilterd(lijst){
   let l = lijst;
   if (zoekterm) l = l.filter(a => matcht(a, zoekterm));
@@ -176,7 +200,7 @@ function gefilterd(lijst){
   });
 }
 
-function kaart(a){
+function kaart(a, nieuw){
   const w = WINKELS[a.winkel] || {naam:a.winkel,kleur:"#888"};
   const v = gevolgd(a);
   const pct = a.korting!=null
@@ -185,7 +209,7 @@ function kaart(a){
   const img = a.img ? `<img loading="lazy" src="${esc(a.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
   const prijs = a.prijs_nu!=null ? `<div class="prijs"><b>${euro(a.prijs_nu)}</b>${a.prijs_was?`<s>${euro(a.prijs_was)}</s>`:""}</div>` : `<div class="prijs"></div>`;
   return `<article class="k${v?" volg":""}">
-    <div class="foto">${img}${pct}<button class="ster" data-volg="${esc(a.titel)}" title="Volgen">${v?"★":"☆"}</button></div>
+    <div class="foto">${img}${pct}${nieuw?'<span class="nieuw">Nieuw</span>':""}<button class="ster" data-volg="${esc(a.titel)}" title="Volgen">${v?"★":"☆"}</button></div>
     <div class="body">
       <div class="winkel" style="color:${w.kleur}"><span class="stip" style="background:${w.kleur}"></span>${esc(w.naam)}</div>
       ${a.url?`<a class="titel" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.titel)}</a>`:`<div class="titel">${esc(a.titel)}</div>`}
@@ -228,7 +252,8 @@ function teken(){
   const volgLijst = z.filter(gevolgd);
   document.getElementById("tel-alle").textContent = z.length || "";
   document.getElementById("tel-gevolgd").textContent = volgLijst.length || "";
-  document.getElementById("tel-lijstjes").textContent = st.lijstjes.length || "";
+  const nNieuw = st.lijstjes.reduce((n,l) => n + nieuwIn(l).length, 0);
+  document.getElementById("tel-lijstjes").innerHTML = nNieuw ? `<b class="badge">${nNieuw} nieuw</b>` : (st.lijstjes.length || "");
   document.getElementById("tel-nonfood").textContent = nonfood().length || "";
   document.querySelectorAll(".nav").forEach(n => n.classList.toggle("actief", n.dataset.view===view));
   const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Non-food", winkels:"Winkels & status"}[view];
@@ -237,7 +262,10 @@ function teken(){
   const el = document.getElementById("inhoud");
 
   if (view==="alle"){
-    el.innerHTML = filterbalk() + grid(gefilterd(z));
+    const opLijst = zoekterm ? `<div class="paneel zoekbalk"><span>Zoekterm <b>${esc(zoekterm)}</b> bewaren, zodat hij vanzelf verschijnt zodra hij in de aanbieding is:</span>
+      <div class="rij"><select class="chip" id="zoekNaarLijst">${st.lijstjes.map((l,i)=>`<option value="${i}">${esc(l.naam)}</option>`).join("")}<option value="nieuw">+ nieuw lijstje…</option></select>
+      <button class="knop" id="zoekOpslaan">Op lijst zetten</button></div></div>` : "";
+    el.innerHTML = opLijst + filterbalk() + grid(gefilterd(z));
   }
   else if (view==="nonfood"){
     el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk() + grid(gefilterd(nonfood()));
@@ -249,17 +277,25 @@ function teken(){
       <div style="margin-top:10px">${termBlok(z, st.gevolgd, "data-del-term")}</div></div>` + filterbalk() + grid(gefilterd(volgLijst));
   }
   else if (view==="lijstjes"){
-    el.innerHTML = `<div class="paneel"><h2>Nieuw lijstje</h2><p>Bijvoorbeeld "Weekboodschappen" of "Voorraad". Daarna voeg je er zoektermen aan toe.</p>
-      <div class="rij"><input id="nieuweLijst" placeholder="Naam van het lijstje"><button class="knop" id="voegLijst">Maken</button></div></div>` +
+    el.innerHTML = `<div class="paneel"><h2>Lijstjes</h2><p>Zet er zoektermen op, ook als iets nu niet in de aanbieding is. Zodra het ergens in de aanbieding komt, verschijnt het hier vanzelf met het label <span class="nieuw inline">Nieuw</span>. Gebruik een komma voor "of": <i>koffiebonen, espresso</i>.</p>
+      <div class="rij"><input id="nieuweLijst" placeholder="Naam, bijv. Weekboodschappen"><button class="knop" id="voegLijst">Maken</button></div></div>` +
       (st.lijstjes.map((l,li) => {
-        const hits = gefilterd(z.filter(a => l.termen.some(t=>matcht(a,t))));
-        const gedekt = l.termen.filter(t => z.some(a=>matcht(a,t))).length;
-        return `<div class="paneel"><div style="display:flex;align-items:center;gap:10px"><h2 style="flex:1">${esc(l.naam)}</h2>
-          <span class="sub">${gedekt} van ${l.termen.length} in de aanbieding</span><button class="knop licht" data-del-lijst="${li}">Verwijder</button></div>
-          <div class="rij" style="margin-top:10px"><input data-lijst-input="${li}" placeholder="Product toevoegen"><button class="knop" data-lijst-add="${li}">+</button></div>
-          <div style="margin:8px 0 14px">${l.termen.map((t,ti)=>{const n=z.filter(a=>matcht(a,t)).length;return `<span class="term">${esc(t)} <span class="n">${n}</span><button data-del-lt="${li}:${ti}">×</button></span>`}).join("")||'<span class="sub">Nog leeg.</span>'}</div>
-          ${hits.length?`<div class="grid">${hits.slice(0,120).map(kaart).join("")}</div>`:""}</div>`;
+        const hits = lijstHits(l);
+        const nieuw = new Set(nieuwIn(l).map(sleutelVan));
+        const gedekt = l.termen.filter(t => hits.some(a=>matcht(a,t))).length;
+        const termen = l.termen.map((t,ti) => {
+          const n = hits.filter(a=>matcht(a,t)).length;
+          return `<span class="term${n?"":" uit"}">${esc(t)} <span class="n">${n?n:"nu niet"}</span><button data-del-lt="${li}:${ti}" aria-label="Verwijder">×</button></span>`;
+        }).join("") || '<span class="sub">Nog leeg.</span>';
+        const gesorteerd = [...hits].sort((a,b) => nieuw.has(sleutelVan(b)) - nieuw.has(sleutelVan(a)));
+        return `<div class="paneel"><div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><h2 style="flex:1">${esc(l.naam)}</h2>
+          <span class="sub">${gedekt} van ${l.termen.length} in de aanbieding${nieuw.size?`, <b>${nieuw.size} nieuw</b>`:""}</span><button class="knop licht" data-del-lijst="${li}">Verwijder</button></div>
+          <div class="rij" style="margin-top:10px"><input data-lijst-input="${li}" placeholder="Product of merk toevoegen"><button class="knop" data-lijst-add="${li}">+</button></div>
+          <div style="margin:8px 0 14px">${termen}</div>
+          ${gesorteerd.length?`<div class="grid">${gesorteerd.slice(0,150).map(a=>kaart(a, nieuw.has(sleutelVan(a)))).join("")}</div>`:""}</div>`;
       }).join("") || `<div class="leeg">Nog geen lijstjes.</div>`);
+    // wat je nu gezien hebt is de volgende keer niet meer nieuw
+    markeerGezien();
   }
   else if (view==="winkels"){
     const rijen = Object.entries(WINKELS).map(([c,w]) => {
@@ -286,6 +322,13 @@ document.addEventListener("click", e => {
     if (bestaand>=0) st.gevolgd.splice(bestaand,1);
     else { const voorstel = titel.split(/\s+/).slice(0,3).join(" "); const term = prompt("Volgen op welke zoekterm?", voorstel); if (!term) return; st.gevolgd.push(term.trim()); }
     bewaar(); teken(); return;
+  }
+  if (t.id==="zoekOpslaan"){
+    const keuze = document.getElementById("zoekNaarLijst").value;
+    let i = +keuze;
+    if (keuze==="nieuw"){ const naam = prompt("Naam van het nieuwe lijstje?"); if(!naam) return; st.lijstjes.push({naam:naam.trim(),termen:[]}); i = st.lijstjes.length-1; }
+    if (!st.lijstjes[i].termen.includes(zoekterm)) st.lijstjes[i].termen.push(zoekterm);
+    bewaar(); t.textContent = "Bewaard ✓"; setTimeout(teken, 900); return;
   }
   if (t.id==="alleenPct"){ st.alleenPct=!st.alleenPct; bewaar(); teken(); return; }
   if (t.id==="geenMeer"){ st.geenMeer=!st.geenMeer; bewaar(); teken(); return; }
