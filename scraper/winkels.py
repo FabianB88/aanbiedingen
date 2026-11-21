@@ -497,39 +497,55 @@ def nettorama():
     return _generiek("nettorama", ["https://www.nettorama.nl/actiefolder"])
 
 
+def _lidl_producten(obj, uit):
+    """Zoek recursief alle productobjecten (met fullTitle en price) in Lidl-JSON."""
+    if isinstance(obj, dict):
+        if obj.get("fullTitle") and isinstance(obj.get("price"), dict):
+            uit.append(obj)
+            return
+        for v in obj.values():
+            _lidl_producten(v, uit)
+    elif isinstance(obj, list):
+        for v in obj:
+            _lidl_producten(v, uit)
+
+
 def lidl_online():
-    """Non-food uit de Lidl-webshop (Parkside, Silvercrest, enz.)."""
-    import html as _html
-    paginas = [("https://www.lidl.nl/c/black-week/s10080642", True),
-               ("https://www.lidl.nl/c/sale/s10105668", False),
-               ("https://www.lidl.nl/c/klussen/a10011160", False),
-               ("https://www.lidl.nl/c/keuken-huishouden/a10051359", False),
-               ("https://www.lidl.nl/c/kerstdecoratie/a10011933", False)]
+    """Non-food uit de Lidl-webshop via hun zoek-API (Black Week, Sale, Parkside)."""
+    bronnen = [
+        ("https://www.lidl.nl/q/api/cqe/blackweek", True),
+        ("https://www.lidl.nl/q/api/cqe/sale", False),
+        ("https://www.lidl.nl/q/api/search?q=parkside", False),
+        ("https://www.lidl.nl/q/api/search?q=silvercrest", False),
+    ]
+    sessie = requests.Session()
+    sessie.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                         "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                           "Accept": "application/json", "Accept-Language": "nl-NL"})
     uit, gezien = [], set()
-    for i, (url, is_bf) in enumerate(paginas):
-        naam = f"lidl_online{i}"
+    for basis, is_bf in bronnen:
+        sep = "&" if "?" in basis else "?"
+        url = f"{basis}{sep}offset=0&fetchsize=1000&locale=nl_NL&assortment=NL&version=2.1.0"
         try:
-            haal(naam, [url], traag=True)
-            with open(os.path.join(DEBUG, f"{naam}.html"), encoding="utf-8") as f:
-                h = f.read()
+            r = sessie.get(url, timeout=40)
+            data = r.json()
         except Exception as e:
-            print(f"[lidl_online] {url} faalde: {e}")
+            print(f"[lidl_online] {basis}: {str(e)[:120]}")
             continue
+        producten = []
+        _lidl_producten(data, producten)
         n = 0
-        for ruw in re.findall(r'data-grid-data="([^"]+)"', h):
-            try:
-                g = json.loads(_html.unescape(ruw))
-            except Exception:
+        for g in producten:
+            sleutel = g.get("erpNumber") or g.get("productId") or g.get("fullTitle")
+            if sleutel in gezien:
                 continue
-            if g.get("erpNumber") in gezien:
-                continue
-            gezien.add(g.get("erpNumber"))
+            gezien.add(sleutel)
             a = lidl_grid(g)
             a["nonfood"] = True
             a["bf"] = is_bf
             uit.append(a)
             n += 1
-        print(f"[lidl_online] {url}: {n} producten")
+        print(f"[lidl_online] {basis}: {n} producten (gevonden: {data.get('numFound', '?') if isinstance(data, dict) else '?'})")
     return uit
 
 
@@ -548,9 +564,45 @@ def bol():
                           "https://www.bol.com/nl/nl/sf/aanbiedingen/"])
 
 
+COOLBLUE_RX = re.compile(
+    r'"product":\{"id":(\d+),"name":"([^"]+)",.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
+    r'"salesPrice":\{"includingVat":([\d.]+),[^}]*\},"urls":\{"slug":"[^"]*","product":"([^"]+)"', re.S)
+
+
+def coolblue_html(h):
+    h = h.replace('\\"', '"')
+    uit = []
+    for pid, naam, lijst, nu, url in COOLBLUE_RX.findall(h):
+        lijst, nu = float(lijst), float(nu)
+        uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu,
+                    "prijs_was": lijst if lijst > nu else None,
+                    "img": "", "url": url, "geldig": "", "nonfood": True, "bf": True})
+    return uit
+
+
 def coolblue():
-    return _deals("coolblue", ["https://www.coolblue.nl/black-friday-top-deals",
-                               "https://www.coolblue.nl/aanbiedingen"])
+    """Coolblue zet de productdata (adviesprijs en verkoopprijs) in de pagina; per pagina 22."""
+    uit, gezien = [], set()
+    for n in range(1, 13):
+        url = "https://www.coolblue.nl/black-friday-top-deals" + (f"?pagina={n}" if n > 1 else "")
+        try:
+            _, kaarten, _ = haal(f"coolblue{n}" if n > 1 else "coolblue", [url])
+            with open(os.path.join(DEBUG, f"coolblue{n}.html" if n > 1 else "coolblue.html"), encoding="utf-8") as f:
+                h = f.read()
+        except Exception as e:
+            print(f"[coolblue] pagina {n}: {e}")
+            break
+        nieuw = [a for a in coolblue_html(h) if a["id"] not in gezien]
+        # afbeelding uit de kaarten halen op naam
+        plaatjes = {k.get("alt", ""): k.get("img", "") for k in kaarten if k.get("alt")}
+        for a in nieuw:
+            gezien.add(a["id"])
+            a["img"] = plaatjes.get(a["titel"], "")
+        uit += nieuw
+        print(f"[coolblue] pagina {n}: {len(nieuw)} nieuwe deals")
+        if not nieuw:
+            break
+    return uit
 
 
 def mediamarkt():
