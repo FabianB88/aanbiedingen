@@ -110,7 +110,7 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
   <button class="nav actief" data-view="alle">Alle aanbiedingen <span class="tel" id="tel-alle"></span></button>
   <button class="nav" data-view="gevolgd">Gevolgd <span class="tel" id="tel-gevolgd"></span></button>
   <button class="nav" data-view="lijstjes">Lijstjes <span class="tel" id="tel-lijstjes"></span></button>
-  <button class="nav" data-view="nonfood">Non-food <span class="tel" id="tel-nonfood"></span></button>
+  <button class="nav" data-view="nonfood">Black Friday &amp; non-food <span class="tel" id="tel-nonfood"></span></button>
   <button class="nav" data-view="winkels">Winkels &amp; status</button>
   <div class="onder" id="bijgewerkt">Laden…</div>
 </aside>
@@ -129,7 +129,9 @@ const WINKELS = {
   ah:{naam:"Albert Heijn",kleur:"#00A0E2"}, jumbo:{naam:"Jumbo",kleur:"#E8B400"},
   lidl:{naam:"Lidl",kleur:"#0050AA"}, aldi:{naam:"Aldi",kleur:"#1E2D78"},
   plus:{naam:"PLUS",kleur:"#3C9A3A"}, nettorama:{naam:"Nettorama",kleur:"#D9261C"}, aldi_sued:{naam:"Aldi Süd",kleur:"#00A0DE"},
-  kaufland:{naam:"Kaufland",kleur:"#E10915"}
+  kaufland:{naam:"Kaufland",kleur:"#E10915"},
+  bol:{naam:"bol.com",kleur:"#0000A4"}, coolblue:{naam:"Coolblue",kleur:"#0090E3"},
+  mediamarkt:{naam:"MediaMarkt",kleur:"#DF0000"}, amazon:{naam:"Amazon.nl",kleur:"#FF9900"}
 };
 const OPSLAG = "aanbiedingen-v1";
 const standaard = {verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
@@ -256,7 +258,7 @@ function teken(){
   document.getElementById("tel-lijstjes").innerHTML = nNieuw ? `<b class="badge">${nNieuw} nieuw</b>` : (st.lijstjes.length || "");
   document.getElementById("tel-nonfood").textContent = nonfood().length || "";
   document.querySelectorAll(".nav").forEach(n => n.classList.toggle("actief", n.dataset.view===view));
-  const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Non-food", winkels:"Winkels & status"}[view];
+  const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Black Friday & non-food", winkels:"Winkels & status"}[view];
   document.getElementById("kop").textContent = kop;
   document.getElementById("zoekvak").style.display = view==="winkels" ? "none" : "";
   const el = document.getElementById("inhoud");
@@ -268,7 +270,7 @@ function teken(){
     el.innerHTML = opLijst + filterbalk() + grid(gefilterd(z));
   }
   else if (view==="nonfood"){
-    el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk() + grid(gefilterd(nonfood()));
+    el.innerHTML = `<div class="info">Deals van bol.com, Coolblue, MediaMarkt, Amazon en de non-food van Kaufland. Let op: bij Black Friday is de "van"-prijs vaak opgerekt, dus vergelijk zelf even.</div>` + filterbalk() + grid(gefilterd(nonfood()));
   }
   else if (view==="gevolgd"){
     el.innerHTML = `<div class="paneel"><h2>Wat je volgt</h2>

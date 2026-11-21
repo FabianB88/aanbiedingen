@@ -497,6 +497,35 @@ def nettorama():
                                    "https://www.nettorama.nl/"])
 
 
+# ---------------------------------------------- Black Friday / non-food webwinkels
+def _deals(code, urls):
+    items = _generiek(code, urls)
+    for a in items:
+        a["nonfood"] = True
+    return items
+
+
+def bol():
+    return _deals("bol", ["https://www.bol.com/nl/nl/sf/black-friday/",
+                          "https://www.bol.com/nl/nl/m/black-friday/",
+                          "https://www.bol.com/nl/nl/sf/aanbiedingen/"])
+
+
+def coolblue():
+    return _deals("coolblue", ["https://www.coolblue.nl/black-friday",
+                               "https://www.coolblue.nl/aanbiedingen"])
+
+
+def mediamarkt():
+    return _deals("mediamarkt", ["https://www.mediamarkt.nl/nl/campaign/black-friday",
+                                 "https://www.mediamarkt.nl/nl/campaign/aanbiedingen"])
+
+
+def amazon():
+    return _deals("amazon", ["https://www.amazon.nl/blackfriday",
+                             "https://www.amazon.nl/deals"])
+
+
 WINKELS = {
     "ah": ("Albert Heijn", "NL", ah),
     "jumbo": ("Jumbo", "NL", jumbo),
@@ -506,4 +535,8 @@ WINKELS = {
     "nettorama": ("Nettorama", "NL", nettorama),
     "aldi_sued": ("Aldi Süd", "DE", aldi_sued),
     "kaufland": ("Kaufland", "DE", kaufland),
+    "bol": ("bol.com", "NL", bol),
+    "coolblue": ("Coolblue", "NL", coolblue),
+    "mediamarkt": ("MediaMarkt", "NL", mediamarkt),
+    "amazon": ("Amazon.nl", "NL", amazon),
 }
