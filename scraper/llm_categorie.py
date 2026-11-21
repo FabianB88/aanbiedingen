@@ -11,8 +11,11 @@ import requests
 
 from categorie import NAMEN
 
-ENDPOINT = "https://models.github.ai/inference/chat/completions"
-MODEL = "openai/gpt-4o-mini"
+# twee manieren om GitHub Models aan te roepen; de eerste die een echt antwoord geeft wint
+ENDPOINTS = [
+    ("https://models.github.ai/inference/chat/completions", "openai/gpt-4o-mini"),
+    ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o-mini"),
+]
 CACHE = os.path.join(os.path.dirname(__file__), "..", "data", "categorie-cache.json")
 BATCH = 80
 
@@ -62,18 +65,22 @@ def deel_in(items):
         for i in range(0, len(nieuw), BATCH):
             deel = nieuw[i:i + BATCH]
             lijst = "\n".join(f"{n}. {t}" for n, t in enumerate(deel))
-            body = {"model": MODEL, "temperature": 0,
-                    "messages": [{"role": "user", "content": PROMPT.format(namen=", ".join(NAMEN), lijst=lijst)}]}
+            berichten = [{"role": "user", "content": PROMPT.format(namen=", ".join(NAMEN), lijst=lijst)}]
             try:
-                r = requests.post(ENDPOINT, headers=headers, json=body, timeout=90)
-                if r.status_code == 429:
-                    print("[categorie] limiet bereikt, rest volgende run")
-                    break
-                if r.status_code != 200 or not r.text.strip().startswith("{"):
-                    print(f"[categorie] status {r.status_code}: {r.text[:300]!r}")
-                    if r.status_code in (401, 403, 404):
+                r = None
+                for url, model in list(ENDPOINTS):
+                    r = requests.post(url, headers=headers, timeout=90, allow_redirects=False,
+                                      json={"model": model, "temperature": 0, "messages": berichten})
+                    if r.status_code == 200 and r.text.strip().startswith("{"):
+                        if ENDPOINTS[0][0] != url:
+                            ENDPOINTS.remove((url, model))
+                            ENDPOINTS.insert(0, (url, model))
                         break
-                    continue
+                    print(f"[categorie] {url} -> {r.status_code} {r.headers.get('location', '')} {r.text[:200]!r}")
+                else:
+                    if r is not None and r.status_code == 429:
+                        print("[categorie] limiet bereikt, rest volgende run")
+                    break
                 inhoud = r.json()["choices"][0]["message"]["content"]
                 m = re.search(r"\{.*\}", inhoud, re.S)
                 antwoord = json.loads(m.group(0)) if m else {}

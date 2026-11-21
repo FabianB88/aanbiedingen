@@ -1,0 +1,49 @@
+name: Categorieën bijwerken
+
+# Alleen de indeling opnieuw doen op de bestaande data, zonder te scrapen.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scraper/llm_categorie.py", ".github/workflows/categorie.yml"]
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  categorie:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Indelen
+        working-directory: scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          from llm_categorie import deel_in
+          pad = "../data/aanbiedingen.json"
+          d = json.load(open(pad, encoding="utf-8"))
+          deel_in(d["aanbiedingen"])
+          json.dump(d, open(pad, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+          PY
+      - name: Opslaan
+        run: |
+          git config user.name "aanbiedingen-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "Categorieën bijgewerkt"
+          git pull --rebase -X theirs origin main || true
+          git push
