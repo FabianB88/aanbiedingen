@@ -62,16 +62,6 @@
   "bijgewerkt": "2026-11-21T11:48+00:00",
   "fout": ""
  },
- "nettorama": {
-  "naam": "Nettorama",
-  "land": "NL",
-  "ok": false,
-  "aantal": 0,
-  "met_korting": 0,
-  "bijgewerkt": "",
-  "fout": "RuntimeError: 0 aanbiedingen herkend",
-  "geprobeerd": "2026-11-21T11:48+00:00"
- },
  "lidl_online": {
   "naam": "Lidl webshop",
   "land": "NL",
