@@ -80,6 +80,11 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .nav:not(.actief) .badge{background:var(--groen);color:#fff}
 .term.uit{background:#eee;color:#8a8a8a}.term.uit .n{background:#bbb}
 .zoekbalk{display:flex;flex-direction:column;gap:8px;padding:12px 14px}.zoekbalk span{font-size:13.5px}
+.modus{display:flex;background:var(--kaart);border:1px solid var(--lijn);border-radius:12px;padding:3px;gap:3px;order:-1;flex-basis:100%}
+.modus button{flex:1;border:0;background:none;padding:9px 12px;border-radius:9px;font-weight:700;cursor:pointer;color:var(--zacht)}
+.modus button.aan{background:var(--groen);color:#fff}
+.modus button[data-modus="bf"].aan{background:#1d1d1d}
+.modus .tel{font-weight:500;font-size:12px;opacity:.8;margin-left:4px}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -110,7 +115,6 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
   <button class="nav actief" data-view="alle">Alle aanbiedingen <span class="tel" id="tel-alle"></span></button>
   <button class="nav" data-view="gevolgd">Gevolgd <span class="tel" id="tel-gevolgd"></span></button>
   <button class="nav" data-view="lijstjes">Lijstjes <span class="tel" id="tel-lijstjes"></span></button>
-  <button class="nav" data-view="blackfriday">Black Friday <span class="tel" id="tel-bf"></span></button>
   <button class="nav" data-view="nonfood">Non-food <span class="tel" id="tel-nonfood"></span></button>
   <button class="nav" data-view="winkels">Winkels &amp; status</button>
   <div class="onder" id="bijgewerkt">Laden…</div>
@@ -119,6 +123,7 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
 <main>
   <div class="top">
     <button class="menu" id="menu" aria-label="Menu">☰</button>
+    <div class="modus"><button data-modus="boodschappen" class="aan">Boodschappen</button><button data-modus="bf">Black Friday <span class="tel" id="tel-bf"></span></button></div>
     <h1 id="kop">Alle aanbiedingen</h1>
     <div class="zoek" id="zoekvak"><input id="zoek" type="search" placeholder="Zoek product of merk" autocomplete="off"></div>
   </div>
@@ -263,6 +268,7 @@ function teken(){
   document.getElementById("tel-lijstjes").innerHTML = nNieuw ? `<b class="badge">${nNieuw} nieuw</b>` : (st.lijstjes.length || "");
   document.getElementById("tel-nonfood").textContent = nonfood().length || "";
   document.getElementById("tel-bf").textContent = blackfriday().length || "";
+  document.querySelectorAll(".modus button").forEach(b => b.classList.toggle("aan", b.dataset.modus === (view==="blackfriday" ? "bf" : "boodschappen")));
   document.querySelectorAll(".nav").forEach(n => n.classList.toggle("actief", n.dataset.view===view));
   const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Non-food", blackfriday:"Black Friday", winkels:"Winkels & status"}[view];
   document.getElementById("kop").textContent = kop;
@@ -327,6 +333,7 @@ function teken(){
 document.addEventListener("click", e => {
   const t = e.target.closest("button,[data-winkel]");
   if (!t) return;
+  if (t.dataset.modus){ view = t.dataset.modus==="bf" ? "blackfriday" : "alle"; teken(); window.scrollTo(0,0); return; }
   if (t.dataset.view){ view = t.dataset.view; sluitMenu(); teken(); window.scrollTo(0,0); return; }
   if (t.dataset.winkel){ const c=t.dataset.winkel; st.verborgen = st.verborgen.includes(c)? st.verborgen.filter(x=>x!==c) : [...st.verborgen,c]; bewaar(); teken(); return; }
   if (t.dataset.volg!==undefined){
