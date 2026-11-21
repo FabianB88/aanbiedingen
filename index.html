@@ -41,6 +41,8 @@ main{margin-left:var(--side);padding:24px 28px 80px;max-width:1280px}
 .chip{border:1px solid var(--lijn);background:var(--kaart);padding:7px 12px;border-radius:999px;cursor:pointer;font-size:13px;font-weight:500;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .chip .stip{width:9px;height:9px;border-radius:50%}
 .chip.uit{opacity:.4;text-decoration:line-through}
+.wchip{opacity:.55}
+.wchip.gekozen{opacity:1;border-color:var(--wk);box-shadow:inset 0 0 0 1px var(--wk);font-weight:700}
 .chip.aan{background:var(--groen);border-color:var(--groen);color:#fff}
 select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(45deg,transparent 50%,var(--zacht) 50%),linear-gradient(135deg,var(--zacht) 50%,transparent 50%);background-position:calc(100% - 14px) 50%,calc(100% - 9px) 50%;background-size:5px 5px;background-repeat:no-repeat}
 .info{font-size:13px;color:var(--zacht);margin:6px 0 14px}
@@ -258,8 +260,12 @@ function kaart(a, nieuw){
 function filterbalk(bron){
   const cats = [...new Set((bron||data).map(a=>a.categorie))].sort();
   if (st.cat && !cats.includes(st.cat)) st.cat = "";
-  const winkelChips = Object.entries(WINKELS).filter(([c]) => data.some(a => a.winkel===c && soort(a)===huidigeSoort())).map(([c,w]) =>
-    `<button class="chip${st.verborgen.includes(c)?" uit":""}" data-winkel="${c}"><span class="stip" style="background:${w.kleur}"></span>${w.naam}</button>`).join("");
+  const zichtbare = Object.entries(WINKELS).filter(([c]) => data.some(a => a.winkel===c && soort(a)===huidigeSoort()));
+  const allesAan = zichtbare.every(([c]) => !st.verborgen.includes(c));
+  const winkelChips = `<button class="chip${allesAan?" aan":""}" data-alle-winkels="1">${allesAan?"✓ ":""}Alle</button>` + zichtbare.map(([c,w]) => {
+    const aan = !st.verborgen.includes(c);
+    return `<button class="chip wchip${aan?" gekozen":""}" data-winkel="${c}" style="--wk:${w.kleur}">${aan?"✓":""}<span class="stip" style="background:${w.kleur}"></span>${w.naam}</button>`;
+  }).join("");
   return `<div class="filters">
     <select class="chip" id="sorteer">
       ${[["korting","Hoogste korting"],["prijs","Laagste prijs"],["winkel","Per winkel"],["titel","A tot Z"]].map(([v,t])=>`<option value="${v}"${st.sorteer===v?" selected":""}>${t}</option>`).join("")}
@@ -360,6 +366,7 @@ document.addEventListener("click", e => {
   if (!t) return;
   if (t.dataset.modus){ view = t.dataset.modus==="bf" ? "blackfriday" : "alle"; teken(); window.scrollTo(0,0); return; }
   if (t.dataset.view){ view = t.dataset.view; sluitMenu(); teken(); window.scrollTo(0,0); return; }
+  if (t.dataset.alleWinkels){ st.verborgen = []; bewaar(); teken(); return; }
   if (t.dataset.winkel){ const c=t.dataset.winkel; st.verborgen = st.verborgen.includes(c)? st.verborgen.filter(x=>x!==c) : [...st.verborgen,c]; bewaar(); teken(); return; }
   if (t.dataset.volg!==undefined){
     const titel = t.dataset.volg;
