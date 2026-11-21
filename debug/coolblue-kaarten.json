@@ -1,0 +1,22 @@
+{
+ "url": "https://www.coolblue.nl/black-friday",
+ "aantal": 2,
+ "kaarten": [
+  {
+   "tekst": "€ 150,- cashback",
+   "img": "https://image.coolblue.nl/max/130xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/983212/samsung-wf90h09c4st2-quickdrive-ai-home.html",
+   "sectie": "Deze wil je ook niet missen",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 100,- cashback",
+   "img": "https://image.coolblue.nl/max/130xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/983704/sony-bravia-6-65-oled-2026.html",
+   "sectie": "Deals in de spotlight",
+   "attrs": {}
+  }
+ ]
+}

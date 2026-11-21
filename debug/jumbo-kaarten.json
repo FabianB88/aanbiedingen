@@ -3,9 +3,9 @@
  "aantal": 151,
  "kaarten": [
   {
-   "tekst": "Alleen in de winkel\n2 voor 4,99",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_2.png",
-   "alt": "Jumbo verse rookworst",
+   "tekst": "Alleen in de winkel\nvoor 2,49",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
+   "alt": "Handsinaasappelen",
    "href": "",
    "sectie": "Extra's aanbiedingen",
    "attrs": {
@@ -17,17 +17,7 @@
    "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_3.png",
    "alt": "Zespri kiwi Sungold",
    "href": "",
-   "sectie": "Jumbo verse rookworst",
-   "attrs": {
-    "data-v-0d7607c7": ""
-   }
-  },
-  {
-   "tekst": "Alleen in de winkel\nvoor 2,49",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
-   "alt": "Handsinaasappelen",
-   "href": "",
-   "sectie": "Zespri kiwi Sungold",
+   "sectie": "Handsinaasappelen",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -37,7 +27,17 @@
    "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_1.png",
    "alt": "Alle Jumbo's krokantjes",
    "href": "",
-   "sectie": "Handsinaasappelen",
+   "sectie": "Zespri kiwi Sungold",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
+  {
+   "tekst": "Alleen in de winkel\n2 voor 4,99",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_2.png",
+   "alt": "Jumbo verse rookworst",
+   "href": "",
+   "sectie": "Alle Jumbo's krokantjes",
    "attrs": {
     "data-v-0d7607c7": ""
    }
