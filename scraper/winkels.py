@@ -400,8 +400,11 @@ KAUFLAND_NONFOOD = re.compile(r"elektro|büro|medien|heim, haus|haushalt|bekleid
 KAUFLAND_FOOD = re.compile(r"obst|gemüse|fleisch|geflügel|wurst|fisch|molkerei|tiefkühl|feinkost|konserven|grundnahrung|kaffee|tee|süß|knabber|getränke|spirituosen|drogerie|tiernahrung|käse|bäckerei|frische|bio", re.I)
 
 
+KAUFLAND_LABEL = re.compile(r"^(knüller|topartikel|aktion|neu|black week.*|deal.*|kaufland card.*|xtra.*|nur mit .*|preisknüller|bio|vegan)$", re.I)
+
+
 def kaufland_kaart(k):
-    r = [x for x in _regels(k) if not x.startswith("(")]
+    r = [x for x in _regels(k) if not x.startswith("(") and not KAUFLAND_LABEL.match(x)]
     merk = r[0].title() if r and r[0].isupper() and len(r) > 1 else ""
     if merk:
         r = r[1:]

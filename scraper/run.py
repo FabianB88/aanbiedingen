@@ -92,8 +92,7 @@ def main(alleen=None):
             items = [normaliseer(code, a) for a in ruw]
             items = [i for i in items if i["titel"]]
             for i in items:
-                if i["nonfood"] is None:
-                    i["nonfood"] = code == "kaufland" and i["categorie"] in NONFOOD_CATS
+                # onbekend: food, tenzij het taalmodel straks "Non-food" zegt
                 i["nonfood"] = bool(i["nonfood"])
             if not items:
                 raise RuntimeError("0 aanbiedingen herkend")
