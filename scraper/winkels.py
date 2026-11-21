@@ -11,7 +11,7 @@ import requests
 
 import os
 
-from browser import haal, haal_details, DEBUG
+from browser import haal, haal_details, json_via_browser, DEBUG
 from korting import prijs
 
 UA_APP = "Appie/8.22.3 Model/phone Android/14"
@@ -518,19 +518,15 @@ def lidl_online():
         ("https://www.lidl.nl/q/api/search?q=parkside", False),
         ("https://www.lidl.nl/q/api/search?q=silvercrest", False),
     ]
-    sessie = requests.Session()
-    sessie.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                                         "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-                           "Accept": "application/json", "Accept-Language": "nl-NL"})
-    uit, gezien = [], set()
+    urls = {}
     for basis, is_bf in bronnen:
         sep = "&" if "?" in basis else "?"
-        url = f"{basis}{sep}offset=0&fetchsize=1000&locale=nl_NL&assortment=NL&version=2.1.0"
-        try:
-            r = sessie.get(url, timeout=40)
-            data = r.json()
-        except Exception as e:
-            print(f"[lidl_online] {basis}: {str(e)[:120]}")
+        urls[f"{basis}{sep}offset=0&fetchsize=1000&locale=nl_NL&assortment=NL&version=2.1.0"] = is_bf
+    antwoorden = json_via_browser("lidl_online", "https://www.lidl.nl/c/black-week/s10080642", list(urls))
+    uit, gezien = [], set()
+    for url, is_bf in urls.items():
+        data = antwoorden.get(url)
+        if not data:
             continue
         producten = []
         _lidl_producten(data, producten)
@@ -545,7 +541,7 @@ def lidl_online():
             a["bf"] = is_bf
             uit.append(a)
             n += 1
-        print(f"[lidl_online] {basis}: {n} producten (gevonden: {data.get('numFound', '?') if isinstance(data, dict) else '?'})")
+        print(f"[lidl_online] {url[:60]}: {n} producten (gevonden: {data.get('numFound', '?') if isinstance(data, dict) else '?'})")
     return uit
 
 
@@ -565,18 +561,18 @@ def bol():
 
 
 COOLBLUE_RX = re.compile(
-    r'"product":\{"id":(\d+),"name":"([^"]+)",.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
+    r'"product":\{"id":(\d+),"name":"([^"]+)",(?:.{0,300}?"primaryImage":\{"id":"(\d+)")?.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
     r'"salesPrice":\{"includingVat":([\d.]+),[^}]*\},"urls":\{"slug":"[^"]*","product":"([^"]+)"', re.S)
 
 
 def coolblue_html(h):
     h = h.replace('\\"', '"')
     uit = []
-    for pid, naam, lijst, nu, url in COOLBLUE_RX.findall(h):
+    for pid, naam, beeld, lijst, nu, url in COOLBLUE_RX.findall(h):
         lijst, nu = float(lijst), float(nu)
         uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu,
                     "prijs_was": lijst if lijst > nu else None,
-                    "img": "", "url": url, "geldig": "", "nonfood": True, "bf": True})
+                    "img": f"https://image.coolblue.nl/transparent/max/320xauto/products/{beeld}" if beeld else "", "url": url, "geldig": "", "nonfood": True, "bf": True})
     return uit
 
 
@@ -597,7 +593,7 @@ def coolblue():
         plaatjes = {k.get("alt", ""): k.get("img", "") for k in kaarten if k.get("alt")}
         for a in nieuw:
             gezien.add(a["id"])
-            a["img"] = plaatjes.get(a["titel"], "")
+            a["img"] = a["img"] or plaatjes.get(a["titel"], "")
         uit += nieuw
         print(f"[coolblue] pagina {n}: {len(nieuw)} nieuwe deals")
         if not nieuw:

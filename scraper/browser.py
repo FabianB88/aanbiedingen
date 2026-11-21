@@ -272,3 +272,32 @@ def haal_details(winkel, urls, wacht=0.5, max_urls=200, budget_s=1200):
                 print(f"[{winkel}] detail {url} faalde: {str(e)[:100]}")
         browser.close()
     return uit
+
+
+def json_via_browser(winkel, start_url, api_urls):
+    """Opent een pagina (cookies, botcheck) en haalt daarna API-URL's op
+    vanuit die pagina, zodat de site ze als gewoon browserverkeer ziet."""
+    uit = {}
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(
+            locale="nl-NL",
+            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                        "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"),
+            viewport={"width": 1366, "height": 900},
+        )
+        page = ctx.new_page()
+        page.goto(start_url, wait_until="domcontentloaded", timeout=45000)
+        time.sleep(3)
+        cookies_weg(page)
+        for url in api_urls:
+            try:
+                tekst = page.evaluate("async (u) => { const r = await fetch(u, {headers: {'Accept': 'application/json'}}); return r.status + '\\n' + await r.text(); }", url)
+                status, _, body = tekst.partition("\n")
+                uit[url] = json.loads(body) if status.startswith("2") else None
+                print(f"[{winkel}] {url[:90]} -> {status}, {len(body)} tekens")
+            except Exception as e:
+                print(f"[{winkel}] {url[:90]} faalde: {str(e)[:120]}")
+                uit[url] = None
+        browser.close()
+    return uit
