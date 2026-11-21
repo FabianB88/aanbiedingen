@@ -118,6 +118,12 @@ def main(alleen=None):
         deel_in(alles)
     except Exception as e:
         print("[categorie] indeling via model overgeslagen:", e)
+    # Kaufland non-food zit op de online marktplaats, niet in de filiaalfolder:
+    # link naar een zoekopdracht op kaufland.de in plaats van naar de filiaalpagina
+    from urllib.parse import quote_plus
+    for a in alles:
+        if a["winkel"] == "kaufland" and a.get("nonfood"):
+            a["url"] = "https://www.kaufland.de/s/?search_value=" + quote_plus(a["titel"])
     with open(os.path.join(DATA, "aanbiedingen.json"), "w", encoding="utf-8") as f:
         json.dump({"bijgewerkt": nu, "aanbiedingen": alles}, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(DATA, "status.json"), "w", encoding="utf-8") as f:
