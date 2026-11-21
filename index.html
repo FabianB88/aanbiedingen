@@ -85,6 +85,9 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .modus button.aan{background:var(--groen);color:#fff}
 .modus button[data-modus="bf"].aan{background:#1d1d1d}
 .modus .tel{font-weight:500;font-size:12px;opacity:.8;margin-left:4px}
+.tw{display:block;font-size:12px;line-height:1.45;background:#f4f1ea;border-radius:8px;padding:7px 9px;text-decoration:none;color:var(--tekst)}
+.tw span{display:block;font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:#8a6d1f;margin-bottom:2px}
+.goed{color:var(--groen-d)}.slecht{color:var(--accent)}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -137,7 +140,8 @@ const WINKELS = {
   plus:{naam:"PLUS",kleur:"#3C9A3A"}, nettorama:{naam:"Nettorama",kleur:"#D9261C"}, aldi_sued:{naam:"Aldi Süd",kleur:"#00A0DE"},
   kaufland:{naam:"Kaufland",kleur:"#E10915"},
   bol:{naam:"bol.com",kleur:"#0000A4"}, coolblue:{naam:"Coolblue",kleur:"#0090E3"},
-  mediamarkt:{naam:"MediaMarkt",kleur:"#DF0000"}, amazon:{naam:"Amazon.nl",kleur:"#FF9900"}
+  mediamarkt:{naam:"MediaMarkt",kleur:"#DF0000"}, amazon:{naam:"Amazon.nl",kleur:"#FF9900"},
+  lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}
 };
 const OPSLAG = "aanbiedingen-v1";
 const standaard = {verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
@@ -177,10 +181,10 @@ function zichtbaar(){
 }
 const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon"];
 function nonfood(){
-  return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood && !WEBSHOPS.includes(a.winkel));
+  return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood && !a.bf && !WEBSHOPS.includes(a.winkel));
 }
 function blackfriday(){
-  return data.filter(a => !st.verborgen.includes(a.winkel) && WEBSHOPS.includes(a.winkel));
+  return data.filter(a => !st.verborgen.includes(a.winkel) && (a.bf || WEBSHOPS.includes(a.winkel)));
 }
 
 function alleWinkels(){ return data.filter(a => !st.verborgen.includes(a.winkel)); }
@@ -212,6 +216,22 @@ function gefilterd(lijst){
   });
 }
 
+function twBlok(a){
+  if (!a.tw_url) return "";
+  const regels = [];
+  if (a.tw_laagste && a.prijs_nu){
+    const v = Math.round(100*(1 - a.prijs_nu / a.tw_laagste));
+    regels.push(v>0 ? `<b class="goed">${v}% onder</b> laagste prijs elders (${euro(a.tw_laagste)})`
+             : v<0 ? `<b class="slecht">${-v}% duurder</b> dan elders (${euro(a.tw_laagste)})` : `gelijk aan laagste prijs elders`);
+  }
+  if (a.tw_laagste90 && a.prijs_nu){
+    const v = Math.round(100*(1 - a.prijs_nu / a.tw_laagste90));
+    regels.push(v>=0 ? `<b class="goed">laagste in 90 dagen</b>${v>0?` (${v}% onder)`:""}`
+             : `was in 90 dagen al ${euro(a.tw_laagste90)} (<b class="slecht">${-v}% goedkoper</b>)`);
+  }
+  return `<a class="tw" href="${esc(a.tw_url)}" target="_blank" rel="noopener"><span>Tweakers</span>${regels.join("<br>") || "prijsgeschiedenis bekijken"}</a>`;
+}
+
 function kaart(a, nieuw){
   const w = WINKELS[a.winkel] || {naam:a.winkel,kleur:"#888"};
   const v = gevolgd(a);
@@ -228,12 +248,14 @@ function kaart(a, nieuw){
       ${a.actie?`<span class="actie">${esc(a.actie)}</span>`:""}
       ${prijs}
       ${a.geldig?`<div class="geldig">${esc(a.geldig)}</div>`:""}
+      ${twBlok(a)}
     </div></article>`;
 }
 
-function filterbalk(){
-  const cats = [...new Set(data.map(a=>a.categorie))].sort();
-  const winkelChips = Object.entries(WINKELS).filter(([c]) => data.some(a=>a.winkel===c) || status[c]).map(([c,w]) =>
+function filterbalk(bron){
+  const cats = [...new Set((bron||data).map(a=>a.categorie))].sort();
+  if (st.cat && !cats.includes(st.cat)) st.cat = "";
+  const winkelChips = Object.entries(WINKELS).filter(([c]) => (bron||data).some(a=>a.winkel===c)).map(([c,w]) =>
     `<button class="chip${st.verborgen.includes(c)?" uit":""}" data-winkel="${c}"><span class="stip" style="background:${w.kleur}"></span>${w.naam}</button>`).join("");
   return `<div class="filters">
     <select class="chip" id="sorteer">
@@ -279,21 +301,21 @@ function teken(){
     const opLijst = zoekterm ? `<div class="paneel zoekbalk"><span>Zoekterm <b>${esc(zoekterm)}</b> bewaren, zodat hij vanzelf verschijnt zodra hij in de aanbieding is:</span>
       <div class="rij"><select class="chip" id="zoekNaarLijst">${st.lijstjes.map((l,i)=>`<option value="${i}">${esc(l.naam)}</option>`).join("")}<option value="nieuw">+ nieuw lijstje…</option></select>
       <button class="knop" id="zoekOpslaan">Op lijst zetten</button></div></div>` : "";
-    el.innerHTML = opLijst + filterbalk() + grid(gefilterd(z));
+    el.innerHTML = opLijst + filterbalk(z) + grid(gefilterd(z));
   }
   else if (view==="nonfood"){
-    el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk() + grid(gefilterd(nonfood()));
+    el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk(nonfood()) + grid(gefilterd(nonfood()));
   }
   else if (view==="blackfriday"){
     const lijst = blackfriday();
     el.innerHTML = `<div class="info">Deals van bol.com, Coolblue, MediaMarkt en Amazon.nl. Let op: bij Black Friday is de "van"-prijs vaak opgerekt, dus vergelijk zelf even.</div>` +
-      (lijst.length ? filterbalk() + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen deals binnen. De eerste ophaalronde voor deze winkels loopt nog.</div>`);
+      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen deals binnen. De eerste ophaalronde voor deze winkels loopt nog.</div>`);
   }
   else if (view==="gevolgd"){
     el.innerHTML = `<div class="paneel"><h2>Wat je volgt</h2>
       <p>Zoektermen of merken. Alle woorden moeten in de productnaam staan. Gevolgde aanbiedingen krijgen overal een groene rand.</p>
       <div class="rij"><input id="nieuweTerm" placeholder="bijv. koffiebonen, lavazza, wasmiddel"><button class="knop" id="voegTerm">Volgen</button></div>
-      <div style="margin-top:10px">${termBlok(z, st.gevolgd, "data-del-term")}</div></div>` + filterbalk() + grid(gefilterd(volgLijst));
+      <div style="margin-top:10px">${termBlok(z, st.gevolgd, "data-del-term")}</div></div>` + filterbalk(volgLijst) + grid(gefilterd(volgLijst));
   }
   else if (view==="lijstjes"){
     el.innerHTML = `<div class="paneel"><h2>Lijstjes</h2><p>Zet er zoektermen op, ook als iets nu niet in de aanbieding is. Zodra het ergens in de aanbieding komt, verschijnt het hier vanzelf met het label <span class="nieuw inline">Nieuw</span>. Gebruik een komma voor "of": <i>koffiebonen, espresso</i>.</p>

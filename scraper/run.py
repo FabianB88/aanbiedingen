@@ -72,6 +72,7 @@ def normaliseer(winkel, a):
         "url": a.get("url", ""),
         "geldig": a.get("geldig", ""),
         "nonfood": a.get("nonfood"),
+        "bf": bool(a.get("bf")),
     }
 
 
@@ -118,6 +119,17 @@ def main(alleen=None):
         deel_in(alles)
     except Exception as e:
         print("[categorie] indeling via model overgeslagen:", e)
+    # non-food en Black Friday krijgen hun eigen categorieën
+    from nonfood import nf_categorie
+    for a in alles:
+        if a.get("nonfood"):
+            a["categorie"] = nf_categorie(a["titel"], a.get("eenheid", ""))
+    # Tweakers-check voor Black Friday-deals
+    try:
+        from tweakers import check
+        check(alles)
+    except Exception as e:
+        print("[tweakers] overgeslagen:", e)
     # Kaufland non-food zit op de online marktplaats, niet in de filiaalfolder:
     # link naar een zoekopdracht op kaufland.de in plaats van naar de filiaalpagina
     from urllib.parse import quote_plus

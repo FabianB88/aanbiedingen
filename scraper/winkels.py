@@ -476,6 +476,7 @@ def kaufland_ssr(h, vandaag=None):
                                else "https://filiale.kaufland.de/angebote/uebersicht.html",
                         "geldig": (f"{van[8:10]}-{van[5:7]} t/m {tot[8:10]}-{tot[5:7]}" if van and tot else ""),
                         "nonfood": nonfood,
+                        "bf": bool(re.search(r"black.?week|black.?friday", code + " " + afdeling, re.I)),
                     })
     return uit
 
@@ -497,11 +498,48 @@ def nettorama():
                                    "https://www.nettorama.nl/"])
 
 
+def lidl_online():
+    """Non-food uit de Lidl-webshop (Parkside, Silvercrest, enz.)."""
+    import html as _html
+    paginas = [("https://www.lidl.nl/c/black-week/s10080642", True),
+               ("https://www.lidl.nl/c/sale/s10105668", False),
+               ("https://www.lidl.nl/c/klussen/a10011160", False),
+               ("https://www.lidl.nl/c/keuken-huishouden/a10051359", False),
+               ("https://www.lidl.nl/c/kerstdecoratie/a10011933", False)]
+    uit, gezien = [], set()
+    for i, (url, is_bf) in enumerate(paginas):
+        naam = f"lidl_online{i}"
+        try:
+            haal(naam, [url], traag=True)
+            with open(os.path.join(DEBUG, f"{naam}.html"), encoding="utf-8") as f:
+                h = f.read()
+        except Exception as e:
+            print(f"[lidl_online] {url} faalde: {e}")
+            continue
+        n = 0
+        for ruw in re.findall(r'data-grid-data="([^"]+)"', h):
+            try:
+                g = json.loads(_html.unescape(ruw))
+            except Exception:
+                continue
+            if g.get("erpNumber") in gezien:
+                continue
+            gezien.add(g.get("erpNumber"))
+            a = lidl_grid(g)
+            a["nonfood"] = True
+            a["bf"] = is_bf
+            uit.append(a)
+            n += 1
+        print(f"[lidl_online] {url}: {n} producten")
+    return uit
+
+
 # ---------------------------------------------- Black Friday / non-food webwinkels
 def _deals(code, urls):
     items = _generiek(code, urls)
     for a in items:
         a["nonfood"] = True
+        a["bf"] = True
     return items
 
 
@@ -535,6 +573,7 @@ WINKELS = {
     "nettorama": ("Nettorama", "NL", nettorama),
     "aldi_sued": ("Aldi Süd", "DE", aldi_sued),
     "kaufland": ("Kaufland", "DE", kaufland),
+    "lidl_online": ("Lidl webshop", "NL", lidl_online),
     "bol": ("bol.com", "NL", bol),
     "coolblue": ("Coolblue", "NL", coolblue),
     "mediamarkt": ("MediaMarkt", "NL", mediamarkt),
