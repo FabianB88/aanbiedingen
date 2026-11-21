@@ -518,18 +518,33 @@ def lidl_online():
         ("https://www.lidl.nl/q/api/search?q=parkside", False),
         ("https://www.lidl.nl/q/api/search?q=silvercrest", False),
     ]
-    urls = {}
-    for basis, is_bf in bronnen:
-        sep = "&" if "?" in basis else "?"
-        urls[f"{basis}{sep}offset=0&fetchsize=1000&locale=nl_NL&assortment=NL&version=2.1.0"] = is_bf
-    antwoorden = json_via_browser("lidl_online", "https://www.lidl.nl/c/black-week/s10080642", list(urls))
+    import html as _html
+    paginas = [("https://www.lidl.nl/c/black-week/s10080642", True),
+               ("https://www.lidl.nl/c/sale/s10105668", False),
+               ("https://www.lidl.nl/q/search?q=parkside", False),
+               ("https://www.lidl.nl/q/search?q=silvercrest", False)]
     uit, gezien = [], set()
-    for url, is_bf in urls.items():
-        data = antwoorden.get(url)
-        if not data:
+    for i, (url, is_bf) in enumerate(paginas):
+        naam = f"lidl_online{i}"
+        try:
+            _, _, responses = haal(naam, [url], traag=True)
+            with open(os.path.join(DEBUG, f"{naam}.html"), encoding="utf-8") as f:
+                h = f.read()
+        except Exception as e:
+            print(f"[lidl_online] {url} faalde: {e}")
             continue
         producten = []
-        _lidl_producten(data, producten)
+        for ruw in re.findall(r'data-grid-data="([^"]+)"', h):
+            try:
+                producten.append(json.loads(_html.unescape(ruw)))
+            except Exception:
+                pass
+        for r in responses:                      # de API-antwoorden die de pagina zelf ophaalt
+            if "/q/api/" in r["url"]:
+                try:
+                    _lidl_producten(json.loads(r["body"]), producten)
+                except Exception:
+                    pass
         n = 0
         for g in producten:
             sleutel = g.get("erpNumber") or g.get("productId") or g.get("fullTitle")
@@ -541,7 +556,7 @@ def lidl_online():
             a["bf"] = is_bf
             uit.append(a)
             n += 1
-        print(f"[lidl_online] {url[:60]}: {n} producten (gevonden: {data.get('numFound', '?') if isinstance(data, dict) else '?'})")
+        print(f"[lidl_online] {url}: {n} producten, {sum('/q/api/' in r['url'] for r in responses)} API-antwoorden")
     return uit
 
 
@@ -561,18 +576,19 @@ def bol():
 
 
 COOLBLUE_RX = re.compile(
-    r'"product":\{"id":(\d+),"name":"([^"]+)",(?:.{0,300}?"primaryImage":\{"id":"(\d+)")?.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
+    r'"product":\{"id":(\d+),"name":"([^"]+)",(?:.{0,300}?"primaryImage":\{"id":"(\d+)")?(?:.{0,300}?"pluralName":"([^"]+)")?.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
     r'"salesPrice":\{"includingVat":([\d.]+),[^}]*\},"urls":\{"slug":"[^"]*","product":"([^"]+)"', re.S)
 
 
 def coolblue_html(h):
     h = h.replace('\\"', '"')
     uit = []
-    for pid, naam, beeld, lijst, nu, url in COOLBLUE_RX.findall(h):
+    for pid, naam, beeld, soort, lijst, nu, url in COOLBLUE_RX.findall(h):
         lijst, nu = float(lijst), float(nu)
         uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu,
                     "prijs_was": lijst if lijst > nu else None,
-                    "img": f"https://image.coolblue.nl/transparent/max/320xauto/products/{beeld}" if beeld else "", "url": url, "geldig": "", "nonfood": True, "bf": True})
+                    "img": f"https://image.coolblue.nl/transparent/max/320xauto/products/{beeld}" if beeld else "",
+                    "eenheid": soort, "url": url, "geldig": "", "nonfood": True, "bf": True})
     return uit
 
 
