@@ -493,9 +493,8 @@ def kaufland():
 
 
 def nettorama():
-    return _generiek("nettorama", ["https://www.nettorama.nl/aanbiedingen",
-                                   "https://www.nettorama.nl/acties",
-                                   "https://www.nettorama.nl/"])
+    # Nettorama heeft geen aanbiedingenpagina, alleen een online folder
+    return _generiek("nettorama", ["https://www.nettorama.nl/actiefolder"])
 
 
 def lidl_online():
