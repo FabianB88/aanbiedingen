@@ -427,9 +427,68 @@ def kaufland_kaart(k):
             "geldig": "", "nonfood": nonfood, "sectie": sectie}
 
 
+def kaufland_ssr(h, vandaag=None):
+    """Alle aanbiedingen uit Kaufland's ingebedde paginadata (window.SSR)."""
+    import datetime as _dt
+    import html as _html
+    vandaag = vandaag or _dt.date.today().isoformat()
+    dec = json.JSONDecoder()
+    uit, gezien = [], set()
+    for m in re.finditer(r"window\.SSR\['[^']+'\]\s*=\s*", h):
+        try:
+            obj, _ = dec.raw_decode(h, m.end())
+        except Exception:
+            continue
+        cycles = ((obj.get("props") or {}).get("offerData") or {}).get("cycles") or []
+        for cyc in cycles:
+            for cat in cyc.get("categories") or []:
+                afdeling = cat.get("displayName", "")
+                code = cat.get("name", "")
+                for o in cat.get("offers") or []:
+                    if o.get("offerId") in gezien:
+                        continue
+                    tot = o.get("salesTo") or o.get("dateTo") or ""
+                    if tot and tot < vandaag:
+                        continue
+                    gezien.add(o.get("offerId"))
+                    merk = _html.unescape(o.get("title") or "").strip()
+                    sub = _html.unescape(o.get("subtitle") or "").strip()
+                    van = o.get("salesFrom") or o.get("dateFrom") or ""
+                    titel = f"{merk.title()} {sub}".strip() if merk and merk.isupper() else f"{merk} {sub}".strip()
+                    was = prijs(o.get("formattedOldPrice"))
+                    nu = o.get("price") or prijs(o.get("formattedPrice"))
+                    korting = o.get("discount")
+                    if re.search(r"(^|_)NF(\d|_|$)", code):
+                        nonfood = True
+                    elif KAUFLAND_FOOD.search(afdeling):
+                        nonfood = False
+                    elif KAUFLAND_NONFOOD.search(afdeling) or re.search(r"(^|_)NF(\d|_|$)|NonFood|Non_Food|Kueche|Weihnachtsbaum", code, re.I):
+                        nonfood = True
+                    else:
+                        nonfood = None
+                    uit.append({
+                        "titel": titel, "merk": merk.title() if merk.isupper() else merk,
+                        "actie": f"-{korting}%" if korting else "",
+                        "prijs_nu": nu, "prijs_was": was,
+                        "eenheid": o.get("unit", ""),
+                        "img": o.get("listImage", ""),
+                        "url": f"https://filiale.kaufland.de/angebote/uebersicht.html?kloffer-category={code}" if code
+                               else "https://filiale.kaufland.de/angebote/uebersicht.html",
+                        "geldig": (f"{van[8:10]}-{van[5:7]} t/m {tot[8:10]}-{tot[5:7]}" if van and tot else ""),
+                        "nonfood": nonfood,
+                    })
+    return uit
+
+
 def kaufland():
-    return _met_parser("kaufland_de", ["https://filiale.kaufland.de/angebote/uebersicht.html",
-                                       "https://www.kaufland.de/angebote/"], kaufland_kaart)
+    url, kaarten, _ = haal("kaufland_de", ["https://filiale.kaufland.de/angebote/uebersicht.html"])
+    with open(os.path.join(DEBUG, "kaufland_de.html"), encoding="utf-8") as f:
+        h = f.read()
+    uit = kaufland_ssr(h)
+    print(f"[kaufland_de] {len(uit)} aanbiedingen uit paginadata, {len(kaarten)} kaarten")
+    if not uit:                                   # terugval: de oude kaart-parser
+        return _uniek([kaufland_kaart(k) for k in kaarten])
+    return uit
 
 
 def nettorama():
