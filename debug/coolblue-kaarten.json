@@ -1,21 +1,21 @@
 {
- "url": "https://www.coolblue.nl/black-friday",
+ "url": "https://www.coolblue.nl/black-friday-top-deals",
  "aantal": 2,
  "kaarten": [
   {
-   "tekst": "€ 150,- cashback",
-   "img": "https://image.coolblue.nl/max/130xauto/content/589343",
+   "tekst": "€ 75,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/983212/samsung-wf90h09c4st2-quickdrive-ai-home.html",
-   "sectie": "Deze wil je ook niet missen",
+   "href": "https://www.coolblue.nl/product/945890/bosch-wgg244flnl-i-dos.html",
+   "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   },
   {
-   "tekst": "€ 100,- cashback",
-   "img": "https://image.coolblue.nl/max/130xauto/content/589343",
+   "tekst": "€ 50,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/983704/sony-bravia-6-65-oled-2026.html",
-   "sectie": "Deals in de spotlight",
+   "href": "https://www.coolblue.nl/product/979696/samsung-wd9uhg5u34been-superspeed-9-6-kg.html",
+   "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }
  ]
