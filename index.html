@@ -180,6 +180,9 @@ function zichtbaar(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && !a.nonfood);
 }
 const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon"];
+// bij welk tabblad hoort een aanbieding; winkelknoppen blijven zichtbaar, ook als je ze uitzet
+const soort = a => (a.bf || WEBSHOPS.includes(a.winkel)) ? "bf" : a.nonfood ? "nonfood" : "boodschappen";
+const huidigeSoort = () => view==="blackfriday" ? "bf" : view==="nonfood" ? "nonfood" : "boodschappen";
 function nonfood(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood && !a.bf && !WEBSHOPS.includes(a.winkel));
 }
@@ -255,7 +258,7 @@ function kaart(a, nieuw){
 function filterbalk(bron){
   const cats = [...new Set((bron||data).map(a=>a.categorie))].sort();
   if (st.cat && !cats.includes(st.cat)) st.cat = "";
-  const winkelChips = Object.entries(WINKELS).filter(([c]) => (bron||data).some(a=>a.winkel===c)).map(([c,w]) =>
+  const winkelChips = Object.entries(WINKELS).filter(([c]) => data.some(a => a.winkel===c && soort(a)===huidigeSoort())).map(([c,w]) =>
     `<button class="chip${st.verborgen.includes(c)?" uit":""}" data-winkel="${c}"><span class="stip" style="background:${w.kleur}"></span>${w.naam}</button>`).join("");
   return `<div class="filters">
     <select class="chip" id="sorteer">
