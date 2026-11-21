@@ -4,6 +4,7 @@ Werkt met een cache op titel, zodat alleen nieuwe producten worden ingedeeld.
 Lukt de aanroep niet, dan blijft de trefwoord-indeling staan."""
 import json
 import os
+import re
 import time
 
 import requests
@@ -57,20 +58,25 @@ def deel_in(items):
     print(f"[categorie] {len(nieuw)} nieuwe titels, {len(cache)} in cache")
     if token and nieuw:
         headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json",
-                   "Accept": "application/json"}
+                   "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
         for i in range(0, len(nieuw), BATCH):
             deel = nieuw[i:i + BATCH]
             lijst = "\n".join(f"{n}. {t}" for n, t in enumerate(deel))
             body = {"model": MODEL, "temperature": 0,
-                    "response_format": {"type": "json_object"},
                     "messages": [{"role": "user", "content": PROMPT.format(namen=", ".join(NAMEN), lijst=lijst)}]}
             try:
                 r = requests.post(ENDPOINT, headers=headers, json=body, timeout=90)
                 if r.status_code == 429:
                     print("[categorie] limiet bereikt, rest volgende run")
                     break
-                r.raise_for_status()
-                antwoord = json.loads(r.json()["choices"][0]["message"]["content"])
+                if r.status_code != 200 or not r.text.strip().startswith("{"):
+                    print(f"[categorie] status {r.status_code}: {r.text[:300]!r}")
+                    if r.status_code in (401, 403, 404):
+                        break
+                    continue
+                inhoud = r.json()["choices"][0]["message"]["content"]
+                m = re.search(r"\{.*\}", inhoud, re.S)
+                antwoord = json.loads(m.group(0)) if m else {}
                 for n, cat in antwoord.items():
                     if n.isdigit() and int(n) < len(deel) and cat in NAMEN:
                         cache[deel[int(n)]] = cat

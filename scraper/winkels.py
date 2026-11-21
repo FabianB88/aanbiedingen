@@ -304,9 +304,7 @@ def jumbo():
     print(f"[jumbo] {len(urls)} acties, {len(nieuw)} nieuwe actiepagina's bezoeken")
     details = haal_details("jumbo", nieuw, max_urls=200)
     for u, kaarten in details.items():
-        pr = _jumbo_normaalprijzen(kaarten)
-        if pr:
-            cache[u] = pr
+        cache[u] = _jumbo_normaalprijzen(kaarten)     # ook leeg bewaren: niet elke run opnieuw
     with open(cache_pad, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
     for a in nodig:
