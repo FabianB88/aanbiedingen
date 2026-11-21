@@ -1,6 +1,6 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=12",
- "aantal": 4,
+ "aantal": 3,
  "kaarten": [
   {
    "tekst": "€ 100,- cashback",
@@ -23,14 +23,6 @@
    "img": "https://image.coolblue.nl/transparent/max/640xauto/products/566015938",
    "alt": "Motorola Moto G77 256GB Zwart 5G + Moto Buds 2",
    "href": "https://www.coolblue.nl/product/988448/motorola-moto-g77-256gb-zwart-5g-moto-buds-2.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
-  {
-   "tekst": "€ 100,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/969137/epson-ef-62b.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }

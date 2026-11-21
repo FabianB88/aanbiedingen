@@ -1,15 +1,7 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=9",
- "aantal": 3,
+ "aantal": 4,
  "kaarten": [
-  {
-   "tekst": "€ 200,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/977591/lg-oled-evo-65-g6-2026.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
   {
    "tekst": "€ 75,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
@@ -19,10 +11,26 @@
    "attrs": {}
   },
   {
+   "tekst": "€ 200,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/977591/lg-oled-evo-65-g6-2026.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
    "tekst": "€ 100,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
    "href": "https://www.coolblue.nl/product/983703/sony-bravia-6-55-oled-2026.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 100,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/977597/lg-oled-evo-55-c6-2026.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }

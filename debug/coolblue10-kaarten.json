@@ -1,15 +1,7 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=10",
- "aantal": 2,
+ "aantal": 1,
  "kaarten": [
-  {
-   "tekst": "€ 100,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/977597/lg-oled-evo-55-c6-2026.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
   {
    "tekst": "€ 50,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
