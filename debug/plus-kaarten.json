@@ -1,6 +1,6 @@
 {
  "url": "https://www.plus.nl/aanbiedingen",
- "aantal": 32,
+ "aantal": 168,
  "kaarten": [
   {
    "tekst": "5 voor 4.99\nAlle XXL Nutrition Repen\n4.\n99\n11.25 - 12.95",
@@ -318,6 +318,1366 @@
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4456-166",
    "sectie": "PLUS Nasi-Bami en macaroni-spaghetti groenten",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Fresh Quality Duo Maaltijdsalade\n2.\n99\n3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_55_M/bd9e15d64bc4d8412d30f5294260d614/4456_55.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-55",
+   "sectie": "Verse maaltijden, gemak, salades",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Oma's Soepen, pannenkoeken en maaltijdsauzen\nBijv. Romige tomatensoep\n2.\n99\n3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_56_M/ed1b0bf4bd40253a45709c624991a6e9/4456_56.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-56",
+   "sectie": "Fresh Quality Duo Maaltijdsalade",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Uit de Keuken van PLUS Verse pinsa's\n4.\n99\n6.49 - 6.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_150_M/a764fb234a45993589fe4ed131fb71af/4456_150.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-150",
+   "sectie": "Alle Oma's Soepen, pannenkoeken en maaltijdsauzen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.50\nPLUS Kies & Mix Oosterse maaltijd\n5.\n50\n6.18 - 7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_20_M/e5aa81f530c63a8a7b1b04da8079e12e/4449_20.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-20",
+   "sectie": "Uit de Keuken van PLUS Verse pinsa's",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 7.50\nUit de keuken van PLUS Kies & Mix Shared dining\n7.\n50\n7.98 - 9.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_21_M/c673ad9dbff9f1409b1609334e52532d/4449_21.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-21",
+   "sectie": "PLUS Kies & Mix Oosterse maaltijd",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "450 gram 5.99\nUit de keuken van PLUS Spaghetti meatball\nPer 450 gram\n t/m 30 nov\n5.\n99\n6.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/738568_M/294807d408edc1e412aaa00348628f10/738568.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-spaghetti-meatball-kg-450-g-738568",
+   "sectie": "Uit de keuken van PLUS Kies & Mix Shared dining",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Uit de keuken van PLUS Salade Kip Italiaanse stijl\nPer 445 g\n t/m 30 nov\n5.\n49\n6.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/184659_M/52b32936af44aae7ce22ef74c9538141/184659.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-salade-kip-italiaanse-stijl-bakje-445-g-184659",
+   "sectie": "Uit de keuken van PLUS Spaghetti meatball",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Uit de keuken van PLUS Pizza Funghi\nPer 1 st\n t/m 30 nov\n5.\n99\n6.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/182767_M/020469e2dd9fa11984a4f88192fd73ed/182767.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-pizza-funghi-stuk-1-st-182767",
+   "sectie": "Uit de keuken van PLUS Salade Kip Italiaanse stijl",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Boerentrots Kipstukjes en kipgehakt\n2.\n99\n3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_104_M/7ec3e19ffeda9ad5ff8f94024e464d92/4456_104.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-104",
+   "sectie": "Vlees, kip",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Boerentrots Kipdrumsticks en kipburgers\n5.\n49\n6.85 - 6.89",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_105_M/19ea980440f6c377691f91cdfbe28beb/4456_105.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-105",
+   "sectie": "PLUS Boerentrots Kipstukjes en kipgehakt",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "300 gram 3.49\nPLUS Culinaire beenham\n3.\n49\n4.50",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_106_M/feb7c4a8f456428d49a05d43897045c3/4456_106.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-106",
+   "sectie": "PLUS Boerentrots Kipdrumsticks en kipburgers",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Boerentrots Verse worst\n3.\n19\n3.49 - 9.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_103_M/020652cac1deb843b82072e06190e89d/4456_103.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-103",
+   "sectie": "PLUS Culinaire beenham",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Rundergehakt\n4.\n99\n5.59 - 11.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_99_M/36e54e9f02a8c7dc143c72cfdee947a0/4456_99.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-99",
+   "sectie": "PLUS Boerentrots Verse worst",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle PLUS Gerookte zalm\nBijv. Gerookte Noorse zalm\n3.\n44\n4.59",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_108_M/6dabd12de410d63239eb06dc9979d693/4456_108.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-108",
+   "sectie": "Vis",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 4.99\nVivera\n4.\n99\n5.18 - 7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_107_M/6e71a6c2a7cbfe4b42d1a56f415193b9/4456_107.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-107",
+   "sectie": "Vleesvervangers vegetarisch, vegan, plantaardig",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.99\nAlle Milner Kaas plakken\n3.\n99\n5.58 - 7.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-34",
+   "sectie": "Kaas",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Boursin, La Vache Qui Rit en Port Salut\nBijv. Cheezdippers naturel\n2.\n61\n3.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_37_M/e0bb4e92ed0a3cbc4916f83a20ab04b2/4456_37.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-37",
+   "sectie": "Alle Milner Kaas plakken",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Old Amsterdam Crème\nPer 125 g\n1.\n99\n2.75",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/322703_M/fdb0333922b496c8f7dca87b5be4ef3c/322703.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/old-amsterdam-creme-bakje-125-g-322703",
+   "sectie": "Alle Boursin, La Vache Qui Rit en Port Salut",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 6.00\nBiologisch PLUS en Fryske Kies & Mix Goudse kaas 50+ plakken\n6.\n00\n6.78 - 8.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_16_M/c1032e07f7268283c06ce2d764ba506e/4449_16.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-16",
+   "sectie": "Old Amsterdam Crème",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "3 voor 6.00\nPLUS Kies & Mix Tapas\n6.\n00\n6.15 - 11.97",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_3_M/d1563bcafc04694f9139340c0906a275/4449_3.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-3",
+   "sectie": "Biologisch PLUS en Fryske Kies & Mix Goudse kaas 50+ plakken",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "100 gram 2.69\nPLUS Puur van Smaak Abdijham, coburger ham en ovengebakken ham\n2.\n69\n2.99 - 3.17",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_72_M/741c576d51fcba9f336526d7a450d143/4456_72.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-72",
+   "sectie": "Vleeswaren, broodsalades",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Roasted kipfilet, ontbijtspek lang en slagersachterham\n1.\n99\n2.79 - 3.35",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_74_M/383cea793bcba39d7d9a2c8ad92a1f42/4456_74.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-74",
+   "sectie": "PLUS Puur van Smaak Abdijham, coburger ham en ovengebakken ham",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Kips Leverworst of kleintjes\n1.\n69\n2.19 - 2.75",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_70_M/dfe4e5da35844cefad1c2e72b8004935/4456_70.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-70",
+   "sectie": "PLUS Roasted kipfilet, ontbijtspek lang en slagersachterham",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Spekreepjes en -blokjes\n2.\n99\n4.59 - 4.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_68_M/85fea168c16eada4c4b2700196cbcd7f/4456_68.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-68",
+   "sectie": "Kips Leverworst of kleintjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 4.00\nPLUS Kies & Mix Kleintje vleeswaren\n4.\n00\n4.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_168_M/2147f84863a67b4465e165a391b0b36e/4449_168.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-168",
+   "sectie": "Spekreepjes en -blokjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.49\nAlle Optimel Yoghurt, kwark en vla\n t/m 24 nov\n3.\n49\n4.78 - 5.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-59",
+   "sectie": "Gratis Sinterklaasboek t.w.v. €15,95",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.49\nCampina Yoghurt Griekse stijl, kwark en high protein Greek\n t/m 24 nov\n5.\n49\n6.78 - 7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-60",
+   "sectie": "Alle Optimel Yoghurt, kwark en vla",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Lays en Doritos Snackboxen en Multipacks\nBijv. Lays Partymix, zak 15 stuks van 5.99 voor 4.49.\n t/m 24 nov\n4.\n49\n5.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-118",
+   "sectie": "Campina Yoghurt Griekse stijl, kwark en high protein Greek",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.49\nCampina Yoghurt Griekse stijl, kwark en high protein Greek\n5.\n49\n6.78 - 7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-60",
+   "sectie": "Zuivel, eieren, boter",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.49\nAlle Optimel Yoghurt, kwark en vla\n3.\n49\n4.78 - 5.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-59",
+   "sectie": "Campina Yoghurt Griekse stijl, kwark en high protein Greek",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.99\nAlle Danio Romige kwark\n3.\n99\n5.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_62_M/c01af4e02ac9b78842bb1cc241f9895c/4456_62.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-62",
+   "sectie": "Alle Optimel Yoghurt, kwark en vla",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle A-merk Kefir\nBijv. Bio kefir naturel\n1.\n79\n2.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_61_M/a83c1491a5cbc6a43bde4a2cb5f1f697/4456_61.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-61",
+   "sectie": "Alle Danio Romige kwark",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Oatly\n1.\n99\n2.59 - 3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_63_M/c2dea76d7d6b4b42c66cb7694ad1985f/4456_63.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-63",
+   "sectie": "Alle A-merk Kefir",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle The Flower Farm\nBijv. Smeren zonder palm\n3.\n49\n6.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_64_M/61b8e9ab0c617f7da960c67b46291b45/4456_64.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-64",
+   "sectie": "Oatly",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "4 voor 3.00\nPLUS Kies & Mix Toetjes Italiaanse stijl\n3.\n00\n5.96 - 6.20",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_11_M/48292d30447beabf8fc8d44ee99d86ab/4449_11.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-11",
+   "sectie": "Alle The Flower Farm",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Korenlanders Rond brood\n1.\n49\n2.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_27_M/f1c289a7bd053c7fd5db2be41158d739/4456_27.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-27",
+   "sectie": "Brood, gebak, bakproducten",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 1.49\nPLUS Speculaasbrokken en piccolo's\n1.\n49\n2.58 - 2.70",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_31_M/bfe0c1df4862bc0452c3924288373bbb/4456_31.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-31",
+   "sectie": "PLUS Korenlanders Rond brood",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Korenlanders Waldkorn-, sesam- en reuze rozijnen krentenbollen\n1.\n89\n2.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_29_M/7eada9447033d244acbbf4516dac0089/4456_29.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-29",
+   "sectie": "PLUS Speculaasbrokken en piccolo's",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Mediterraneo Focaccia\n1.\n99\n2.69",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_26_M/5d5167b2c922c9cb000f2c335eaf3938/4456_26.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-26",
+   "sectie": "PLUS Korenlanders Waldkorn-, sesam- en reuze rozijnen krentenbollen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Korenlanders Lekkerste appeltaart en stroopwafel appeltaart\n2.\n99\n4.99 - 5.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_32_M/903f2f2d9d58960daf9413d101f4361d/4456_32.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-32",
+   "sectie": "Alle Mediterraneo Focaccia",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle PLUS Korenlanders Klein gebak\nBijv. Puddingbroodjes\n2.\n99\n3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_25_M/8eca2213ee3654228c27aaf840de6b6f/4456_25.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-25",
+   "sectie": "PLUS Korenlanders Lekkerste appeltaart en stroopwafel appeltaart",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "50 % korting\nKoopmans Bakmix\nBijv. Stroopkoeken bakmix\n1.\n49\n2.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_11_M/9140c6096ffdd058afb52d5c0ef4708b/4456_11.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-11",
+   "sectie": "Alle PLUS Korenlanders Klein gebak",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2e halve prijs\nAlle Dr. Oetker Zoete bakmixen en decoratie\nBijv. Kwarktaart aardbeiensmaak bakmix\n5.\n98\n7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-12",
+   "sectie": "Koopmans Bakmix",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 6.00\nPLUS Korenlanders Kies & Mix Koek, cake en chocolade\n6.\n00\n6.28 - 7.50",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_12_M/ccfb5069d8ad2af867aee8dcf37022b1/4449_12.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-12",
+   "sectie": "Alle Dr. Oetker Zoete bakmixen en decoratie",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 7.50\nPLUS Kies & Mix Mini gebakjes\n7.\n50\n7.98 - 9.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_15_M/c29e834a3d9ebf855731c6555a2e2b20/4449_15.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-15",
+   "sectie": "PLUS Korenlanders Kies & Mix Koek, cake en chocolade",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 2.00\nPLUS Kies & Mix American Bakery Cookies, vanille- of chocolade muffins\n2.\n00\n2.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_4_M/c8ae79c9cb4ac89a6a1059d6669b1657/4449_4.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-4",
+   "sectie": "PLUS Kies & Mix Mini gebakjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nPoppies Macarons\nPer 72 g\n2.\n02\n2.69",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/400211_M/0387ffd2c5c68414c17b994a44cef9c0/400211.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/poppies-macarons-doos-72-g-400211",
+   "sectie": "PLUS Kies & Mix American Bakery Cookies, vanille- of chocolade muffins",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "4 voor 1.00\nPLUS Kies & Mix Triangel wit, kaiserbroodje volkoren en wit en tijgerbol wit\n t/m 19 jan\n1.\n00\n1.16 - 2.36",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_144_M/8fa481f89510473b022e9f487c08c20f/4456_144.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-144",
+   "sectie": "Poppies Macarons",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 6.00\nPLUS Korenlanders Kies & Mix Koek, cake en chocolade\n t/m 19 jan\n6.\n00\n6.28 - 7.50",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_146_M/9c38efb160aa9a0fa87d481f43701215/4456_146.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-146",
+   "sectie": "PLUS Kies & Mix Triangel wit, kaiserbroodje volkoren en wit en tijgerbol wit",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2e halve prijs\nVenz Hagelslag en vlokken\nBijv. Chocoladehagelslag puur\n5.\n98\n7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-16",
+   "sectie": "Broodbeleg, ontbijtgranen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.49\nHeinz Sandwich spread\n3.\n49\n4.38 - 4.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_17_M/6d51b61299117e01b720ff866b0406f1/4456_17.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-17",
+   "sectie": "Venz Hagelslag en vlokken",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Kellogg's Ontbijtgranen\n2.\n79\n3.09 - 4.89",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_18_M/a7c7961f73f5d56ac692deaa31c79e39/4456_18.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-18",
+   "sectie": "Heinz Sandwich spread",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2e halve prijs\nAlle Bolletje Ontbijgranen en beschuit\nBijv. Echte beschuit\n1.\n45\n1.94",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_19_M/5971a67c54fc05097cc16cd4fada0c61/4456_19.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-19",
+   "sectie": "Alle Kellogg's Ontbijtgranen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.50\nPLUS Kies & Mix Ontbijtverrijkers\n5.\n50\n5.58 - 8.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_18_M/bb0f1f80790ef95e6675bc0f734c6c07/4449_18.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-18",
+   "sectie": "Alle Bolletje Ontbijgranen en beschuit",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "4 voor 6.99\nCoca-Cola, Fanta, Sprite en Fernandes\n6.\n99\n9.96 - 12.48",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_115_M/16ebdda7804daa104d7462b80bcf0333/4456_115.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-115",
+   "sectie": "Frisdrank, siropen, water, sappen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Hero Cassis en cherry\n1.\n89\n2.69",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_110_M/e59e6fd70d7131adf8a33a3ab29bf064/4456_110.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-110",
+   "sectie": "Coca-Cola, Fanta, Sprite en Fernandes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 0.99\nLipton Ice Tea\n0.\n99\n1.78 - 1.92",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_114_M/c6a4d09cc1fe07585e661f33459aab14/4456_114.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-114",
+   "sectie": "Hero Cassis en cherry",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 4.99\nRaak Vruchtensiroop\n4.\n99\n5.50 - 6.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-111",
+   "sectie": "Lipton Ice Tea",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAppelsientje En Dubbeldrank\nBijv. Goudappeltje\n2.\n89\n5.78",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_113_M/393fa397f094c6f03b05667f74c9f3ad/4456_113.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-113",
+   "sectie": "Raak Vruchtensiroop",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 2.99\nWicky Mini's\n2.\n99\n3.98 - 4.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_112_M/3226daa5469019c256bafb0e9a642479/4456_112.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-112",
+   "sectie": "Appelsientje En Dubbeldrank",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\n1fruit, Coolbest Fruitdrink en -ontbijt Alle pakken à 200 ml en 1 liter\nBijv. Fruitdrink mango\n2.\n29\n4.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_5_M/cc745667642b2622479573bd8ee900f3/4456_5.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-5",
+   "sectie": "Wicky Mini's",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Douwe Egberts Krachtig voordeelpak koffiecups\nPer 20 st\n3.\n99\n6.19",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/181897_M/9c88802d5ba8f35ac1fa3d09c0807436/181897.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/douwe-egberts-krachtig-voordeelpak-koffiecups-doos-20-st-181897",
+   "sectie": "Proef de rijke en vertrouwde smaak van D.E",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Douwe Egberts Lungo intens koffiecups voordeelpak\nPer 20 st\n3.\n99\n6.19",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/181899_M/4f6eb1477fd7a0ce51bcc7da31ce5fb1/181899.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/douwe-egberts-lungo-intens-koffiecups-voordeelpak-doos-20-st-181899",
+   "sectie": "Douwe Egberts Krachtig voordeelpak koffiecups",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Douwe Egberts Lungo original koffiecups voordeelpak\nPer 20 st\n3.\n99\n6.19",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/297734_M/d037bda81cd87d87637e916a3535b880/297734.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/douwe-egberts-lungo-original-koffiecups-voordeelpak-doos-20-st-297734",
+   "sectie": "Douwe Egberts Lungo intens koffiecups voordeelpak",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Douwe Egberts Capsules lungo 10 sterk\nPer 20 st\n3.\n99\n6.19",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/142905_M/b2ee055c3b418bee6e740ba0c2c8cbe0/142905.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/douwe-egberts-capsules-lungo-10-sterk-doos-20-st-142905",
+   "sectie": "Douwe Egberts Lungo original koffiecups voordeelpak",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Filterkoffie\n5.\n99\n7.99 - 8.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_149_M/f7a1d9bc9012dd743b6e8c27cb3ca074/4456_149.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-149",
+   "sectie": "Koffie, thee",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Koffiebonen\n11.\n99\n14.99 - 15.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_9_M/3cbd3cf631c8a41414608ef6ccd03598/4456_9.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-9",
+   "sectie": "PLUS Filterkoffie",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Douwe Egberts Nespresso compatible koffiecups\n3.\n99\n6.19 - 6.69",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_6_M/94f5e4c8f1606a71a842ca57146ac2ac/4456_6.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-6",
+   "sectie": "PLUS Koffiebonen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Douwe Egberts Dolce Gusto compatible koffiecups\n3.\n49\n5.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_7_M/7cd4f1e15432a46a073f1d8ec5273e9d/4456_7.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-7",
+   "sectie": "Douwe Egberts Nespresso compatible koffiecups",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Grolsch, Amstel, Jupiler en Alfa Pils\nBijv. Premium pilsner bier fles\n14.\n47\n19.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_119_M/d99cf3bde9bb1a16dc53222a07203ae2/4456_119.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-119",
+   "sectie": "Bier",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nBud Pils\nPer 1800 ml\n5.\n09\n6.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/963886_M/7535169efb37f2369bdd27d502f79d75/963886.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/bud-pils-set-1800-ml-963886",
+   "sectie": "Alle Grolsch, Amstel, Jupiler en Alfa Pils",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAffligem, LeFort en Omer\nBijv. Blond bier fles\n6.\n49\n8.65",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_121_M/507262489f7494f6214c0196ee6b2ce8/4456_121.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-121",
+   "sectie": "Bud Pils",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Uiltje, Cornet en Apple Bandit\nBijv. Oaked blond bier\n6.\n00\n7.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_120_M/24c1cdee2881432879e05ecc594e23ba/4456_120.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-120",
+   "sectie": "Affligem, LeFort en Omer",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Heineken, Texels en Amstel 0.0%\nBijv. Premium pilsener 0.0 bier fles\n19.\n99\n39.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_122_M/1e99fd96a34925ba4075e12762c3878a/4456_122.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-122",
+   "sectie": "Alle Uiltje, Cornet en Apple Bandit",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Barone Montalto Due Mondi\n4.\n99\n6.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_96_M/219c20f561a17e9f69dacdadbf89ab1c/4456_96.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-96",
+   "sectie": "Wijn, aperitieven",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nMaison Castel en Néphalia 0.0%\nBijv. Grande Réserve Chardonnay\n4.\n99\n6.65",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_97_M/e3c6c26c3271511dbb3fef825a7ff268/4456_97.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-97",
+   "sectie": "Barone Montalto Due Mondi",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nOffley Port\nBijv. Port Ruby\n6.\n75\n8.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_98_M/f1a6aaf8bfaddb8d7f5a437adfeeabd7/4456_98.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-98",
+   "sectie": "Maison Castel en Néphalia 0.0%",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nNemiroff Vodka, The Kraken Spiced black rum en Licor Beirão\nBijv. Vodka\n11.\n25\n14.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_24_M/a9bf5ad2c1fa323e3cd9cf115cc74d83/4456_24.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-24",
+   "sectie": "Offley Port",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Glen Talloch Whisky en Jachtbitter\n15.\n99\n19.99 - 20.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_22_M/c650bc794f1bc1369cf119707dee5526/4456_22.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-22",
+   "sectie": "Nemiroff Vodka, The Kraken Spiced black rum en Licor Beirão",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Ballantine's Whisky\nPer 1000 ml\nBekijk beschikbaarheid\n19.\n99\n26.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/977422_M/179cbe55b1456a65b91704326eea44fb/977422.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/ballantine-s-whisky-fles-1000-ml-977422",
+   "sectie": "Glen Talloch Whisky en Jachtbitter",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Ketel 1 Jenever en De Kuyper Vieux\n14.\n49\n18.59 - 18.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_21_M/7baecec2aa19debc4be362c41a4f54e5/4456_21.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-21",
+   "sectie": "Ballantine's Whisky",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Wijn van de maand november Villa Mondi Valpolicella Ripasso\n t/m 30 nov\n7.\n49\n9.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4453_66_M/3d70bb76eda9fa7cbbcb9ebf0511d323/4453_66.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4453-66",
+   "sectie": "Ketel 1 Jenever en De Kuyper Vieux",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1.00 korting\nWijn top 5 november\n t/m 30 nov",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4453_67_M/83587e593bacf836ad80d87e70eabbfa/4453_67.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4453-67",
+   "sectie": "Wijn van de maand november Villa Mondi Valpolicella Ripasso",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Honig Deegwaren\n0.\n99\n1.49 - 2.65",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_65_M/2312cca7af6ba5a913869efb22b7afe1/4456_65.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-65",
+   "sectie": "Pasta, rijst, wereldkeukens",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Go-Tan\nBijv. Kokosmelk\n1.\n69\n3.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_66_M/f1a4eb498ffb0829cca97e3220b3dc70/4456_66.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-66",
+   "sectie": "Alle Honig Deegwaren",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.99\nAlle Unox en XXL Nutrition Soep in zak\n5.\n99\n6.30 - 10.50",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_14_M/f0bc9a721592f1bdcdbb0bc288abbe25/4456_14.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-14",
+   "sectie": "Sauzen, soepen, conserven, smaakmakers",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 2.99\nAlle Honig Mix voor soep\n2.\n99\n3.58 - 3.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_131_M/a75cadd0167c57b7f6788eaa5e1fcb07/4456_131.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-131",
+   "sectie": "Alle Unox en XXL Nutrition Soep in zak",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nHak Groenteconserven\nBijv. Bruine bonen\n3.\n09\n6.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_10_M/e5e517180d470f339b947218aea62add/4456_10.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-10",
+   "sectie": "Alle Honig Mix voor soep",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 5.99\nAlle Stegeman Droge worst\n5.\n99\n7.18 - 8.90",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_13_M/f5516ecf3b4eecd7d01cc999bbfaf95e/4456_13.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-13",
+   "sectie": "Hak Groenteconserven",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Rio Mare\nBijv. Tonijnmoot in olijfolie MSC 2 pack\n8.\n89\n17.78",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_15_M/f03b9acbd166c81a997ad69ec925caab/4456_15.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-15",
+   "sectie": "Alle Stegeman Droge worst",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2+1 gratis\nAlle Maggi Mix voor maaltijd, roerbak noedels en heat & eat\nBijv. Roerbaknoedels Ketjap knoflook\n5.\n98\n8.97",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-67",
+   "sectie": "Alle Rio Mare",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nLindt Excellence 90% pure chocolade\nPer 100 g\n3.\n74\n4.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/213532_M/5af870d6892cca982d48243ed3b40d59/213532.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/lindt-excellence-90-pure-chocolade-doos-100-g-213532",
+   "sectie": "Lindt EXCELLENCE voor pure liefhebbers",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nLindt Excellence 85% pure chocolade\nPer 100 g\n3.\n59\n4.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/819807_M/adfcd033d6998c6dd3c7a2bf83b29d01/819807.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/lindt-excellence-85-pure-chocolade-doos-100-g-819807",
+   "sectie": "Lindt Excellence 90% pure chocolade",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nLindt Excellence 70%\nPer 100 g\n3.\n59\n4.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/147391_M/37f3030de426b2de960cffebe49da706/147391.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/lindt-excellence-70-doos-100-g-147391",
+   "sectie": "Lindt Excellence 85% pure chocolade",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nLindt Excellence sinaasappel\nPer 100 g\n3.\n37\n4.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/304543_M/9549df30828f0b771002f61118c7656d/304543.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/lindt-excellence-sinaasappel-doos-100-g-304543",
+   "sectie": "Lindt Excellence 70%",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Bonne Maman Madeleines, petit muffins en tartelettes\n1.\n99\n2.79 - 3.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_81_M/d3c6986c2d24fa782ce9c6fcd503b65a/4456_81.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-81",
+   "sectie": "Koek, snoep, chocolade, tussendoortjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle PLUS en GIJS Eierkoeken\nBijv. Schotel eierkoeken\n1.\n79\n2.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_30_M/36fcada3ed57802ae073b7f9edfc3330/4456_30.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-30",
+   "sectie": "Alle Bonne Maman Madeleines, petit muffins en tartelettes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Tony Chocolonely Chocoladerepen\n2.\n99\n3.99 - 4.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_140_M/1f656457fb7b5574fe7aa2663526a366/4456_140.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-140",
+   "sectie": "PLUS Chocoladeletters speciaal",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Lindt en Lindor\nBijv. Excellence sinaasappel\n3.\n29\n4.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_84_M/29df887538a9ca0d2fc6867469f5bbf0/4456_84.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-84",
+   "sectie": "Tony Chocolonely Chocoladerepen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Galler\n1.\n79\n2.29 - 2.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_82_M/a0019a8b3074d7efcabfc7668d384f16/4456_82.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-82",
+   "sectie": "Alle Lindt en Lindor",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle After Eight\n2.\n49\n2.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_88_M/77b24db5f6fef1ac09d12cd5227dbc92/4456_88.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-88",
+   "sectie": "Alle Galler",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2e halve prijs\nAlle Bounty, Mars, Milky Way, Snickers en Twix\nBijv. Melk chocolade karamel koekjes\n4.\n03\n5.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_87_M/03c4b8f9961ab280dd3d6dc6b1e6e00b/4456_87.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-87",
+   "sectie": "Alle After Eight",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Napoleon en Holland Hopjes\n1.\n49\n1.99 - 2.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_85_M/5faa83ec9fbe633fa53f22fff2baa9bd/4456_85.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-85",
+   "sectie": "Alle Bounty, Mars, Milky Way, Snickers en Twix",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Redband, Venco en The Jelly Bean Factory\n1.\n99\n2.59 - 4.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_79_M/9befa5d2a062936977beaebef62b6e2f/4456_79.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-79",
+   "sectie": "Alle Napoleon en Holland Hopjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Oldtimers Suikervrij\n1.\n79\n2.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_86_M/380e87cb1ae39d0226dd1c4ae8b09c5a/4456_86.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-86",
+   "sectie": "Redband, Venco en The Jelly Bean Factory",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Mentos Gum en Smint\nBijv. Gum Mighty Mint\n5.\n39\n10.78",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_80_M/2490f77d80dc1d3af067ba569d525fdb/4456_80.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-80",
+   "sectie": "Alle Oldtimers Suikervrij",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Sultana Fruitbiscuit, crunchers en knappers\n1.\n99\n2.25 - 2.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_83_M/13c8dd6188ab1f39f85154d0f5d3813b/4456_83.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-83",
+   "sectie": "Alle Mentos Gum en Smint",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nAlle Lays en Doritos Snackboxen en Multipacks\nBijv. Partymix\n4.\n49\n5.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/a1IzrssxHDv8n46lcYyut/783d181dde68f073384236db181dce08/PLUS_Sinterklaas_wk48_2026_APP_Zegel_Sintboek1.1_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-118",
+   "sectie": "Borrel, chips, noten, snacks",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.99\nLay's Sensations en oven baked\n3.\n99\n4.38 - 4.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-117",
+   "sectie": "Alle Lays en Doritos Snackboxen en Multipacks",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.99\nDuyvis Borrel- en tijgernootjes\n3.\n99\n4.70 - 6.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_116_M/543d1e26129e7d99d8088c6af9b73dba/4456_116.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-116",
+   "sectie": "Lay's Sensations en oven baked",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Amandelen, pecan- en walnoten\n2.\n49\n2.69 - 3.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_20_M/ed6bde20121d4981cdd364e3b01d1e89/4456_20.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-20",
+   "sectie": "Duyvis Borrel- en tijgernootjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 3.50\nPLUS Kies & Mix Dipstokjes, grissini, picos of scrocchi\n3.\n50\n4.18 - 4.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_14_M/cf6b80d08d9fc65744574e8070deeb8c/4449_14.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-14",
+   "sectie": "PLUS Amandelen, pecan- en walnoten",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "3 voor 5.00\nPLUS Kies & Mix Pinda's, noten en rijstzoutjes\n5.\n00\n5.07 - 11.97",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_7_M/6c871e8d16d7f0e16e783b0609a94162/4449_7.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-7",
+   "sectie": "PLUS Kies & Mix Dipstokjes, grissini, picos of scrocchi",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "5 voor 2.50\nKies & Mix Chips\n2.\n50\n3.45 - 4.45",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_8_M/924f10f6e5d151c217d36883ac6c0246/4449_8.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-8",
+   "sectie": "PLUS Kies & Mix Pinda's, noten en rijstzoutjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "3 voor 6.00\nPLUS Kies & Mix Tapas\n t/m 19 jan\n6.\n00\n6.15 - 11.97",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_145_M/25c273e9acd236d3c7f8ed03fb979379/4456_145.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-145",
+   "sectie": "Kies & Mix Chips",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "30 % korting\nAlle Kwekkeboom en Diepvriesspecialist Snacks\nBijv. Oven croquetten\n3.\n35\n4.79",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_2_M/9b8d11f348d50266d31232be65499ace/4456_2.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-2",
+   "sectie": "Diepvries",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Iglo Groente-Idee, viskraam, fish cuisine en fish & fun\nBijv. Viskraam Lekkerbekjes naturel\n4.\n99\n9.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_1_M/88859bfe2279632485fc36d008cfcb9e/4456_1.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-1",
+   "sectie": "Alle Kwekkeboom en Diepvriesspecialist Snacks",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Alle Mama's en Fitmeals Vriesverse maaltijden\n3.\n99\n6.29 - 6.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_132_M/11cedb6e9ba2de03866271c2cf4cf5af/4456_132.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-132",
+   "sectie": "Alle Iglo Groente-Idee, viskraam, fish cuisine en fish & fun",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "3 voor 6.00\nPLUS Kies & Mix Dolce Vita Pizza\n6.\n00\n7.47",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_10_M/160d5bd9628594bba8fcc4731d24628e/4449_10.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-10",
+   "sectie": "Alle Mama's en Fitmeals Vriesverse maaltijden",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Davitamon\nBijv. Vitamine Compleet\n12.\n99\n25.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_91_M/7affc9d5d0da6318bcc8b8e051c82a1b/4456_91.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-91",
+   "sectie": "Gezondheid",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Lucovitaal\nBijv. Multi vitaminen kauw\n9.\n99\n19.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4449_24_M/7b55768a0412e7c7a535cd482d0584ab/4449_24.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4449-24",
+   "sectie": "Alle Davitamon",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2e halve prijs\nAlle Upfront\nBijv. Eiwit Milkshake R2D Vanille\n3.\n43\n4.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_92_M/2bc216178646a8a4f23a581c92e1ac29/4456_92.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-92",
+   "sectie": "Alle Lucovitaal",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Sanex en Palmolive Douche en Deodorant\nBijv. Men sport douchegel\n2.\n69\n5.38",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_42_M/be16bdbaf9635215cfbaca373e638fb3/4456_42.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-42",
+   "sectie": "Drogisterij",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Head & Shoulders en Guhl\nBijv. Zilver & vitaliteit shampoo\n8.\n99\n17.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_44_M/3e571cd6d6cf485150b10511eb6b9a89/4456_44.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-44",
+   "sectie": "Alle Sanex en Palmolive Douche en Deodorant",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "3+2 gratis\nAlle Libresse, Tena en Yoni\nBijv. Maandverband medium van biokatoen\n14.\n07\n23.45",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_43_M/35c0dfeb16c2a333ee383eecad3f74b4/4456_43.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-43",
+   "sectie": "Alle Head & Shoulders en Guhl",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Page Compleet Schoon toiletpapier\nPer 16 st\n4.\n99\n11.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/3zyJVvRY0QvwnpsUiMB6at/1f12dc1e31e4598c2105975d61e2873a/PLUS_Glazen-2025_APP_1-Zegel_Retina.png?h=50",
+   "alt": "",
+   "href": "https://www.plus.nl/product/page-compleet-schoon-toiletpapier-zak-16-st-840793",
+   "sectie": "Huishouden",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "PLUS Vloeibaar wasmiddel kleur 22sc\nPer 1100 ml\n1.\n99\n2.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/494362_M/7d099cb8aabf68f51ae389d0ed6894cf/494362.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/plus-vloeibaar-wasmiddel-kleur-22sc-fles-1100-ml-494362",
+   "sectie": "PLUS Keukenpapier (half)vel 3laags eco",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 6.99\nOmo wasmiddel en Alle Robijn wasverzachter en -parfum\n6.\n99\n14.70 - 18.90",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_50_M/9c6d738962740f74614be5ba9bc2a39f/4456_50.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-50",
+   "sectie": "PLUS Vloeibaar wasmiddel kleur 22sc",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "1+1 gratis\nAlle Sorbo Huishoud artikelen\nBijv. BBQ & grill spons uitwasbaar\n1.\n99\n3.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_94_M/c145d42a524f1a3b5c828dfe75ecfe8c/4456_94.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-94",
+   "sectie": "Omo wasmiddel en Alle Robijn wasverzachter en -parfum",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 4.49\nAlle Andy en Cif\n4.\n49\n5.90 - 6.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_48_M/3358cdef6909bcdf3eabef496ca48f93/4456_48.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-48",
+   "sectie": "Alle Sorbo Huishoud artikelen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 7.50\nPLUS Rozen bont mix\nPer 8 st\n3.\n99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/414627_M/8f8faa689c728c6b1d786c1a8bc876a6/414627.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/plus-rozen-bont-mix-set-8-st-414627",
+   "sectie": "Bloemen, planten",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "50 % korting\nAlle Bolsius Geur- en stompkaarsen\nBijv. Geurtheelicht true scents vanille\n1.\n74\n3.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_142_M/344f1d4e9edc849c010ed285b3184bcc/4456_142.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-142",
+   "sectie": "Koken, non-food, service",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\nBeter Bikken Buddies\n t/m 1 dec\n2.\n99\n10.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4455_212_M/a987be74eafa983bcb0bffd7009339dd/4455_212.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4455-212",
+   "sectie": "Alle Bolsius Geur- en stompkaarsen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "50 % korting\nAlle Philips Led lampen\nBijv. LED bulb 60W E27\n5.\n19\n10.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_141_M/4d2e10812c5db8d9fe294d7c7bac913a/4456_141.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-141",
+   "sectie": "Beter Bikken Buddies",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\n50 % korting\nLotto Sweater en Jogggingbroek\n10.\n00\n19.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_95_M/1e1a341027ed495418a1472b7600ea44/4456_95.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-95",
+   "sectie": "Alle Philips Led lampen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 8.49\nWhiskas Maaltijdzakjes en Perfect Fit Kattenbrokken\n8.\n49\n11.90 - 13.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_90_M/b6e41ab918d1564e95d1e7922e397945/4456_90.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-90",
+   "sectie": "Huisdier",
    "attrs": {
     "data-container": ""
    }
