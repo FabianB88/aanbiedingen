@@ -50,6 +50,15 @@ KAART_JS = r"""
     const lijst = Array.from(kandidaten);
     kaarten = lijst.filter(k => !lijst.some(o => o !== k && k.contains(o)));
   }
+  const koppen = Array.from(document.querySelectorAll('h1,h2,h3'));
+  const sectieVan = el => {
+    let laatste = '';
+    for (const h of koppen) {
+      if (h.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING) laatste = (h.innerText || '').trim();
+      else break;
+    }
+    return laatste.slice(0, 80);
+  };
   return kaarten.slice(0, 3000).map(k => {
     const img = k.querySelector('img');
     const a = k.closest('a') || k.querySelector('a');
@@ -60,6 +69,7 @@ KAART_JS = r"""
       img: img ? (img.currentSrc || img.src || img.getAttribute('data-src') || '') : '',
       alt: img ? (img.alt || '') : '',
       href: a ? a.href : '',
+      sectie: sectieVan(k),
       attrs,
     };
   });

@@ -3,6 +3,7 @@ Faalt één winkel, dan blijven de vorige gegevens van die winkel staan."""
 import datetime as dt
 import json
 import os
+import re
 import sys
 import traceback
 
@@ -27,10 +28,32 @@ def cat(titel, hint):
     return c if c != "Overig" or not hint else categorie(hint)
 
 
+GEWICHT_ACTIE = re.compile(r"(\d+)\s*(gram|gr|g|kilo|kg)\s*voor\s*€?\s*(\d+[.,]\d{2})", re.I)
+GEWICHT_EENHEID = re.compile(r"(\d+(?:[.,]\d+)?)\s*(kg|kilo|g|gram)\b", re.I)
+
+
+def per_gewicht(actie, eenheid, nu):
+    """'100 GRAM VOOR 1.79' bij een pak van ca. 755 g: actieprijs voor het hele pak."""
+    m = GEWICHT_ACTIE.search(actie or "")
+    e = GEWICHT_EENHEID.search(eenheid or "")
+    if not m or not e:
+        return nu, False
+    actie_g = float(m.group(1)) * (1000 if m.group(2).lower() in ("kilo", "kg") else 1)
+    pak_g = float(e.group(1).replace(",", ".")) * (1000 if e.group(2).lower() in ("kilo", "kg") else 1)
+    if actie_g <= 0 or pak_g <= 0:
+        return nu, False
+    return round(float(m.group(3).replace(",", ".")) * pak_g / actie_g, 2), True
+
+
+NONFOOD_CATS = {"Overig"}
+
+
 def normaliseer(winkel, a):
     nu = prijs(a.get("prijs_nu"))
     was = prijs(a.get("prijs_was"))
-    pct, tot = bereken(a.get("actie", ""), nu, was)
+    nu, omgerekend = per_gewicht(a.get("actie", ""), a.get("eenheid", ""), nu)
+    # bij een gewichtsactie is de prijsvergelijking leidend, niet de actietekst
+    pct, tot = bereken("" if omgerekend else a.get("actie", ""), nu, was)
     tot = tot or bool(a.get("tot"))
     titel = " ".join(str(a.get("titel", "")).split())
     return {
@@ -47,6 +70,7 @@ def normaliseer(winkel, a):
         "img": a.get("img", ""),
         "url": a.get("url", ""),
         "geldig": a.get("geldig", ""),
+        "nonfood": a.get("nonfood"),
     }
 
 
@@ -68,6 +92,10 @@ def main(alleen=None):
             ruw = functie()
             items = [normaliseer(code, a) for a in ruw]
             items = [i for i in items if i["titel"]]
+            for i in items:
+                if i["nonfood"] is None:
+                    i["nonfood"] = code == "kaufland" and i["categorie"] in NONFOOD_CATS
+                i["nonfood"] = bool(i["nonfood"])
             if not items:
                 raise RuntimeError("0 aanbiedingen herkend")
             per_winkel[code] = items

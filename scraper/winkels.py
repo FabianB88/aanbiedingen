@@ -396,6 +396,10 @@ def aldi_sued():
                                         "https://www.aldi-sued.de/angebote"], aldi_sued_kaart)
 
 
+KAUFLAND_NONFOOD = re.compile(r"elektro|büro|medien|heim, haus|haushalt|bekleidung|auto|freizeit|spiel|black week|garten|baumarkt|multimedia|technik|möbel|deko", re.I)
+KAUFLAND_FOOD = re.compile(r"obst|gemüse|fleisch|geflügel|wurst|fisch|molkerei|tiefkühl|feinkost|konserven|grundnahrung|kaffee|tee|süß|knabber|getränke|spirituosen|drogerie|tiernahrung|käse|bäckerei|frische|bio", re.I)
+
+
 def kaufland_kaart(k):
     r = [x for x in _regels(k) if not x.startswith("(")]
     merk = r[0].title() if r and r[0].isupper() and len(r) > 1 else ""
@@ -410,8 +414,16 @@ def kaufland_kaart(k):
     actie = pct or next((x for x in r if ACTIE_RX.search(x) and x not in (titel, eenheid)), "")
     if nu is None and not actie:
         return None                      # kaart nog niet volledig geladen
+    sectie = k.get("sectie", "")
+    if KAUFLAND_FOOD.search(sectie):
+        nonfood = False
+    elif KAUFLAND_NONFOOD.search(sectie):
+        nonfood = True
+    else:
+        nonfood = None                      # beslist run.py op basis van de categorie
     return {"titel": f"{merk} {titel}".strip(), "merk": merk, "actie": actie, "prijs_nu": nu, "prijs_was": was,
-            "eenheid": eenheid, "img": k.get("img", ""), "url": k.get("href", ""), "geldig": ""}
+            "eenheid": eenheid, "img": k.get("img", ""), "url": "https://filiale.kaufland.de/angebote/uebersicht.html",
+            "geldig": "", "nonfood": nonfood, "sectie": sectie}
 
 
 def kaufland():
