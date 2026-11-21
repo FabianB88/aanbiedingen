@@ -1,0 +1,22 @@
+{
+ "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=5",
+ "aantal": 2,
+ "kaarten": [
+  {
+   "tekst": "€ 75,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/935853/bosch-wqg245d5nl-selfcleaning-condenser.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 75,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2202892",
+   "alt": "AEG TR86CBC87 AbsoluteCare",
+   "href": "https://www.coolblue.nl/product/967772/aeg-tr86cbc87-absolutecare.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  }
+ ]
+}

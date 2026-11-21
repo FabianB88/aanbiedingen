@@ -5,16 +5,16 @@
   "ok": true,
   "aantal": 1405,
   "met_korting": 1405,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "jumbo": {
   "naam": "Jumbo",
   "land": "NL",
   "ok": true,
-  "aantal": 134,
+  "aantal": 138,
   "met_korting": 95,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "lidl": {
@@ -23,7 +23,7 @@
   "ok": true,
   "aantal": 46,
   "met_korting": 26,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "aldi": {
@@ -32,7 +32,7 @@
   "ok": true,
   "aantal": 194,
   "met_korting": 38,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "plus": {
@@ -41,7 +41,7 @@
   "ok": true,
   "aantal": 153,
   "met_korting": 150,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "aldi_sued": {
@@ -50,7 +50,7 @@
   "ok": true,
   "aantal": 51,
   "met_korting": 24,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "kaufland": {
@@ -59,7 +59,7 @@
   "ok": true,
   "aantal": 1185,
   "met_korting": 866,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  },
  "nettorama": {
@@ -70,16 +70,17 @@
   "met_korting": 0,
   "bijgewerkt": "",
   "fout": "RuntimeError: 0 aanbiedingen herkend",
-  "geprobeerd": "2026-11-21T10:17+00:00"
+  "geprobeerd": "2026-11-21T11:11+00:00"
  },
  "lidl_online": {
   "naam": "Lidl webshop",
   "land": "NL",
-  "ok": true,
+  "ok": false,
   "aantal": 5,
   "met_korting": 3,
   "bijgewerkt": "2026-11-21T10:17+00:00",
-  "fout": ""
+  "fout": "RuntimeError: 0 aanbiedingen herkend",
+  "geprobeerd": "2026-11-21T11:11+00:00"
  },
  "bol": {
   "naam": "bol.com",
@@ -89,17 +90,16 @@
   "met_korting": 0,
   "bijgewerkt": "",
   "fout": "RuntimeError: geen enkele URL bereikbaar",
-  "geprobeerd": "2026-11-21T10:17+00:00"
+  "geprobeerd": "2026-11-21T11:11+00:00"
  },
  "coolblue": {
   "naam": "Coolblue",
   "land": "NL",
-  "ok": false,
-  "aantal": 0,
-  "met_korting": 0,
-  "bijgewerkt": "",
-  "fout": "RuntimeError: 0 aanbiedingen herkend",
-  "geprobeerd": "2026-11-21T10:17+00:00"
+  "ok": true,
+  "aantal": 257,
+  "met_korting": 224,
+  "bijgewerkt": "2026-11-21T11:11+00:00",
+  "fout": ""
  },
  "mediamarkt": {
   "naam": "MediaMarkt",
@@ -109,15 +109,15 @@
   "met_korting": 0,
   "bijgewerkt": "",
   "fout": "RuntimeError: geen enkele URL bereikbaar",
-  "geprobeerd": "2026-11-21T10:17+00:00"
+  "geprobeerd": "2026-11-21T11:11+00:00"
  },
  "amazon": {
   "naam": "Amazon.nl",
   "land": "NL",
   "ok": true,
-  "aantal": 210,
-  "met_korting": 202,
-  "bijgewerkt": "2026-11-21T10:17+00:00",
+  "aantal": 180,
+  "met_korting": 179,
+  "bijgewerkt": "2026-11-21T11:11+00:00",
   "fout": ""
  }
 }
