@@ -166,7 +166,7 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, tra
                 if "json" in ct and (r.request.resource_type in ("xhr", "fetch") or winkel == "nettorama"):
                     body = r.text()
                     if len(body) > 200 and (winkel == "nettorama" or re.search(r"price|prijs|preis|promotion|offer|bonus", body, re.I)):
-                        responses.append({"url": r.url, "body": body[:400000]})
+                        responses.append({"url": r.url, "body": body[:3000000]})
             except Exception:
                 pass
 

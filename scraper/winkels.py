@@ -549,7 +549,7 @@ def bol():
 
 
 def coolblue():
-    return _deals("coolblue", ["https://www.coolblue.nl/black-friday",
+    return _deals("coolblue", ["https://www.coolblue.nl/black-friday-top-deals",
                                "https://www.coolblue.nl/aanbiedingen"])
 
 
@@ -559,8 +559,41 @@ def mediamarkt():
 
 
 def amazon():
-    return _deals("amazon", ["https://www.amazon.nl/blackfriday",
-                             "https://www.amazon.nl/deals"])
+    """Amazon laadt de deals als JSON (d2b/api/v1/products/search); die vangen we op."""
+    url, kaarten, responses = haal("amazon", ["https://www.amazon.nl/blackfriday",
+                                              "https://www.amazon.nl/deals"])
+    uit, gezien = [], set()
+    for r in responses:
+        if "/products/search" not in r["url"]:
+            continue
+        try:
+            data = json.loads(r["body"])
+        except Exception:
+            continue
+        for p in data.get("products") or []:
+            if p.get("asin") in gezien:
+                continue
+            gezien.add(p.get("asin"))
+            pr = p.get("price") or {}
+            nu = prijs((pr.get("priceToPay") or {}).get("price"))
+            ref = pr.get("basisPrice") or {}
+            was = prijs(ref.get("price"))
+            badge = ""
+            try:
+                badge = p["dealBadge"]["label"]["content"]["fragments"][0]["text"]
+            except Exception:
+                pass
+            img = (p.get("image") or {}).get("lowRes") or (p.get("image") or {}).get("hiRes") or {}
+            uit.append({
+                "titel": p.get("title", ""), "actie": badge,
+                "prijs_nu": nu, "prijs_was": was,
+                "eenheid": ("vergeleken met " + ref.get("label", "").rstrip(":").lower()) if ref.get("label") else "",
+                "img": f"{img['baseUrl']}._AC_SL400_.{img.get('extension', 'jpg')}" if img.get("baseUrl") else "",
+                "url": "https://www.amazon.nl" + (p.get("link") or ""),
+                "geldig": "", "nonfood": True, "bf": True,
+            })
+    print(f"[amazon] {len(uit)} deals uit {sum('/products/search' in r['url'] for r in responses)} API-antwoorden")
+    return uit
 
 
 WINKELS = {
