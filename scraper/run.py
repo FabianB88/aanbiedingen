@@ -99,6 +99,10 @@ def main(alleen=None):
                 i["nonfood"] = bool(i["nonfood"])
             if not items:
                 raise RuntimeError("0 aanbiedingen herkend")
+            # veel minder dan vorige keer: waarschijnlijk een haperende pagina, oude gegevens houden
+            vorig = len(per_winkel.get(code, []))
+            if vorig >= 50 and len(items) < 0.4 * vorig:
+                raise RuntimeError(f"maar {len(items)} aanbiedingen (vorige keer {vorig}), vorige gegevens bewaard")
             per_winkel[code] = items
             status[code] = {"naam": naam, "land": land, "ok": True, "aantal": len(items),
                             "met_korting": sum(1 for i in items if i["korting"] is not None),
