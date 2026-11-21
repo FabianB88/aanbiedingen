@@ -492,6 +492,169 @@ def kaufland():
     return uit
 
 
+def _lidl_producten(obj, uit):
+    """Zoek recursief alle productobjecten (met fullTitle en price) in Lidl-JSON."""
+    if isinstance(obj, dict):
+        if obj.get("fullTitle") and isinstance(obj.get("price"), dict):
+            uit.append(obj)
+            return
+        for v in obj.values():
+            _lidl_producten(v, uit)
+    elif isinstance(obj, list):
+        for v in obj:
+            _lidl_producten(v, uit)
+
+
+def lidl_online():
+    """Non-food uit de Lidl-webshop via hun zoek-API (Black Week, Sale, Parkside)."""
+    bronnen = [
+        ("https://www.lidl.nl/q/api/cqe/blackweek", True),
+        ("https://www.lidl.nl/q/api/cqe/sale", False),
+        ("https://www.lidl.nl/q/api/search?q=parkside", False),
+        ("https://www.lidl.nl/q/api/search?q=silvercrest", False),
+    ]
+    import html as _html
+    paginas = [("https://www.lidl.nl/c/black-week/s10080642", True),
+               ("https://www.lidl.nl/c/sale/s10105668", False),
+               ("https://www.lidl.nl/q/search?q=parkside", False),
+               ("https://www.lidl.nl/q/search?q=silvercrest", False)]
+    uit, gezien = [], set()
+    for i, (url, is_bf) in enumerate(paginas):
+        naam = f"lidl_online{i}"
+        try:
+            _, _, responses = haal(naam, [url], traag=True)
+            with open(os.path.join(DEBUG, f"{naam}.html"), encoding="utf-8") as f:
+                h = f.read()
+        except Exception as e:
+            print(f"[lidl_online] {url} faalde: {e}")
+            continue
+        producten = []
+        for ruw in re.findall(r'data-grid-data="([^"]+)"', h):
+            try:
+                producten.append(json.loads(_html.unescape(ruw)))
+            except Exception:
+                pass
+        for r in responses:                      # de API-antwoorden die de pagina zelf ophaalt
+            if "/q/api/" in r["url"]:
+                try:
+                    _lidl_producten(json.loads(r["body"]), producten)
+                except Exception:
+                    pass
+        n = 0
+        for g in producten:
+            sleutel = g.get("erpNumber") or g.get("productId") or g.get("fullTitle")
+            if sleutel in gezien:
+                continue
+            gezien.add(sleutel)
+            a = lidl_grid(g)
+            a["nonfood"] = True
+            a["bf"] = is_bf
+            uit.append(a)
+            n += 1
+        print(f"[lidl_online] {url}: {n} producten, {sum('/q/api/' in r['url'] for r in responses)} API-antwoorden")
+    return uit
+
+
+# ---------------------------------------------- Black Friday / non-food webwinkels
+def _deals(code, urls):
+    items = _generiek(code, urls)
+    for a in items:
+        a["nonfood"] = True
+        a["bf"] = True
+    return items
+
+
+def bol():
+    return _deals("bol", ["https://www.bol.com/nl/nl/sf/black-friday/",
+                          "https://www.bol.com/nl/nl/m/black-friday/",
+                          "https://www.bol.com/nl/nl/sf/aanbiedingen/"])
+
+
+COOLBLUE_RX = re.compile(
+    r'"product":\{"id":(\d+),"name":"([^"]+)",(?:.{0,300}?"primaryImage":\{"id":"(\d+)")?(?:.{0,300}?"pluralName":"([^"]+)")?.{0,600}?"listPrice":\{"includingVat":([\d.]+),[^}]*\},'
+    r'"salesPrice":\{"includingVat":([\d.]+),[^}]*\},"urls":\{"slug":"[^"]*","product":"([^"]+)"', re.S)
+
+
+def coolblue_html(h):
+    h = h.replace('\\"', '"')
+    uit = []
+    for pid, naam, beeld, soort, lijst, nu, url in COOLBLUE_RX.findall(h):
+        lijst, nu = float(lijst), float(nu)
+        uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu,
+                    "prijs_was": lijst if lijst > nu else None,
+                    "img": f"https://image.coolblue.nl/transparent/max/320xauto/products/{beeld}" if beeld else "",
+                    "eenheid": soort, "url": url, "geldig": "", "nonfood": True, "bf": True})
+    return uit
+
+
+def coolblue():
+    """Coolblue zet de productdata (adviesprijs en verkoopprijs) in de pagina; per pagina 22."""
+    uit, gezien = [], set()
+    for n in range(1, 13):
+        url = "https://www.coolblue.nl/black-friday-top-deals" + (f"?pagina={n}" if n > 1 else "")
+        try:
+            _, kaarten, _ = haal(f"coolblue{n}" if n > 1 else "coolblue", [url])
+            with open(os.path.join(DEBUG, f"coolblue{n}.html" if n > 1 else "coolblue.html"), encoding="utf-8") as f:
+                h = f.read()
+        except Exception as e:
+            print(f"[coolblue] pagina {n}: {e}")
+            break
+        nieuw = [a for a in coolblue_html(h) if a["id"] not in gezien]
+        # afbeelding uit de kaarten halen op naam
+        plaatjes = {k.get("alt", ""): k.get("img", "") for k in kaarten if k.get("alt")}
+        for a in nieuw:
+            gezien.add(a["id"])
+            a["img"] = a["img"] or plaatjes.get(a["titel"], "")
+        uit += nieuw
+        print(f"[coolblue] pagina {n}: {len(nieuw)} nieuwe deals")
+        if not nieuw:
+            break
+    return uit
+
+
+def mediamarkt():
+    return _deals("mediamarkt", ["https://www.mediamarkt.nl/nl/campaign/black-friday",
+                                 "https://www.mediamarkt.nl/nl/campaign/aanbiedingen"])
+
+
+def amazon():
+    """Amazon laadt de deals als JSON (d2b/api/v1/products/search); die vangen we op."""
+    url, kaarten, responses = haal("amazon", ["https://www.amazon.nl/blackfriday",
+                                              "https://www.amazon.nl/deals"])
+    uit, gezien = [], set()
+    for r in responses:
+        if "/products/search" not in r["url"]:
+            continue
+        try:
+            data = json.loads(r["body"])
+        except Exception:
+            continue
+        for p in data.get("products") or []:
+            if p.get("asin") in gezien:
+                continue
+            gezien.add(p.get("asin"))
+            pr = p.get("price") or {}
+            nu = prijs((pr.get("priceToPay") or {}).get("price"))
+            ref = pr.get("basisPrice") or {}
+            was = prijs(ref.get("price"))
+            badge = ""
+            try:
+                badge = p["dealBadge"]["label"]["content"]["fragments"][0]["text"]
+            except Exception:
+                pass
+            img = (p.get("image") or {}).get("lowRes") or (p.get("image") or {}).get("hiRes") or {}
+            uit.append({
+                "titel": p.get("title", ""), "actie": badge,
+                "prijs_nu": nu, "prijs_was": was,
+                "eenheid": ("vergeleken met " + ref.get("label", "").rstrip(":").lower()) if ref.get("label") else "",
+                "img": f"{img['baseUrl']}._AC_SL400_.{img.get('extension', 'jpg')}" if img.get("baseUrl") else "",
+                "url": "https://www.amazon.nl" + (p.get("link") or ""),
+                "geldig": "", "nonfood": True, "bf": True,
+            })
+    print(f"[amazon] {len(uit)} deals uit {sum('/products/search' in r['url'] for r in responses)} API-antwoorden")
+    return uit
+
+
 WINKELS = {
     "ah": ("Albert Heijn", "NL", ah),
     "jumbo": ("Jumbo", "NL", jumbo),
