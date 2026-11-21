@@ -1,48 +1,13 @@
 {
  "url": "https://www.jumbo.com/aanbiedingen/nu",
- "aantal": 151,
+ "aantal": 147,
  "kaarten": [
-  {
-   "tekst": "Alleen in de winkel\n36.71% korting",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_1.png",
-   "alt": "Alle Jumbo's krokantjes",
-   "href": "",
-   "attrs": {
-    "data-v-0d7607c7": ""
-   }
-  },
-  {
-   "tekst": "Alleen in de winkel\nvoor 2,49",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
-   "alt": "Handsinaasappelen",
-   "href": "",
-   "attrs": {
-    "data-v-0d7607c7": ""
-   }
-  },
-  {
-   "tekst": "Alleen in de winkel\n2 voor 4,99",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_2.png",
-   "alt": "Jumbo verse rookworst",
-   "href": "",
-   "attrs": {
-    "data-v-0d7607c7": ""
-   }
-  },
-  {
-   "tekst": "Alleen in de winkel\nvoor 4,99",
-   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_3.png",
-   "alt": "Zespri kiwi Sungold",
-   "href": "",
-   "attrs": {
-    "data-v-0d7607c7": ""
-   }
-  },
   {
    "tekst": "voor 1,00\nAlle Knorr maaltijdmixen\n\nwo 18 t/m di 24 nov",
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_97.png",
    "alt": "Alle Knorr maaltijdmixen",
    "href": "https://www.jumbo.com/aanbiedingen/alle-knorr-maaltijdmixen/3022296",
+   "sectie": "Nu in de aanbieding",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -55,6 +20,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_96.png",
    "alt": "Kleenex",
    "href": "https://www.jumbo.com/aanbiedingen/kleenex/3022574",
+   "sectie": "Samen spellen spelen",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -67,6 +33,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_119.png",
    "alt": "Rivella",
    "href": "https://www.jumbo.com/aanbiedingen/rivella/3022412",
+   "sectie": "Kleenex",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -79,6 +46,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_64.png",
    "alt": "Pepsi, Crystal Clear of Royal Club",
    "href": "https://www.jumbo.com/aanbiedingen/pepsi-crystal-clear-of-royal-club/wa47_fris",
+   "sectie": "Rivella",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -91,6 +59,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_69.png",
    "alt": "HAK",
    "href": "https://www.jumbo.com/aanbiedingen/hak/3022382",
+   "sectie": "Pepsi, Crystal Clear of Royal Club",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -103,6 +72,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_33.png",
    "alt": "Alle Knorr Cup-A-Soup of Good Snacking",
    "href": "https://www.jumbo.com/aanbiedingen/alle-knorr-cup-a-soup-of-good-snacking/3022427",
+   "sectie": "HAK",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -115,6 +85,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_47.png",
    "alt": "Appelsientje FruitDrink",
    "href": "https://www.jumbo.com/aanbiedingen/appelsientje-fruitdrink/3022358",
+   "sectie": "Alle Knorr Cup-A-Soup of Good Snacking",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -127,6 +98,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_65.png",
    "alt": "Douwe Egberts Aroma Rood of Decafé",
    "href": "https://www.jumbo.com/aanbiedingen/douwe-egberts-aroma-rood-of-decafe/3022590",
+   "sectie": "Appelsientje FruitDrink",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -139,6 +111,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_62.png",
    "alt": "Conimex kroepoek",
    "href": "https://www.jumbo.com/aanbiedingen/conimex-kroepoek/3022334",
+   "sectie": "Douwe Egberts Aroma Rood of Decafé",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -151,6 +124,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_28.png",
    "alt": "Alle Jumbo aardappelspecialiteiten",
    "href": "https://www.jumbo.com/aanbiedingen/alle-jumbo-aardappelspecialiteiten/3022473",
+   "sectie": "Conimex kroepoek",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -163,6 +137,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_58.png",
    "alt": "Chio chips",
    "href": "https://www.jumbo.com/aanbiedingen/chio-chips/3022467",
+   "sectie": "Alle Jumbo aardappelspecialiteiten",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -175,6 +150,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_130.png",
    "alt": "Vifit",
    "href": "https://www.jumbo.com/aanbiedingen/vifit/3022298",
+   "sectie": "Chio chips",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -187,6 +163,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_72.png",
    "alt": "Hutspot, zuurkool of stamppot aardappelen",
    "href": "https://www.jumbo.com/aanbiedingen/hutspot-zuurkool-of-stamppot-aardappelen/3022475",
+   "sectie": "Vifit",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -199,6 +176,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_72.png",
    "alt": "Hutspot, zuurkool of stamppot aardappelen",
    "href": "https://www.jumbo.com/aanbiedingen/hutspot-zuurkool-of-stamppot-aardappelen/3022475",
+   "sectie": "Per gangpad",
    "attrs": {
     "data-testid": "promotion-card-0",
     "data-v-bb725044": "",
@@ -211,6 +189,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_19.png",
    "alt": "Alle 1FRUIT",
    "href": "https://www.jumbo.com/aanbiedingen/alle-1fruit/3022529",
+   "sectie": "Hutspot, zuurkool of stamppot aardappelen",
    "attrs": {
     "data-testid": "promotion-card-1",
     "data-v-bb725044": "",
@@ -223,6 +202,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_2.png",
    "alt": "Spruiten of kruimige of vastkokende aardappelen",
    "href": "https://www.jumbo.com/aanbiedingen/spruiten-of-kruimige-of-vastkokende-aardappelen/3023993",
+   "sectie": "Alle 1FRUIT",
    "attrs": {
     "data-testid": "promotion-card-2",
     "data-v-bb725044": "",
@@ -235,6 +215,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_12.png",
    "alt": "Rode uien",
    "href": "https://www.jumbo.com/aanbiedingen/rode-uien/3024012",
+   "sectie": "Spruiten of kruimige of vastkokende aardappelen",
    "attrs": {
     "data-testid": "promotion-card-3",
     "data-v-bb725044": "",
@@ -247,6 +228,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_1.png",
    "alt": "Mango",
    "href": "https://www.jumbo.com/aanbiedingen/mango/3024030",
+   "sectie": "Rode uien",
    "attrs": {
     "data-testid": "promotion-card-4",
     "data-v-bb725044": "",
@@ -259,6 +241,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_3.png",
    "alt": "Jonagold appels",
    "href": "",
+   "sectie": "Mango",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -268,6 +251,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_10.png",
    "alt": "Mandarijnen",
    "href": "https://www.jumbo.com/aanbiedingen/mandarijnen/3024032",
+   "sectie": "Jonagold appels",
    "attrs": {
     "data-testid": "promotion-card-6",
     "data-v-bb725044": "",
@@ -280,6 +264,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_14.png",
    "alt": "Frambozen",
    "href": "https://www.jumbo.com/aanbiedingen/frambozen/3024033",
+   "sectie": "Mandarijnen",
    "attrs": {
     "data-testid": "promotion-card-7",
     "data-v-bb725044": "",
@@ -292,6 +277,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_8.png",
    "alt": "Prei",
    "href": "https://www.jumbo.com/aanbiedingen/prei/3024034",
+   "sectie": "Frambozen",
    "attrs": {
     "data-testid": "promotion-card-8",
     "data-v-bb725044": "",
@@ -304,6 +290,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_13.png",
    "alt": "Bleekselderij",
    "href": "https://www.jumbo.com/aanbiedingen/bleekselderij/3024055",
+   "sectie": "Prei",
    "attrs": {
     "data-testid": "promotion-card-9",
     "data-v-bb725044": "",
@@ -316,6 +303,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_4.png",
    "alt": "Conference peren",
    "href": "https://www.jumbo.com/aanbiedingen/conference-peren/3024085",
+   "sectie": "Bleekselderij",
    "attrs": {
     "data-testid": "promotion-card-10",
     "data-v-bb725044": "",
@@ -328,6 +316,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_6.png",
    "alt": "Waspeen",
    "href": "https://www.jumbo.com/aanbiedingen/waspeen/3024088",
+   "sectie": "Conference peren",
    "attrs": {
     "data-testid": "promotion-card-11",
     "data-v-bb725044": "",
@@ -340,6 +329,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_7.png",
    "alt": "Ijsbergsla",
    "href": "https://www.jumbo.com/aanbiedingen/ijsbergsla/3024091",
+   "sectie": "Waspeen",
    "attrs": {
     "data-testid": "promotion-card-12",
     "data-v-bb725044": "",
@@ -352,6 +342,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_9.png",
    "alt": "Avocado",
    "href": "https://www.jumbo.com/aanbiedingen/avocado/3024103",
+   "sectie": "Ijsbergsla",
    "attrs": {
     "data-testid": "promotion-card-13",
     "data-v-bb725044": "",
@@ -364,6 +355,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_73.png",
    "alt": "Ijsbergsla gemengd",
    "href": "https://www.jumbo.com/aanbiedingen/ijsbergsla-gemengd/3022513",
+   "sectie": "Avocado",
    "attrs": {
     "data-testid": "promotion-card-14",
     "data-v-bb725044": "",
@@ -376,6 +368,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_104.png",
    "alt": "Minikrieltjes",
    "href": "https://www.jumbo.com/aanbiedingen/minikrieltjes/3022544",
+   "sectie": "Ijsbergsla gemengd",
    "attrs": {
     "data-testid": "promotion-card-15",
     "data-v-bb725044": "",
@@ -388,6 +381,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_68.png",
    "alt": "Fijne champignons",
    "href": "https://www.jumbo.com/aanbiedingen/fijne-champignons/3022545",
+   "sectie": "Minikrieltjes",
    "attrs": {
     "data-testid": "promotion-card-16",
     "data-v-bb725044": "",
@@ -400,6 +394,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_121.png",
    "alt": "Snack- of geschrapte wortelen",
    "href": "https://www.jumbo.com/aanbiedingen/snack-of-geschrapte-wortelen/3022582",
+   "sectie": "Fijne champignons",
    "attrs": {
     "data-testid": "promotion-card-17",
     "data-v-bb725044": "",
@@ -412,6 +407,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_49.png",
    "alt": "Baby spinazie of spinazie",
    "href": "https://www.jumbo.com/aanbiedingen/baby-spinazie-of-spinazie/3022583",
+   "sectie": "Snack- of geschrapte wortelen",
    "attrs": {
     "data-testid": "promotion-card-18",
     "data-v-bb725044": "",
@@ -424,6 +420,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_133.png",
    "alt": "Westland slaatjes voordeelverpakking",
    "href": "https://www.jumbo.com/aanbiedingen/westland-slaatjes-voordeelverpakking/3022348",
+   "sectie": "Baby spinazie of spinazie",
    "attrs": {
     "data-testid": "promotion-card-0",
     "data-v-bb725044": "",
@@ -436,6 +433,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_132.png",
    "alt": "Westland slaatjes",
    "href": "https://www.jumbo.com/aanbiedingen/westland-slaatjes/3022422",
+   "sectie": "Westland slaatjes voordeelverpakking",
    "attrs": {
     "data-testid": "promotion-card-1",
     "data-v-bb725044": "",
@@ -448,6 +446,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_74.png",
    "alt": "JAN poffertjes",
    "href": "https://www.jumbo.com/aanbiedingen/jan-poffertjes/3022543",
+   "sectie": "Westland slaatjes",
    "attrs": {
     "data-testid": "promotion-card-2",
     "data-v-bb725044": "",
@@ -460,6 +459,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_129%20V2.png",
    "alt": "Verspakket Griekse gehaktschotel, tomatensoep, lasagne of lemon chicken",
    "href": "https://www.jumbo.com/aanbiedingen/verspakket-griekse-gehaktschotel-tomatensoep-lasagne-of-lemon-chicken/3022512",
+   "sectie": "JAN poffertjes",
    "attrs": {
     "data-testid": "promotion-card-3",
     "data-v-bb725044": "",
@@ -472,6 +472,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_oostersemaaltijden.png",
    "alt": "Jumbo Oosterse maaltijden",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-oosterse-maaltijden/3013664",
+   "sectie": "Verspakket Griekse gehaktschotel, tomatensoep, lasagne of lemon chicken",
    "attrs": {
     "data-testid": "promotion-card-4",
     "data-v-bb725044": "",
@@ -484,6 +485,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/KMsoep2026.png",
    "alt": "Jumbo verse soep",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-verse-soep/3019566",
+   "sectie": "Jumbo Oosterse maaltijden",
    "attrs": {
     "data-testid": "promotion-card-5",
     "data-v-bb725044": "",
@@ -496,6 +498,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_89.png",
    "alt": "Jumbo tofu of tempeh naturel",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-tofu-of-tempeh-naturel/3022380",
+   "sectie": "Jumbo verse soep",
    "attrs": {
     "data-testid": "promotion-card-0",
     "data-v-bb725044": "",
@@ -508,6 +511,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_78.png",
    "alt": "Jumbo gemarineerde pangasiusfilet",
    "href": "",
+   "sectie": "Jumbo tofu of tempeh naturel",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -517,6 +521,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_80.png",
    "alt": "Jumbo kipdijfiletblokjes",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-kipdijfiletblokjes/3022469",
+   "sectie": "Jumbo gemarineerde pangasiusfilet",
    "attrs": {
     "data-testid": "promotion-card-2",
     "data-v-bb725044": "",
@@ -529,6 +534,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_87.png",
    "alt": "Jumbo surimisticks",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-surimisticks/3022509",
+   "sectie": "Jumbo kipdijfiletblokjes",
    "attrs": {
     "data-testid": "promotion-card-3",
     "data-v-bb725044": "",
@@ -541,6 +547,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_117.png",
    "alt": "Riblappen",
    "href": "",
+   "sectie": "Jumbo surimisticks",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -550,6 +557,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_70.png",
    "alt": "Hamburgers classic",
    "href": "https://www.jumbo.com/aanbiedingen/hamburgers-classic/3023325",
+   "sectie": "Riblappen",
    "attrs": {
     "data-testid": "promotion-card-5",
     "data-v-bb725044": "",
@@ -562,6 +570,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Kies%20en%20Mix/KM_schnitzel.png",
    "alt": "Kip schnitzel, kip krokant schnitzel, kip saté schnitzel, kip cordon bleu, kip burger, kip donut of kip gehaktbal",
    "href": "https://www.jumbo.com/aanbiedingen/kip-schnitzel-kip-krokant-schnitzel-kip-sate-schnitzel-kip-cordon-bleu-kip-burger-kip-donut-of-kip-gehaktbal/3013649",
+   "sectie": "Shared dining",
    "attrs": {
     "data-testid": "promotion-card-7",
     "data-v-bb725044": "",
@@ -574,6 +583,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Hamburgers.png",
    "alt": "Hamburgers",
    "href": "https://www.jumbo.com/aanbiedingen/hamburgers/3013651",
+   "sectie": "Kip schnitzel, kip krokant schnitzel, kip saté schnitzel, kip cordon bleu, kip b",
    "attrs": {
     "data-testid": "promotion-card-8",
     "data-v-bb725044": "",
@@ -586,6 +596,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_kipreepjes.png",
    "alt": "Kipreepjes of flakes",
    "href": "https://www.jumbo.com/aanbiedingen/kipreepjes-of-flakes/3016885",
+   "sectie": "Hamburgers",
    "attrs": {
     "data-testid": "promotion-card-9",
     "data-v-bb725044": "",
@@ -598,6 +609,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_88.png",
    "alt": "Jumbo tijgerbollen of meergranen triangels",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-tijgerbollen-of-meergranen-triangels/3022379",
+   "sectie": "Alle Jumbo donuts",
    "attrs": {
     "data-testid": "promotion-card-1",
     "data-v-bb725044": "",
@@ -610,6 +622,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_92.png",
    "alt": "Kaneelbroodjes",
    "href": "",
+   "sectie": "Jumbo tijgerbollen of meergranen triangels",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -619,6 +632,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_130.png",
    "alt": "Vifit",
    "href": "https://www.jumbo.com/aanbiedingen/vifit/3022298",
+   "sectie": "Kaneelbroodjes",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -631,6 +645,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_135.png",
    "alt": "XXL Nutrition zuivel",
    "href": "https://www.jumbo.com/aanbiedingen/xxl-nutrition-zuivel/3022219",
+   "sectie": "Vifit",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -643,6 +658,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_38.png",
    "alt": "Alle Milka chocolademelk",
    "href": "https://www.jumbo.com/aanbiedingen/alle-milka-chocolademelk/3022300",
+   "sectie": "XXL Nutrition zuivel",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -655,6 +671,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_24.png",
    "alt": "Alle Dr. Oetker wolkentoetje",
    "href": "https://www.jumbo.com/aanbiedingen/alle-dr-oetker-wolkentoetje/3022335",
+   "sectie": "Alle Milka chocolademelk",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -667,6 +684,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_60.png",
    "alt": "Chocomel gekoeld of Protein",
    "href": "https://www.jumbo.com/aanbiedingen/chocomel-gekoeld-of-protein/3022346",
+   "sectie": "Alle Dr. Oetker wolkentoetje",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -679,6 +697,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_103.png",
    "alt": "Melkunie pap of vla",
    "href": "https://www.jumbo.com/aanbiedingen/melkunie-pap-of-vla/3022365",
+   "sectie": "Chocomel gekoeld of Protein",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -691,6 +710,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_51.png",
    "alt": "Blue Band",
    "href": "https://www.jumbo.com/aanbiedingen/blue-band/3022367",
+   "sectie": "Melkunie pap of vla",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -703,6 +723,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_109.png",
    "alt": "Optimel drinkyoghurt",
    "href": "https://www.jumbo.com/aanbiedingen/optimel-drinkyoghurt/3022383",
+   "sectie": "Blue Band",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -715,6 +736,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_136.png",
    "alt": "Zuivelhoeve",
    "href": "https://www.jumbo.com/aanbiedingen/zuivelhoeve/3022384",
+   "sectie": "Optimel drinkyoghurt",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -727,6 +749,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_46.png",
    "alt": "Alle Zeeuws meisje",
    "href": "https://www.jumbo.com/aanbiedingen/alle-zeeuws-meisje/3022443",
+   "sectie": "Zuivelhoeve",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -739,6 +762,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_143.png",
    "alt": "Jumbo ijskoffie",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-ijskoffie/3023476",
+   "sectie": "Alle Zeeuws meisje",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -751,6 +775,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2045/Weekaanbiedingen-Week-45_21.png",
    "alt": "Alle HiPRO",
    "href": "https://www.jumbo.com/aanbiedingen/alle-hipro/3021817",
+   "sectie": "Chocomel",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -763,6 +788,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2045/Weekaanbiedingen-Week-45_58.png",
    "alt": "Danio Kwark",
    "href": "https://www.jumbo.com/aanbiedingen/danio-kwark/3021891",
+   "sectie": "Alle HiPRO",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -775,6 +801,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_61.png",
    "alt": "Chovi allioli",
    "href": "https://www.jumbo.com/aanbiedingen/chovi-allioli/3022339",
+   "sectie": "Chocomel, Fristi, Friesche vlag en Campina Slagroom",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -787,6 +814,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_93.png",
    "alt": "Kips kleintje smeerleverworst",
    "href": "https://www.jumbo.com/aanbiedingen/kips-kleintje-smeerleverworst/3022340",
+   "sectie": "Chovi allioli",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -799,6 +827,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_57.png",
    "alt": "Cheesestrings",
    "href": "https://www.jumbo.com/aanbiedingen/cheesestrings/3022350",
+   "sectie": "Kips kleintje smeerleverworst",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -811,6 +840,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_100.png",
    "alt": "La vache qui rit",
    "href": "https://www.jumbo.com/aanbiedingen/la-vache-qui-rit/3022351",
+   "sectie": "Cheesestrings",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -823,6 +853,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_95.png",
    "alt": "Kips snijleverworst",
    "href": "https://www.jumbo.com/aanbiedingen/kips-snijleverworst/3022366",
+   "sectie": "La vache qui rit",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -835,6 +866,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_54.png",
    "alt": "Boursin",
    "href": "https://www.jumbo.com/aanbiedingen/boursin/3022387",
+   "sectie": "Kips snijleverworst",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -847,6 +879,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_86.png",
    "alt": "Jumbo salami",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-salami/3022388",
+   "sectie": "Boursin",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -859,6 +892,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_124.png",
    "alt": "Stegeman bites of Aoste sticks",
    "href": "https://www.jumbo.com/aanbiedingen/stegeman-bites-of-aoste-sticks/3022389",
+   "sectie": "Jumbo salami",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -871,6 +905,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_94.png",
    "alt": "Kips roompaté",
    "href": "https://www.jumbo.com/aanbiedingen/kips-roompate/3022402",
+   "sectie": "Stegeman bites of Aoste sticks",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -883,6 +918,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_77.png",
    "alt": "Jumbo Gelderse gekookte worst",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-gelderse-gekookte-worst/3022423",
+   "sectie": "Kips roompaté",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -895,6 +931,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_82.png",
    "alt": "Jumbo leverworst",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-leverworst/3022424",
+   "sectie": "Jumbo Gelderse gekookte worst",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -907,6 +944,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_81.png",
    "alt": "Jumbo kruiden-, knoflook- of zeezoutboter of kruidencreme",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-kruiden-knoflook-of-zeezoutboter-of-kruidencreme/3022441",
+   "sectie": "Jumbo leverworst",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -919,6 +957,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_84.png",
    "alt": "Jumbo mozzarella of mini mozzarella",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-mozzarella-of-mini-mozzarella/3022442",
+   "sectie": "Jumbo kruiden-, knoflook- of zeezoutboter of kruidencreme",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -931,6 +970,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_79.png",
    "alt": "Jumbo houmous of dips",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-houmous-of-dips/3022461",
+   "sectie": "Jumbo mozzarella of mini mozzarella",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -943,6 +983,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Kies%20en%20Mix/KM%20tapas%20Nieuw.png",
    "alt": "Tapas",
    "href": "https://www.jumbo.com/aanbiedingen/tapas/3023381",
+   "sectie": "Jumbo pastakazen",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -955,6 +996,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Kies%20en%20Mix/KM_fps.png",
    "alt": "Jumbo Filet of paté",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-filet-of-pate/3013667",
+   "sectie": "Tapas",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -967,6 +1009,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2024/Kies%20en%20Mix/KM%20brood%20toast%204-24.png",
    "alt": "Jumbo brood en toast salades 200 gram",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-brood-en-toast-salades-200-gram/3018200",
+   "sectie": "Jumbo Filet of paté",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -979,6 +1022,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_vvpvlees.png",
    "alt": "Voorverpakte vleeswaren",
    "href": "https://www.jumbo.com/aanbiedingen/voorverpakte-vleeswaren/3013668",
+   "sectie": "Jumbo brood en toast salades 200 gram",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -991,6 +1035,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_69.png",
    "alt": "HAK",
    "href": "https://www.jumbo.com/aanbiedingen/hak/3022382",
+   "sectie": "Voorverpakte vleeswaren",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1003,6 +1048,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_33.png",
    "alt": "Alle Knorr Cup-A-Soup of Good Snacking",
    "href": "https://www.jumbo.com/aanbiedingen/alle-knorr-cup-a-soup-of-good-snacking/3022427",
+   "sectie": "HAK",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1015,6 +1061,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_134.png",
    "alt": "Van Wijngaarden's Zaanse",
    "href": "https://www.jumbo.com/aanbiedingen/van-wijngaardens-zaanse/3022344",
+   "sectie": "Alle Knorr Cup-A-Soup of Good Snacking",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1027,6 +1074,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_97.png",
    "alt": "Knorr sausmixen",
    "href": "https://www.jumbo.com/aanbiedingen/knorr-sausmixen/3022345",
+   "sectie": "Van Wijngaarden's Zaanse",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1039,6 +1087,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_27.png",
    "alt": "Alle Honig soepmixen",
    "href": "https://www.jumbo.com/aanbiedingen/alle-honig-soepmixen/3022352",
+   "sectie": "Knorr sausmixen",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1051,6 +1100,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_45.png",
    "alt": "Alle Zaanse dipmixen",
    "href": "https://www.jumbo.com/aanbiedingen/alle-zaanse-dipmixen/3022390",
+   "sectie": "Alle Honig soepmixen",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1063,6 +1113,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_71.png",
    "alt": "Hela curry",
    "href": "https://www.jumbo.com/aanbiedingen/hela-curry/3022391",
+   "sectie": "Alle Zaanse dipmixen",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1075,6 +1126,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_102.png",
    "alt": "Maggi jus",
    "href": "https://www.jumbo.com/aanbiedingen/maggi-jus/3022392",
+   "sectie": "Hela curry",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1087,6 +1139,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_97.png",
    "alt": "Alle Knorr maaltijdmixen",
    "href": "https://www.jumbo.com/aanbiedingen/alle-knorr-maaltijdmixen/3022296",
+   "sectie": "Maggi jus",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1099,6 +1152,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_62.png",
    "alt": "Conimex kroepoek",
    "href": "https://www.jumbo.com/aanbiedingen/conimex-kroepoek/3022334",
+   "sectie": "Alle Knorr maaltijdmixen",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1111,6 +1165,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_76.png",
    "alt": "Jumbo bladerdeeg",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-bladerdeeg/3022490",
+   "sectie": "Conimex kroepoek",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1123,6 +1178,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_98.png",
    "alt": "Koopmans pannenkoekenmixen",
    "href": "https://www.jumbo.com/aanbiedingen/koopmans-pannenkoekenmixen/3022547",
+   "sectie": "Jumbo bladerdeeg",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1135,6 +1191,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Holies.png",
    "alt": "Holie's Granola Protein Nuts, Low Carb Crunch en Muesli Chocolate",
    "href": "",
+   "sectie": "Jumbo's smeuïge pindakaas",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1144,6 +1201,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kruidnoten.png",
    "alt": "Jumbo chocolade kruidnoten",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-chocolade-kruidnoten/3024251",
+   "sectie": "Jumbo chocoladeletters",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1156,6 +1214,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_58.png",
    "alt": "Chio chips",
    "href": "https://www.jumbo.com/aanbiedingen/chio-chips/3022467",
+   "sectie": "Jumbo chocolade kruidnoten",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1168,6 +1227,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_128.png",
    "alt": "Verkade",
    "href": "https://www.jumbo.com/aanbiedingen/verkade/3022299",
+   "sectie": "Chio chips",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1180,6 +1240,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_30.png",
    "alt": "Jumbo eierkoeken",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-eierkoeken/3022385",
+   "sectie": "Verkade",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1192,6 +1253,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_63.png",
    "alt": "Croky",
    "href": "https://www.jumbo.com/aanbiedingen/croky/3022416",
+   "sectie": "Jumbo eierkoeken",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1204,6 +1266,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_66.png",
    "alt": "Duyvis borrelnootjes",
    "href": "https://www.jumbo.com/aanbiedingen/duyvis-borrelnootjes/3022436",
+   "sectie": "Croky",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1216,6 +1279,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_127.png",
    "alt": "TUC",
    "href": "https://www.jumbo.com/aanbiedingen/tuc/3022470",
+   "sectie": "Duyvis borrelnootjes",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1228,6 +1292,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_52.png",
    "alt": "Bolletje Pepsels",
    "href": "https://www.jumbo.com/aanbiedingen/bolletje-pepsels/3022504",
+   "sectie": "TUC",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1240,6 +1305,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_145.png",
    "alt": "Jumbo mini crackers naturel",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-mini-crackers-naturel/3023933",
+   "sectie": "Bolletje Pepsels",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1252,6 +1318,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Duyvis.png",
    "alt": "Duyvis",
    "href": "",
+   "sectie": "Bolletje stracciatella kruidnotenreep",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1261,6 +1328,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/KMkoekV2.png",
    "alt": "Jumbo koek",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-koek/3013765",
+   "sectie": "Duyvis",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1273,6 +1341,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Kies%20en%20Mix/KM_noten.png",
    "alt": "Verse noten",
    "href": "https://www.jumbo.com/aanbiedingen/verse-noten/3013643",
+   "sectie": "Jumbo koek",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1285,6 +1354,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_65.png",
    "alt": "Douwe Egberts Aroma Rood of Decafé",
    "href": "https://www.jumbo.com/aanbiedingen/douwe-egberts-aroma-rood-of-decafe/3022590",
+   "sectie": "Ontvang één beanie bij twee 3-packs Fisherman's Friend",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1297,6 +1367,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_112.png",
    "alt": "Pickwick 1-kops thee",
    "href": "https://www.jumbo.com/aanbiedingen/pickwick-1-kops-thee/3022576",
+   "sectie": "Douwe Egberts Aroma Rood of Decafé",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1309,6 +1380,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Dolce%20Gusto.png",
    "alt": "Nescafé Dolce Gusto",
    "href": "",
+   "sectie": "Pickwick 1-kops thee",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1318,6 +1390,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_119.png",
    "alt": "Rivella",
    "href": "https://www.jumbo.com/aanbiedingen/rivella/3022412",
+   "sectie": "Douwe Egberts en L'OR",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1330,6 +1403,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_64.png",
    "alt": "Pepsi, Crystal Clear of Royal Club",
    "href": "https://www.jumbo.com/aanbiedingen/pepsi-crystal-clear-of-royal-club/wa47_fris",
+   "sectie": "Rivella",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1342,6 +1416,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_47.png",
    "alt": "Appelsientje FruitDrink",
    "href": "https://www.jumbo.com/aanbiedingen/appelsientje-fruitdrink/3022358",
+   "sectie": "Pepsi, Crystal Clear of Royal Club",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1354,6 +1429,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_114.png",
    "alt": "Powerade",
    "href": "https://www.jumbo.com/aanbiedingen/powerade/3022359",
+   "sectie": "Appelsientje FruitDrink",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1366,6 +1442,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_67.png",
    "alt": "Fanta",
    "href": "https://www.jumbo.com/aanbiedingen/fanta/3022360",
+   "sectie": "Powerade",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1378,6 +1455,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_101.png",
    "alt": "Lipton",
    "href": "https://www.jumbo.com/aanbiedingen/lipton/3022372",
+   "sectie": "Fanta",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1390,6 +1468,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_17.png",
    "alt": "AA Drink",
    "href": "https://www.jumbo.com/aanbiedingen/aa-drink/3022399",
+   "sectie": "Lipton",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1402,6 +1481,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_125.png",
    "alt": "Taksi",
    "href": "https://www.jumbo.com/aanbiedingen/taksi/3022410",
+   "sectie": "AA Drink",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1414,6 +1494,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_122.png",
    "alt": "Spa Touch",
    "href": "https://www.jumbo.com/aanbiedingen/spa-touch/3022463",
+   "sectie": "Taksi",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1426,6 +1507,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_55.png",
    "alt": "Bullit",
    "href": "https://www.jumbo.com/aanbiedingen/bullit/3022464",
+   "sectie": "Spa Touch",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1438,6 +1520,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_48.png",
    "alt": "Arizona",
    "href": "https://www.jumbo.com/aanbiedingen/arizona/3022481",
+   "sectie": "Bullit",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1450,6 +1533,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_50.png",
    "alt": "Batu kombucha",
    "href": "https://www.jumbo.com/aanbiedingen/batu-kombucha/3022495",
+   "sectie": "Arizona",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1462,6 +1546,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_105.png",
    "alt": "Mogu Mogu",
    "href": "https://www.jumbo.com/aanbiedingen/mogu-mogu/3022587",
+   "sectie": "Batu kombucha",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1474,6 +1559,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_23.png",
    "alt": "Alle CoolBest fruitdrinks of fruitontbijt",
    "href": "https://www.jumbo.com/aanbiedingen/alle-coolbest-fruitdrinks-of-fruitontbijt/3022621",
+   "sectie": "Mogu Mogu",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1486,6 +1572,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_150%20V2.png",
    "alt": "Spa Touch",
    "href": "https://www.jumbo.com/aanbiedingen/spa-touch/3023117",
+   "sectie": "Alle CoolBest fruitdrinks of fruitontbijt",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1498,6 +1585,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_107.png",
    "alt": "Montaignan",
    "href": "https://www.jumbo.com/aanbiedingen/montaignan/3022477",
+   "sectie": "Pils van Hertog Jan, Jupiler, Bud, Stella Artois of Corona",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1510,6 +1598,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_75.png",
    "alt": "Jean Balmont",
    "href": "https://www.jumbo.com/aanbiedingen/jean-balmont/3022478",
+   "sectie": "Montaignan",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1522,6 +1611,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_118.png",
    "alt": "Ritorna",
    "href": "https://www.jumbo.com/aanbiedingen/ritorna/3022479",
+   "sectie": "Jean Balmont",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1534,6 +1624,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_131.png",
    "alt": "Waterval",
    "href": "https://www.jumbo.com/aanbiedingen/waterval/3022494",
+   "sectie": "Ritorna",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1546,6 +1637,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_99.png",
    "alt": "La Trappe",
    "href": "https://www.jumbo.com/aanbiedingen/la-trappe/3022573",
+   "sectie": "Texels",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1558,6 +1650,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Heineken0.0%20(1).png",
    "alt": "Heineken 0.0",
    "href": "",
+   "sectie": "La Trappe",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1567,6 +1660,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Amstel.png",
    "alt": "Amstel",
    "href": "",
+   "sectie": "Heineken 0.0",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1576,6 +1670,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2025/Omdozen/HeinekenTray.png",
    "alt": "Heineken",
    "href": "",
+   "sectie": "Amstel",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1585,6 +1680,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2024/HJ-tray.png",
    "alt": "Hertog Jan",
    "href": "",
+   "sectie": "Heineken",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1594,6 +1690,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Omdozen/Grolsch%20omdoos%20v2.png",
    "alt": "Tray Grolsch pils blik",
    "href": "",
+   "sectie": "Hertog Jan",
    "attrs": {
     "data-v-0d7607c7": ""
    }
@@ -1603,6 +1700,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_28.png",
    "alt": "Alle Jumbo aardappelspecialiteiten",
    "href": "https://www.jumbo.com/aanbiedingen/alle-jumbo-aardappelspecialiteiten/3022473",
+   "sectie": "Tray Grolsch pils blik",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1615,6 +1713,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_32.png",
    "alt": "Alle Jumbo's traybakes",
    "href": "https://www.jumbo.com/aanbiedingen/alle-jumbos-traybakes/3022474",
+   "sectie": "Alle Jumbo aardappelspecialiteiten",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1627,6 +1726,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_83.png",
    "alt": "Jumbo mini schepijs",
    "href": "https://www.jumbo.com/aanbiedingen/jumbo-mini-schepijs/3022524",
+   "sectie": "Alle Jumbo's traybakes",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1639,6 +1739,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_37.png",
    "alt": "Alle Mars, Snickers of Twix ijs",
    "href": "https://www.jumbo.com/aanbiedingen/alle-mars-snickers-of-twix-ijs/3022752",
+   "sectie": "Jumbo mini schepijs",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1651,6 +1752,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_96.png",
    "alt": "Kleenex",
    "href": "https://www.jumbo.com/aanbiedingen/kleenex/3022574",
+   "sectie": "Alle Mars, Snickers of Twix ijs",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1663,6 +1765,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_115.png",
    "alt": "Prodent Cool Mint of Menthol Power",
    "href": "https://www.jumbo.com/aanbiedingen/prodent-cool-mint-of-menthol-power/3022565",
+   "sectie": "Alle Libresse of Tena",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1675,6 +1778,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_39.png",
    "alt": "Alle Olvarit knijpfruit",
    "href": "https://www.jumbo.com/aanbiedingen/alle-olvarit-knijpfruit/3022460",
+   "sectie": "Alle Roter, Dagravit, Natterman of Dampo",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1687,6 +1791,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_41.png",
    "alt": "Alle Pampers",
    "href": "https://www.jumbo.com/aanbiedingen/alle-pampers/3022542",
+   "sectie": "Alle Olvarit knijpfruit",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1699,6 +1804,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_40.png",
    "alt": "Alle Olvarit potjes",
    "href": "https://www.jumbo.com/aanbiedingen/alle-olvarit-potjes/3022564",
+   "sectie": "Alle Pampers",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1711,6 +1817,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_110.png",
    "alt": "Page vochtig toiletpapier",
    "href": "https://www.jumbo.com/aanbiedingen/page-vochtig-toiletpapier/3022480",
+   "sectie": "Nestlé Baby of Little Steps",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1723,6 +1830,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_26.png",
    "alt": "Alle Glorix toiletblokken",
    "href": "https://www.jumbo.com/aanbiedingen/alle-glorix-toiletblokken/3022527",
+   "sectie": "Page vochtig toiletpapier",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1735,6 +1843,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Pan14.png",
    "alt": "Braadpan Gietijzer",
    "href": "https://www.jumbo.com/aanbiedingen/braadpan-gietijzer/wa40_pan14",
+   "sectie": "999 Games Take 5!, Regenwormen of Clever",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1747,6 +1856,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Pan24.png",
    "alt": "Braadpan Gietijzer",
    "href": "https://www.jumbo.com/aanbiedingen/braadpan-gietijzer/wa40_pan24",
+   "sectie": "Braadpan Gietijzer",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
@@ -1759,6 +1869,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_56.png",
    "alt": "Captain Morgan Rum, Smirnoff Vodka, Gordon's Gin of Baileys likeur",
    "href": "",
+   "sectie": "Braadpan Gietijzer",
    "attrs": {
     "data-v-0d7607c7": ""
    }

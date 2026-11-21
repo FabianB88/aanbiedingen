@@ -6,6 +6,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_oostersemaaltijden.png",
    "alt": "Jumbo Oosterse maaltijden",
    "href": "",
+   "sectie": "Wat eten we?",
    "attrs": {
     "data-testid": "jum-grid",
     "data-v-81dd4833": "",
@@ -18,6 +19,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706792662_1772706798276_8718452925230_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-kip-teriyaki-260-g-747600TRA",
+   "sectie": "Jumbo Oosterse maaltijden",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -27,6 +29,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706792776_1772706798955_8718452983599_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-mihoen-goreng-260-g-747569TRA",
+   "sectie": "Jumbo Kip Teriyaki 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -36,6 +39,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706790872_1772706796466_8718452925155_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-kip-zoetzuur-260-g-226721BAK",
+   "sectie": "Jumbo Mihoen Goreng 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -45,6 +49,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/10092026_1789058691092_1789058701441_8718452983582_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-kip-kerrie-260-g-581796BAK",
+   "sectie": "Jumbo Kip Zoetzuur 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -54,6 +59,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706791194_1772706796972_8717228612855_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-nasi-vega-260-g-291450BAK",
+   "sectie": "Jumbo Kip Kerrie 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -63,6 +69,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706791143_1772706796272_8718452983551_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-sate-ajam-260-g-226725BAK",
+   "sectie": "Jumbo Nasi Vega 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -72,6 +79,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706790707_1772706796373_8717228612831_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-nasi-goreng-260-g-208720BAK",
+   "sectie": "Jumbo Saté Ajam 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -81,6 +89,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706790948_1772706795758_8718452983520_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-foe-yong-hai-260-g-226722BAK",
+   "sectie": "Jumbo Nasi Goreng 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -90,6 +99,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706791357_1772706795948_8718452983513_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-noedels-gele-curry-260-g-414429BAK",
+   "sectie": "Jumbo Foe Yong Hai 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -99,6 +109,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706791842_1772706798382_8717228612305_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-babi-ketjap-260-g-611244BAK",
+   "sectie": "Jumbo Noedels Gele Curry 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -108,6 +119,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/05032026_1772706790884_1772706796514_8717228612848_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-bami-goreng-260-g-208727BAK",
+   "sectie": "Jumbo Babi Ketjap 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -117,6 +129,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/10092026_1789058690420_1789058701161_8718452983544_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/jumbo-babi-pangang-260-g-226723BAK",
+   "sectie": "Jumbo Bami Goreng 260 g",
    "attrs": {
     "data-v-b08dd1a6": ""
    }

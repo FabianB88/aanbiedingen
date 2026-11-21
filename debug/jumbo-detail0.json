@@ -6,6 +6,7 @@
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_19.png",
    "alt": "Alle 1FRUIT",
    "href": "",
+   "sectie": "Wat eten we?",
    "attrs": {
     "data-testid": "jum-grid",
     "data-v-81dd4833": "",
@@ -18,6 +19,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/23072026_1784810164630_1784810167689_8720157404101_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/1fruit-peer-200ml-764449PAK",
+   "sectie": "Alle 1FRUIT",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -27,6 +29,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557769279_1786557774642_8720157404088_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/1fruit-appel-200ml-764448PAK",
+   "sectie": "1FRUIT Peer 200ml",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
@@ -36,6 +39,7 @@
    "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557770420_1786557773226_8720157404125_1.png",
    "alt": "",
    "href": "https://www.jumbo.com/producten/1fruit-sinaasappel-200ml-764460PAK",
+   "sectie": "1FRUIT Appel 200ml",
    "attrs": {
     "data-v-b08dd1a6": ""
    }
