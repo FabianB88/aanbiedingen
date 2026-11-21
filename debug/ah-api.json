@@ -1260,7 +1260,7 @@
    "bonusPeriodDescription": null,
    "availableOnline": true,
    "isPreviouslyBought": false,
-   "descriptionHighlights": "<p>Een koud glas halfvolle melk is op elk moment van de dag heerlijk. En ook nog eens heel gezond.</p><p><ul><li>Gezond||Vers||Lekker op elk moment v/d dag</li></ul></p>",
+   "descriptionHighlights": "<p>Verse halfvolle melk voor iedere dag. Een natuurlijke bron van calcium.</p><p><ul><li>Weidemelk keurmerk: koeien die minimaal 120 dagen, 6 uur per dag in de wei lopen.||Lekker met ontbijtgranen||[Beter voor tekst graag in 1 bulletpoint dus niet splitsen over meerdere bulletpoints! (in omschrijving tekst)]. \"BETER VOOR NATUUR & BOER. Dit product is afkomstig van boeren en. telers die bovenwettelijke inspanningen. leveren op biodiversiteit, klimaat en. dierenwelzijn. Voor hun inspanningen. ontvangen zij een premie. De naleving. van dit onafhankelijke keurmerk wordt. jaarlijks gecontroleerd. Meer informatie:. betervoornatuurenboer.nl\". [Weidegang tekst graag in 1 bulletpoint dus niet split</li></ul></p>",
    "propertyIcons": [
     "vega",
     "lokaal"
@@ -2139,7 +2139,7 @@
    "bonusPeriodDescription": null,
    "availableOnline": true,
    "isPreviouslyBought": false,
-   "descriptionHighlights": "<p>Verse halfvolle melk voor iedere dag. Een natuurlijke bron van calcium.</p><p><ul><li>Weidemelk keurmerk: koeien die minimaal 120 dagen, 6 uur per dag in de wei lopen||Lekker met ontbijtgranen</li></ul></p>",
+   "descriptionHighlights": "<p>Verse halfvolle melk voor iedere dag. Een natuurlijke bron van calcium.</p><p><ul><li>Weidemelk keurmerk: koeien die minimaal 120 dagen, 6 uur per dag in de wei lopen.||Lekker met ontbijtgranen||[Beter voor tekst graag in 1 bulletpoint dus niet splitsen over meerdere bulletpoints! (in omschrijving tekst)]. \"BETER VOOR NATUUR & BOER. Dit product is afkomstig van boeren en. telers die bovenwettelijke inspanningen. leveren op biodiversiteit, klimaat en. dierenwelzijn. Voor hun inspanningen. ontvangen zij een premie. De naleving. van dit onafhankelijke keurmerk wordt. jaarlijks gecontroleerd. Meer informatie:. betervoornatuurenboer.nl\". [Weidegang tekst graag in 1 bulletpoint dus niet split</li></ul></p>",
    "propertyIcons": [
     "vega",
     "lokaal"
@@ -27485,7 +27485,7 @@
    "bonusPeriodDescription": null,
    "availableOnline": true,
    "isPreviouslyBought": false,
-   "descriptionHighlights": "<p>Verse halfvolle melk voor iedere dag.</p><p><ul><li>Weidemelk keurmerk: koeien die minimaal 120 dagen, 6 uur per dag in de wei lopen||Lekker met ontbijtgranen</li></ul></p>",
+   "descriptionHighlights": "<p>Verse halfvolle melk voor iedere dag. Een natuurlijke bron van calcium.</p><p><ul><li>Weidemelk keurmerk: koeien die minimaal 120 dagen, 6 uur per dag in de wei lopen.||Lekker met ontbijtgranen||[Beter voor tekst graag in 1 bulletpoint dus niet splitsen over meerdere bulletpoints! (in omschrijving tekst)]. \"BETER VOOR NATUUR & BOER. Dit product is afkomstig van boeren en. telers die bovenwettelijke inspanningen. leveren op biodiversiteit, klimaat en. dierenwelzijn. Voor hun inspanningen. ontvangen zij een premie. De naleving. van dit onafhankelijke keurmerk wordt. jaarlijks gecontroleerd. Meer informatie:. betervoornatuurenboer.nl\". [Weidegang tekst graag in 1 bulletpoint dus niet split</li></ul></p>",
    "propertyIcons": [
     "vega",
     "lokaal"
@@ -67358,7 +67358,7 @@
     {
      "id": "sp_include_intolerance_geen_eieren",
      "label": "eieren",
-     "count": 13136,
+     "count": 13135,
      "display": true
     },
     {
@@ -67376,7 +67376,7 @@
     {
      "id": "sp_include_intolerance_geen_lupine",
      "label": "lupine",
-     "count": 15251,
+     "count": 15250,
      "display": true
     },
     {
@@ -67388,7 +67388,7 @@
     {
      "id": "sp_include_intolerance_geen_mosterd",
      "label": "mosterd",
-     "count": 13915,
+     "count": 13914,
      "display": true
     },
     {
@@ -67406,19 +67406,19 @@
     {
      "id": "sp_include_intolerance_geen_schelpdieren",
      "label": "schelpdieren",
-     "count": 15346,
+     "count": 15345,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_selderij",
      "label": "selderij",
-     "count": 14488,
+     "count": 14487,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sesam",
      "label": "sesam",
-     "count": 14406,
+     "count": 14405,
      "display": true
     },
     {
@@ -67430,13 +67430,13 @@
     {
      "id": "sp_include_intolerance_geen_sulfiet",
      "label": "sulfiet",
-     "count": 14665,
+     "count": 14664,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_vis",
      "label": "vis",
-     "count": 14831,
+     "count": 14830,
      "display": true
     }
    ],
@@ -67463,7 +67463,7 @@
     {
      "id": "sp_include_dieet_laag_zout",
      "label": "Laag zout",
-     "count": 6899,
+     "count": 6898,
      "display": true
     },
     {
@@ -67475,7 +67475,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10019,
+     "count": 10018,
      "display": true
     }
    ],
@@ -67514,7 +67514,7 @@
     {
      "id": "e",
      "label": "Score E",
-     "count": 3201,
+     "count": 3200,
      "display": true
     },
     {
@@ -67640,7 +67640,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10019,
+     "count": 10018,
      "display": true
     }
    ],
