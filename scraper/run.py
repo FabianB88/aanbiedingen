@@ -180,6 +180,13 @@ def main(alleen=None):
                             "bijgewerkt": vorige.get("bijgewerkt", ""),
                             "fout": f"{type(e).__name__}: {e}"[:300], "geprobeerd": nu}
 
+    if not alleen:
+        try:
+            from assortiment import bijwerken
+            bijwerken()
+        except Exception as e:
+            print("[assortiment] overgeslagen:", e)
+
     alles = [a for code in WINKELS for a in per_winkel.get(code, [])]
     try:
         from llm_categorie import deel_in

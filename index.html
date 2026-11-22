@@ -94,6 +94,9 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .modus button[data-modus="echt"].aan{background:var(--accent)}
 .per{font-size:12px;color:var(--zacht);margin-left:auto}
 .laag{font-size:11.5px;font-weight:700;color:var(--groen-d)}
+.arij{display:flex;align-items:center;gap:10px;padding:9px 2px;border-bottom:1px solid var(--lijn);text-decoration:none;color:inherit}
+.arij .anaam{flex:1;font-size:13.5px;line-height:1.3}.arij small{display:block;color:var(--zacht);font-size:11.5px}
+.arij .aprijs{text-align:right;font-weight:700;white-space:nowrap}.arij .stip{width:8px;height:8px;border-radius:50%;flex:none}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -198,6 +201,30 @@ function echteDeals(){
 }
 function blackfriday(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && (a.bf || WEBSHOPS.includes(a.winkel)));
+}
+
+// ---- volledig assortiment (normale prijzen), alleen geladen als je zoekt
+const ASS_WINKELS = ["ah","jumbo","lidl","plus"];
+let assortiment = null, assLaden = null;
+function laadAssortiment(){
+  if (assLaden) return assLaden;
+  assLaden = Promise.all(ASS_WINKELS.map(w => fetch(`data/assortiment/${w}.json`).then(r=>r.ok?r.json():[]).catch(()=>[])
+    .then(rijen => rijen.map(r => ({winkel:w, titel:r[0], prijs:r[1], maat:r[2], per:r[3], per_eenheid:r[4], url:r[5], _h:norm(r[0]+" "+r[2])})))))
+    .then(lijsten => { assortiment = lijsten.flat(); teken(); });
+  return assLaden;
+}
+function assortimentBlok(){
+  if (!zoekterm || zoekterm.length < 2) return "";
+  if (!assortiment){ laadAssortiment(); return `<div class="paneel"><h2>Ook in het assortiment</h2><p>Normale prijzen laden…</p></div>`; }
+  const delen = norm(zoekterm).split(",").map(d=>d.trim()).filter(Boolean);
+  const hits = assortiment.filter(a => !st.verborgen.includes(a.winkel) && delen.some(d => d.split(/\s+/).every(w => a._h.includes(w))));
+  hits.sort((a,b) => (a.per??9999)-(b.per??9999) || a.prijs-b.prijs);
+  const rij = a => { const w = WINKELS[a.winkel]; return `<a class="arij" href="${esc(a.url)}" target="_blank" rel="noopener">
+    <span class="stip" style="background:${w.kleur}"></span><span class="anaam">${esc(a.titel)}<small>${esc(w.naam)}${a.maat?" · "+esc(a.maat):""}</small></span>
+    <span class="aprijs">${euro(a.prijs)}${a.per?`<small>${euro(a.per)}/${a.per_eenheid}</small>`:""}</span></a>`; };
+  return `<div class="paneel"><h2>Ook in het assortiment <span class="sub">normale prijzen, goedkoopste per kg/l eerst</span></h2>
+    ${hits.length ? hits.slice(0,80).map(rij).join("") + (hits.length>80?`<p class="sub">${hits.length} producten, eerste 80 getoond. Maak je zoekterm specifieker.</p>`:"") : '<p class="sub">Niets gevonden.</p>'}
+    <p class="sub" style="margin-top:8px">Bron: open data van Checkjebon (AH, Jumbo, Lidl, PLUS), een paar keer per week bijgewerkt.</p></div>`;
 }
 
 function alleWinkels(){ return data.filter(a => !st.verborgen.includes(a.winkel)); }
@@ -330,7 +357,7 @@ function teken(){
     const opLijst = zoekterm ? `<div class="paneel zoekbalk"><span>Zoekterm <b>${esc(zoekterm)}</b> bewaren, zodat hij vanzelf verschijnt zodra hij in de aanbieding is:</span>
       <div class="rij"><select class="chip" id="zoekNaarLijst">${st.lijstjes.map((l,i)=>`<option value="${i}">${esc(l.naam)}</option>`).join("")}<option value="nieuw">+ nieuw lijstje…</option></select>
       <button class="knop" id="zoekOpslaan">Op lijst zetten</button></div></div>` : "";
-    el.innerHTML = opLijst + filterbalk(z) + grid(gefilterd(z));
+    el.innerHTML = opLijst + filterbalk(z) + grid(gefilterd(z)) + assortimentBlok();
   }
   else if (view==="nonfood"){
     el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk(nonfood()) + grid(gefilterd(nonfood()));
