@@ -1,7 +1,47 @@
 {
  "url": "https://www.jumbo.com/aanbiedingen/nu",
- "aantal": 147,
+ "aantal": 151,
  "kaarten": [
+  {
+   "tekst": "Alleen in de winkel\nvoor 4,99",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_3.png",
+   "alt": "Zespri kiwi Sungold",
+   "href": "",
+   "sectie": "Extra's aanbiedingen",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
+  {
+   "tekst": "Alleen in de winkel\n2 voor 4,99",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_2.png",
+   "alt": "Jumbo verse rookworst",
+   "href": "",
+   "sectie": "Zespri kiwi Sungold",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
+  {
+   "tekst": "Alleen in de winkel\n36.71% korting",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_1.png",
+   "alt": "Alle Jumbo's krokantjes",
+   "href": "",
+   "sectie": "Jumbo verse rookworst",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
+  {
+   "tekst": "Alleen in de winkel\nvoor 2,49",
+   "img": "https://www.jumbo.com/dam/extra/mass/2026_Week-47_4.png",
+   "alt": "Handsinaasappelen",
+   "href": "",
+   "sectie": "Alle Jumbo's krokantjes",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
   {
    "tekst": "voor 1,00\nAlle Knorr maaltijdmixen\n\nwo 18 t/m di 24 nov",
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_97.png",
