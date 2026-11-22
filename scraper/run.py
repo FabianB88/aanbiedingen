@@ -101,7 +101,7 @@ def prijshistorie_en_echt(alles):
         a["dagen_gemeten"] = len(reeks)
         a["echt"] = bool(
             (a.get("korting") or 0) >= 50 and not a.get("tot")
-            and a.get("ref") in ("van", "mediaan")
+            and a.get("ref") in ("van", "mediaan", "pepper")
             and not MEERKOOP.search(a.get("actie", ""))
             and a.get("prijs_was")
             and not (a["laagste_gezien"] and a["laagste_gezien"] < a["prijs_was"] * 0.9)

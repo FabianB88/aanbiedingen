@@ -145,7 +145,7 @@ const WINKELS = {
   kaufland:{naam:"Kaufland",kleur:"#E10915"},
   bol:{naam:"bol.com",kleur:"#0000A4"}, coolblue:{naam:"Coolblue",kleur:"#0090E3"},
   mediamarkt:{naam:"MediaMarkt",kleur:"#DF0000"}, amazon:{naam:"Amazon.nl",kleur:"#FF9900"},
-  lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}
+  lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}, pepper:{naam:"Pepper.com",kleur:"#E4502D"}
 };
 const OPSLAG = "aanbiedingen-v1";
 const standaard = {verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
@@ -183,7 +183,7 @@ async function start(){
 function zichtbaar(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && !a.nonfood);
 }
-const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon"];
+const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon","pepper"];
 // bij welk tabblad hoort een aanbieding; winkelknoppen blijven zichtbaar, ook als je ze uitzet
 const soort = a => (a.bf || WEBSHOPS.includes(a.winkel)) ? "bf" : a.nonfood ? "nonfood" : "boodschappen";
 const pastBij = (a, s) => s==="echt" ? !!a.echt : soort(a)===s;
@@ -229,7 +229,7 @@ function gefilterd(lijst){
 
 function refBlok(a){
   if (!(a.nonfood || a.bf) || !a.prijs_was) return "";
-  const ref = {van:"van-prijs = laagste prijs 30 dagen", mediaan:"t.o.v. mediaanprijs Amazon", advies:"t.o.v. adviesprijs (zegt weinig)"}[a.ref] || "";
+  const ref = {van:"van-prijs = laagste prijs 30 dagen", mediaan:"t.o.v. mediaanprijs Amazon", pepper:"gedeeld en beoordeeld op Pepper", advies:"t.o.v. adviesprijs (zegt weinig)"}[a.ref] || "";
   const hist = a.dagen_gemeten > 1 ? `, ${a.dagen_gemeten} dagen gevolgd${a.laagste_gezien ? `, laagste gezien ${euro(a.laagste_gezien)}` : ""}` : "";
   return ref ? `<div class="ref${a.ref==="advies"?" zwak":""}">${ref}${hist}</div>` : "";
 }
@@ -332,7 +332,7 @@ function teken(){
   }
   else if (view==="echt"){
     const lijst = echteDeals();
-    el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen van 50% of meer</h2><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen) of de mediaanprijs van Amazon. Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
+    el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen van 50% of meer</h2><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen), de mediaanprijs van Amazon, of een deal die op Pepper.com door de community is gecontroleerd (zo komen ook bol.com en MediaMarkt erin). Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
       (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen echte deals van 50% of meer gevonden.</div>`);
   }
   else if (view==="blackfriday"){

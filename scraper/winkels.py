@@ -656,6 +656,66 @@ def amazon():
     return uit
 
 
+# ------------------------------------------------------------------ Pepper.com
+PEPPER_FEEDS = ["https://nl.pepper.com/rss/hot", "https://nl.pepper.com/rss/alles",
+                "https://nl.pepper.com/rss/nieuw"]
+
+
+def pepper():
+    """Deals van Pepper.com (door de community gedeeld en beoordeeld), o.a. bol.com en MediaMarkt."""
+    import html as _html
+    import xml.etree.ElementTree as ET
+    sessie = requests.Session()
+    sessie.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                         "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"})
+    uit, gezien = [], set()
+    for feed in PEPPER_FEEDS:
+        try:
+            r = sessie.get(feed, timeout=30)
+            with open(os.path.join(DEBUG, "pepper-" + feed.rsplit("/", 1)[-1] + ".xml"), "w", encoding="utf-8") as f:
+                f.write(f"<!-- status {r.status_code} -->\n" + r.text[:400000])
+            if r.status_code != 200:
+                print(f"[pepper] {feed}: status {r.status_code}")
+                continue
+            root = ET.fromstring(r.content)
+        except Exception as e:
+            print(f"[pepper] {feed}: {str(e)[:120]}")
+            continue
+        items = root.findall(".//item")
+        print(f"[pepper] {feed}: {len(items)} deals")
+        for it in items:
+            titel = _html.unescape((it.findtext("title") or "").strip())
+            link = (it.findtext("link") or "").strip()
+            if not titel or link in gezien:
+                continue
+            gezien.add(link)
+            # merchant/prijs staan als attributen op een element in de pepper-namespace
+            winkel, prijs_attr = "", ""
+            for el in it:
+                if el.tag.endswith("merchant"):
+                    winkel = el.get("name", "")
+                    prijs_attr = el.get("price", "")
+            beschr = re.sub(r"<[^>]+>", " ", _html.unescape(it.findtext("description") or ""))
+            tekst = f"{titel} {beschr}"
+            nu = prijs(prijs_attr) if prijs_attr else None
+            bedragen = [float(x.replace(".", "").replace(",", ".")) for x in
+                        re.findall(r"€\s*(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)", tekst)]
+            if nu is None and bedragen:
+                nu = bedragen[0]
+            hogere = [b for b in bedragen if nu and b > nu * 1.05]
+            was = min(hogere) if hogere else None
+            pct = re.search(r"-\s?(\d{1,2})\s?%|(\d{1,2})\s?%\s*(korting|off|goedkoper)", titel, re.I)
+            img = ""
+            for el in it:
+                if el.tag.endswith("content") or el.tag.endswith("thumbnail"):
+                    img = el.get("url", "") or img
+            uit.append({"titel": titel[:160], "merk": winkel,
+                        "actie": (f"-{pct.group(1) or pct.group(2)}%" if pct else "") + (f" bij {winkel}" if winkel else ""),
+                        "prijs_nu": nu, "prijs_was": was, "img": img, "url": link, "geldig": "",
+                        "nonfood": True, "bf": True, "ref": "pepper"})
+    return uit
+
+
 WINKELS = {
     "ah": ("Albert Heijn", "NL", ah),
     "jumbo": ("Jumbo", "NL", jumbo),
@@ -669,4 +729,5 @@ WINKELS = {
     "coolblue": ("Coolblue", "NL", coolblue),
     "mediamarkt": ("MediaMarkt", "NL", mediamarkt),
     "amazon": ("Amazon.nl", "NL", amazon),
+    "pepper": ("Pepper.com", "NL", pepper),
 }
