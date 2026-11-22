@@ -73,7 +73,42 @@ def normaliseer(winkel, a):
         "geldig": a.get("geldig", ""),
         "nonfood": a.get("nonfood"),
         "bf": bool(a.get("bf")),
+        "ref": a.get("ref", ""),
     }
+
+
+HISTORIE = os.path.join(DATA, "prijshistorie.json")
+MEERKOOP = re.compile(r"\d\s*\+\s*\d|\d\s*(e|de)\s|\d\s*voor|für", re.I)
+
+
+def prijshistorie_en_echt(alles):
+    """Bewaart per non-food product de dagprijs (60 dagen) en markeert 'echte' kortingen
+    van 50% of meer. Echt = de referentieprijs is wettelijk (laagste prijs van 30 dagen)
+    of de mediaanprijs van Amazon, niet een adviesprijs, en wij hebben het product in de
+    afgelopen 30 dagen niet zelf al ver onder die referentie gezien."""
+    vandaag = dt.date.today()
+    hist = laad(HISTORIE, {})
+    for a in alles:
+        if not (a.get("nonfood") or a.get("bf")) or not a.get("prijs_nu"):
+            continue
+        k = f"{a['winkel']}|{a['titel'].lower()}"
+        reeks = [r for r in hist.get(k, []) if (vandaag - dt.date.fromisoformat(r[0])).days <= 60]
+        if not reeks or reeks[-1][0] != vandaag.isoformat():
+            reeks.append([vandaag.isoformat(), a["prijs_nu"]])
+        hist[k] = reeks
+        recent = [p for d, p in reeks if (vandaag - dt.date.fromisoformat(d)).days <= 30 and d != vandaag.isoformat()]
+        a["laagste_gezien"] = min(recent) if recent else None
+        a["dagen_gemeten"] = len(reeks)
+        a["echt"] = bool(
+            (a.get("korting") or 0) >= 50 and not a.get("tot")
+            and a.get("ref") in ("van", "mediaan")
+            and not MEERKOOP.search(a.get("actie", ""))
+            and a.get("prijs_was")
+            and not (a["laagste_gezien"] and a["laagste_gezien"] < a["prijs_was"] * 0.9)
+        )
+    with open(HISTORIE, "w", encoding="utf-8") as f:
+        json.dump(hist, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"[echt] {sum(1 for a in alles if a.get('echt'))} echte kortingen van 50% of meer")
 
 
 def main(alleen=None):
@@ -134,6 +169,7 @@ def main(alleen=None):
         check(alles)
     except Exception as e:
         print("[tweakers] overgeslagen:", e)
+    prijshistorie_en_echt(alles)
     # Kaufland non-food zit op de online marktplaats, niet in de filiaalfolder:
     # link naar een zoekopdracht op kaufland.de in plaats van naar de filiaalpagina
     from urllib.parse import quote_plus

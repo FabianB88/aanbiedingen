@@ -348,7 +348,7 @@ def lidl_grid(g):
         if m:
             geldig = m.group(0)
     pack = ((g.get("price") or {}).get("packaging") or {}).get("text", "")
-    return {"titel": titel, "merk": (g.get("brand") or {}).get("name", ""), "actie": actie,
+    return {"ref": "van", "titel": titel, "merk": (g.get("brand") or {}).get("name", ""), "actie": actie,
             "prijs_nu": nu, "prijs_was": was, "eenheid": pack, "img": g.get("image", ""),
             "url": "https://www.lidl.nl" + (g.get("canonicalPath") or ""), "geldig": geldig,
             "cat_hint": g.get("category", "")}
@@ -467,7 +467,7 @@ def kaufland_ssr(h, vandaag=None):
                     else:
                         nonfood = None
                     uit.append({
-                        "titel": titel, "merk": merk.title() if merk.isupper() else merk,
+                        "ref": "van", "titel": titel, "merk": merk.title() if merk.isupper() else merk,
                         "actie": f"-{korting}%" if korting else "",
                         "prijs_nu": nu, "prijs_was": was,
                         "eenheid": o.get("unit", ""),
@@ -580,7 +580,7 @@ def coolblue_html(h):
     uit = []
     for pid, naam, beeld, soort, lijst, nu, url in COOLBLUE_RX.findall(h):
         lijst, nu = float(lijst), float(nu)
-        uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu,
+        uit.append({"id": pid, "titel": naam, "actie": "Black Friday", "prijs_nu": nu, "ref": "advies",
                     "prijs_was": lijst if lijst > nu else None,
                     "img": f"https://image.coolblue.nl/transparent/max/320xauto/products/{beeld}" if beeld else "",
                     "eenheid": soort, "url": url, "geldig": "", "nonfood": True, "bf": True})
@@ -647,6 +647,7 @@ def amazon():
                 "titel": p.get("title", ""), "actie": badge,
                 "prijs_nu": nu, "prijs_was": was,
                 "eenheid": ("vergeleken met " + ref.get("label", "").rstrip(":").lower()) if ref.get("label") else "",
+                "ref": "mediaan" if "mediaan" in (ref.get("label") or "").lower() else "advies",
                 "img": f"{img['baseUrl']}._AC_SL400_.{img.get('extension', 'jpg')}" if img.get("baseUrl") else "",
                 "url": "https://www.amazon.nl" + (p.get("link") or ""),
                 "geldig": "", "nonfood": True, "bf": True,

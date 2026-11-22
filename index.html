@@ -90,6 +90,8 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .tw{display:block;font-size:12px;line-height:1.45;background:#f4f1ea;border-radius:8px;padding:7px 9px;text-decoration:none;color:var(--tekst)}
 .tw span{display:block;font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:#8a6d1f;margin-bottom:2px}
 .goed{color:var(--groen-d)}.slecht{color:var(--accent)}
+.ref{font-size:11.5px;color:var(--zacht)}.ref.zwak{color:var(--accent)}
+.modus button[data-modus="echt"].aan{background:var(--accent)}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -128,7 +130,7 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
 <main>
   <div class="top">
     <button class="menu" id="menu" aria-label="Menu">☰</button>
-    <div class="modus"><button data-modus="boodschappen" class="aan">Boodschappen</button><button data-modus="bf">Black Friday <span class="tel" id="tel-bf"></span></button></div>
+    <div class="modus"><button data-modus="boodschappen" class="aan">Boodschappen</button><button data-modus="bf">Black Friday <span class="tel" id="tel-bf"></span></button><button data-modus="echt">Echt -50% <span class="tel" id="tel-echt"></span></button></div>
     <h1 id="kop">Alle aanbiedingen</h1>
     <div class="zoek" id="zoekvak"><input id="zoek" type="search" placeholder="Zoek product of merk" autocomplete="off"></div>
   </div>
@@ -184,9 +186,13 @@ function zichtbaar(){
 const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon"];
 // bij welk tabblad hoort een aanbieding; winkelknoppen blijven zichtbaar, ook als je ze uitzet
 const soort = a => (a.bf || WEBSHOPS.includes(a.winkel)) ? "bf" : a.nonfood ? "nonfood" : "boodschappen";
-const huidigeSoort = () => view==="blackfriday" ? "bf" : view==="nonfood" ? "nonfood" : "boodschappen";
+const pastBij = (a, s) => s==="echt" ? !!a.echt : soort(a)===s;
+const huidigeSoort = () => view==="blackfriday" ? "bf" : view==="nonfood" ? "nonfood" : view==="echt" ? "echt" : "boodschappen";
 function nonfood(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood && !a.bf && !WEBSHOPS.includes(a.winkel));
+}
+function echteDeals(){
+  return data.filter(a => !st.verborgen.includes(a.winkel) && a.echt);
 }
 function blackfriday(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && (a.bf || WEBSHOPS.includes(a.winkel)));
@@ -219,6 +225,13 @@ function gefilterd(lijst){
     if (s==="winkel") return a.winkel.localeCompare(b.winkel) || (b.korting??-1)-(a.korting??-1);
     return a.titel.localeCompare(b.titel);
   });
+}
+
+function refBlok(a){
+  if (!(a.nonfood || a.bf) || !a.prijs_was) return "";
+  const ref = {van:"van-prijs = laagste prijs 30 dagen", mediaan:"t.o.v. mediaanprijs Amazon", advies:"t.o.v. adviesprijs (zegt weinig)"}[a.ref] || "";
+  const hist = a.dagen_gemeten > 1 ? `, ${a.dagen_gemeten} dagen gevolgd${a.laagste_gezien ? `, laagste gezien ${euro(a.laagste_gezien)}` : ""}` : "";
+  return ref ? `<div class="ref${a.ref==="advies"?" zwak":""}">${ref}${hist}</div>` : "";
 }
 
 function twBlok(a){
@@ -254,13 +267,14 @@ function kaart(a, nieuw){
       ${prijs}
       ${a.geldig?`<div class="geldig">${esc(a.geldig)}</div>`:""}
       ${twBlok(a)}
+      ${refBlok(a)}
     </div></article>`;
 }
 
 function filterbalk(bron){
   const cats = [...new Set((bron||data).map(a=>a.categorie))].sort();
   if (st.cat && !cats.includes(st.cat)) st.cat = "";
-  const zichtbare = Object.entries(WINKELS).filter(([c]) => data.some(a => a.winkel===c && soort(a)===huidigeSoort()));
+  const zichtbare = Object.entries(WINKELS).filter(([c]) => data.some(a => a.winkel===c && pastBij(a, huidigeSoort())));
   const allesAan = zichtbare.every(([c]) => !st.verborgen.includes(c));
   const winkelChips = `<button class="chip${allesAan?" aan":""}" data-alle-winkels="1">${allesAan?"✓ ":""}Alle</button>` + zichtbare.map(([c,w]) => {
     const aan = !st.verborgen.includes(c);
@@ -299,7 +313,8 @@ function teken(){
   document.getElementById("tel-lijstjes").innerHTML = nNieuw ? `<b class="badge">${nNieuw} nieuw</b>` : (st.lijstjes.length || "");
   document.getElementById("tel-nonfood").textContent = nonfood().length || "";
   document.getElementById("tel-bf").textContent = blackfriday().length || "";
-  document.querySelectorAll(".modus button").forEach(b => b.classList.toggle("aan", b.dataset.modus === (view==="blackfriday" ? "bf" : "boodschappen")));
+  document.getElementById("tel-echt").textContent = echteDeals().length || "";
+  document.querySelectorAll(".modus button").forEach(b => b.classList.toggle("aan", b.dataset.modus === ({blackfriday:"bf", echt:"echt"}[view] || "boodschappen")));
   document.querySelectorAll(".nav").forEach(n => n.classList.toggle("actief", n.dataset.view===view));
   const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Non-food", blackfriday:"Black Friday", winkels:"Winkels & status"}[view];
   document.getElementById("kop").textContent = kop;
@@ -314,6 +329,11 @@ function teken(){
   }
   else if (view==="nonfood"){
     el.innerHTML = `<div class="info">Elektronica, huishoudspullen, kleding en andere non-food uit de folders. Staat los van de boodschappen.</div>` + filterbalk(nonfood()) + grid(gefilterd(nonfood()));
+  }
+  else if (view==="echt"){
+    const lijst = echteDeals();
+    el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen van 50% of meer</h2><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen) of de mediaanprijs van Amazon. Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
+      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen echte deals van 50% of meer gevonden.</div>`);
   }
   else if (view==="blackfriday"){
     const lijst = blackfriday();
@@ -364,7 +384,7 @@ function teken(){
 document.addEventListener("click", e => {
   const t = e.target.closest("button,[data-winkel]");
   if (!t) return;
-  if (t.dataset.modus){ view = t.dataset.modus==="bf" ? "blackfriday" : "alle"; teken(); window.scrollTo(0,0); return; }
+  if (t.dataset.modus){ view = {bf:"blackfriday", echt:"echt"}[t.dataset.modus] || "alle"; teken(); window.scrollTo(0,0); return; }
   if (t.dataset.view){ view = t.dataset.view; sluitMenu(); teken(); window.scrollTo(0,0); return; }
   if (t.dataset.alleWinkels){ st.verborgen = []; bewaar(); teken(); return; }
   if (t.dataset.winkel){ const c=t.dataset.winkel; st.verborgen = st.verborgen.includes(c)? st.verborgen.filter(x=>x!==c) : [...st.verborgen,c]; bewaar(); teken(); return; }
