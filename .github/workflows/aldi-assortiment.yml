@@ -1,6 +1,8 @@
-name: Aldi-assortiment (eenmalig)
+name: Aldi-assortiment (wekelijks)
 
 on:
+  schedule:
+    - cron: "37 3 * * 1"      # elke maandagnacht, vóór de ochtendrun
   workflow_dispatch:
   push:
     branches: [main]

@@ -1,6 +1,6 @@
-"""Eenmalig: het vaste Aldi-assortiment (ruim 1700 producten) van aldi.nl/producten
+"""Wekelijks: het vaste Aldi-assortiment (ruim 1700 producten) van aldi.nl/producten
 in data/assortiment/aldi.json zetten, in hetzelfde formaat als de Checkjebon-data.
-Draait alleen als je de workflow 'Aldi-assortiment' handmatig start."""
+Draait elke maandagnacht via de workflow 'Aldi-assortiment', of handmatig."""
 import json
 import os
 import re
