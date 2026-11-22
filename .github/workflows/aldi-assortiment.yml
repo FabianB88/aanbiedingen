@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: scrape
+  group: aldi-assortiment
   cancel-in-progress: false
 
 jobs:
