@@ -67393,7 +67393,7 @@
     {
      "id": "sp_include_intolerance_geen_lupine",
      "label": "lupine",
-     "count": 15247,
+     "count": 15246,
      "display": true
     },
     {
@@ -67405,7 +67405,7 @@
     {
      "id": "sp_include_intolerance_geen_mosterd",
      "label": "mosterd",
-     "count": 13912,
+     "count": 13911,
      "display": true
     },
     {
@@ -67417,25 +67417,25 @@
     {
      "id": "sp_include_intolerance_geen_pindas",
      "label": "pinda's",
-     "count": 13398,
+     "count": 13397,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_schelpdieren",
      "label": "schelpdieren",
-     "count": 15342,
+     "count": 15341,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_selderij",
      "label": "selderij",
-     "count": 14486,
+     "count": 14485,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sesam",
      "label": "sesam",
-     "count": 14402,
+     "count": 14401,
      "display": true
     },
     {
@@ -67447,13 +67447,13 @@
     {
      "id": "sp_include_intolerance_geen_sulfiet",
      "label": "sulfiet",
-     "count": 14662,
+     "count": 14661,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_vis",
      "label": "vis",
-     "count": 14828,
+     "count": 14827,
      "display": true
     }
    ],
@@ -67480,7 +67480,7 @@
     {
      "id": "sp_include_dieet_laag_zout",
      "label": "Laag zout",
-     "count": 6897,
+     "count": 6896,
      "display": true
     },
     {
@@ -67492,7 +67492,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10017,
+     "count": 10016,
      "display": true
     }
    ],
@@ -67531,7 +67531,7 @@
     {
      "id": "e",
      "label": "Score E",
-     "count": 3200,
+     "count": 3199,
      "display": true
     },
     {
@@ -67657,7 +67657,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10017,
+     "count": 10016,
      "display": true
     }
    ],
