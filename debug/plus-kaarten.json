@@ -1,6 +1,6 @@
 {
  "url": "https://www.plus.nl/aanbiedingen",
- "aantal": 167,
+ "aantal": 168,
  "kaarten": [
   {
    "tekst": "5 voor 4.99\nAlle XXL Nutrition Repen\n4.\n99\n11.25 - 12.95",
@@ -1668,6 +1668,16 @@
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4456-95",
    "sectie": "Alle Philips Led lampen",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "2 voor 8.49\nWhiskas Maaltijdzakjes en Perfect Fit Kattenbrokken\n8.\n49\n11.90 - 13.18",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_90_M/b6e41ab918d1564e95d1e7922e397945/4456_90.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-90",
+   "sectie": "Huisdier",
    "attrs": {
     "data-container": ""
    }
