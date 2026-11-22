@@ -97,6 +97,18 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .arij{display:flex;align-items:center;gap:10px;padding:9px 2px;border-bottom:1px solid var(--lijn);text-decoration:none;color:inherit}
 .arij .anaam{flex:1;font-size:13.5px;line-height:1.3}.arij small{display:block;color:var(--zacht);font-size:11.5px}
 .arij .aprijs{text-align:right;font-weight:700;white-space:nowrap}.arij .stip{width:8px;height:8px;border-radius:50%;flex:none}
+.ster.op{background:var(--groen);color:#fff}
+.aplus{border:1px solid var(--lijn);background:#fff;border-radius:50%;width:32px;height:32px;flex:none;font-size:17px;cursor:pointer;color:var(--groen)}
+.aplus.op{background:var(--groen);color:#fff;border-color:var(--groen)}
+.arij .anaam{text-decoration:none;color:inherit}
+.lregel,.vink{display:flex;align-items:center;gap:10px;padding:10px 2px;border-bottom:1px solid var(--lijn)}
+.lregel .anaam,.vink .anaam{flex:1;font-size:14px;line-height:1.3}.lregel small,.vink small{display:block;color:var(--zacht);font-size:12px}
+.lregel .aprijs,.vink .aprijs{text-align:right;font-weight:700;white-space:nowrap}.lregel .aprijs small{font-weight:400}
+.vink input{width:22px;height:22px;accent-color:var(--groen);flex:none}
+.vink.af .anaam{text-decoration:line-through;color:var(--zacht)}
+.wkop{display:flex;align-items:center;gap:8px;font-size:15px;margin:16px 0 4px}.wkop .stip{width:10px;height:10px;border-radius:50%}
+.link{border:0;background:none;color:var(--groen-d);text-decoration:underline;cursor:pointer;padding:0;font-size:12.5px}
+#melding{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#24302a;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;z-index:50;box-shadow:0 4px 20px #0003}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -125,8 +137,7 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
 <aside class="side" id="side">
   <div class="logo">Aanbiedingen<small>Groesbeek en omstreken</small></div>
   <button class="nav actief" data-view="alle">Alle aanbiedingen <span class="tel" id="tel-alle"></span></button>
-  <button class="nav" data-view="gevolgd">Gevolgd <span class="tel" id="tel-gevolgd"></span></button>
-  <button class="nav" data-view="lijstjes">Lijstjes <span class="tel" id="tel-lijstjes"></span></button>
+  <button class="nav" data-view="lijstjes">Mijn lijstjes <span class="tel" id="tel-lijstjes"></span></button>
   <button class="nav" data-view="nonfood">Non-food <span class="tel" id="tel-nonfood"></span></button>
   <button class="nav" data-view="winkels">Winkels &amp; status</button>
   <div class="onder" id="bijgewerkt">Laden…</div>
@@ -153,8 +164,16 @@ const WINKELS = {
   lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}, pepper:{naam:"Pepper.com",kleur:"#E4502D"}
 };
 const OPSLAG = "aanbiedingen-v1";
-const standaard = {echtMin:30, verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
+const standaard = {actief:0, lijstModus:"overzicht", echtMin:30, verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
 let st = laadState();
+// Gevolgd en Lijstjes zijn samengevoegd: gevolgde termen worden het eerste lijstje
+if (st.gevolgd && st.gevolgd.length){
+  if (!st.lijstjes.length) st.lijstjes.push({naam:"Mijn lijst", termen:[]});
+  st.gevolgd.forEach(t => { if (!st.lijstjes[0].termen.includes(t)) st.lijstjes[0].termen.push(t); });
+  st.gevolgd = [];
+}
+st.lijstjes.forEach(l => { l.af = l.af || {}; });
+if (st.actief >= st.lijstjes.length) st.actief = 0;
 let data = [], status = {}, view = "alle", zoekterm = "";
 
 function laadState(){ try{ return {...standaard, ...JSON.parse(localStorage.getItem(OPSLAG)||"{}")}; }catch(e){ return {...standaard}; } }
@@ -168,7 +187,17 @@ const matcht = (a, term) => norm(term).split(",").map(d => d.trim()).filter(Bool
   .some(deel => deel.split(/\s+/).every(w => hooiberg(a).includes(w)));
 const sleutelVan = a => a.winkel + "|" + a.titel + "|" + a.actie;
 const isMeerkoop = a => /\+|2\s*(e|de)\b|voor\s*€?\d|für|\d\.?\s*(artikel|stück)/i.test(a.actie);
-const gevolgd = a => st.gevolgd.some(t => matcht(a, t));
+const opLijst = a => st.lijstjes.some(l => l.termen.some(t => matcht(a, t)));
+const gevolgd = opLijst;
+function actieveLijst(){
+  if (!st.lijstjes.length) st.lijstjes.push({naam:"Mijn lijst", termen:[], af:{}});
+  return st.lijstjes[Math.min(st.actief, st.lijstjes.length-1)];
+}
+// van een producttitel een zoekterm maken: zonder maten en losse getallen
+const termVan = titel => titel.toLowerCase().replace(/\(.*?\)/g," ").replace(/\b\d+([.,]\d+)?\s*(x|g|gr|gram|kg|ml|cl|l|liter|stuks?|st)\b/g," ")
+  .replace(/[^a-z0-9à-ÿ&' -]/g," ").replace(/\s+/g," ").trim().split(" ").slice(0,5).join(" ");
+let melding = "";
+function meld(t){ melding = t; teken(); setTimeout(()=>{ melding=""; const m=document.getElementById("melding"); if(m) m.remove(); }, 2200); }
 
 async function start(){
   try{
@@ -219,12 +248,50 @@ function assortimentBlok(){
   const delen = norm(zoekterm).split(",").map(d=>d.trim()).filter(Boolean);
   const hits = assortiment.filter(a => !st.verborgen.includes(a.winkel) && delen.some(d => d.split(/\s+/).every(w => a._h.includes(w))));
   hits.sort((a,b) => (a.per??9999)-(b.per??9999) || a.prijs-b.prijs);
-  const rij = a => { const w = WINKELS[a.winkel]; return `<a class="arij" href="${esc(a.url)}" target="_blank" rel="noopener">
-    <span class="stip" style="background:${w.kleur}"></span><span class="anaam">${esc(a.titel)}<small>${esc(w.naam)}${a.maat?" · "+esc(a.maat):""}</small></span>
-    <span class="aprijs">${euro(a.prijs)}${a.per?`<small>${euro(a.per)}/${a.per_eenheid}</small>`:""}</span></a>`; };
+  const rij = a => { const w = WINKELS[a.winkel]; const op = st.lijstjes.some(l => l.termen.includes(termVan(a.titel)));
+    return `<div class="arij"><span class="stip" style="background:${w.kleur}"></span>
+    <a class="anaam" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.titel)}<small>${esc(w.naam)}${a.maat?" · "+esc(a.maat):""}</small></a>
+    <span class="aprijs">${euro(a.prijs)}${a.per?`<small>${euro(a.per)}/${a.per_eenheid}</small>`:""}</span>
+    <button class="aplus${op?" op":""}" data-plus="${esc(a.titel)}">${op?"✓":"+"}</button></div>`; };
   return `<div class="paneel"><h2>Ook in het assortiment <span class="sub">normale prijzen, goedkoopste per kg/l eerst</span></h2>
     ${hits.length ? hits.slice(0,80).map(rij).join("") + (hits.length>80?`<p class="sub">${hits.length} producten, eerste 80 getoond. Maak je zoekterm specifieker.</p>`:"") : '<p class="sub">Niets gevonden.</p>'}
     <p class="sub" style="margin-top:8px">Bron: open data van Checkjebon (AH, Jumbo, Lidl, PLUS), een paar keer per week bijgewerkt. Aldi: wekelijks van aldi.nl gehaald.</p></div>`;
+}
+
+function assortimentHits(term){
+  if (!assortiment) return [];
+  const delen = norm(term).split(",").map(d=>d.trim()).filter(Boolean);
+  return assortiment.filter(a => !st.verborgen.includes(a.winkel) && delen.some(d => d.split(/\s+/).every(w => a._h.includes(w))));
+}
+// voordeligste optie voor een regel op je lijst: eerst een aanbieding, anders het goedkoopste product per kg/l
+function besteOptie(term){
+  const acties = alleWinkels().filter(a => !a.nonfood && matcht(a, term));
+  if (acties.length){
+    const a = acties.sort((x,y) => (x.per??9999)-(y.per??9999) || (y.korting??-1)-(x.korting??-1))[0];
+    return {winkel:a.winkel, prijs:a.prijs_nu, per:a.per, per_eenheid:a.per_eenheid, aanbieding:true,
+            uitleg:`${(WINKELS[a.winkel]||{}).naam}: ${a.actie || "aanbieding"}${a.korting!=null && !(a.actie||"").includes("%")?` (-${a.korting}%)`:""} · ${a.titel}`};
+  }
+  const ass = assortimentHits(term).sort((x,y) => (x.per??9999)-(y.per??9999) || x.prijs-y.prijs);
+  if (ass.length){
+    const a = ass[0];
+    return {winkel:a.winkel, prijs:a.prijs, per:a.per, per_eenheid:a.per_eenheid, aanbieding:false,
+            uitleg:`goedkoopst bij ${(WINKELS[a.winkel]||{}).naam}: ${a.titel}${a.maat?` (${a.maat})`:""}`};
+  }
+  return null;
+}
+function vulSuggesties(tekst){
+  const dl = document.getElementById("suggesties"); if (!dl) return;
+  const q = norm(tekst).trim(); if (q.length < 2){ dl.innerHTML = ""; return; }
+  const gezien = new Set(), uit = [];
+  const bronnen = [...data.map(a => a.titel), ...(assortiment||[]).map(a => a.titel)];
+  for (const t of bronnen){
+    const k = termVan(t); if (!k || gezien.has(k) || !norm(k).includes(q)) continue;
+    gezien.add(k); uit.push(k); if (uit.length >= 12) break;
+  }
+  // ook het losse woord zelf als bredere term
+  const woord = bronnen.map(t => norm(t).split(/\s+/).find(w => w.startsWith(q) && w.length > q.length)).find(Boolean);
+  if (woord && !gezien.has(woord)) uit.unshift(woord);
+  dl.innerHTML = uit.map(k => `<option value="${esc(k)}">`).join("");
 }
 
 function alleWinkels(){ return data.filter(a => !st.verborgen.includes(a.winkel)); }
@@ -290,7 +357,7 @@ function kaart(a, nieuw){
   const per = a.per ? `<span class="per">${euro(a.per)}/${a.per_eenheid}</span>` : "";
   const prijs = a.prijs_nu!=null ? `<div class="prijs"><b>${euro(a.prijs_nu)}</b>${a.prijs_was?`<s>${euro(a.prijs_was)}</s>`:""}${per}</div>` : `<div class="prijs"></div>`;
   return `<article class="k${v?" volg":""}">
-    <div class="foto">${img}${pct}${nieuw?'<span class="nieuw">Nieuw</span>':""}<button class="ster" data-volg="${esc(a.titel)}" title="Volgen">${v?"★":"☆"}</button></div>
+    <div class="foto">${img}${pct}${nieuw?'<span class="nieuw">Nieuw</span>':""}<button class="ster${v?" op":""}" data-plus="${esc(a.titel)}" title="${v?"Staat op je lijst":"Op lijst zetten"}">${v?"✓":"+"}</button></div>
     <div class="body">
       <div class="winkel" style="color:${w.kleur}"><span class="stip" style="background:${w.kleur}"></span>${esc(w.naam)}</div>
       ${a.url?`<a class="titel" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.titel)}</a>`:`<div class="titel">${esc(a.titel)}</div>`}
@@ -340,7 +407,6 @@ function teken(){
   const z = zichtbaar();
   const volgLijst = z.filter(gevolgd);
   document.getElementById("tel-alle").textContent = z.length || "";
-  document.getElementById("tel-gevolgd").textContent = volgLijst.length || "";
   const nNieuw = st.lijstjes.reduce((n,l) => n + nieuwIn(l).length, 0);
   document.getElementById("tel-lijstjes").innerHTML = nNieuw ? `<b class="badge">${nNieuw} nieuw</b>` : (st.lijstjes.length || "");
   document.getElementById("tel-nonfood").textContent = nonfood().length || "";
@@ -348,14 +414,16 @@ function teken(){
   document.getElementById("tel-echt").textContent = echteDeals().length || "";
   document.querySelectorAll(".modus button").forEach(b => b.classList.toggle("aan", b.dataset.modus === ({blackfriday:"bf", echt:"echt"}[view] || "boodschappen")));
   document.querySelectorAll(".nav").forEach(n => n.classList.toggle("actief", n.dataset.view===view));
-  const kop = {alle:"Alle aanbiedingen", gevolgd:"Gevolgd", lijstjes:"Lijstjes", nonfood:"Non-food", blackfriday:"Black Friday", winkels:"Winkels & status"}[view];
+  const kop = {alle:"Alle aanbiedingen", lijstjes:"Mijn lijstjes", nonfood:"Non-food", blackfriday:"Black Friday", winkels:"Winkels & status"}[view];
   document.getElementById("kop").textContent = kop;
-  document.getElementById("zoekvak").style.display = view==="winkels" ? "none" : "";
+  document.getElementById("zoekvak").style.display = (view==="winkels" || view==="lijstjes") ? "none" : "";
   const el = document.getElementById("inhoud");
+  document.getElementById("melding")?.remove();
+  if (melding) document.body.insertAdjacentHTML("beforeend", `<div id="melding">${esc(melding)}</div>`);
 
   if (view==="alle"){
     const opLijst = zoekterm ? `<div class="paneel zoekbalk"><span>Zoekterm <b>${esc(zoekterm)}</b> bewaren, zodat hij vanzelf verschijnt zodra hij in de aanbieding is:</span>
-      <div class="rij"><select class="chip" id="zoekNaarLijst">${st.lijstjes.map((l,i)=>`<option value="${i}">${esc(l.naam)}</option>`).join("")}<option value="nieuw">+ nieuw lijstje…</option></select>
+      <div class="rij"><select class="chip" id="zoekNaarLijst">${st.lijstjes.map((l,i)=>`<option value="${i}"${i===st.actief?" selected":""}>${esc(l.naam)}</option>`).join("")}<option value="nieuw">+ nieuw lijstje…</option></select>
       <button class="knop" id="zoekOpslaan">Op lijst zetten</button></div></div>` : "";
     el.innerHTML = opLijst + filterbalk(z) + grid(gefilterd(z)) + assortimentBlok();
   }
@@ -373,31 +441,44 @@ function teken(){
     el.innerHTML = `<div class="info">Deals van bol.com, Coolblue, MediaMarkt en Amazon.nl. Let op: bij Black Friday is de "van"-prijs vaak opgerekt, dus vergelijk zelf even.</div>` +
       filterbalk(lijst) + (lijst.length ? grid(gefilterd(lijst)) : `<div class="leeg">Geen deals bij de gekozen winkels.</div>`);
   }
-  else if (view==="gevolgd"){
-    el.innerHTML = `<div class="paneel"><h2>Wat je volgt</h2>
-      <p>Zoektermen of merken. Alle woorden moeten in de productnaam staan. Gevolgde aanbiedingen krijgen overal een groene rand.</p>
-      <div class="rij"><input id="nieuweTerm" placeholder="bijv. koffiebonen, lavazza, wasmiddel"><button class="knop" id="voegTerm">Volgen</button></div>
-      <div style="margin-top:10px">${termBlok(z, st.gevolgd, "data-del-term")}</div></div>` + filterbalk(volgLijst) + grid(gefilterd(volgLijst));
-  }
   else if (view==="lijstjes"){
-    el.innerHTML = `<div class="paneel"><h2>Lijstjes</h2><p>Zet er zoektermen op, ook als iets nu niet in de aanbieding is. Zodra het ergens in de aanbieding komt, verschijnt het hier vanzelf met het label <span class="nieuw inline">Nieuw</span>. Gebruik een komma voor "of": <i>koffiebonen, espresso</i>.</p>
-      <div class="rij"><input id="nieuweLijst" placeholder="Naam, bijv. Weekboodschappen"><button class="knop" id="voegLijst">Maken</button></div></div>` +
-      (st.lijstjes.map((l,li) => {
-        const hits = lijstHits(l);
-        const nieuw = new Set(nieuwIn(l).map(sleutelVan));
-        const gedekt = l.termen.filter(t => hits.some(a=>matcht(a,t))).length;
-        const termen = l.termen.map((t,ti) => {
-          const n = hits.filter(a=>matcht(a,t)).length;
-          return `<span class="term${n?"":" uit"}">${esc(t)} <span class="n">${n?n:"nu niet"}</span><button data-del-lt="${li}:${ti}" aria-label="Verwijder">×</button></span>`;
-        }).join("") || '<span class="sub">Nog leeg.</span>';
-        const gesorteerd = [...hits].sort((a,b) => nieuw.has(sleutelVan(b)) - nieuw.has(sleutelVan(a)));
-        return `<div class="paneel"><div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><h2 style="flex:1">${esc(l.naam)}</h2>
-          <span class="sub">${gedekt} van ${l.termen.length} in de aanbieding${nieuw.size?`, <b>${nieuw.size} nieuw</b>`:""}</span><button class="knop licht" data-del-lijst="${li}">Verwijder</button></div>
-          <div class="rij" style="margin-top:10px"><input data-lijst-input="${li}" placeholder="Product of merk toevoegen"><button class="knop" data-lijst-add="${li}">+</button></div>
-          <div style="margin:8px 0 14px">${termen}</div>
-          ${gesorteerd.length?`<div class="grid">${gesorteerd.slice(0,150).map(a=>kaart(a, nieuw.has(sleutelVan(a)))).join("")}</div>`:""}</div>`;
-      }).join("") || `<div class="leeg">Nog geen lijstjes.</div>`);
-    // wat je nu gezien hebt is de volgende keer niet meer nieuw
+    if (!assortiment) laadAssortiment();
+    const l = actieveLijst(), li = st.lijstjes.indexOf(l);
+    const tabs = st.lijstjes.map((x,i) => {
+      const n = nieuwIn(x).length;
+      return `<button class="chip${i===li?" aan":""}" data-kies-lijst="${i}">${esc(x.naam)}${n?` <b class="badge">${n}</b>`:""}</button>`;
+    }).join("") + `<button class="chip" id="nieuweLijstKnop">+ nieuw lijstje</button>`;
+    const modus = `<div class="rij" style="margin:4px 0 0">${[["overzicht","Overzicht"],["winkelen","Winkelen"]].map(([m,t])=>`<button class="chip${st.lijstModus===m?" aan":""}" data-lijstmodus="${m}">${t}</button>`).join("")}</div>`;
+    const invoer = `<div class="rij" style="margin-top:10px"><input id="lijstInvoer" list="suggesties" autocomplete="off" placeholder="Product of merk toevoegen, bijv. koffiebonen"><button class="knop" id="lijstToevoegen">+</button></div><datalist id="suggesties"></datalist>`;
+    const regels = l.termen.map((t,ti) => ({t, ti, b: besteOptie(t)}));
+    let inhoud = "";
+    if (!l.termen.length){
+      inhoud = `<p class="sub" style="margin-top:12px">Nog leeg. Typ hierboven, of tik op het plusje bij een aanbieding of bij een product in het assortiment.</p>`;
+    } else if (st.lijstModus === "winkelen"){
+      // gegroepeerd per winkel waar het nu het voordeligst is
+      const groepen = {};
+      regels.forEach(r => { const w = r.b ? r.b.winkel : "_"; (groepen[w] = groepen[w] || []).push(r); });
+      const volgorde = Object.keys(groepen).sort((x,y) => (x==="_") - (y==="_") || groepen[y].length - groepen[x].length);
+      inhoud = volgorde.map(w => {
+        const kop = w==="_" ? "Nog geen prijs gevonden" : (WINKELS[w]||{naam:w}).naam;
+        return `<h3 class="wkop">${w!=="_"?`<span class="stip" style="background:${WINKELS[w].kleur}"></span>`:""}${esc(kop)} <span class="sub">${groepen[w].length}</span></h3>` +
+          groepen[w].map(r => `<label class="vink${l.af[r.t]?" af":""}"><input type="checkbox" data-af="${r.ti}"${l.af[r.t]?" checked":""}>
+            <span class="anaam">${esc(r.t)}<small>${r.b ? esc(r.b.uitleg) : ""}</small></span><span class="aprijs">${r.b && r.b.prijs!=null ? euro(r.b.prijs) : ""}</span></label>`).join("");
+      }).join("") + `<div class="rij" style="margin-top:12px"><button class="knop licht" id="afWissen">Afvinken wissen</button></div>`;
+    } else {
+      inhoud = `<div class="lregels">` + regels.map(r => `<div class="lregel">
+          <span class="anaam">${esc(r.t)}<small>${r.b ? (r.b.aanbieding?`<b class="goed">${esc(r.b.uitleg)}</b>`:esc(r.b.uitleg)) : (assortiment?"niet gevonden":"prijzen laden…")}</small></span>
+          <span class="aprijs">${r.b && r.b.prijs!=null ? euro(r.b.prijs) : ""}${r.b && r.b.per ? `<small>${euro(r.b.per)}/${r.b.per_eenheid}</small>` : ""}</span>
+          <button class="aplus" data-del-lt="${li}:${r.ti}" aria-label="Verwijder">×</button></div>`).join("") + `</div>`;
+      const hits = lijstHits(l);
+      const nieuw = new Set(nieuwIn(l).map(sleutelVan));
+      const gesorteerd = [...hits].sort((a,b) => nieuw.has(sleutelVan(b)) - nieuw.has(sleutelVan(a)));
+      if (gesorteerd.length) inhoud += `<h3 class="wkop" style="margin-top:18px">Nu in de aanbieding${nieuw.size?` <span class="sub">${nieuw.size} nieuw</span>`:""}</h3><div class="grid">${gesorteerd.slice(0,150).map(a=>kaart(a, nieuw.has(sleutelVan(a)))).join("")}</div>`;
+    }
+    el.innerHTML = `<div class="paneel"><div class="rij">${tabs}</div>${modus}${invoer}
+      <div class="rij sub" style="margin-top:8px;justify-content:space-between"><span>Komma = "of": <i>koffiebonen, espresso</i></span>
+      <span><button class="link" id="lijstHernoem">hernoemen</button> · <button class="link" data-del-lijst="${li}">verwijderen</button></span></div>
+      ${inhoud}</div>`;
     markeerGezien();
   }
   else if (view==="winkels"){
@@ -422,13 +503,21 @@ document.addEventListener("click", e => {
   if (t.dataset.echtmin){ st.echtMin = +t.dataset.echtmin; bewaar(); teken(); return; }
   if (t.dataset.alleWinkels){ st.verborgen = []; bewaar(); teken(); return; }
   if (t.dataset.winkel){ const c=t.dataset.winkel; st.verborgen = st.verborgen.includes(c)? st.verborgen.filter(x=>x!==c) : [...st.verborgen,c]; bewaar(); teken(); return; }
-  if (t.dataset.volg!==undefined){
-    const titel = t.dataset.volg;
-    const bestaand = st.gevolgd.findIndex(x => matcht({titel,merk:"",categorie:""}, x));
-    if (bestaand>=0) st.gevolgd.splice(bestaand,1);
-    else { const voorstel = titel.split(/\s+/).slice(0,3).join(" "); const term = prompt("Volgen op welke zoekterm?", voorstel); if (!term) return; st.gevolgd.push(term.trim()); }
-    bewaar(); teken(); return;
+  if (t.dataset.plus!==undefined){
+    const titel = t.dataset.plus, term = termVan(titel);
+    // staat er al een term op een lijst die dit product dekt? dan haal je hem eraf
+    for (const l of st.lijstjes){
+      const i = l.termen.findIndex(x => x===term || matcht({titel, merk:"", actie:"", categorie:"", eenheid:"", winkel:""}, x));
+      if (i >= 0){ l.termen.splice(i,1); bewaar(); meld(`Van ${l.naam} gehaald`); return; }
+    }
+    const l = actieveLijst(); l.termen.push(term); bewaar(); meld(`Op ${l.naam} gezet`); return;
   }
+  if (t.dataset.kiesLijst!==undefined){ st.actief = +t.dataset.kiesLijst; bewaar(); teken(); return; }
+  if (t.dataset.lijstmodus){ st.lijstModus = t.dataset.lijstmodus; bewaar(); teken(); return; }
+  if (t.id==="nieuweLijstKnop"){ const naam = prompt("Naam van het nieuwe lijstje?", "Weekboodschappen"); if(!naam) return; st.lijstjes.push({naam:naam.trim(), termen:[], af:{}}); st.actief = st.lijstjes.length-1; bewaar(); teken(); return; }
+  if (t.id==="lijstHernoem"){ const l = actieveLijst(); const naam = prompt("Nieuwe naam", l.naam); if(!naam) return; st.gezien[naam.trim()] = st.gezien[l.naam]; l.naam = naam.trim(); bewaar(); teken(); return; }
+  if (t.id==="lijstToevoegen"){ const inp = document.getElementById("lijstInvoer"); const v = inp.value.trim(); if(!v) return; const l = actieveLijst(); if(!l.termen.includes(v)) l.termen.push(v); bewaar(); teken(); document.getElementById("lijstInvoer")?.focus(); return; }
+  if (t.id==="afWissen"){ actieveLijst().af = {}; bewaar(); teken(); return; }
   if (t.id==="zoekOpslaan"){
     const keuze = document.getElementById("zoekNaarLijst").value;
     let i = +keuze;
@@ -438,23 +527,23 @@ document.addEventListener("click", e => {
   }
   if (t.id==="alleenPct"){ st.alleenPct=!st.alleenPct; bewaar(); teken(); return; }
   if (t.id==="geenMeer"){ st.geenMeer=!st.geenMeer; bewaar(); teken(); return; }
-  if (t.id==="voegTerm"){ const v=document.getElementById("nieuweTerm").value.trim(); if(v){st.gevolgd.push(v); bewaar(); teken();} return; }
-  if (t.dataset.delTerm!==undefined){ st.gevolgd.splice(+t.dataset.delTerm,1); bewaar(); teken(); return; }
   if (t.id==="voegLijst"){ const v=document.getElementById("nieuweLijst").value.trim(); if(v){st.lijstjes.push({naam:v,termen:[]}); bewaar(); teken();} return; }
-  if (t.dataset.delLijst!==undefined){ if(confirm("Lijstje verwijderen?")){ st.lijstjes.splice(+t.dataset.delLijst,1); bewaar(); teken(); } return; }
+  if (t.dataset.delLijst!==undefined){ if(confirm("Lijstje verwijderen?")){ st.lijstjes.splice(+t.dataset.delLijst,1); st.actief = 0; bewaar(); teken(); } return; }
   if (t.dataset.lijstAdd!==undefined){ const i=+t.dataset.lijstAdd; const inp=document.querySelector(`[data-lijst-input="${i}"]`); const v=inp.value.trim(); if(v){ st.lijstjes[i].termen.push(v); bewaar(); teken(); document.querySelector(`[data-lijst-input="${i}"]`)?.focus(); } return; }
-  if (t.dataset.delLt!==undefined){ const [li,ti]=t.dataset.delLt.split(":").map(Number); st.lijstjes[li].termen.splice(ti,1); bewaar(); teken(); return; }
+  if (t.dataset.delLt!==undefined){ const [li,ti]=t.dataset.delLt.split(":").map(Number); const weg = st.lijstjes[li].termen.splice(ti,1)[0]; delete st.lijstjes[li].af[weg]; bewaar(); teken(); return; }
 });
 document.addEventListener("change", e => {
+  if (e.target.dataset.af!==undefined){ const l = actieveLijst(); const term = l.termen[+e.target.dataset.af]; if (e.target.checked) l.af[term] = true; else delete l.af[term]; bewaar(); teken(); return; }
   if (e.target.id==="sorteer"){ st.sorteer=e.target.value; bewaar(); teken(); }
   if (e.target.id==="cat"){ st.cat=e.target.value; bewaar(); teken(); }
 });
 document.addEventListener("keydown", e => {
   if (e.key!=="Enter") return;
-  if (e.target.id==="nieuweTerm") document.getElementById("voegTerm").click();
+  if (e.target.id==="lijstInvoer") document.getElementById("lijstToevoegen").click();
   if (e.target.id==="nieuweLijst") document.getElementById("voegLijst").click();
   if (e.target.dataset.lijstInput!==undefined) document.querySelector(`[data-lijst-add="${e.target.dataset.lijstInput}"]`).click();
 });
+document.addEventListener("input", e => { if (e.target.id==="lijstInvoer") vulSuggesties(e.target.value); });
 let zt; document.getElementById("zoek").addEventListener("input", e => { clearTimeout(zt); zt=setTimeout(()=>{ zoekterm=e.target.value.trim(); teken(); },150); });
 const side=document.getElementById("side"), dek=document.getElementById("dek");
 function sluitMenu(){ side.classList.remove("open"); dek.classList.remove("open"); }
