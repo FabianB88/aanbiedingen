@@ -71,6 +71,9 @@ RUIS_TITEL = re.compile(r"^(\d+\s*(gram|g|kg|ml|l|stuks?)\s*[\d.,]+|op=op|niet v
 
 def normaliseer(winkel, a):
     nu = prijs(a.get("prijs_nu"))
+    m_voor = re.match(r"\s*voor\s*€?\s*(\d+[.,]\d{2})", a.get("actie", "") or "", re.I)
+    if nu is None and m_voor:
+        nu = prijs(m_voor.group(1))
     was = prijs(a.get("prijs_was"))
     nu, omgerekend = per_gewicht(a.get("actie", ""), a.get("eenheid", ""), nu)
     # bij een gewichtsactie is de prijsvergelijking leidend, niet de actietekst
@@ -103,6 +106,58 @@ def normaliseer(winkel, a):
 
 
 HISTORIE = os.path.join(DATA, "prijshistorie.json")
+HUISMERKEN = {"ah", "jumbo", "plus", "lidl", "aldi", "g'woon", "gwoon", "euro", "shopper", "1", "de", "beste",
+              "biologisch", "bio", "excellent", "terra", "basic", "huismerk", "milbona", "freshona", "combino",
+              "1de", "aldi's", "everyday", "smaakt", "vers", "verse"}
+
+
+GERECHT = {"maaltijdsalade", "salade", "soep", "saus", "pizza", "wrap", "wraps", "broodje", "spread", "smeerkaas",
+           "chips", "snack", "snacks", "maaltijd", "ovenschotel", "quiche", "pasta", "rijst", "taart", "pie", "dip"}
+
+
+def kernwoorden(titel):
+    t = re.sub(r"\(.*?\)|\d+([.,]\d+)?\s*(x|g|gr|gram|kg|ml|cl|l|liter|stuks?|st|pack)\b", " ", titel.lower())
+    return [w for w in re.findall(r"[a-zà-ÿ']{3,}", t) if w not in HUISMERKEN]
+
+
+def vergelijk_met_elders(alles):
+    """Zet bij elke supermarktaanbieding het goedkoopste vergelijkbare product (normale
+    prijs per kg/l) bij een andere keten, zodat je ziet of de aanbieding wel voordelig is."""
+    rijen = []
+    for code in ("ah", "jumbo", "lidl", "plus", "aldi"):
+        try:
+            with open(os.path.join(DATA, "assortiment", f"{code}.json"), encoding="utf-8") as f:
+                for r in json.load(f):
+                    if r[3]:
+                        rijen.append((code, r[0], r[1], r[3], r[4], set(kernwoorden(r[0]))))
+        except Exception:
+            pass
+    index = {}
+    for i, r in enumerate(rijen):
+        for w in r[5]:
+            index.setdefault(w, []).append(i)
+    n = 0
+    for a in alles:
+        if a.get("nonfood") or not a.get("per"):
+            continue
+        kern = kernwoorden(a["titel"])
+        if not kern:
+            continue
+        kandidaten = set(index.get(min(kern, key=lambda w: len(index.get(w, []))), []))
+        beste = None
+        for i in kandidaten:
+            code, naam, p, per, eenh, woorden = rijen[i]
+            # zelfde soort product: alle kernwoorden erin, hoogstens één woord extra, geen "met"-gerecht
+            if code == a["winkel"] or eenh != a["per_eenheid"] or not set(kern) <= woorden \
+                    or len(woorden - set(kern)) > 1 or (woorden - set(kern)) & GERECHT \
+                    or re.search(r"\bmet\b|\bin blik\b", naam.lower()):
+                continue
+            if beste is None or per < beste[3]:
+                beste = rijen[i]
+        if beste and beste[3] < a["per"] * 0.97:
+            a["elders"] = {"winkel": beste[0], "titel": beste[1], "prijs": beste[2], "per": beste[3], "per_eenheid": beste[4]}
+            n += 1
+    print(f"[elders] bij {n} aanbiedingen is een normaal product elders goedkoper per kg/l")
 MEERKOOP = re.compile(r"\d\s*\+\s*\d|\d\s*(e|de)\s|\d\s*voor|für", re.I)
 
 
@@ -205,6 +260,10 @@ def main(alleen=None):
     except Exception as e:
         print("[tweakers] overgeslagen:", e)
     prijshistorie_en_echt(alles)
+    try:
+        vergelijk_met_elders(alles)
+    except Exception as e:
+        print("[elders] overgeslagen:", e)
     # Kaufland non-food zit op de online marktplaats, niet in de filiaalfolder:
     # link naar een zoekopdracht op kaufland.de in plaats van naar de filiaalpagina
     from urllib.parse import quote_plus
