@@ -1,0 +1,402 @@
+[
+ {
+  "tekst": "Vijgen\n0.49\nPer stuk\nVijgen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245417_main_cms_1_nl_nl_vijgen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/vijgen-1245417.html",
+  "sectie": "Fruit",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-1"
+  }
+ },
+ {
+  "tekst": "Blauwe bessen\n1.99\n125 g\nBlauwe bessen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237224_main_cms_2_nl_nl_blauwe_bessen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/blauwe-bessen-1237224.html",
+  "sectie": "Vijgen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-2"
+  }
+ },
+ {
+  "tekst": "Galiameloen\n2.29\nPer kilo\nGaliameloen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234949_main_cms_4_nl_nl_galiameloen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/galiameloen-1234949.html",
+  "sectie": "Blauwe bessen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-3"
+  }
+ },
+ {
+  "tekst": "Watermeloen\n1.20\nPer kilo\nWatermeloen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234948_main_cms_4_nl_nl_watermeloen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/watermeloen-1234948.html",
+  "sectie": "Galiameloen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-4"
+  }
+ },
+ {
+  "tekst": "Fairtrade junior bananen\n1.69\nPer tros\nFairtrade junior bananen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1223215_main_cms_1_nl_nl_fairtrade_junior_bananen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/fairtrade-junior-bananen-1223215.html",
+  "sectie": "Watermeloen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-5"
+  }
+ },
+ {
+  "tekst": "Minneola's\n1.99\n1 kg\nkg = 1.99\nMinneola's",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1222169_main_cms_8_nl_nl_minneola_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/minneolas-1222169.html",
+  "sectie": "Fairtrade junior bananen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-6"
+  }
+ },
+ {
+  "tekst": "Watermeloen\n5.49\nPer stuk\nWatermeloen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221832_main_cms_12_nl_nl_watermeloen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/watermeloen-1221832.html",
+  "sectie": "Minneola's",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-7"
+  }
+ },
+ {
+  "tekst": "Eetrijpe mango's\n2.49\nPer stuk\nEetrijpe mango's",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221825_main_cms_5_nl_nl_eetrijpe_mango_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/eetrijpe-mangos-1221825.html",
+  "sectie": "Watermeloen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-8"
+  }
+ },
+ {
+  "tekst": "16.11 - 22.11\n\nKistje bladmandarijnen\n3.99\nPer kist\nKistje bladmandarijnen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221735_main_cms_8_nl_nl_kistje_bladmandarijnen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/kistje-bladmandarijnen-1221735.html",
+  "sectie": "Eetrijpe mango's",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-9"
+  }
+ },
+ {
+  "tekst": "ZESPRI\n\nSungold kiwi's\n3.99\n500 g\nkg = 7.98\nSungold kiwi's",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221119_main_cms_5_nl_nl_sungold_kiwi_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/sungold-kiwis-1221119.html",
+  "sectie": "Kistje bladmandarijnen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-10"
+  }
+ },
+ {
+  "tekst": "Conference peren\n1.79\n1 kg\nkg = 1.79\nConference peren",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220565_main_cms_9_nl_nl_conference_peren_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/conference-peren-1220565.html",
+  "sectie": "Sungold kiwi's",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-11"
+  }
+ },
+ {
+  "tekst": "GALA\n\nZoete kinderappeltjes\n2.29\n1 kg\nkg = 2.29\nZoete kinderappeltjes",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220551_main_cms_2_nl_nl_zoete_kinderappeltjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/zoete-kinderappeltjes-1220551.html",
+  "sectie": "Conference peren",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-12"
+  }
+ },
+ {
+  "tekst": "Groene kiwi's\n3.99\n1 kg\nkg = 3.99\nGroene kiwi's",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220525_main_cms_7_nl_nl_groene_kiwi_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/groene-kiwis-1220525.html",
+  "sectie": "Zoete kinderappeltjes",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-13"
+  }
+ },
+ {
+  "tekst": "Pitloze druivenmix\n1.99\n500 g\nkg = 3.98\nPitloze druivenmix",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220441_main_cms_2_nl_nl_pitloze_druivenmix_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/pitloze-druivenmix-1220441.html",
+  "sectie": "Groene kiwi's",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-14"
+  }
+ },
+ {
+  "tekst": "Hollandse Jonagold appels\nOP=OP\n1.95\n1.5 kg\nkg = 1.30\nHollandse Jonagold appels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220096_main_cms_7_nl_nl_hollandse_jonagold_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/hollandse-jonagold-appels-1220096.html",
+  "sectie": "Pitloze druivenmix",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-15"
+  }
+ },
+ {
+  "tekst": "Perssinaasappels\nOP=OP\n2.59\n2 kg\nkg = 1.30\nPerssinaasappels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219986_main_cms_20_nl_nl_perssinaasappels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/perssinaasappels-1219986.html",
+  "sectie": "Hollandse Jonagold appels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-16"
+  }
+ },
+ {
+  "tekst": "Aanbieding van 23.11\n\nElstar appels\n2.49\n1.5 kg\nkg = 1.66\nElstar appels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219892_main_cms_3_nl_nl_elstar_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/elstar-appels-1219892.html",
+  "sectie": "Perssinaasappels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-17"
+  }
+ },
+ {
+  "tekst": "Ananas\n1.99\nPer stuk\nAnanas",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219814_main_cms_3_nl_nl_ananas_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/ananas-1219814.html",
+  "sectie": "Elstar appels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-18"
+  }
+ },
+ {
+  "tekst": "Kakifruit\n2.99\n1 kg\nkg = 2.99\nKakifruit",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219806_main_cms_13_nl_nl_kakifruit_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/kakifruit-1219806.html",
+  "sectie": "Ananas",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-19"
+  }
+ },
+ {
+  "tekst": "Citroenen\n1.49\n500 g\nkg = 2.98\nCitroenen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219783_main_cms_19_nl_nl_citroenen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/citroenen-1219783.html",
+  "sectie": "Kakifruit",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-20"
+  }
+ },
+ {
+  "tekst": "Mango\n1.79\nPer stuk\nMango",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219722_main_cms_6_nl_nl_mango_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/mango-1219722.html",
+  "sectie": "Citroenen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-21"
+  }
+ },
+ {
+  "tekst": "Mini-pruim-trostomaatjes\n2.59\n300 g\nkg = 8.63\nMini-pruim-trostomaatjes",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219634_main_cms_2_nl_nl_mini_pruim_trostomaatjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/mini-pruim-trostomaatjes-1219634.html",
+  "sectie": "Mango",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-22"
+  }
+ },
+ {
+  "tekst": "Granny Smith appels\n2.89\n4 stuks\nGranny Smith appels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219617_main_cms_8_nl_nl_granny_smith_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/granny-smith-appels-1219617.html",
+  "sectie": "Mini-pruim-trostomaatjes",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-23"
+  }
+ },
+ {
+  "tekst": "16.11 - 22.11\n\nEetrijpe avocado's\n-28%\n1.99\n2.79\n2 pack\nEetrijpe avocado's",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219606_main_cms_5_nl_nl_eetrijpe_avocado_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/eetrijpe-avocados-1219606.html",
+  "sectie": "Granny Smith appels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-24"
+  }
+ },
+ {
+  "tekst": "ZESPRI\n\nKiwi's gold\n3.49\n500 g\nkg = 6.98\nKiwi's gold",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219564_main_cms_6_nl_nl_kiwi_s_gold_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/kiwis-gold-1219564.html",
+  "sectie": "Eetrijpe avocado's",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-25"
+  }
+ },
+ {
+  "tekst": "Grapefruit\n1.99\n3-pack\nGrapefruit",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219521_main_cms_3_nl_nl_grapefruit_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/grapefruit-1219521.html",
+  "sectie": "Kiwi's gold",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-26"
+  }
+ },
+ {
+  "tekst": "Bloedsinaasappels\n2.29\n1 kg\nkg = 2.29\nBloedsinaasappels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219419_main_cms_3_nl_nl_bloedsinaasappels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/bloedsinaasappels-1219419.html",
+  "sectie": "Grapefruit",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-27"
+  }
+ },
+ {
+  "tekst": "Bananen\n1.19\nPer kg\nBananen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219379_main_cms_6_nl_nl_bananen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/bananen-1219379.html",
+  "sectie": "Bloedsinaasappels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-28"
+  }
+ },
+ {
+  "tekst": "16.11 - 22.11\n\nGaliameloen\n1.19\n1.99\nPer stuk\nGaliameloen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219376_main_cms_9_nl_nl_galiameloen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/galiameloen-1219376.html",
+  "sectie": "Bananen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-29"
+  }
+ },
+ {
+  "tekst": "Aanbieding van 23.11\n\nMandarijnen\nOP=OP\n1.99\n1 kg\nkg = 1.99\nMandarijnen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219324_main_cms_9_nl_nl_mandarijnen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/mandarijnen-1219324.html",
+  "sectie": "Galiameloen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-30"
+  }
+ },
+ {
+  "tekst": "Pitloze rode druiven\n2.49\n500 g\nkg = 4.98\nPitloze rode druiven",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219224_main_cms_28_nl_nl_pitloze_rode_druiven_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/pitloze-rode-druiven-1219224.html",
+  "sectie": "Mandarijnen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-31"
+  }
+ },
+ {
+  "tekst": "Nederlandse aardbeien\n2.99\n400 g\nkg = 11.96\nNederlandse aardbeien",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219201_main_cms_12_nl_nl_nederlandse_aardbeien_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/nederlandse-aardbeien-1219201.html",
+  "sectie": "Pitloze rode druiven",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-32"
+  }
+ },
+ {
+  "tekst": "Elstar appels\n1.99\nPer kg\nElstar appels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219126_main_cms_2_nl_nl_elstar_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/elstar-appels-1219126.html",
+  "sectie": "Nederlandse aardbeien",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-33"
+  }
+ },
+ {
+  "tekst": "Handsinaasappels\n2.89\n2 kg\nkg = 1.45\nHandsinaasappels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219056_main_cms_1_nl_nl_handsinaasappels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/handsinaasappels-1219056.html",
+  "sectie": "Elstar appels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-34"
+  }
+ },
+ {
+  "tekst": "Bramen\n2.49\n125 g\nkg = 19.92\nBramen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1218997_main_cms_1_nl_nl_bramen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/bramen-1218997.html",
+  "sectie": "Handsinaasappels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-35"
+  }
+ },
+ {
+  "tekst": "Citroen met eetbare schil\n0.59\nPer stuk\nCitroen met eetbare schil",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1216156_main_cms_2_nl_nl_citroen_met_eetbare_schil_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/citroen-met-eetbare-schil-1216156.html",
+  "sectie": "Bramen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-36"
+  }
+ },
+ {
+  "tekst": "KANZI\n\nAppels\n2.99\n6 stuks\nAppels",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1215535_main_cms_5_nl_nl_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/appels-1215535.html",
+  "sectie": "Citroen met eetbare schil",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-37"
+  }
+ },
+ {
+  "tekst": "16.11 - 22.11\n\nDoyenne du comice peren\n1.65\n1.89\n1 kg\nkg = 1.65\nDoyenne du comice peren",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1212641_main_cms_6_nl_nl_doyenne_du_comice_peren_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/doyenne-du-comice-peren-1212641.html",
+  "sectie": "Appels",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-38"
+  }
+ },
+ {
+  "tekst": "GIESER WILDEMAN\n\nStoofperen\n1.99\n1 kg\nkg = 1.99\nStoofperen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1212610_main_cms_2_nl_nl_stoofperen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/stoofperen-1212610.html",
+  "sectie": "Doyenne du comice peren",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-39"
+  }
+ },
+ {
+  "tekst": "Nederlandse pruimen\n2.99\n500 g\nkg = 5.98\nNederlandse pruimen",
+  "img": "https://s7g10.scene7.com/is/image/aldinord/product_1210735_main_cms_7_nl_nl_nederlandse_pruimen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+  "alt": "",
+  "href": "https://www.aldi.nl/product/nederlandse-pruimen-1210735.html",
+  "sectie": "Stoofperen",
+  "attrs": {
+   "data-testid": "product-tile-grid-product-tile-40"
+  }
+ }
+]
