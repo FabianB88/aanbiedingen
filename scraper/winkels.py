@@ -657,7 +657,7 @@ def amazon():
 
 
 # ------------------------------------------------------------------ Pepper.com
-PEPPER_FEEDS = ["https://nl.pepper.com/rss/hot", "https://nl.pepper.com/rss/alles",
+PEPPER_FEEDS = ["https://nl.pepper.com/rss/hot",
                 "https://nl.pepper.com/rss/nieuw"]
 
 
@@ -686,6 +686,15 @@ def pepper():
         for it in items:
             titel = _html.unescape((it.findtext("title") or "").strip())
             link = (it.findtext("link") or "").strip()
+            cat = (it.findtext("category") or "").strip()
+            if cat.lower() == "boodschappen":
+                continue
+            # titel begint met de temperatuur: "132° - [Amazon NL] LEGO ..."
+            mt = re.match(r"\s*(-?\d+)\s*°\s*-\s*", titel)
+            temp = int(mt.group(1)) if mt else None
+            if mt:
+                titel = titel[mt.end():]
+            titel = re.sub(r"^\[[^\]]+\]\s*", "", titel)
             if not titel or link in gezien:
                 continue
             gezien.add(link)
@@ -709,8 +718,15 @@ def pepper():
             for el in it:
                 if el.tag.endswith("content") or el.tag.endswith("thumbnail"):
                     img = el.get("url", "") or img
-            uit.append({"titel": titel[:160], "merk": winkel,
-                        "actie": (f"-{pct.group(1) or pct.group(2)}%" if pct else "") + (f" bij {winkel}" if winkel else ""),
+            delen = []
+            if pct:
+                delen.append(f"-{pct.group(1) or pct.group(2)}%")
+            if temp is not None:
+                delen.append(f"{temp}°")
+            if winkel:
+                delen.append(f"bij {winkel}")
+            uit.append({"titel": titel[:160], "merk": winkel, "temp": temp, "cat_hint": cat,
+                        "actie": " ".join(delen),
                         "prijs_nu": nu, "prijs_was": was, "img": img, "url": link, "geldig": "",
                         "nonfood": True, "bf": True, "ref": "pepper"})
     return uit

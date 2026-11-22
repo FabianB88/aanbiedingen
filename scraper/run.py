@@ -74,6 +74,7 @@ def normaliseer(winkel, a):
         "nonfood": a.get("nonfood"),
         "bf": bool(a.get("bf")),
         "ref": a.get("ref", ""),
+        "temp": a.get("temp"),
     }
 
 
@@ -103,7 +104,8 @@ def prijshistorie_en_echt(alles):
             (a.get("korting") or 0) >= 50 and not a.get("tot")
             and a.get("ref") in ("van", "mediaan", "pepper")
             and not MEERKOOP.search(a.get("actie", ""))
-            and a.get("prijs_was")
+            and (a.get("prijs_was") or a.get("ref") == "pepper")
+            and (a.get("ref") != "pepper" or (a.get("temp") or 0) >= 100)
             and not (a["laagste_gezien"] and a["laagste_gezien"] < a["prijs_was"] * 0.9)
         )
     with open(HISTORIE, "w", encoding="utf-8") as f:
