@@ -45,6 +45,26 @@ def per_gewicht(actie, eenheid, nu):
 
 
 NONFOOD_CATS = {"Overig"}
+EENHEID_RX = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:x\s*(\d+(?:[.,]\d+)?)\s*)?(kg|kilo|g|gram|gr|l|liter|ltr|ml|cl)\b", re.I)
+
+
+def eenheidsprijs(prijs_nu, eenheid, titel=""):
+    """Prijs per kg of liter uit '500 g', '6 x 330 ml', 'ca. 755 g'."""
+    if not prijs_nu:
+        return None, ""
+    m = EENHEID_RX.search(eenheid or "") or EENHEID_RX.search(titel or "")
+    if not m:
+        return None, ""
+    n = float(m.group(1).replace(",", "."))
+    if m.group(2):
+        n *= float(m.group(2).replace(",", "."))
+    u = m.group(3).lower()
+    factor = {"kg": 1, "kilo": 1, "g": 0.001, "gram": 0.001, "gr": 0.001,
+              "l": 1, "liter": 1, "ltr": 1, "ml": 0.001, "cl": 0.01}[u]
+    hoeveel = n * factor
+    if hoeveel <= 0:
+        return None, ""
+    return round(prijs_nu / hoeveel, 2), ("kg" if u in ("kg", "kilo", "g", "gram", "gr") else "l")
 # kaartfragmenten die geen product zijn ("500 gram 2.99", "OP=OP", "coupons")
 RUIS_TITEL = re.compile(r"^(\d+\s*(gram|g|kg|ml|l|stuks?)\s*[\d.,]+|op=op|niet verkrijgbaar|\d+\s*%|coupons|hot dog mit|biozidprodukte.*)$", re.I)
 
@@ -57,7 +77,7 @@ def normaliseer(winkel, a):
     pct, tot = bereken("" if omgerekend else a.get("actie", ""), nu, was)
     tot = tot or bool(a.get("tot"))
     titel = " ".join(str(a.get("titel", "")).split())
-    return {
+    uitkomst = {
         "winkel": winkel,
         "titel": titel,
         "merk": a.get("merk", ""),
@@ -72,10 +92,14 @@ def normaliseer(winkel, a):
         "url": a.get("url", ""),
         "geldig": a.get("geldig", ""),
         "nonfood": a.get("nonfood"),
+        "per": None, "per_eenheid": "",
         "bf": bool(a.get("bf")),
         "ref": a.get("ref", ""),
         "temp": a.get("temp"),
     }
+    if not uitkomst["nonfood"]:
+        uitkomst["per"], uitkomst["per_eenheid"] = eenheidsprijs(nu, a.get("eenheid", ""), titel)
+    return uitkomst
 
 
 HISTORIE = os.path.join(DATA, "prijshistorie.json")
@@ -90,7 +114,7 @@ def prijshistorie_en_echt(alles):
     vandaag = dt.date.today()
     hist = laad(HISTORIE, {})
     for a in alles:
-        if not (a.get("nonfood") or a.get("bf")) or not a.get("prijs_nu"):
+        if not a.get("prijs_nu"):
             continue
         k = f"{a['winkel']}|{a['titel'].lower()}"
         reeks = [r for r in hist.get(k, []) if (vandaag - dt.date.fromisoformat(r[0])).days <= 60]
@@ -100,6 +124,8 @@ def prijshistorie_en_echt(alles):
         recent = [p for d, p in reeks if (vandaag - dt.date.fromisoformat(d)).days <= 30 and d != vandaag.isoformat()]
         a["laagste_gezien"] = min(recent) if recent else None
         a["dagen_gemeten"] = len(reeks)
+        alle_prijzen = [p for _, p in reeks]
+        a["historisch_laag"] = len(reeks) >= 7 and a["prijs_nu"] <= min(alle_prijzen)
         a["echt"] = bool(
             (a.get("korting") or 0) >= 30 and not a.get("tot")
             and a.get("ref") in ("van", "mediaan", "pepper")

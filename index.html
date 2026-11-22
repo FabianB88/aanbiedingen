@@ -92,6 +92,8 @@ select.chip{appearance:none;padding-right:26px;background-image:linear-gradient(
 .goed{color:var(--groen-d)}.slecht{color:var(--accent)}
 .ref{font-size:11.5px;color:var(--zacht)}.ref.zwak{color:var(--accent)}
 .modus button[data-modus="echt"].aan{background:var(--accent)}
+.per{font-size:12px;color:var(--zacht);margin-left:auto}
+.laag{font-size:11.5px;font-weight:700;color:var(--groen-d)}
 .leeg{text-align:center;color:var(--zacht);padding:40px 10px}
 table.status{width:100%;border-collapse:collapse;font-size:14px}
 table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--lijn);text-align:left;vertical-align:top}
@@ -222,6 +224,7 @@ function gefilterd(lijst){
   return [...l].sort((a,b) => {
     if (s==="korting") return (b.korting??-1)-(a.korting??-1) || (gevolgd(b)-gevolgd(a));
     if (s==="prijs") return (a.prijs_nu??999)-(b.prijs_nu??999);
+    if (s==="per") return (a.per??9999)-(b.per??9999);
     if (s==="winkel") return a.winkel.localeCompare(b.winkel) || (b.korting??-1)-(a.korting??-1);
     return a.titel.localeCompare(b.titel);
   });
@@ -257,7 +260,8 @@ function kaart(a, nieuw){
     ? `<div class="pct">${a.tot?"<small>tot</small>":""}-${a.korting}%</div>`
     : `<div class="pct geen">actie</div>`;
   const img = a.img ? `<img loading="lazy" src="${esc(a.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
-  const prijs = a.prijs_nu!=null ? `<div class="prijs"><b>${euro(a.prijs_nu)}</b>${a.prijs_was?`<s>${euro(a.prijs_was)}</s>`:""}</div>` : `<div class="prijs"></div>`;
+  const per = a.per ? `<span class="per">${euro(a.per)}/${a.per_eenheid}</span>` : "";
+  const prijs = a.prijs_nu!=null ? `<div class="prijs"><b>${euro(a.prijs_nu)}</b>${a.prijs_was?`<s>${euro(a.prijs_was)}</s>`:""}${per}</div>` : `<div class="prijs"></div>`;
   return `<article class="k${v?" volg":""}">
     <div class="foto">${img}${pct}${nieuw?'<span class="nieuw">Nieuw</span>':""}<button class="ster" data-volg="${esc(a.titel)}" title="Volgen">${v?"★":"☆"}</button></div>
     <div class="body">
@@ -265,6 +269,7 @@ function kaart(a, nieuw){
       ${a.url?`<a class="titel" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.titel)}</a>`:`<div class="titel">${esc(a.titel)}</div>`}
       ${a.actie?`<span class="actie">${esc(a.actie)}</span>`:""}
       ${prijs}
+      ${a.historisch_laag?`<div class="laag">Laagste prijs sinds we meten</div>`:""}
       ${a.geldig?`<div class="geldig">${esc(a.geldig)}</div>`:""}
       ${twBlok(a)}
       ${refBlok(a)}
@@ -282,7 +287,7 @@ function filterbalk(bron){
   }).join("");
   return `<div class="filters">
     <select class="chip" id="sorteer">
-      ${[["korting","Hoogste korting"],["prijs","Laagste prijs"],["winkel","Per winkel"],["titel","A tot Z"]].map(([v,t])=>`<option value="${v}"${st.sorteer===v?" selected":""}>${t}</option>`).join("")}
+      ${[["korting","Hoogste korting"],["prijs","Laagste prijs"],["per","Laagste prijs per kg/l"],["winkel","Per winkel"],["titel","A tot Z"]].map(([v,t])=>`<option value="${v}"${st.sorteer===v?" selected":""}>${t}</option>`).join("")}
     </select>
     <select class="chip" id="cat"><option value="">Alle categorieën</option>${cats.map(c=>`<option${st.cat===c?" selected":""}>${esc(c)}</option>`).join("")}</select>
     <button class="chip${st.alleenPct?" aan":""}" id="alleenPct">Alleen met %</button>
