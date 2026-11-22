@@ -1,12 +1,20 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=6",
- "aantal": 3,
+ "aantal": 4,
  "kaarten": [
   {
-   "tekst": "€ 40,- cashback",
+   "tekst": "€ 50,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/946276/aeg-ab81a2dg-8000-animal.html",
+   "href": "https://www.coolblue.nl/product/926193/aeg-lwr7586cub-dualsense-universaldose-8-5-kg.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 75,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/914294/aeg-lr86cb86-powercare.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   },
@@ -19,10 +27,10 @@
    "attrs": {}
   },
   {
-   "tekst": "€ 75,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/914294/aeg-lr86cb86-powercare.html",
+   "tekst": "Beko RFNE448E55W\nBeoordeling is 9,3 van de 10, gebaseerd op 29 reviews.\n29 reviews\nKleur wit|Kabellengte 2,15 m|38 dB maximaal geluidsniveau\nProductinformatieblad\nopent in nieuw tabblad\nAdviesprijs1.099,-\n\n879,-\n\nOp voorraad\n\nVergelijken\nVoordelige Tweedekans\n\nvan\n\n836,-",
+   "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2076497",
+   "alt": "Beko RFNE448E55W",
+   "href": "https://www.coolblue.nl/product/951817/beko-rfne448e55w.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }

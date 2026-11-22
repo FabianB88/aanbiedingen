@@ -1,129 +1,509 @@
 {
  "url": "https://www.lidl.nl/c/aanbiedingen/a10008785",
- "aantal": 46,
+ "aantal": 63,
  "kaarten": [
   {
-   "tekst": "Vierkante donut\n0.69\nPer stuk\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp12c96a4e87a34bbeadfc5dea758d3337.png",
-   "alt": "Drie chocoladedonuts met gekleurde hagelslag op een zwarte achtergrond.",
-   "href": "https://www.lidl.nl/p/vierkante-donut/p11004813",
+   "tekst": "BIO\nBio courgette\n0.99\nmet Lidl Plus\n-46%\n0.39\nPer stuk\nZonder Lidl Plus 0.99\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpa7918f33610c4bc78865480319a737de.png",
+   "alt": "Hele groene courgette en drie plakjes courgette op een zwarte achtergrond.",
+   "href": "https://www.lidl.nl/p/bio-bio-courgette/p11029408",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Floralys\n3-laags keukenpapier\n8 rollen\n4.49\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp63580d5f0c8f468b9afdff7ae3d9e0a6.png",
-   "alt": "Verpakking met 8 rollen absorberende en scheurbestendige keukenrol, 3 lagen en 64 vellen.",
-   "href": "https://www.lidl.nl/p/floralys-3-laags-keukenpapier/p11005757",
+   "tekst": "Bospeen\n1.39\nmet Lidl Plus\n-14%\n1.19\nPer bos\nZonder Lidl Plus 1.39\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp6c7ee60739db46ac808a8cb4834aa030.png",
+   "alt": "Bospeen met loof in een plastic verpakking.",
+   "href": "https://www.lidl.nl/p/bospeen/p11029530",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Mango\n1.79\nmet Lidl Plus\n-45%\n0.99\nPer stuk\nZonder Lidl Plus 1.79\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp175ab9431a914d7cb38caa870529b473.png",
-   "alt": "Vier hele mango's en een gehalveerde mango die het gele vruchtvlees laat zien op een zwarte achtergrond",
-   "href": "https://www.lidl.nl/p/mango/p11029883",
+   "tekst": "Snijbonen\n1.95\nmet Lidl Plus\n-13%\n1.69\n400 g\nZonder Lidl Plus 1.95\n1 KG = 4.88\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpf7d6769ff20f4f7fb56587728aff3fe5.png",
+   "alt": "Verse sperziebonen met waterdruppels op een zwarte achtergrond.",
+   "href": "https://www.lidl.nl/p/snijbonen/p11492612",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Conference peren\n1.79\nmet Lidl Plus\n-28%\n1.29\n1 kg\nZonder Lidl Plus 1.79\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpb259f3cf5ab84f789d025b1e1c9f7170.png",
-   "alt": "Verpakking Conference peren, 1 kg",
-   "href": "https://www.lidl.nl/p/conference-peren/p11030070",
+   "tekst": "Prei\n0.55\nmet Lidl Plus\n-29%\n0.39\nPer stuk\nZonder Lidl Plus 0.55\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp49525428bc494ad9bb64f09c0e428b7e.png",
+   "alt": "Verse groene prei op een zwarte achtergrond",
+   "href": "https://www.lidl.nl/p/prei/p11029706",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Milbona\nBurrata\n1.99\nmet Lidl Plus\n-10%\n1.79\n125 g\nZonder Lidl Plus 1.99\n100 g = 1.59\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp9f0aee52c7ea49729c4ffbbfd2a9590e.png",
-   "alt": "Milbona Burrata kaas, verpakking van 125 g",
-   "href": "https://www.lidl.nl/p/milbona-burrata/p11031013",
+   "tekst": "Aardappelen kruimig\n4.99\nmet Lidl Plus\n-20%\n3.99\n5 kg\nZonder Lidl Plus 4.99\n1 KG = 1.00\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpf0f8d1d6fb664187a52cff4dbb5e6165.png",
+   "alt": "Een zak van 5 kg iets kruimige aardappelen.",
+   "href": "https://www.lidl.nl/p/aardappelen-kruimig/p11493347",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Koffiebroodjes\n0.68\nmet Lidl Plus\n-28%\n0.49\nPer stuk\nZonder Lidl Plus 0.68\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp31e15e520aae4736a0edf90a3258cd90.png",
-   "alt": "Drie goudbruine rozijnenkoeken opgestapeld tegen een zwarte achtergrond.",
-   "href": "https://www.lidl.nl/p/koffiebroodjes/p11039938",
+   "tekst": "Aardappelen vastkokend\n4.99\nmet Lidl Plus\n-20%\n3.99\n5 kg\nZonder Lidl Plus 4.99\n1 KG = 1.00\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp4400802b7c434c638aa678a102cc2ae6.png",
+   "alt": "Een zak van 5 kg vastkokende aardappelen om te koken, bakken en voor in de oven.",
+   "href": "https://www.lidl.nl/p/aardappelen-vastkokend/p11304018",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "QUALITÉ SUISSE\nJonagold appels\n1.85\nmet Lidl Plus\nZak 1,5 kilo\n1.49\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp89bcf05ec551422d881d408bafba6cdb.png",
-   "alt": "Zak met rode Duitse Jonagold appels van 1,5 kg.",
-   "href": "https://www.lidl.nl/p/qualite-suisse-jonagold-appels/p11150818",
+   "tekst": "Rode snacktomaten\n2.75\nmet Lidl Plus\n-31%\n1.89\n500 g\nZonder Lidl Plus 2.75\n1 KG = 5.50\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp2221b9476aca4d55af192d5fc53be83c.png",
+   "alt": "Een transparante verpakking van 500 gram snoeptomaten van Dutche bodem.",
+   "href": "https://www.lidl.nl/p/rode-snacktomaten/p11029802",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Zoete aardappels\n1.39\nmet Lidl Plus\n-29%\n0.99\nPer 500 g\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpb1007c70372547d082f244d967e09dd7.png",
-   "alt": "Hele en gehalveerde zoete aardappelen op een witte achtergrond",
-   "href": "https://www.lidl.nl/p/zoete-aardappels/p11150934",
+   "tekst": "Cocktailtrostomaten\n2.29\nmet Lidl Plus\n-13%\n1.99\n500 g\nZonder Lidl Plus 2.29\n1 KG = 4.58\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpe8a94fd3147f4cd6aad4dc2e3c9b43bf.png",
+   "alt": "Ryneczek Lidla cherrytros-tomaten Red Pearl, 500 g",
+   "href": "https://www.lidl.nl/p/cocktailtrostomaten/p11151085",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Primadonna\nOlijfolie extra vierge\n9.19\nmet Lidl Plus\n-24%\n6.99\n1 liter\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp626fae1eb4ab4983be95da71d6835d1e.png",
-   "alt": "Primadonna extra vierge olijfolie in een fles van 1 liter",
-   "href": "https://www.lidl.nl/p/primadonna-olijfolie-extra-vierge/p11208738",
+   "tekst": "Avocado in net\n2.79\nmet Lidl Plus\n-32%\n1.89\n700 g\nZonder Lidl Plus 2.79\n1 KG = 3.99\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpb0d8262b04c843dba5d79018587fdabc.png",
+   "alt": "Net met rijpe avocado's met een etiket op een zwarte achtergrond.",
+   "href": "https://www.lidl.nl/p/avocado-in-net/p11029903",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Gevulde pizza donut\n0.99\nPer stuk\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp77175754686247ac881b66e4dd6918d9.png",
-   "alt": "Pizzabroodjes en pizzabroodjessneetjes op een witte serveerplank.",
-   "href": "https://www.lidl.nl/p/gevulde-pizza-donut/p11209757",
+   "tekst": "Citroenen\n1.49\nmet Lidl Plus\n-34%\n0.99\n500 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp6fdb039952794fe7a33ef52ec3463f7f.png",
+   "alt": "Een netzak met verse gele citroenen met een productlabel",
+   "href": "https://www.lidl.nl/p/citroenen/p11030000",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Spruiten\n1.89\nmet Lidl Plus\n-21%\n1.49\n750 g\nZonder Lidl Plus 1.89\n1 KG = 2.52\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5f225f8e3c244496bab856bf3a4c74e2.png",
-   "alt": "Transparante zak met verse spruitjes.",
-   "href": "https://www.lidl.nl/p/spruiten/p11214362",
+   "tekst": "Handsinaasappels\n2.89\nmet Lidl Plus\n-21%\n2.29\n2 kg\nZonder Lidl Plus 2.89\n1 KG = 1.45\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp421fd00c8fc54f1a9043d4616c86557e.png",
+   "alt": "Net met verse sinaasappels van Ryneczek Lidla.",
+   "href": "https://www.lidl.nl/p/handsinaasappels/p11115702",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "MILA'S WORLD\nKattenbakvulling ultra XXL\n8 liter\n4.29\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp41d3ab39dfda40daa86b457d1cc76de0.png",
-   "alt": "XXL kattenbakvulling verpakking met bruine kat, tekst 'ULTRA WHITE CAT LITTER'",
-   "href": "https://www.lidl.nl/p/mila-s-world-kattenbakvulling-ultra-xxl/p11252909",
+   "tekst": "Ananas\n1.99\nmet Lidl Plus\n-25%\n1.49\nPer stuk\nZonder Lidl Plus 1.99\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp3d3b8eedbe8746a7bcbe7c6cb338f234.png",
+   "alt": "Ananas met bladeren en gesneden plakjes.",
+   "href": "https://www.lidl.nl/p/ananas/p11214518",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nFR Merlot IGP d'OC trocken\n3.99\nmet Lidl Plus\n-25%\n2.99\n750 ml\nZonder Lidl Plus 3.99\n1 L = 5.32\nAlleen in de winkel 16/11 - 22/11",
+   "tekst": "Stamppotaardappelen\n1.49\nmet Lidl Plus\n-13%\n1.29\n1 kg\nZonder Lidl Plus 1.49\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp6e4336150e954ba5bac29fbdc3d2db31.png",
+   "alt": "Chef Select stamppot aardappelen kruimig, 1000g",
+   "href": "https://www.lidl.nl/p/stamppotaardappelen/p11322150",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Pizzastengel salami-mozzarella\n1.39\nPer stuk\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpbc35bb66919c46ecb37c333490fe58f7.png",
+   "alt": "Drie Turkse pizza's (pide) met pepperoni en tomatensaus op een zwarte achtergrond.",
+   "href": "https://www.lidl.nl/p/pizzastengel-salami-mozzarella/p11255387",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Nutty muffin\n0.89\nPer stuk\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp03d9f93eef9e49b087678c6f6220ccea.png",
+   "alt": "Twee muffins met noten en chocoladestukjes in papieren vormpjes, bovenaanzicht.",
+   "href": "https://www.lidl.nl/p/nutty-muffin/p11328360",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Pecannotenbroodje\n0.58\nmet Lidl Plus\n-15%\n0.49\nPer stuk\nZonder Lidl Plus 0.58\n100 g = 0.67\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpb5eeb209dbec44668e603d393c323bb1.png",
+   "alt": "Pecanbroodje op een witte achtergrond",
+   "href": "https://www.lidl.nl/p/pecannotenbroodje/p11008421",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Pastel de Nata\n0.55\nPer stuk\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpa4efaca368ee4a898c9afa07c3e381ee.png",
+   "alt": "Drie knapperige Pastel de Nata-taartjes met custardcrème op een witte achtergrond.",
+   "href": "https://www.lidl.nl/p/pastel-de-nata/p11001977",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Zuurkool rookworstbroodje\n1.29\nPer stuk\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpc8c0ba0fed664e65aa42884d94c7103e.png",
+   "alt": "Worstenbroodje in bladerdeeg met kaas en kruiden op een zwarte achtergrond",
+   "href": "https://www.lidl.nl/p/zuurkool-rookworstbroodje/p11317888",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Nautica\nGerookte zalm\n300 gram 22% volumevoordeel\n6.99\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp29f94b8fd5964de89ef0fc8b09cd35e9.png",
+   "alt": "Verpakking Noorse gerookte zalm met GGN-certificering en Nutri-Score A, 300g.",
+   "href": "https://www.lidl.nl/p/nautica-gerookte-zalm/p11235434",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "ALESTO\nAmandelen\n2.49\nmet Lidl Plus\n-20%\n1.99\n200 g\nZonder Lidl Plus 2.49\n100 g = 1.25\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpe8dfbc5002304762ab9731d7e9b2153c.png",
+   "alt": "Alesto ongebrande amandelen, verpakking van 200 g",
+   "href": "https://www.lidl.nl/p/alesto-amandelen/p11001540",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Floralys\n4-laags toiletpapier\n16 rollen\n6.89\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp95b29f23652040eda308052983d4010c.png",
+   "alt": "Supersoft toiletpapier, 16 XXL rollen, 4-laags, 180 vellen, premium kwaliteit.",
+   "href": "https://www.lidl.nl/p/floralys-4-laags-toiletpapier/p11005756",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Milbona\nLactosevrije houdbare melk\n1.24\nmet Lidl Plus\n-20%\n0.99\n1 l\nZonder Lidl Plus 1.24\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpd47d7100a05f483f8b9a6a7c2d164904.png",
+   "alt": "Milbona lactosevrije halfvolle melk, 1 l",
+   "href": "https://www.lidl.nl/p/milbona-lactosevrije-houdbare-melk/p11008575",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nRunderriblappen\n10.96\nmet Lidl Plus\n700 g\n9.49\nZonder Lidl Plus 10.96\n1 KG = 15.66\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpa95a6b79afda4c26a84a42bf9e5e8fe5.png",
+   "alt": "Verse runderriblappen in een verpakking van 700 g.",
+   "href": "https://www.lidl.nl/p/runderriblappen/p11308105",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nSesam volkoren heel Lang Lekker\n1.99\nmet Lidl Plus\n-15%\n1.69\n800 g\nZonder Lidl Plus 1.99\n1 KG = 2.49\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp238dbf6200fd4aec83dcde486bba29ff.png",
+   "alt": "Lidl Sesam Volkoren Lang Lekker brood, rijk aan vezels en 100% volkoren.",
+   "href": "https://www.lidl.nl/p/sesam-volkoren-heel-lang-lekker/p11309927",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nKip champignonschnitzels\n5.49\n500 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp392a7d8194ab4f35afe1c264c20aadf3.png",
+   "alt": "Scharrelkip gegaarde champignon schnitzel, 500 g",
+   "href": "https://www.lidl.nl/p/kip-champignonschnitzels/p11317666",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Zwagerman\nHamblokjes\n2.22\nmet Lidl Plus\n-10%\n1.99\n300 g\nZonder Lidl Plus 2.22\n1 KG = 7.40\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9e1efd8d11814271973126457270da2a.png",
+   "alt": "Zwagerman hamblokjes van varkensvlees, 300g verpakking.",
+   "href": "https://www.lidl.nl/p/zwagerman-hamblokjes/p11317669",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "VITA D'OR\nVloeibare margarine olijf\n2.29\nmet Lidl Plus\n-13%\n1.99\n500 ml\nZonder Lidl Plus 2.29\n1 L = 4.58\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp91575590adbb4a86b80f9aff9ca6f11d.png",
+   "alt": "Vita D'or vloeibaar bak- en braadproduct met olijfolie.",
+   "href": "https://www.lidl.nl/p/vita-d-or-vloeibare-margarine-olijf/p11317696",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "KWEKKEBOOM\nOld Amsterdam croquetten\n2.99\n240-300 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp531d2789db1743e49e3c9feb5cb71555.png",
+   "alt": "Verpakking van Kwekkeboom Oven & Airfryer Old Amsterdam Croquetten",
+   "href": "https://www.lidl.nl/p/kwekkeboom-old-amsterdam-croquetten/p11322436",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "KWEKKEBOOM\nBorrelmix hapjes\n2.99\n240-300 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpade391306d8c43679254181a127e7df2.png",
+   "alt": "Borrelmix hapjes voor oven & airfryer, ca. 12 stuks",
+   "href": "https://www.lidl.nl/p/kwekkeboom-borrelmix-hapjes/p11322548",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "KWEKKEBOOM\nRundvlees bitterballen\n2.99\n240-300 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpbb94cbc4a9484cee84e9cdfe83a6eb19.png",
+   "alt": "Een verpakking rundvlees bitterballen voor oven en airfryer, met circa 12 stuks.",
+   "href": "https://www.lidl.nl/p/kwekkeboom-rundvlees-bitterballen/p11322549",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Milbona\nPlakken Goudse jonge kaas\n2.99\n500 g\n1 KG = 5.98\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp5e7aee32d3e84b1d9a542809d22b8f8a.png",
+   "alt": "Milbona jonge Gouda Holland 48+ plakken, 500 g",
+   "href": "https://www.lidl.nl/p/milbona-plakken-goudse-jonge-kaas/p11323339",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Sondey\nBoerencake\n2.99\nmet Lidl Plus\n-16%\n2.49\n800 g\nZonder Lidl Plus 2.99\n1 KG = 3.74\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp445f628d8632415ab501839311800bb3.png",
+   "alt": "Sondey boerencake, 800 g",
+   "href": "https://www.lidl.nl/p/sondey-boerencake/p11324756",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "PARRANO\nRasp\n1.69\n80-100 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp8a304677366b4c11a756e64047b2cfe4.png",
+   "alt": "Geraspte kaas in een zak met een afbeelding van lasagne",
+   "href": "https://www.lidl.nl/p/parrano-rasp/p11327188",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Solevita\nTikkie tropical\n1.12\nmet Lidl Plus\n1,5 l\n0.99\nZonder Lidl Plus 1.12\n1 L = 0.75\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpc6a1489a0f424352bf4c52f9e32bb376.png",
+   "alt": "Solevita tropische zuiveldrank Tikkie, 1,5 l",
+   "href": "https://www.lidl.nl/p/solevita-tikkie-tropical/p11324751",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Solevita\nTikkie tropical zero\n1.12\nmet Lidl Plus\n1,5 l\n0.99\nZonder Lidl Plus 1.12\n1 L = 0.75\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcped0041c9265a4f64b873e59a841acbbd.png",
+   "alt": "Solevita Tropical vruchtenzuiveldrank, 1,5 l",
+   "href": "https://www.lidl.nl/p/solevita-tikkie-tropical-zero/p11328773",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Chocomel halfvol\n0.99\n1 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp2b1d55d1e0ad4f84b6eef14d9091a077.png",
+   "alt": "Een geel pak halfvolle chocolademelk met een grote letter P op de voorkant.",
+   "href": "https://www.lidl.nl/p/chocomel-halfvol/p11560225",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Chocomel\n0.99\n1 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpa3c6a81ed789477ab5b99ccfcfa7004b.png",
+   "alt": "Gelig chocolademelk pak met de letter L",
+   "href": "https://www.lidl.nl/p/chocomel/p11560242",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Parrano snippers\n1.69\n80-100 g\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpaef2b9ad4ad64a258c445e415c3540de.png",
+   "alt": "Verpakking met kaassnippers voor pasta met een Italiaans thema.",
+   "href": "https://www.lidl.nl/p/parrano-snippers/p11560415",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Coolbest fruitdrink aardbei\n1.19\n1 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp4c9b5b584c6b42c09831fcbab003f973.png",
+   "alt": "Vruchtendrank met aardbeien- en appelsmaak in pak.",
+   "href": "https://www.lidl.nl/p/coolbest-fruitdrink-aardbei/p11560456",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Coolbest fruitdrink mango\n1.19\n1 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp49f38e0f63ef4f5e823287492881e0a2.png",
+   "alt": "Karton vruchtendrank met mango en appel en een glas sap",
+   "href": "https://www.lidl.nl/p/coolbest-fruitdrink-mango/p11560457",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Teisseire citroen-limoen 0%\nMEGA\n4.99\n1,3 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp86da7bb530844cd5a85de1353fcf1d40.png",
+   "alt": "Fles suikervrije siroop met citroen- en limoensmaak.",
+   "href": "https://www.lidl.nl/p/teisseire-citroen-limoen-0/p11562533",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Teisseire grenadine 0%\nMEGA\n4.99\n1,3 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpdd551b552bd3474796fdd401b269b1e1.png",
+   "alt": "Suikervrije grenadinesiroop in een metalen fles",
+   "href": "https://www.lidl.nl/p/teisseire-grenadine-0/p11562544",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Teisseire tropical 0%\nMEGA\n4.99\n1,3 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9fe78ae8a20846f288bd54e907d85728.png",
+   "alt": "Suikervrije tropische siroop in een metalen fles.",
+   "href": "https://www.lidl.nl/p/teisseire-tropical-0/p11562560",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Chef Select\nGyoza\n1.11\n1 l\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp306aaff5e07c4c678ca09c435a7f7ae1.png",
+   "alt": "Verpakking van gyoza met groente, 400g, met een groene achtergrond en dumplings.",
+   "href": "https://www.lidl.nl/p/chef-select-gyoza/p12223660",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Formil\nWasmiddel\n100 wasbeurten\n8.99\n5 liter\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpa9c94b52a0934e08878f354ab0ac9ec7.png",
+   "alt": "Vloeibaar wasmiddel voor witte was met tropische geur, 100 wasbeurten",
+   "href": "https://www.lidl.nl/p/formil-wasmiddel/p12232407",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nKipfilet\n900 gram\n9.49\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9c2823913cb6449090cfcedbfc43d18f.png",
+   "alt": "Verpakking scharrelkipfilet van 900g.",
+   "href": "https://www.lidl.nl/p/kipfilet/p11318025",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Zwagerman\nVerse rookworst\n2.69\nmet Lidl Plus\n-26%\n1.99\n275 g\nZonder Lidl Plus 2.69\n1 KG = 9.78\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpb008df24ad1c4db19695892dcd4df82d.png",
+   "alt": "Zwagerman verse rookworst varken, 275 g",
+   "href": "https://www.lidl.nl/p/zwagerman-verse-rookworst/p11322143",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nSlavink hybride\n3.69\nmet Lidl Plus\n-18%\n2.99\n400 g\nZonder Lidl Plus 3.69\n1 KG = 9.23\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp42a6313231ce4629a984adcead4a879d.png",
+   "alt": "Varkensslavink, 400 g",
+   "href": "https://www.lidl.nl/p/slavink-hybride/p11322576",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "-\nSoepballetjes\n3.45\nmet Lidl Plus\n-13%\n2.99\n250 g\nZonder Lidl Plus 3.45\n100 g = 1.38\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpf294ce61fe2d4708b0c48c4892e4bc1b.png",
+   "alt": "Verpakking runder soepballetjes (250 g)",
+   "href": "https://www.lidl.nl/p/soepballetjes/p11558728",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Zwagerman\nKipfilet naturel\n2.49\nmet Lidl Plus\n-20%\n1.99\n150 g\nZonder Lidl Plus 2.49\n100 g = 1.66\nAlleen in de winkel vanaf 23/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp97257f9814a24e47a4289bea66f1592a.png",
+   "alt": "Zwagerman kipfilet in plakken, 150 g",
+   "href": "https://www.lidl.nl/p/zwagerman-kipfilet-naturel/p11562268",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-da35d506": ""
+   }
+  },
+  {
+   "tekst": "Grolsch pilsener\n6.49\nmet Lidl Plus\n-23%\n1.69\n6 x 0,33 l of 0,5 l\nZonder Lidl Plus 6.49\n1 L = 3.28\nAlleen in de winkel vanaf 26/11 - 29/11",
    "img": "https://www.lidl.nl/assets/gcp9b9b12625c284e8cafd3ab3c2123570d.png",
    "alt": "NIX18-zegel: < 18 jaar verkopen wij geen alcohol, < 25 jaar? laat je legitimatie zien!",
    "href": "",
@@ -133,330 +513,120 @@
    }
   },
   {
-   "tekst": "Bio flespompoen\n1.99\nmet Lidl Plus\n-25%\n1.49\nPer stuk\nZonder Lidl Plus 1.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp78bc64181bee48e084fec93f3822e6a0.png",
-   "alt": "Hele flespompoen op een witte achtergrond",
-   "href": "https://www.lidl.nl/p/bio-flespompoen/p11266455",
+   "tekst": "Grolsch Kanon\n2.40\nmet Lidl Plus\n-23%\n1.69\n6 x 0,33 l of 0,5 l\nZonder Lidl Plus 2.40\n1 L = 4.80\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9b9b12625c284e8cafd3ab3c2123570d.png",
+   "alt": "NIX18-zegel: < 18 jaar verkopen wij geen alcohol, < 25 jaar? laat je legitimatie zien!",
+   "href": "",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-0efb8051": ""
+   }
+  },
+  {
+   "tekst": "Allini\nIT Prosecco DOC Frizzante\n4.49\nmet Lidl Plus\n-25%\n3.37\n0,75 l\nZonder Lidl Plus 4.49\n1 L = 5.99\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9b9b12625c284e8cafd3ab3c2123570d.png",
+   "alt": "NIX18-zegel: < 18 jaar verkopen wij geen alcohol, < 25 jaar? laat je legitimatie zien!",
+   "href": "",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-0efb8051": ""
+   }
+  },
+  {
+   "tekst": "Cimarosa\nAUS Chardonnay\n3.59\nmet Lidl Plus\n-25%\n2.69\n0,75 l\nZonder Lidl Plus 3.59\n1 L = 4.79\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp9b9b12625c284e8cafd3ab3c2123570d.png",
+   "alt": "NIX18-zegel: < 18 jaar verkopen wij geen alcohol, < 25 jaar? laat je legitimatie zien!",
+   "href": "",
+   "sectie": "Aanbiedingen vanaf maandag",
+   "attrs": {
+    "data-v-0efb8051": ""
+   }
+  },
+  {
+   "tekst": "Spa Reine\n1.33\nmet Lidl Plus\n-27%\n0.79\nZonder Lidl Plus 1.33\n1 L = 0.89\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp122ddf1b9af14255be7be410b082ef66.png",
+   "alt": "Fles plat natuurlijk mineraalwater.",
+   "href": "https://www.lidl.nl/p/spa-reine/p11306461",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nZalmfilet op huid\n5.99\nmet Lidl Plus\n-16%\n4.99\n250 g\nZonder Lidl Plus 5.99\n100 g = 2.40\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpc57dff86d0224cf385e85f10d8b6ca14.png",
-   "alt": "Zalmfilet op huid, verpakte zalmfilet met huid van 250 g.",
-   "href": "https://www.lidl.nl/p/zalmfilet-op-huid/p11305613",
+   "tekst": "Pretzel\n0.65\nmet Lidl Plus\n-25%\n0.49\nPer stuk\nZonder Lidl Plus 0.65\n100 g = 0.68\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp361cfe18745344368258951f6e694443.png",
+   "alt": "Een vers gebakken gezouten pretzel.",
+   "href": "https://www.lidl.nl/p/pretzel/p11029269",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nVolkoren bollen\n1.44\nmet Lidl Plus\n-17%\n1.19\n10 stuks\nZonder Lidl Plus 1.44\n1 KG = 2.88\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp1db562ac4354465c9bf37fa9661a9607.png",
-   "alt": "Versgebakken volkoren broodjes in een gevlochten mandje. [AI-gegenereerde afbeelding]",
-   "href": "https://www.lidl.nl/p/volkoren-bollen/p11309699",
+   "tekst": "-\nChipolataworstjes\n4.79\nmet Lidl Plus\n-16%\n3.99\n300 g\nZonder Lidl Plus 4.79\n1 KG = 15.97\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp78fb2c60c60c40329aeaafd0909ca2b0.png",
+   "alt": "Runder chipolataworstjes, licht gekruid, 300 g",
+   "href": "https://www.lidl.nl/p/chipolataworstjes/p11317755",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Aardbei kruimelvlaaitje\n0.79\nPer stuk\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp4fd6da47b44449b09a7200f2eebd9875.png",
-   "alt": "Ronde taart met bosvruchtenvulling en kruimels, bovenaanzicht",
-   "href": "https://www.lidl.nl/p/aardbei-kruimelvlaaitje/p11316559",
+   "tekst": "Zwagerman\nGelderse rookworstletter\nActie\n2.19\n250 g\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpeaae80ef2ebc41cc96f37a28b115bc90.png",
+   "alt": "Zwagerman worst geserveerd op een bord met aardappelsalade en mosterd",
+   "href": "https://www.lidl.nl/p/zwagerman-gelderse-rookworstletter/p11559956",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nZigeunergehaktschnitzel\n800 gram\n5.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpafa7b1196d8c4e43833b74a142f46cdb.png",
-   "alt": "Zigeunergehakt-schnitzels, varkensschnitzels in XXL-voordeelverpakking",
-   "href": "https://www.lidl.nl/p/zigeunergehaktschnitzel/p11317655",
+   "tekst": "-\nSchol\nPer 100 g\n1.79\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpee9a6ce3e4a04eaa808207c2806c285b.png",
+   "alt": "Panklare schol in een plastic schaal",
+   "href": "https://www.lidl.nl/p/schol/p11317786",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nGehakt cordon bleu\n500 gram\n4.49\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp25b82dcb7f624bea8d4989bfe768d84c.png",
-   "alt": "Gehakt cordon bleu van varkensvlees in een XXL voordeelverpakking van 500 g",
-   "href": "https://www.lidl.nl/p/gehakt-cordon-bleu/p11317783",
+   "tekst": "Popdots caramel\n3-pack\n0.69\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpac62495fa6484552951da596684ed311.png",
+   "alt": "3 karamel donuts met witte glazuur en stukjes, individueel verpakt.",
+   "href": "https://www.lidl.nl/p/popdots-caramel/p11330915",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "-\nRundertartaartje\n800 gram\n9.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp56f34cf3826e42978155f771f0036e6e.png",
-   "alt": "Verpakking met 8 runder tartaartjes van 800 gram.",
-   "href": "https://www.lidl.nl/p/rundertartaartje/p11317912",
+   "tekst": "Donuts salted caramel & noten\n2-pack\n1.79\n138 g\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpb053a120c4f64df49c5e5d1dfb270f4e.png",
+   "alt": "Tweepak premium donuts met dubbele vulling van gezouten karamel en noten",
+   "href": "https://www.lidl.nl/p/donuts-salted-caramel-noten/p11331315",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Bellarom\nKoffie rood\n2 x 500 g\n8.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp435d27b1b7ff41e28b51c5e99baeeffb.png",
-   "alt": "Bellarom Rood fijn gemalen koffie voordeelverpakking, 2x500g",
-   "href": "https://www.lidl.nl/p/bellarom-koffie-rood/p11321020",
+   "tekst": "HEKS'NKAAS Original\n2.99\nmet Lidl Plus\n-16%\n2.49\n200 g\nZonder Lidl Plus 2.99\n100 g = 1.50\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcpcc1074a5efb049ffa0cf3c55e4f43628.png",
+   "alt": "Heks'n Kaas Origineel en verpakking",
+   "href": "https://www.lidl.nl/p/heks-nkaas-original/p11563459",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""
    }
   },
   {
-   "tekst": "Dr. Oetker Casa di Mama salami\n2.49\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp0abdceee389b4d8d928cab609062dde8.png",
-   "alt": "Diepvriespizza salami in doos",
-   "href": "https://www.lidl.nl/p/dr-oetker-casa-di-mama-salami/p11322217",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Zwagerman\nYorkham\n2.49\nmet Lidl Plus\n-40%\n1.49\n125 g\nZonder Lidl Plus 2.49\n100 g = 1.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp4418fe1748d64435ab492c4edf50b8d2.png",
-   "alt": "Zwagerman Yorkham gesneden ham in een verpakking van 125g.",
-   "href": "https://www.lidl.nl/p/zwagerman-yorkham/p11322222",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "DR. OETKER\nCasa di Mama speciale\n2.49\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp76481ee713b045a1bff24828f0d615f5.png",
-   "alt": "Diepvriespizza met ham, salami en champignons",
-   "href": "https://www.lidl.nl/p/dr-oetker-casa-di-mama-speciale/p11322462",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Milbona\nGouda oud stuk\n5.14\nmet Lidl Plus\n-22%\n3.99\n450 g\nZonder Lidl Plus 5.14\n1 KG = 11.42\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpac4183645ade44d8980cf657d0887236.png",
-   "alt": "Milbona Oud Goudse 48+ stuk kaas, 450g",
-   "href": "https://www.lidl.nl/p/milbona-gouda-oud-stuk/p11324875",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "LOTUS BISCOFF\nDonut\n0.79\nPer stuk\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp7f7570952010478ea93dc226fbbc0499.png",
-   "alt": "Drie chocoladedonuts met koekkruimels, waarvan één doorgesneden met karamelvulling.",
-   "href": "https://www.lidl.nl/p/lotus-biscoff-donut/p11330661",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "MILA'S WORLD\nKattenbrokjes selectie in saus XXL 48-pack\n48-pack\n9.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp30963ae8590e487bb7a6ee83a5ca6e55.png",
-   "alt": "XXL verpakking van 48 zakjes kattenvoer, stukjes in saus, met rund, kip, kalkoen, lam, kalf, zalm en garnalen.",
-   "href": "https://www.lidl.nl/p/mila-s-world-kattenbrokjes-selectie-in-saus-xxl-48-pack/p11332242",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Milbona\nGoudse oude kaas plakken\nXXL\n6.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpb9c101ce137840338add8042aae89e8c.png",
-   "alt": "Milbona Extra Oud Goudse kaas 48+ plakken in XXL-verpakking van 500 g.",
-   "href": "https://www.lidl.nl/p/milbona-goudse-oude-kaas-plakken/p11342971",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Zwagerman\nGerookte spekreepjes\n3.19\nmet Lidl Plus\n-12%\n2.79\n2 x 150 g\nZonder Lidl Plus 3.19\n1 KG = 10.63\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp6fe0852d0c91472ab5e620c607b2a1fc.png",
-   "alt": "Zwagerman gerookte spekreepjes van varkensvlees, 300 g",
-   "href": "https://www.lidl.nl/p/zwagerman-gerookte-spekreepjes/p11357318",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Conifeer\n3.99\n1 Stk.\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp86c9d97e96274cbeacaf7b1328523bb2.png",
-   "alt": "Kamercypres in pot met lichtgroene naalden tegen een zwarte achtergrond",
-   "href": "https://www.lidl.nl/p/conifeer/p11498999",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Tijgerbroodje\n0.33\nmet Lidl Plus\n-24%\n0.25\nPer stuk\nZonder Lidl Plus 0.33\n100 g = 0.52\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp199e96b9b2d04eb1949fb000f0ab8f0c.png",
-   "alt": "Tigerbroodje met een karakteristieke tijgerkorst",
-   "href": "https://www.lidl.nl/p/tijgerbroodje/p11365564",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Kiwi gold\n5.99\nmet Lidl Plus\n-33%\n3.99\n750 g\nZonder Lidl Plus 5.99\n1 KG = 7.99\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5d7bc742a47b485f848861ada5b34b49.png",
-   "alt": "Transparante plastic verpakking met gele kiwi's.",
-   "href": "https://www.lidl.nl/p/kiwi-gold/p11492121",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nHalf-om-half gehakt\n4.59\nmet Lidl Plus\n-13%\n3.99\n500 g\nZonder Lidl Plus 4.59\n1 KG = 9.18\nAlleen in de winkel 16/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpde27ff78b4f74202877fadaefbfa7880.png",
-   "alt": "Pak half-om-half gehakt (rund en varken) van 500 g",
-   "href": "https://www.lidl.nl/p/half-om-half-gehakt/p11558757",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Dots\n4-pack\n1.79\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp448b46ac228341a980abd224eb6d1cf4.png",
-   "alt": "Verpakking van vier donuts met suikerglazuur.",
-   "href": "https://www.lidl.nl/p/dots/p11004425",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "PRINGLES\nPringles\n2.49\nmet Lidl Plus\n-40%\n1.35\n165 g\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp7c850309605b4329b90e2dca026cb565.png",
-   "alt": "Rood-blauwe chipsverpakking met knapperige chips en voedingsinformatie.",
-   "href": "https://www.lidl.nl/p/pringles-pringles/p11005946",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Harvest Basket\nPatat frites\n3,5 kilo\n3.99\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp50f958f061154e5586e0f4ed134726a0.png",
-   "alt": "XXL diepvriesfriet met zonnebloemolie in een rood-gele verpakking.",
-   "href": "https://www.lidl.nl/p/harvest-basket-patat-frites/p11119191",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Mister Choc\nParty selection mini's\n3.69\nmet Lidl Plus\n-18%\n2.99\n500 g\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp6dc6ee72943c4ac48a39fd55be39e682.png",
-   "alt": "Oranje zak met chocoladerepen, met 24 mini-repen en een gewicht van 500 g.",
-   "href": "https://www.lidl.nl/p/mister-choc-party-selection-mini-s/p11150425",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Solevita\nSmoothie bosvruchten\n2.69\nmet Lidl Plus\n-20%\n2.15\n500 ml\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp16aba53898fa484fbba8ff3420b3b953.png",
-   "alt": "Chef Select bosvruchten, appel, sinaasappel, braam en zwarte bes smoothie.",
-   "href": "https://www.lidl.nl/p/solevita-smoothie-bosvruchten/p11304978",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nKabeljauwburgers\n5.98\nmet Lidl Plus\n-25%\n4.49\n400 g\nZonder Lidl Plus 5.98\n1 KG = 14.95\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpac674932a9ae449284205e9904ef1e6e.png",
-   "alt": "Kabeljauw-burger: gepaneerde kabeljauwburgers in verpakking",
-   "href": "https://www.lidl.nl/p/kabeljauwburgers/p11317934",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Corona 0,0%\n6-pack\n4.49\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp430ffe6952564af6a774f8058299ec05.png",
-   "alt": "Zespack alcoholvrij bier in flessen met 0,0% alcohol.",
-   "href": "https://www.lidl.nl/p/corona-0-0/p11318136",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nSpeklappen\n6.49\nmet Lidl Plus\n-15%\n5.49\n600 g\nZonder Lidl Plus 6.49\n1 KG = 10.82\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcpefeee6d6f3f04e89a38d2dc4b2d60741.png",
-   "alt": "Verpakking met 600 gram varkensspeklapjes.",
-   "href": "https://www.lidl.nl/p/speklappen/p11322234",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Iglo vissticks\n2.99\nmet Lidl Plus\nGoedkoper\n2.79\n15 stuks\nZonder Lidl Plus 2.99\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp584fb8ac66cd4876a49870abcdefd051.png",
-   "alt": "Verpakking met 15 vissticks van filet, 420g",
-   "href": "https://www.lidl.nl/p/iglo-vissticks/p11322419",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Kaastwister\n0.79\nmet Lidl Plus\n-25%\n0.59\nPer stuk\nZonder Lidl Plus 0.79\n100 g = 1.05\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp3e3a7fe45c0146e8a560d9e3d08b1a6e.png",
-   "alt": "Krokante, goudbruine Käsetwister van bladerdeeg met kaas.",
-   "href": "https://www.lidl.nl/p/kaastwister/p11335309",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "-\nFries Suikerbrood\n2.47\nmet Lidl Plus\n-19%\n1.99\n700 g\nZonder Lidl Plus 2.47\n1 KG = 3.53\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5d1479e9ae3c48ed9ec2e6f5a5ff1b48.png",
-   "alt": "Verpakt Fries suikerbrood",
-   "href": "https://www.lidl.nl/p/fries-suikerbrood/p11559166",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Stoofperencake\n3.49\n350 g\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp6ea64f3d1542469cbd83941fd7a1a617.png",
-   "alt": "Cake met strooisel in verpakking, bovenaanzicht",
-   "href": "https://www.lidl.nl/p/stoofperencake/p11563384",
-   "sectie": "Aanbiedingen vanaf maandag",
-   "attrs": {
-    "data-v-da35d506": ""
-   }
-  },
-  {
-   "tekst": "Kersenpencee\n4-pack\n2.49\nAlleen in de winkel 19/11 - 22/11",
-   "img": "https://www.lidl.nl/assets/gcp5222e717024d4e68bdf0282b7f02cd0b.png",
-   "alt": "Twee ronde jamtaartjes in een zwarte tray",
-   "href": "https://www.lidl.nl/p/kersenpencee/p11654480",
+   "tekst": "Nanning ontbijtkoek\nActie\n0.99\n250 g\nAlleen in de winkel vanaf 26/11 - 29/11",
+   "img": "https://www.lidl.nl/assets/gcp4146f636ffc741ecbbf5cae817312515.png",
+   "alt": "Ontbijtkoek in verpakking",
+   "href": "https://www.lidl.nl/p/nanning-ontbijtkoek/p11662899",
    "sectie": "Aanbiedingen vanaf maandag",
    "attrs": {
     "data-v-da35d506": ""

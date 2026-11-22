@@ -1,393 +1,293 @@
 {
  "url": "https://www.aldi-sued.de/de/angebote.html",
- "aantal": 51,
+ "aantal": 41,
  "kaarten": [
   {
-   "tekst": "Kühlung\n\nGOLDEN SEAFOOD\n\nKabeljau Rückenfilet 250 g\n\n250 g\n\n(27,16 €/1 kg)\n\nSpare 15 %\n6,79 €²7,99 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/eae82db4-b7f1-4b53-8d61-703cce06a42a/Kabeljau%20Rckenfilet%20250%20g",
-   "alt": "Kabeljau Rückenfilet 250 g",
-   "href": "https://www.aldi-sued.de/produkt/golden-seafood-kabeljau-rueckenfilet-250-g-000000000000211760",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nJES COLLECTION\n\nWeihnachtsdeko oder -Accessoire, Gebäckdose\n\n1,00 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/80742ac8-b65d-41c7-8da0-5a933d710c4a/Weihnachtsdeko%20oder%20Accessoire%20Gebckdose",
+   "alt": "Weihnachtsdeko oder -Accessoire, Gebäckdose",
+   "href": "https://www.aldi-sued.de/produkt/jes-collection-weihnachtsdeko-oder-accessoire-gebaeckdose-000000000675654001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nHähnchenbrustfilet Teilstück 1 kg\n\nSpare 18 %\n8,19 €²9,99 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/f08fffef-afed-4c9f-9d40-2a92fee7e003/Hhnchenbrustfilet%20Teilstck%201%20kg",
-   "alt": "Hähnchenbrustfilet Teilstück 1 kg",
-   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchenbrustfilet-teilstueck-1-kg-000000000000211078",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nL&D\n\nSportliche Winterstiefel, Kinder, Rosa, 31\n\n12,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/16cd3fbc-ac1b-4834-843a-f271bf861fa7/Sportliche%20Winterstiefel%20Kinder%20Rosa%2031",
+   "alt": "Sportliche Winterstiefel, Kinder, Rosa, 31",
+   "href": "https://www.aldi-sued.de/produkt/l-d-sportliche-winterstiefel-kinder-rosa-31-000000000741866001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nGulasch vom Schwein 500 g\n\n500 g\n\n(5,98 €/1 kg)\n\nSpare 21 %\n2,99 €²3,79 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/86c4dfa8-7795-462a-9529-da919be64d36/Gulasch%20vom%20Schwein%20500%20g",
-   "alt": "Gulasch vom Schwein 500 g",
-   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-gulasch-vom-schwein-500-g-000000000000211993",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nHOME CREATION\n\nLammfell-Teppich, Weiß\n\n29,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/03e82a71-936d-43b5-82dd-ef676fcffacf/LammfellTeppich%20Wei",
+   "alt": "Lammfell-Teppich, Weiß",
+   "href": "https://www.aldi-sued.de/produkt/home-creation-lammfell-teppich-weiss-000000000743145001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nHähnchen-Schenkel mit Rückenstück 1,1 kg\n\n1,1 kg\n\n(3,63 €/1 kg)\n\nSpare 24 %\n3,99 €²5,29 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0af650c7-2d0c-484d-82f2-74e0f1e438d5/HhnchenSchenkel%20mit%20Rckenstck%2011%20kg",
-   "alt": "Hähnchen-Schenkel mit Rückenstück 1,1 kg",
-   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-schenkel-mit-rueckenstueck-1-1-kg-000000000000213471",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\nAktion\n\nJELLY BLOX\n\nSoft-Bausteine, Box\n\n15,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/eeeb1020-1b0b-4071-9f88-daa535a1d192/SoftBausteine%20Box",
+   "alt": "Soft-Bausteine, Box",
+   "href": "https://www.aldi-sued.de/produkt/jelly-blox-soft-bausteine-box-000000000755927001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nHackfleisch gemischt 500 g\n\n500 g\n\n(7,98 €/1 kg)\n\nSpare 20 %\n3,99 €²4,99 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/89f0bc7c-3769-4e7e-8f61-b3f641630b40/Hackfleisch%20gemischt%20500%20g",
-   "alt": "Hackfleisch gemischt 500 g",
-   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-gemischt-500-g-000000000000648898",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nGARDENLINE\n\nDekorierter Weihnachtsbaum, Frohe Weihnachten\n\n14,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/e72b13ec-e00e-4ecb-a366-172e49af41eb/Dekorierter%20Weihnachtsbaum%20Frohe%20Weihnachten",
+   "alt": "Dekorierter Weihnachtsbaum, Frohe Weihnachten",
+   "href": "https://www.aldi-sued.de/produkt/gardenline-dekorierter-weihnachtsbaum-frohe-weihnachten-000000000758582001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nPuten Geschnetzeltes 400 g\n\n400 g\n\n(9,73 €/1 kg)\n\nSpare 17 %\n3,89 €²4,69 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/7c3a2408-3808-42ac-bba1-ef3ec02ecb0c/Puten%20Geschnetzeltes%20400%20g",
-   "alt": "Puten Geschnetzeltes 400 g",
-   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-puten-geschnetzeltes-400-g-000000000000717842",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\nAktion\n\nUP2FASHION\n\nWinterliche Clogs, Damen oder Herren, Rosa, 37\n\n9,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/581b9cc2-67e0-4a5f-a00d-d6d8e8e59b2b/Winterliche%20Clogs%20Damen%20oder%20Herren%20Rosa%2037",
+   "alt": "Winterliche Clogs, Damen oder Herren, Rosa, 37",
+   "href": "https://www.aldi-sued.de/produkt/up2fashion-winterliche-clogs-damen-oder-herren-rosa-37-000000000744597001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "BACK FAMILY\n\nHaselnusskerne gemahlen 200 g\n\n200 g\n\n(9,95 €/1 kg)\n\nSpare 33 %\n1,99 €²2,99 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/52b87f89-8f5d-4d0c-8096-b92db32a18c2/Haselnusskerne%20gemahlen%20200%20g",
-   "alt": "Haselnusskerne gemahlen 200 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-haselnusskerne-gemahlen-200-g-000000000000184788",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nUP2FASHION WOMEN\n\nFleece-Pyjama, Damen, Braun, S 36/38\n\n9,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/75f64c20-86bf-4794-8653-6812ba6bcff6/FleecePyjama%20Damen%20Braun%20S%203638",
+   "alt": "Fleece-Pyjama, Damen, Braun, S 36/38",
+   "href": "https://www.aldi-sued.de/produkt/up2fashion-women-fleece-pyjama-damen-braun-s-36-38-000000000746530001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Vegan\n\nBACK FAMILY\n\nMandeln gehackt 100 g\n\n100 g\n\n(9,90 €/1 kg)\n\nSpare 20 %\n0,99 €²1,25 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/241f4418-8558-45e8-a3ef-7555e9433572/Mandeln%20gehackt%20100%20g",
-   "alt": "Mandeln gehackt 100 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-mandeln-gehackt-100-g-000000000000184863",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nAMBIANO\n\nHeizsortiment, Nacken-/Rückenheizkissen\n\n19,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b817e02a-b19d-4a96-8db4-b44318149b02/Heizsortiment%20NackenRckenheizkissen",
+   "alt": "Heizsortiment, Nacken-/Rückenheizkissen",
+   "href": "https://www.aldi-sued.de/produkt/ambiano-heizsortiment-nacken-rueckenheizkissen-000000000748744001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Vegan\n\nBACK FAMILY\n\nMandeln gehobelt 100 g\n\n100 g\n\n(9,90 €/1 kg)\n\nSpare 20 %\n0,99 €²1,25 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a82da72c-e134-4a01-bc87-893ff9ca1d20/Mandeln%20gehobelt%20100%20g",
-   "alt": "Mandeln gehobelt 100 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-mandeln-gehobelt-100-g-000000000000185143",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nHOME CREATION\n\nSockenwolle, Pink\n\n3,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2174afe2-678a-4ec7-b958-77812bf315f3/Sockenwolle%20Pink",
+   "alt": "Sockenwolle, Pink",
+   "href": "https://www.aldi-sued.de/produkt/home-creation-sockenwolle-pink-000000000754806001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Vegan\n\nBACK FAMILY\n\nKokosnuss geraspelt 200 g\n\n200 g\n\n(4,45 €/1 kg)\n\nSpare 25 %\n0,89 €²1,19 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/48a32b33-3f32-4e75-8c1d-500e084a4734/Kokosnuss%20geraspelt%20200%20g",
-   "alt": "Kokosnuss geraspelt 200 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-kokosnuss-geraspelt-200-g-000000000000185518",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 23.11.2026\n\nVorlesebuch Weihnachten, Feiern\n\n4,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/638f95a6-a08a-41bb-a478-dd8f802fff86/Vorlesebuch%20Weihnachten%20Feiern",
+   "alt": "Vorlesebuch Weihnachten, Feiern",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-vorlesebuch-weihnachten-feiern-000000000758571001",
+   "sectie": "ANGEBOTE AB MONTAG 23.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "BACK FAMILY\n\nBackpulver 150 g\n\n150 g\n\n(2,33 €/1 kg)\n\nSpare 22 %\n0,35 €²0,45 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/85f13e94-c835-4912-9893-334044d15ce8/Backpulver%20150%20g",
-   "alt": "Backpulver 150 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-backpulver-150-g-000000000000186882",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nGARDENLINE\n\nChristrose\n\n3,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/78bacba2-f324-4433-9fcd-db07a480ec74/Christrose",
+   "alt": "Christrose",
+   "href": "https://www.aldi-sued.de/produkt/gardenline-christrose-000000000000682924",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Vegan\n\nBACK FAMILY\n\nTrockenbackhefe 42 g\n\n42 g\n\n(9,29 €/1 kg)\n\nSpare 20 %\n0,39 €²0,49 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/9962e6df-affe-4a76-bd4e-3d6c8ebf8d15/Trockenbackhefe%2042%20g",
-   "alt": "Trockenbackhefe 42 g",
-   "href": "https://www.aldi-sued.de/produkt/back-family-trockenbackhefe-42-g-000000000000186912",
-   "sectie": "WOCHENANGEBOTE MO., 16.11. – SA., 21.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nGLÜCKSBLATT\n\nToilettenpapier Kamille 3-lagig, 16 x 150 Blatt\n\n5,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a8c79651-2b68-4839-ae92-3f7ac6733d5e/Toilettenpapier%20Kamille%203lagig%2016%20x%20150%20Blatt",
+   "alt": "Toilettenpapier Kamille 3-lagig, 16 x 150 Blatt",
+   "href": "https://www.aldi-sued.de/produkt/gluecksblatt-toilettenpapier-kamille-3-lagig-16-x-150-blatt-000000000000667660",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\n\nLILY & DAN\n\nWeihnachts-Pantoffeln, Beige, 36\n\n4,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/c887e73a-ae1e-4e1b-befa-8a27113010e6/WeihnachtsPantoffeln%20Beige%2036",
-   "alt": "Weihnachts-Pantoffeln, Beige, 36",
-   "href": "https://www.aldi-sued.de/produkt/lily-dan-weihnachts-pantoffeln-beige-36-000000000750423005",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nUP2FASHION WOMEN\n\nDamen Leichtsteppmantel, Pink, M 40/42\n\n12,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ce6b6a6a-4a36-4915-9691-337c217e6eb7/Damen%20Leichtsteppmantel%20Pink%20M%204042",
+   "alt": "Damen Leichtsteppmantel, Pink, M 40/42",
+   "href": "https://www.aldi-sued.de/produkt/up2fashion-women-damen-leichtsteppmantel-pink-m-40-42-000000000738114001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\nAktion\n\nUP2FASHION MEN\n\nHerren Weihnachts-Pullover oder -Strickjacke, Blau, M\n\n6,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ae373ca1-7240-4599-91dd-37fe9ed5f0b3/Herren%20WeihnachtsPullover%20oder%20Strickjacke%20Blau%20M",
-   "alt": "Herren Weihnachts-Pullover oder -Strickjacke, Blau, M",
-   "href": "https://www.aldi-sued.de/produkt/up2fashion-men-herren-weihnachts-pullover-oder-strickjacke-blau-m-000000000742566001",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nUP2FASHION MEN\n\nHerren Lederhandschuhe, Schwarz, 8,5\n\n12,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/769017b3-2941-4e0c-891c-3a4acc01e6a0/Herren%20Lederhandschuhe%20Schwarz%2085",
+   "alt": "Herren Lederhandschuhe, Schwarz, 8,5",
+   "href": "https://www.aldi-sued.de/produkt/up2fashion-men-herren-lederhandschuhe-schwarz-8-5-000000000746161001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\nAktion\n\nWINTERTRAUM\n\nLebkuchen, Magenbrot 600 g\n\n600 g\n\n(4,98 €/1 kg)\n\n2,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/328f6893-5e9b-44a7-a8da-7517c52c147d/Lebkuchen%20Magenbrot%20600%20g",
-   "alt": "Lebkuchen, Magenbrot 600 g",
-   "href": "https://www.aldi-sued.de/produkt/wintertraum-lebkuchen-magenbrot-600-g-000000000194139002",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nLACURA\n\nSeidenkissenbezüge 2er-Pack, Beige\n\n19,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/810cebbd-391b-45e0-8755-0d1999557b16/Seidenkissenbezge%202erPack%20Beige",
+   "alt": "Seidenkissenbezüge 2er-Pack, Beige",
+   "href": "https://www.aldi-sued.de/produkt/lacura-seidenkissenbezuege-2er-pack-beige-000000000740606001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\nAktion\n\nGOURMET FINEST CUISINE\n\nMini-Panettone Mix 100 g, Klassik\n\n100 g\n\n(12,90 €/1 kg)\n\n1,29 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/53a1077e-674c-4c0e-8570-b7944f95f04c/MiniPanettone%20Mix%20100%20g%20Klassik",
-   "alt": "Mini-Panettone Mix 100 g, Klassik",
-   "href": "https://www.aldi-sued.de/produkt/gourmet-finest-cuisine-mini-panettone-mix-100-g-klassik-000000000262614002",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nTANDIL\n\nWaschmittel XXL 5 l, Aqua Touch\n\n5 l\n\n(1,56 €/1 l)\n\n7,79 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1377df1f-cf79-4f9f-b9b5-f63b723efbbc/Waschmittel%20XXL%205%20l%20Aqua%20Touch",
+   "alt": "Waschmittel XXL 5 l, Aqua Touch",
+   "href": "https://www.aldi-sued.de/produkt/tandil-waschmittel-xxl-5-l-aqua-touch-000000000629435001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\n\nWINTERTRAUM\n\nWinter Schokoriegel 200 g, Apfel\n\n200 g\n\n(9,95 €/1 kg)\n\n1,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1bdcbdef-4b1f-404c-8090-889fdea8c60d/Winter%20Schokoriegel%20200%20g%20Apfel",
-   "alt": "Winter Schokoriegel 200 g, Apfel",
-   "href": "https://www.aldi-sued.de/produkt/wintertraum-winter-schokoriegel-200-g-apfel-000000000496585001",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nUP2FASHION MEN\n\nHerren-Thermojeans, Blau, 48\n\n7,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/31c66d13-b2eb-4235-a5bd-791726d9a452/HerrenThermojeans%20Blau%2048",
+   "alt": "Herren-Thermojeans, Blau, 48",
+   "href": "https://www.aldi-sued.de/produkt/up2fashion-men-herren-thermojeans-blau-48-000000000741621001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\n\nL&D\n\nWeihnachts-Plüsch-Overall, Rentier, 122/128\n\n9,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/d2b02398-da5c-479e-a26f-073029639dd2/WeihnachtsPlschOverall%20Rentier%20122128",
-   "alt": "Weihnachts-Plüsch-Overall, Rentier, 122/128",
-   "href": "https://www.aldi-sued.de/produkt/l-d-weihnachts-pluesch-overall-rentier-122-128-000000000744294001",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nGARDENLINE\n\nWeihnachtsstern Busch 4,5 Liter\n\n6,79 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/31944892-22d2-4b74-92fa-f77280755c48/Weihnachtsstern%20Busch%2045%20Liter",
+   "alt": "Weihnachtsstern Busch 4,5 Liter",
+   "href": "https://www.aldi-sued.de/produkt/gardenline-weihnachtsstern-busch-4-5-liter-000000000000760242",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 16.11.2026\n\nCROFTON\n\nBesteck-Set, Gold, Geriffelt\n\n7,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b676dd75-9c3f-44cc-bede-0a82ccb5a3b4/BesteckSet%20Gold%20Geriffelt",
-   "alt": "Besteck-Set, Gold, Geriffelt",
-   "href": "https://www.aldi-sued.de/produkt/crofton-besteck-set-gold-geriffelt-000000000747828001",
-   "sectie": "ANGEBOTE AB MONTAG 16.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nAMBIANO\n\nMedizinisches Messgerät, Oberarm Blutdruckmessgerät\n\n12,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/26a413a2-7fa0-4d03-9055-4be1e1938921/Medizinisches%20Messgert%20Oberarm%20Blutdruckmessgert",
+   "alt": "Medizinisches Messgerät, Oberarm Blutdruckmessgerät",
+   "href": "https://www.aldi-sued.de/produkt/ambiano-medizinisches-messgeraet-oberarm-blutdruckmessgeraet-000000000751521001",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\nAktion\n\nHOME CREATION\n\nMotiv-Baumschmuck, Bär\n\n1,29 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0dd81d7c-a308-474e-8c49-48e228b9f8cc/MotivBaumschmuck%20Br",
-   "alt": "Motiv-Baumschmuck, Bär",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-motiv-baumschmuck-baer-000000000769469001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 26.11.2026\n\nDamen-Baumwoll-BH, Weiß, 85B\n\n9,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1be1e083-e629-46b2-92bb-25970529cf92/DamenBaumwollBH%20Wei%2085B",
+   "alt": "Damen-Baumwoll-BH, Weiß, 85B",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-damen-baumwoll-bh-weiss-85b-000000000223860003",
+   "sectie": "ANGEBOTE AB DONNERSTAG 26.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\nAktion\n\nGARDENLINE\n\nWeihnachtsstern, Christmas Feeling\n\n3,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/fb7cc05d-b63e-4eba-aebe-28487619c3bd/Weihnachtsstern%20Christmas%20Feeling",
-   "alt": "Weihnachtsstern, Christmas Feeling",
-   "href": "https://www.aldi-sued.de/produkt/gardenline-weihnachtsstern-christmas-feeling-000000000757669001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nAktion\n\nSINGER\n\nNähmaschine, Türkis\n\n139,00 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/d9889c1f-fccd-4d66-bf93-e67aa3d9323e/Nhmaschine%20Trkis",
+   "alt": "Nähmaschine, Türkis",
+   "href": "https://www.aldi-sued.de/produkt/singer-naehmaschine-tuerkis-000000000751468001",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\nAktion\n\nHOME CREATION\n\nWichteltür-Set, Klassisch Rot\n\n1,79 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2d7a947d-ad5f-48d0-a11f-4f736921b3be/WichteltrSet%20Klassisch%20Rot",
-   "alt": "Wichteltür-Set, Klassisch Rot",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-wichteltuer-set-klassisch-rot-000000000755265001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nTiefkühlung\nAktion\n\nCONDITOREI COPPENRATH & WIESE\n\nBunte Sahne-Platte 800 g\n\n800 g\n\n(11,24 €/1 kg)\n\n8,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/9010b874-2e16-46f9-9325-fe430fda1239/Bunte%20SahnePlatte%20800%20g",
+   "alt": "Bunte Sahne-Platte 800 g",
+   "href": "https://www.aldi-sued.de/produkt/conditorei-coppenrath-wiese-bunte-sahne-platte-800-g-000000000000592682",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\n\nHOME CREATION\n\nLED-Echtwachskerzen, 3er-Set, Creme\n\n4,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ba72d4fe-1851-4537-ba0e-236cad93a254/LEDEchtwachskerzen%203erSet%20Creme",
-   "alt": "LED-Echtwachskerzen, 3er-Set, Creme",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-led-echtwachskerzen-3er-set-creme-000000000755289001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nAktion\n\nRAMA\n\nRama Original 60 % Fett 725 g\n\n725 g\n\n(2,47 €/1 kg)\n\n1,79 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/f064a95d-edf3-471e-8af9-8400d314400d/Rama%20Original%2060%20%25%20Fett%20725%20g",
+   "alt": "Rama Original 60 % Fett 725 g",
+   "href": "https://www.aldi-sued.de/produkt/rama-rama-original-60-fett-725-g-000000000000599342",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\nAktion\n\nHOME CREATION\n\nDuftkerze in Motiv-Keramik, Lebkuchen, Gingerbread & Cinnamon\n\n3,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/14d84461-a8e3-4c77-8dbd-edf4611710ee/Duftkerze%20in%20MotivKeramik%20Lebkuchen%20Gingerbread%20%20Cinnamon",
-   "alt": "Duftkerze in Motiv-Keramik, Lebkuchen, Gingerbread & Cinnamon",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-duftkerze-in-motiv-keramik-lebkuchen-gingerbread-cinnamon-000000000753844001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nAktion\n\nJACOBS\n\nOrigins Brazil Kaffee 1 kg\n\n1 kg\n\n(12,99 €/1 kg)\n\n12,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/fae413ab-8993-4246-9c2a-15ad6c0a7736/Origins%20Brazil%20Kaffee%201%20kg",
+   "alt": "Origins Brazil Kaffee 1 kg",
+   "href": "https://www.aldi-sued.de/produkt/jacobs-origins-brazil-kaffee-1-kg-000000000000623539",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\n\nHOME CREATION\n\nTeddy-Flausch-Kissen, Grün\n\n4,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/6e032d9c-d699-4b79-8612-85aec01f9954/TeddyFlauschKissen%20Grn",
-   "alt": "Teddy-Flausch-Kissen, Grün",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-teddy-flausch-kissen-gruen-000000000745590001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nAktion\n\nBAUHN\n\nVideo-Türklingel, Weiß\n\n19,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0346793a-64d9-48b5-abfd-cd20dd5f877e/VideoTrklingel%20Wei",
+   "alt": "Video-Türklingel, Weiß",
+   "href": "https://www.aldi-sued.de/produkt/bauhn-video-tuerklingel-weiss-000000000739825001",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\nAktion\n\nHOME CREATION\n\nWeihnachtsbaum-Animation, Zug\n\n7,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/4662c98e-2364-4f68-aad2-28e840ae3c60/WeihnachtsbaumAnimation%20Zug",
-   "alt": "Weihnachtsbaum-Animation, Zug",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-weihnachtsbaum-animation-zug-000000000744520001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nAktion\nVegan\n\nSCHWARTAU\n\nSamt 270 g, Erdbeere Vanillle\n\n270 g\n\n(7,37 €/1 kg)\n\n1,99 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/bcc9150a-3025-4146-b16d-f46353117878/Samt%20270%20g%20Erdbeere%20Vanillle",
+   "alt": "Samt 270 g, Erdbeere Vanillle",
+   "href": "https://www.aldi-sued.de/produkt/schwartau-samt-270-g-erdbeere-vanillle-000000000182740011",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\n\nNOVITESSE\n\nBadematte, 60 x 100 cm, Beige\n\n7,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ff795cfa-6b1c-4a4b-9dfa-b92a05ee6641/Badematte%2060%20x%20100%20cm%20Beige",
-   "alt": "Badematte, 60 x 100 cm, Beige",
-   "href": "https://www.aldi-sued.de/produkt/novitesse-badematte-60-x-100-cm-beige-000000000741229001",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nKühlung\nAktion\n\nWEIHENSTEPHAN\n\nNaturjoghurt 500 g, 1,5 % Fett\n\n500 g\n\n(1,78 €/1 kg)\n\n0,89 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/f041976c-97bb-4a71-ace5-d651272e1dd3/Naturjoghurt%20500%20g%2015%20%25%20Fett",
+   "alt": "Naturjoghurt 500 g, 1,5 % Fett",
+   "href": "https://www.aldi-sued.de/produkt/weihenstephan-naturjoghurt-500-g-1-5-fett-000000000203326002",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\n\nGARDENLINE\n\nWeihnachtliche Pflanzen-Deko, Wichtel\n\n12,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/86d2d7e8-59ca-4b59-ac2b-a17c39049810/Weihnachtliche%20PflanzenDeko%20Wichtel",
-   "alt": "Weihnachtliche Pflanzen-Deko, Wichtel",
-   "href": "https://www.aldi-sued.de/produkt/gardenline-weihnachtliche-pflanzen-deko-wichtel-000000000000759674",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nKühlung\nAktion\n\nMILRAM\n\nKäsescheiben 260 g, Benjamin\n\n260 g\n\n(9,96 €/1 kg)\n\n2,59 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/5da5ec66-3e50-4145-aa40-dfb86b3dd3bf/Ksescheiben%20260%20g%20Benjamin",
+   "alt": "Käsescheiben 260 g, Benjamin",
+   "href": "https://www.aldi-sued.de/produkt/milram-kaesescheiben-260-g-benjamin-000000000203996007",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Verfügbar seit 19.11.2026\n\nHOME CREATION\n\nKünstlicher Weihnachtsbaum\n\n39,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/3acb466b-1e25-4300-8666-35d64319ac7c/Knstlicher%20Weihnachtsbaum",
-   "alt": "Künstlicher Weihnachtsbaum",
-   "href": "https://www.aldi-sued.de/produkt/home-creation-kuenstlicher-weihnachtsbaum-000000000000757059",
-   "sectie": "ANGEBOTE AB DONNERSTAG 19.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nKINDER\n\nDuo 150 g\n\n150 g\n\n(15,27 €/1 kg)\n\n2,29 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/3ba08dbc-819a-4e3f-b3d3-52dcb1933b2c/Duo%20150%20g",
-   "alt": "Duo 150 g",
-   "href": "https://www.aldi-sued.de/produkt/kinder-duo-150-g-000000000000474870",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nASIA GREEN GARDEN\n\nNori Blätter 26 g\n\n26 g\n\n(76,54 €/1 kg)\n\n1,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/cb1735e0-c63e-45b1-907d-98509ffb5678/Nori%20Bltter%2026%20g",
-   "alt": "Nori Blätter 26 g",
-   "href": "https://www.aldi-sued.de/produkt/asia-green-garden-nori-blaetter-26-g-000000000000763917",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nASIA GREEN GARDEN\n\nPremium Sojasauce 200 ml\n\n200 ml\n\n(7,95 €/1 l)\n\n1,59 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/53569f42-1199-42b6-983a-565eabd66faf/Premium%20Sojasauce%20200%20ml",
-   "alt": "Premium Sojasauce 200 ml",
-   "href": "https://www.aldi-sued.de/produkt/asia-green-garden-premium-sojasauce-200-ml-000000000000763929",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nKühlung\nAktion\n\nALPENHAIN\n\nCamembert Creme 125 g, Natur\n\n125 g\n\n(11,92 €/1 kg)\n\n1,49 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/fd186f41-0ac0-4d76-ba34-3b0df457c2f1/Camembert%20Creme%20125%20g%20Natur",
-   "alt": "Camembert Creme 125 g, Natur",
-   "href": "https://www.aldi-sued.de/produkt/alpenhain-camembert-creme-125-g-natur-000000000204004001",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nWINTERTRAUM\n\nLebkuchen-Bausatz 1.085 g, Eisenbahn\n\n1,085 kg\n\n(6,44 €/1 kg)\n\n6,99 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/e6920a5d-a26f-455f-a55c-f246b7e6e267/LebkuchenBausatz%201.085%20g%20Eisenbahn",
-   "alt": "Lebkuchen-Bausatz 1.085 g, Eisenbahn",
-   "href": "https://www.aldi-sued.de/produkt/wintertraum-lebkuchen-bausatz-1-085-g-eisenbahn-000000000746270001",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nKühlung\nAktion\n\nPATROS\n\nHirtenkäse XXL 240 g, Natur\n\n240 g\n\n(9,25 €/1 kg)\n\n2,22 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/343fa1ba-554b-44f1-9aba-78d6b81ae733/Hirtenkse%20XXL%20240%20g%20Natur",
-   "alt": "Hirtenkäse XXL 240 g, Natur",
-   "href": "https://www.aldi-sued.de/produkt/patros-hirtenkaese-xxl-240-g-natur-000000000774920001",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nBISCOTTO\n\nDänische Butterkekse 750 g\n\n750 g\n\n(6,39 €/1 kg)\n\n4,79 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a57ced2a-fb72-4b5a-8c3d-ff72471c5ad4/Dnische%20Butterkekse%20750%20g",
-   "alt": "Dänische Butterkekse 750 g",
-   "href": "https://www.aldi-sued.de/produkt/biscotto-daenische-butterkekse-750-g-000000000000191377",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\nKühlung\n\nBABYBEL\n\nMini Babybel 200 g\n\n200 g\n\n(14,45 €/1 kg)\n\n2,89 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/540bf1cc-3cf7-4326-910d-77f2ad35cbbb/Mini%20Babybel%20200%20g",
-   "alt": "Mini Babybel 200 g",
-   "href": "https://www.aldi-sued.de/produkt/babybel-mini-babybel-200-g-000000000775150001",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nDR. BECKMANN\n\nAktiv Weiss 3 in 1\n\n15 Blatt\n\n(0,18 €/1 Blatt)\n\n2,75 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/88a70365-cb20-47fb-9d0e-48a1c349476c/Aktiv%20Weiss%203%20in%201",
-   "alt": "Aktiv Weiss 3 in 1",
-   "href": "https://www.aldi-sued.de/produkt/dr-beckmann-aktiv-weiss-3-in-1-000000000000509494",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "Verfügbar seit 20.11.2026\nAktion\n\nProsecco DOC Treviso Brut 0,75 l\n\n750 ml\n\n(8,65 €/1 l)\n\n6,49 €¹",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/99fff8cc-6109-46da-8bb8-6479dfad8cf1/Prosecco%20DOC%20Treviso%20Brut%20075%20l",
-   "alt": "Prosecco DOC Treviso Brut 0,75 l",
-   "href": "https://www.aldi-sued.de/produkt/no-brand-prosecco-doc-treviso-brut-0-75-l-000000000583165002",
-   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 20.11.",
+   "tekst": "Verfügbar ab 27.11.2026\nKühlung\nAktion\n\nSTEINHAUS\n\nBraten-Mix 120 g, Thymian-Honig\n\n120 g\n\n(14,92 €/1 kg)\n\n1,79 €¹",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/54e26f8f-ee0e-41ee-b914-53cf739357db/BratenMix%20120%20g%20ThymianHonig",
+   "alt": "Braten-Mix 120 g, Thymian-Honig",
+   "href": "https://www.aldi-sued.de/produkt/steinhaus-braten-mix-120-g-thymian-honig-000000000309958003",
+   "sectie": "ANGEBOTE ZUM WOCHENENDE AB 27.11.",
    "attrs": {
     "data-track-type": "internal"
    }
