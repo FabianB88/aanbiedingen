@@ -334,12 +334,12 @@ function teken(){
     const lijst = echteDeals();
     el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen</h2>
       <div class="rij" style="margin:6px 0 10px">${[30,40,50,60].map(n=>`<button class="chip${st.echtMin===n?" aan":""}" data-echtmin="${n}">${n}% of meer</button>`).join("")}</div><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen), de mediaanprijs van Amazon, of een deal die op Pepper.com door de community is gecontroleerd (zo komen ook bol.com en MediaMarkt erin). Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
-      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen echte deals van ${st.echtMin}% of meer gevonden.</div>`);
+      filterbalk(lijst) + (lijst.length ? grid(gefilterd(lijst)) : `<div class="leeg">Geen echte deals van ${st.echtMin}% of meer bij de gekozen winkels.</div>`);
   }
   else if (view==="blackfriday"){
     const lijst = blackfriday();
     el.innerHTML = `<div class="info">Deals van bol.com, Coolblue, MediaMarkt en Amazon.nl. Let op: bij Black Friday is de "van"-prijs vaak opgerekt, dus vergelijk zelf even.</div>` +
-      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen deals binnen. De eerste ophaalronde voor deze winkels loopt nog.</div>`);
+      filterbalk(lijst) + (lijst.length ? grid(gefilterd(lijst)) : `<div class="leeg">Geen deals bij de gekozen winkels.</div>`);
   }
   else if (view==="gevolgd"){
     el.innerHTML = `<div class="paneel"><h2>Wat je volgt</h2>
