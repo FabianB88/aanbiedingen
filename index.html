@@ -130,7 +130,7 @@ table.status td,table.status th{padding:9px 6px;border-bottom:1px solid var(--li
 <main>
   <div class="top">
     <button class="menu" id="menu" aria-label="Menu">☰</button>
-    <div class="modus"><button data-modus="boodschappen" class="aan">Boodschappen</button><button data-modus="bf">Black Friday <span class="tel" id="tel-bf"></span></button><button data-modus="echt">Echt -50% <span class="tel" id="tel-echt"></span></button></div>
+    <div class="modus"><button data-modus="boodschappen" class="aan">Boodschappen</button><button data-modus="bf">Black Friday <span class="tel" id="tel-bf"></span></button><button data-modus="echt">Echte deals <span class="tel" id="tel-echt"></span></button></div>
     <h1 id="kop">Alle aanbiedingen</h1>
     <div class="zoek" id="zoekvak"><input id="zoek" type="search" placeholder="Zoek product of merk" autocomplete="off"></div>
   </div>
@@ -148,7 +148,7 @@ const WINKELS = {
   lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}, pepper:{naam:"Pepper.com",kleur:"#E4502D"}
 };
 const OPSLAG = "aanbiedingen-v1";
-const standaard = {verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
+const standaard = {echtMin:30, verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
 let st = laadState();
 let data = [], status = {}, view = "alle", zoekterm = "";
 
@@ -186,13 +186,13 @@ function zichtbaar(){
 const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon","pepper"];
 // bij welk tabblad hoort een aanbieding; winkelknoppen blijven zichtbaar, ook als je ze uitzet
 const soort = a => (a.bf || WEBSHOPS.includes(a.winkel)) ? "bf" : a.nonfood ? "nonfood" : "boodschappen";
-const pastBij = (a, s) => s==="echt" ? !!a.echt : soort(a)===s;
+const pastBij = (a, s) => s==="echt" ? !!a.echt && (a.korting||0) >= st.echtMin : soort(a)===s;
 const huidigeSoort = () => view==="blackfriday" ? "bf" : view==="nonfood" ? "nonfood" : view==="echt" ? "echt" : "boodschappen";
 function nonfood(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && a.nonfood && !a.bf && !WEBSHOPS.includes(a.winkel));
 }
 function echteDeals(){
-  return data.filter(a => !st.verborgen.includes(a.winkel) && a.echt);
+  return data.filter(a => !st.verborgen.includes(a.winkel) && a.echt && (a.korting||0) >= st.echtMin);
 }
 function blackfriday(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && (a.bf || WEBSHOPS.includes(a.winkel)));
@@ -332,8 +332,9 @@ function teken(){
   }
   else if (view==="echt"){
     const lijst = echteDeals();
-    el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen van 50% of meer</h2><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen), de mediaanprijs van Amazon, of een deal die op Pepper.com door de community is gecontroleerd (zo komen ook bol.com en MediaMarkt erin). Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
-      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen echte deals van 50% of meer gevonden.</div>`);
+    el.innerHTML = `<div class="paneel"><h2>Alleen echte kortingen</h2>
+      <div class="rij" style="margin:6px 0 10px">${[30,40,50,60].map(n=>`<button class="chip${st.echtMin===n?" aan":""}" data-echtmin="${n}">${n}% of meer</button>`).join("")}</div><p>Non-food en Black Friday, gemeten tegen een betrouwbare "van"-prijs: de wettelijke van-prijs (de laagste prijs van de afgelopen 30 dagen, zoals Lidl en Kaufland die tonen), de mediaanprijs van Amazon, of een deal die op Pepper.com door de community is gecontroleerd (zo komen ook bol.com en MediaMarkt erin). Kortingen op een adviesprijs, "tot"-kortingen en meerkoopacties vallen af. Zagen wij het product de afgelopen 30 dagen zelf al veel goedkoper, dan valt het ook af.</p></div>` +
+      (lijst.length ? filterbalk(lijst) + grid(gefilterd(lijst)) : `<div class="leeg">Nog geen echte deals van ${st.echtMin}% of meer gevonden.</div>`);
   }
   else if (view==="blackfriday"){
     const lijst = blackfriday();
@@ -386,6 +387,7 @@ document.addEventListener("click", e => {
   if (!t) return;
   if (t.dataset.modus){ view = {bf:"blackfriday", echt:"echt"}[t.dataset.modus] || "alle"; teken(); window.scrollTo(0,0); return; }
   if (t.dataset.view){ view = t.dataset.view; sluitMenu(); teken(); window.scrollTo(0,0); return; }
+  if (t.dataset.echtmin){ st.echtMin = +t.dataset.echtmin; bewaar(); teken(); return; }
   if (t.dataset.alleWinkels){ st.verborgen = []; bewaar(); teken(); return; }
   if (t.dataset.winkel){ const c=t.dataset.winkel; st.verborgen = st.verborgen.includes(c)? st.verborgen.filter(x=>x!==c) : [...st.verborgen,c]; bewaar(); teken(); return; }
   if (t.dataset.volg!==undefined){

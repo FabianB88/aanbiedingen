@@ -101,7 +101,7 @@ def prijshistorie_en_echt(alles):
         a["laagste_gezien"] = min(recent) if recent else None
         a["dagen_gemeten"] = len(reeks)
         a["echt"] = bool(
-            (a.get("korting") or 0) >= 50 and not a.get("tot")
+            (a.get("korting") or 0) >= 30 and not a.get("tot")
             and a.get("ref") in ("van", "mediaan", "pepper")
             and not MEERKOOP.search(a.get("actie", ""))
             and (a.get("prijs_was") or a.get("ref") == "pepper")
@@ -110,7 +110,7 @@ def prijshistorie_en_echt(alles):
         )
     with open(HISTORIE, "w", encoding="utf-8") as f:
         json.dump(hist, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"[echt] {sum(1 for a in alles if a.get('echt'))} echte kortingen van 50% of meer")
+    print(f"[echt] {sum(1 for a in alles if a.get('echt'))} echte kortingen van 30% of meer")
 
 
 def main(alleen=None):
