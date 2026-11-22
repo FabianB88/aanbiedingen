@@ -12,7 +12,7 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: ["scraper/**", ".github/workflows/scrape.yml"]
+    paths: ["scraper/**", "!scraper/aldi_assortiment.py", ".github/workflows/scrape.yml"]
 
 permissions:
   contents: write

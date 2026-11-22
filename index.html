@@ -204,7 +204,7 @@ function blackfriday(){
 }
 
 // ---- volledig assortiment (normale prijzen), alleen geladen als je zoekt
-const ASS_WINKELS = ["ah","jumbo","lidl","plus"];
+const ASS_WINKELS = ["ah","jumbo","lidl","plus","aldi"];
 let assortiment = null, assLaden = null;
 function laadAssortiment(){
   if (assLaden) return assLaden;
@@ -224,7 +224,7 @@ function assortimentBlok(){
     <span class="aprijs">${euro(a.prijs)}${a.per?`<small>${euro(a.per)}/${a.per_eenheid}</small>`:""}</span></a>`; };
   return `<div class="paneel"><h2>Ook in het assortiment <span class="sub">normale prijzen, goedkoopste per kg/l eerst</span></h2>
     ${hits.length ? hits.slice(0,80).map(rij).join("") + (hits.length>80?`<p class="sub">${hits.length} producten, eerste 80 getoond. Maak je zoekterm specifieker.</p>`:"") : '<p class="sub">Niets gevonden.</p>'}
-    <p class="sub" style="margin-top:8px">Bron: open data van Checkjebon (AH, Jumbo, Lidl, PLUS), een paar keer per week bijgewerkt.</p></div>`;
+    <p class="sub" style="margin-top:8px">Bron: open data van Checkjebon (AH, Jumbo, Lidl, PLUS), een paar keer per week bijgewerkt. Aldi: eenmalig van aldi.nl gehaald.</p></div>`;
 }
 
 function alleWinkels(){ return data.filter(a => !st.verborgen.includes(a.winkel)); }
