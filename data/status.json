@@ -3,9 +3,9 @@
   "naam": "Albert Heijn",
   "land": "NL",
   "ok": true,
-  "aantal": 440,
-  "met_korting": 394,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "aantal": 1409,
+  "met_korting": 1363,
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "jumbo": {
@@ -14,7 +14,7 @@
   "ok": true,
   "aantal": 134,
   "met_korting": 95,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "lidl": {
@@ -23,7 +23,7 @@
   "ok": true,
   "aantal": 63,
   "met_korting": 35,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "aldi": {
@@ -32,16 +32,16 @@
   "ok": true,
   "aantal": 194,
   "met_korting": 38,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "plus": {
   "naam": "PLUS",
   "land": "NL",
   "ok": true,
-  "aantal": 152,
-  "met_korting": 149,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "aantal": 153,
+  "met_korting": 150,
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "aldi_sued": {
@@ -50,7 +50,7 @@
   "ok": true,
   "aantal": 41,
   "met_korting": 14,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "kaufland": {
@@ -59,16 +59,16 @@
   "ok": true,
   "aantal": 681,
   "met_korting": 438,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "lidl_online": {
   "naam": "Lidl webshop",
   "land": "NL",
   "ok": true,
-  "aantal": 2579,
-  "met_korting": 1541,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "aantal": 2564,
+  "met_korting": 1527,
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "bol": {
@@ -79,7 +79,7 @@
   "met_korting": 0,
   "bijgewerkt": "",
   "fout": "RuntimeError: geen enkele URL bereikbaar",
-  "geprobeerd": "2026-11-22T16:14+00:00"
+  "geprobeerd": "2026-11-22T16:29+00:00"
  },
  "coolblue": {
   "naam": "Coolblue",
@@ -87,7 +87,7 @@
   "ok": true,
   "aantal": 257,
   "met_korting": 222,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "mediamarkt": {
@@ -98,7 +98,7 @@
   "met_korting": 0,
   "bijgewerkt": "",
   "fout": "RuntimeError: geen enkele URL bereikbaar",
-  "geprobeerd": "2026-11-22T16:14+00:00"
+  "geprobeerd": "2026-11-22T16:29+00:00"
  },
  "amazon": {
   "naam": "Amazon.nl",
@@ -106,16 +106,16 @@
   "ok": true,
   "aantal": 180,
   "met_korting": 180,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  },
  "pepper": {
   "naam": "Pepper.com",
   "land": "NL",
   "ok": true,
-  "aantal": 50,
-  "met_korting": 19,
-  "bijgewerkt": "2026-11-22T16:14+00:00",
+  "aantal": 48,
+  "met_korting": 17,
+  "bijgewerkt": "2026-11-22T16:29+00:00",
   "fout": ""
  }
 }
