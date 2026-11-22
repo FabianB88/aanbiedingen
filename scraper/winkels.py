@@ -55,6 +55,9 @@ def _ah_api():
             imgs = sorted(p.get("images") or [], key=lambda i: i.get("width", 0))
             img = next((i["url"] for i in imgs if i.get("width", 0) >= 200), imgs[-1]["url"] if imgs else "")
             actie = p.get("bonusMechanism") or ""
+            # vaste volumekortingen en pakketkorting zijn geen weekaanbiedingen
+            if re.search(r"volume voordeel|pakketkorting", actie, re.I):
+                continue
             labels = p.get("discountLabels") or []
             if not actie and labels:
                 actie = labels[0].get("defaultDescription", "")
