@@ -1,1975 +1,2245 @@
 {
  "url": "https://www.aldi.nl/aanbiedingen.html",
- "aantal": 197,
+ "aantal": 224,
  "kaarten": [
   {
-   "tekst": "Spruiten\n-47%\n0.99\n1.89\n750 g\nkg = 1.32\nSpruiten",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219371_main_cms_3_nl_nl_spruiten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "FLEURIL\n\nWasmiddel\nOP=OP\n8.49\n54 wasbeurten\nWasmiddel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91233497_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/spruiten-1219371.html",
+   "href": "https://www.aldi.nl/product/wasmiddel-91233497.html",
    "sectie": "NU of nooit",
    "attrs": {
-    "data-testid": "product-tile-grid-product-tile-1"
+    "data-testid": "product-tile-grid-product-tile-1-highlight"
    }
   },
   {
-   "tekst": "Blauwe bessen\n3.29\n3.95\n300 g\nkg = 10.97\nBlauwe bessen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1209127_main_cms_4_nl_nl_blauwe_bessen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Mandarijnen\n-30%\n1.39\n1.99\n1 kg\nkg = 1.39\nMandarijnen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219324_main_cms_9_nl_nl_mandarijnen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/blauwe-bessen-1209127.html",
-   "sectie": "Spruiten",
+   "href": "https://www.aldi.nl/product/mandarijnen-1219324.html",
+   "sectie": "Wasmiddel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Kipgyros\n-25%\n2.99\n3.99\n400 g\nKipgyros",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238501_main_cms_4_nl_nl_kipgyros_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "GOLDEN SEAFOOD\n\nZalmfilets op huid\nOP=OP\n7.99\n4 stuks, 500 g\nkg = 15.98\nZalmfilets op huid",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225395_main_cms_9_nl_nl_zalmfilets_op_huid_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kipgyros-1238501.html",
-   "sectie": "Blauwe bessen",
+   "href": "https://www.aldi.nl/product/zalmfilets-op-huid-1225395.html",
+   "sectie": "Mandarijnen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Gegrilde beenham\n1.99\n200 g\nkg = 9.95\nGegrilde beenham",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1211316_main_cms_13_nl_nl_gegrilde_beenham_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Waddenbrood\n-23%\n1.59\n2.09\nHeel\nWaddenbrood",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1210311_main_cms_3_nl_nl_waddenbrood_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/gegrilde-beenham-1211316.html",
-   "sectie": "Kipgyros",
+   "href": "https://www.aldi.nl/product/waddenbrood-1210311.html",
+   "sectie": "Zalmfilets op huid",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "Mini-roomboterrozijnenbollen\n-22%\n1.39\n1.79\n9 stuks\nMini-roomboterrozijnenbollen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225216_main_cms_5_nl_nl_mini_roomboterrozijnenbollen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "CALVÉ\n\nPindakaas\nTOT -24%\n3.49\n4.65\n650 g\nPindakaas",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91225251_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mini-roomboterrozijnenbollen-1225216.html",
-   "sectie": "Gegrilde beenham",
+   "href": "https://www.aldi.nl/product/pindakaas-91225251.html",
+   "sectie": "Waddenbrood",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "BECEL\n\nMargarine\n-50%\n1.69\n3.39\n550 g\nMargarine",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91241061_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "AVIKO\n\nSuper crunchfriet\n1.99\n750 g\nSuper crunchfriet",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91225862_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/margarine-91241061.html",
-   "sectie": "Mini-roomboterrozijnenbollen",
+   "href": "https://www.aldi.nl/product/super-crunchfriet-91225862.html",
+   "sectie": "Pindakaas",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "SUN SNACKS\n\nXtra ribbel chips\n-20%\n1.19\n1.49\n150 g\nXtra ribbel chips",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1241278_main_cms_8_nl_nl_xtra_ribbel_chips_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "SULTANA\n\nBiscuits of havermoutsticks 5-pack\nOP=OP\n1.59\n5-pack\nBiscuits of havermoutsticks 5-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91232262_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/xtra-ribbel-chips-1241278.html",
-   "sectie": "Margarine",
+   "href": "https://www.aldi.nl/product/biscuits-of-havermoutsticks-5-pack-91232262.html",
+   "sectie": "Super crunchfriet",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "NESCAFÉ\n\nDolce Gusto koffiecups\n-49%\n3.29\n6.49\n8-16 cups\nDolce Gusto koffiecups",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91208903_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MOSER ROTH\n\nChocolade\nTOT -28%\n1.79\n2.49\n125 g\nkg = 14.32\nChocolade",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91231267_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/dolce-gusto-koffiecups-91208903.html",
-   "sectie": "Xtra ribbel chips",
+   "href": "https://www.aldi.nl/product/chocolade-91231267.html",
+   "sectie": "Biscuits of havermoutsticks 5-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "HERTOG JAN\n\nBier\n4.99\n6x330 ml\nBier",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1216421_main_cms_1_nl_nl_bier_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "RIVER\n\nTonic, ginger ale of bitter lemon\n-18%\n0.79\n0.97\n1 l\nTonic, ginger ale of bitter lemon",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91224571_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/bier-1216421.html",
-   "sectie": "Dolce Gusto koffiecups",
+   "href": "https://www.aldi.nl/product/tonic-ginger-ale-of-bitter-lemon-91224571.html",
+   "sectie": "Chocolade",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "PEDIGREE\n\nJumbone\nOP=OP\n1.29\n1-4 stuks\nJumbone",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91245825_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "SUBLIMO\n\n3-laags toiletpapier\nOP=OP\n5.99\n20 rollen\n3-laags toiletpapier",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1233019_main_cms_10_nl_nl_3_laags_toiletpapier_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/jumbone-91245825.html",
-   "sectie": "Bier",
+   "href": "https://www.aldi.nl/product/3-laags-toiletpapier-1233019.html",
+   "sectie": "Tonic, ginger ale of bitter lemon",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "Rvs kookpan\nVANAF\n14.99\nPer stuk\nRvs kookpan",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91235839_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ZESPRI\n\nKiwi gold\nOP=OP\n0.69\nPer stuk\nKiwi gold",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1224139_main_cms_1_nl_nl_kiwi_gold_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/rvs-kookpan-91235839.html",
-   "sectie": "Jumbone",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-11"
-   }
-  },
-  {
-   "tekst": "Kistje bladmandarijnen\n3.99\nPer kist\nKistje bladmandarijnen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221735_main_cms_8_nl_nl_kistje_bladmandarijnen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/kistje-bladmandarijnen-1221735.html",
+   "href": "https://www.aldi.nl/product/kiwi-gold-1224139.html",
    "sectie": "Aardappelen, groenten en fruit",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1-highlight"
    }
   },
   {
-   "tekst": "PINK LADY\n\nAppels\n-16%\n2.49\n2.99\n6 stuks\nAppels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1204033_main_cms_17_nl_nl_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Frambozen\n-13%\n1.99\n2.29\n125 g\nkg = 15.92\nFrambozen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1201661_main_cms_3_nl_nl_frambozen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/appels-1204033.html",
-   "sectie": "Kistje bladmandarijnen",
+   "href": "https://www.aldi.nl/product/frambozen-1201661.html",
+   "sectie": "Kiwi gold",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Kaki fruit\n-25%\n0.59\n0.79\nPer stuk\nKaki fruit",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246405_main_cms_1_nl_nl_kaki_fruit_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Elstar appels\n-18%\n1.99\n2.45\n1.5 kg\nkg = 1.33\nElstar appels",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219892_main_cms_3_nl_nl_elstar_appels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kaki-fruit-1246405.html",
-   "sectie": "Appels",
+   "href": "https://www.aldi.nl/product/elstar-appels-1219892.html",
+   "sectie": "Frambozen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Doyenne du comice peren\n1.65\n1.89\n1 kg\nkg = 1.65\nDoyenne du comice peren",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1212641_main_cms_6_nl_nl_doyenne_du_comice_peren_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Rode paprika's\nOP=OP\n1.79\n500 g\nRode paprika's",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1243832_main_cms_1_nl_nl_rode_paprika_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/doyenne-du-comice-peren-1212641.html",
-   "sectie": "Kaki fruit",
+   "href": "https://www.aldi.nl/product/rode-paprikas-1243832.html",
+   "sectie": "Elstar appels",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "Eetrijpe avocado's\n-28%\n1.99\n2.79\n2 pack\nEetrijpe avocado's",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219606_main_cms_5_nl_nl_eetrijpe_avocado_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Trio sla op kluit\n-16%\n0.99\n1.19\nPer stuk\nTrio sla op kluit",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1218644_main_cms_6_nl_nl_trio_sla_op_kluit_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/eetrijpe-avocados-1219606.html",
-   "sectie": "Doyenne du comice peren",
+   "href": "https://www.aldi.nl/product/trio-sla-op-kluit-1218644.html",
+   "sectie": "Rode paprika's",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "Cocktailtomaten\n-20%\n1.99\n2.49\n500 g\nkg = 3.98\nCocktailtomaten",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1207831_main_cms_8_nl_nl_cocktailtomaten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Bosui\n-33%\n0.59\n0.89\n120 g, Per bos.\nBosui",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220494_main_cms_6_nl_nl_bosui_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/cocktailtomaten-1207831.html",
-   "sectie": "Eetrijpe avocado's",
+   "href": "https://www.aldi.nl/product/bosui-1220494.html",
+   "sectie": "Trio sla op kluit",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "SWEET PALERMO\n\nRode puntpaprika's\nOP=OP\n1.99\n500 g\nkg = 3.98\nRode puntpaprika's",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1208033_main_cms_6_nl_nl_rode_puntpaprika_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Prei\n-29%\n0.39\n0.55\nPer stuk\nPrei",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1210301_main_cms_4_nl_nl_prei_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/rode-puntpaprikas-1208033.html",
-   "sectie": "Cocktailtomaten",
+   "href": "https://www.aldi.nl/product/prei-1210301.html",
+   "sectie": "Bosui",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "Spitskool\n-13%\n1.29\n1.49\nPer stuk\nSpitskool",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1222243_main_cms_7_nl_nl_spitskool_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Courgette\n0.59\n0.72\nPer stuk\nCourgette",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219382_main_cms_11_nl_nl_courgette_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/spitskool-1222243.html",
-   "sectie": "Rode puntpaprika's",
+   "href": "https://www.aldi.nl/product/courgette-1219382.html",
+   "sectie": "Prei",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "Extra grote kruimige aardappelen\n-28%\n2.49\n3.49\n3 kg\nkg = 0.83\nExtra grote kruimige aardappelen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219453_main_cms_5_nl_nl_extra_grote_kruimige_aardappelen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BIO\n\nBiologische rode bieten\n-20%\n0.99\n1.25\n500 g\nkg = 1.98\nBiologische rode bieten",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1222205_main_cms_3_nl_nl_biologische_rode_bieten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/extra-grote-kruimige-aardappelen-1219453.html",
-   "sectie": "Spitskool",
+   "href": "https://www.aldi.nl/product/biologische-rode-bieten-1222205.html",
+   "sectie": "Courgette",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nFruitsalade\nOP=OP\n2.99\n500 g\nFruitsalade",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1236966_main_cms_2_nl_nl_fruitsalade_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Kruimige aardappelen\nOP=OP\n4.99\n9.98\n10 kg\nkg = 0.50\nKruimige aardappelen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1207900_main_cms_14_nl_nl_kruimige_aardappelen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/fruitsalade-1236966.html",
-   "sectie": "Extra grote kruimige aardappelen",
+   "href": "https://www.aldi.nl/product/kruimige-aardappelen-1207900.html",
+   "sectie": "Biologische rode bieten",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nMini krieltjes\n-23%\n0.99\n1.29\n700 g\nkg = 1.41\nMini krieltjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220126_main_cms_4_nl_nl_mini_krieltjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "DAYLICIOUS\n\nBoerenkool fijn\n-25%\n1.49\n1.99\n500 g\nBoerenkool fijn",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237357_main_cms_4_nl_nl_boerenkool_fijn_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mini-krieltjes-1220126.html",
-   "sectie": "Fruitsalade",
+   "href": "https://www.aldi.nl/product/boerenkool-fijn-1237357.html",
+   "sectie": "Kruimige aardappelen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-11"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nSalademix\n-28%\n0.99\n1.39\n300 g\nkg = 3.30\nSalademix",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230306_main_cms_3_nl_nl_salademix_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Bieslook of basilicum in pot\n-16%\n1.49\n1.79\nPer stuk\nBieslook of basilicum in pot",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91220237_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/salademix-1230306.html",
-   "sectie": "Mini krieltjes",
+   "href": "https://www.aldi.nl/product/bieslook-of-basilicum-in-pot-91220237.html",
+   "sectie": "Boerenkool fijn",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-12"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nNasi-bamigroenten\n-22%\n1.39\n1.79\n450 g\nkg = 3.09\nNasi-bamigroenten",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221345_main_cms_4_nl_nl_nasi_bamigroenten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Kipfilet\n-20%\n5.49\n6.98\n500 g\nkg = 10.98\nKipfilet",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221414_main_cms_5_nl_nl_kipfilet_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/nasi-bamigroenten-1221345.html",
-   "sectie": "Salademix",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-13"
-   }
-  },
-  {
-   "tekst": "Verse worsten\nOP=OP\n3.99\n800 g\nVerse worsten",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1242669_main_cms_10_nl_nl_verse_worsten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/verse-worsten-1242669.html",
+   "href": "https://www.aldi.nl/product/kipfilet-1221414.html",
    "sectie": "Vlees, vis en vega",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "CURRYSTAR\n\nCurryworsten\nOP=OP\n4.99\n5 stuks, 900 g\nkg = 5.54\nCurryworsten",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229730_main_cms_3_nl_nl_curryworsten_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Kipgehakt\n-20%\n3.99\n4.99\n400 g\nKipgehakt",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235169_main_cms_6_nl_nl_kipgehakt_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/curryworsten-1229730.html",
-   "sectie": "Verse worsten",
+   "href": "https://www.aldi.nl/product/kipgehakt-1235169.html",
+   "sectie": "Kipfilet",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Gemengd gehakt gekruid\n-34%\n2.99\n4.59\n500 g\nGemengd gehakt gekruid",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238507_main_cms_4_nl_nl_gemengd_gehakt_gekruid_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Culinaire varkensfilet\nOP=OP\n3.99\nCa. 500 g\nCulinaire varkensfilet",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245179_main_cms_1_nl_nl_culinaire_varkensfilet_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/gemengd-gehakt-gekruid-1238507.html",
-   "sectie": "Curryworsten",
+   "href": "https://www.aldi.nl/product/culinaire-varkensfilet-1245179.html",
+   "sectie": "Kipgehakt",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "GOURMET\n\nHerten-medaillon\nOP=OP\n7.99\nCa. 300 g\nHerten-medaillon",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246466_main_cms_3_nl_nl_herten_medaillon_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Slagersrookworst\n-26%\n1.99\n2.69\n275 g\nkg = 7.24\nSlagersrookworst",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1209826_main_cms_13_nl_nl_slagersrookworst_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/herten-medaillon-1246466.html",
-   "sectie": "Gemengd gehakt gekruid",
+   "href": "https://www.aldi.nl/product/slagersrookworst-1209826.html",
+   "sectie": "Culinaire varkensfilet",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "Hamlappen\nOP=OP\n6.99\n8 stuks, 1 kg\nHamlappen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245115_main_cms_9_nl_nl_hamlappen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Gehakt cordon bleus\nOP=OP\n3.69\nInhoud: 4 stuks, 488 g\nGehakt cordon bleus",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235370_main_cms_5_nl_nl_gehakt_cordon_bleus_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hamlappen-1245115.html",
-   "sectie": "Herten-medaillon",
+   "href": "https://www.aldi.nl/product/gehakt-cordon-bleus-1235370.html",
+   "sectie": "Slagersrookworst",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "Cordon bleu\nOP=OP\n7.49\nCordon bleu",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244539_main_cms_1_nl_nl_cordon_bleu_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Schnitzel met pretzelpanade\nOP=OP\n5.99\n700 g\nSchnitzel met pretzelpanade",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244076_main_cms_1_nl_nl_schnitzel_met_pretzelpanade_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/cordon-bleu-1244539.html",
-   "sectie": "Hamlappen",
+   "href": "https://www.aldi.nl/product/schnitzel-met-pretzelpanade-1244076.html",
+   "sectie": "Gehakt cordon bleus",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "Kipborrelhapjes gemarineerd\nOP=OP\n2.99\n500 g\nKipborrelhapjes gemarineerd",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244531_main_cms_2_nl_nl_kipborrelhapjes_gemarineerd_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "GOLDEN SEAFOOD\n\nGerookte zalm\nOP=OP\n4.99\n220 g\nGerookte zalm",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229032_main_cms_6_nl_nl_gerookte_zalm_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kipborrelhapjes-gemarineerd-1244531.html",
-   "sectie": "Cordon bleu",
+   "href": "https://www.aldi.nl/product/gerookte-zalm-1229032.html",
+   "sectie": "Schnitzel met pretzelpanade",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "GOLDEN SEAFOOD\n\nHollandse Nieuwe haring\nOP=OP\n2.99\n4 stuks, 240 g\nHollandse Nieuwe haring",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1231802_main_cms_18_nl_nl_hollandse_nieuwe_haring_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Spekreepjes\nOP=OP\n2.99\n2x190 g\nkg = 7.87\nSpekreepjes",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1202247_main_cms_9_nl_nl_spekreepjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hollandse-nieuwe-haring-1231802.html",
-   "sectie": "Kipborrelhapjes gemarineerd",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-8"
-   }
-  },
-  {
-   "tekst": "MOLENLAND\n\nGoudse kaasplakken 48+\nTOT -39%\n1.89\n3.14\n250 g\nGoudse kaasplakken 48+",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91214539_week47?bfc=on&wid=768&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/goudse-kaasplakken-48-91214539.html",
+   "href": "https://www.aldi.nl/product/spekreepjes-1202247.html",
    "sectie": "Weekacties",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "Peper- of Elzasser cervelaat\n-18%\n1.79\n2.19\n150 g\nPeper- of Elzasser cervelaat",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91200193_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ABRAHAM\n\nSchwarzwälder schinken\nOP=OP\n2.99\n240 g\nkg = 23.92\nSchwarzwälder schinken",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229905_main_cms_4_nl_nl_schwarzwalder_schinken_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/peper-of-elzasser-cervelaat-91200193.html",
-   "sectie": "Goudse kaasplakken 48+",
+   "href": "https://www.aldi.nl/product/schwarzwalder-schinken-1229905.html",
+   "sectie": "Spekreepjes",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Peper, vegan of boschampignonspaté\nOP=OP\n0.99\n125-150 g\nPeper, vegan of boschampignonspaté",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91213100_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "DÉLIFIN\n\nGekookte achterham\nOP=OP\n1.69\n250 g\nGekookte achterham",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229904_main_cms_5_nl_nl_gekookte_achterham_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/peper-vegan-of-boschampignonspate-91213100.html",
-   "sectie": "Peper- of Elzasser cervelaat",
+   "href": "https://www.aldi.nl/product/gekookte-achterham-1229904.html",
+   "sectie": "Schwarzwälder schinken",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Gebraden gehakt\n-24%\n1.19\n1.57\n150 g\nkg = 7.93\nGebraden gehakt",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220454_main_cms_3_nl_nl_gebraden_gehakt_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Runderrookvlees\n-26 CENT\n2.49\n2.75\n100 g\nkg = 24.90\nRunderrookvlees",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1200572_main_cms_2_nl_nl_runderrookvlees_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/gebraden-gehakt-1220454.html",
-   "sectie": "Peper, vegan of boschampignonspaté",
+   "href": "https://www.aldi.nl/product/runderrookvlees-1200572.html",
+   "sectie": "Gekookte achterham",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nOvenschotelmaaltijd\nOP=OP\n3.99\n400 g\nOvenschotelmaaltijd",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1242354_main_cms_7_nl_nl_ovenschotelmaaltijd_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Filet americain\nOP=OP\n1.99\n175 g\nFilet americain",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232412_main_cms_1_nl_nl_filet_americain_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/ovenschotelmaaltijd-1242354.html",
-   "sectie": "Gebraden gehakt",
+   "href": "https://www.aldi.nl/product/filet-americain-1232412.html",
+   "sectie": "Runderrookvlees",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nOlijven met kruiden of knoflook\nOP=OP\n2.59\n300 g\nOlijven met kruiden of knoflook",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1233849_main_cms_8_nl_nl_olijven_met_kruiden_of_knoflook_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ASIA GREEN GARDEN\n\nPokébowl kip, zalm of tonijn\nOP=OP\n3.99\n330-350 g\nPokébowl kip, zalm of tonijn",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91242834_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/olijven-met-kruiden-of-knoflook-1233849.html",
-   "sectie": "Ovenschotelmaaltijd",
+   "href": "https://www.aldi.nl/product/pokebowl-kip-zalm-of-tonijn-91242834.html",
+   "sectie": "Filet americain",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "MILSANI\n\nOptifit drinkyoghurt\n-30%\n0.89\n1.28\n1 l\nOptifit drinkyoghurt",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91225737_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MOLENLAND\n\nGoudse kaasplakken 48+\nVANAF\n2.99\n500 g\nGoudse kaasplakken 48+",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91200939_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/optifit-drinkyoghurt-91225737.html",
-   "sectie": "Olijven met kruiden of knoflook",
+   "href": "https://www.aldi.nl/product/goudse-kaasplakken-48-91200939.html",
+   "sectie": "Pokébowl kip, zalm of tonijn",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "Volkoren sesambrood\nOP=OP\n1.49\n800 g\nVolkoren sesambrood",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246249_main_cms_4_nl_nl_volkoren_sesambrood_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MOLENLAND\n\nGoudse kaasstuk 48+\nTOT -29%\n2.99\n4.29\n450 g\nGoudse kaasstuk 48+",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91226221_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/volkoren-sesambrood-1246249.html",
-   "sectie": "Optifit drinkyoghurt",
+   "href": "https://www.aldi.nl/product/goudse-kaasstuk-48-91226221.html",
+   "sectie": "Goudse kaasplakken 48+",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "BAKKERIJ KARA FIRIN\n\nMini Turks brood\nOP=OP\n1.29\n2 stuks, 200 g\nMini Turks brood",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1243402_main_cms_3_nl_nl_mini_turks_brood_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MOLENLAND\n\nGoudse kaasstuk 48+\nTOT -25%\n3.49\n4.69\n450 g\nGoudse kaasstuk 48+",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91226229_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mini-turks-brood-1243402.html",
-   "sectie": "Volkoren sesambrood",
+   "href": "https://www.aldi.nl/product/goudse-kaasstuk-48-91226229.html",
+   "sectie": "Goudse kaasstuk 48+",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "GOLDEN BRIDGE\n\nOntbijtgranen mini's\nOP=OP\n2.49\n230 g\nkg = 10.83\nOntbijtgranen mini's",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240594_main_cms_4_nl_nl_ontbijtgranen_mini_s_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MILSANI\n\nVolle kwark\n-19%\n1.09\n1.35\n500 g\nkg = 2.18\nVolle kwark",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217256_main_cms_4_nl_nl_volle_kwark_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/ontbijtgranen-minis-1240594.html",
-   "sectie": "Mini Turks brood",
+   "href": "https://www.aldi.nl/product/volle-kwark-1217256.html",
+   "sectie": "Goudse kaasstuk 48+",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "GOLDEN SEAFOOD\n\nTonijn in pikante saus\nOP=OP\n1.29\n185 g\nkg = 6.97\nTonijn in pikante saus",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1203860_main_cms_4_nl_nl_tonijn_in_pikante_saus_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MILSANI\n\nMagere kwark\nNU VOOR\n0.89\n0.95\n500 g\nkg = 1.78\nMagere kwark",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217266_main_cms_3_nl_nl_magere_kwark_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/tonijn-in-pikante-saus-1203860.html",
-   "sectie": "Ontbijtgranen mini's",
+   "href": "https://www.aldi.nl/product/magere-kwark-1217266.html",
+   "sectie": "Volle kwark",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-11"
    }
   },
   {
-   "tekst": "GOLDEN SEAFOOD\n\nTonijn in zonnebloemolie\nOP=OP\n1.49\n145 g\nTonijn in zonnebloemolie",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234142_main_cms_3_nl_nl_tonijn_in_zonnebloemolie_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MILSANI\n\nRoomyoghurt\n-25%\n1.49\n1.99\n500 g\nkg = 2.98\nRoomyoghurt",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1202868_main_cms_31_nl_nl_roomyoghurt_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/tonijn-in-zonnebloemolie-1234142.html",
-   "sectie": "Tonijn in pikante saus",
+   "href": "https://www.aldi.nl/product/roomyoghurt-1202868.html",
+   "sectie": "Magere kwark",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-12"
    }
   },
   {
-   "tekst": "SPEISE ZEIT\n\nDuitse goulash\nOP=OP\n2.99\n800 g\nkg = 3.74\nDuitse goulash",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1204640_main_cms_1_nl_nl_duitse_goulash_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MILSANI\n\nVla\nOP=OP\n0.49\n200 g\nVla",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240675_main_cms_7_nl_nl_vla_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/duitse-goulash-1204640.html",
-   "sectie": "Tonijn in zonnebloemolie",
+   "href": "https://www.aldi.nl/product/vla-1240675.html",
+   "sectie": "Roomyoghurt",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-13"
    }
   },
   {
-   "tekst": "Spekknabbels\nOP=OP\n1.49\n75 g\nSpekknabbels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91216120_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "DAYLICIOUS\n\nVerse erwtensoep\nOP=OP\n1.99\n500 ml\nVerse erwtensoep",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238436_main_cms_3_nl_nl_verse_erwtensoep_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/spekknabbels-91216120.html",
-   "sectie": "Duitse goulash",
+   "href": "https://www.aldi.nl/product/verse-erwtensoep-1238436.html",
+   "sectie": "Vla",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-14"
    }
   },
   {
-   "tekst": "TRADER JOE'S\n\nWraps\nOP=OP\n1.69\n12 stuks, 744 g\nWraps",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1228946_main_cms_2_nl_nl_wraps_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "DE AFBAKKER\n\nBaguettes of petit pains meergranen\nNU VOOR\n0.89\n0.99\n2-4 stuks\nBaguettes of petit pains meergranen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91200121_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/wraps-1228946.html",
-   "sectie": "Spekknabbels",
+   "href": "https://www.aldi.nl/product/baguettes-of-petit-pains-meergranen-91200121.html",
+   "sectie": "Verse erwtensoep",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-15"
    }
   },
   {
-   "tekst": "CUCINA\n\nOlijfolie extra vierge\nOP=OP\n4.99\n500 ml\nOlijfolie extra vierge",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1200809_main_cms_1_nl_nl_olijfolie_extra_vierge_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BIO\n\nBiologische amandel- of cashewpasta\nOP=OP\n3.99\n250 g\nBiologische amandel- of cashewpasta",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1241513_main_cms_4_nl_nl_biologische_amandel_of_cashewpasta_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/olijfolie-extra-vierge-1200809.html",
-   "sectie": "Wraps",
+   "href": "https://www.aldi.nl/product/biologische-amandel-of-cashewpasta-1241513.html",
+   "sectie": "Baguettes of petit pains meergranen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-16"
    }
   },
   {
-   "tekst": "LE GUSTO\n\nCurry ketchup\n-17%\n1.79\n2.18\n875 ml\nCurry ketchup",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234736_main_cms_1_nl_nl_curry_ketchup_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "GRANDESSA\n\nJam\nOP=OP\n1.59\n450 g\nJam",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234246_main_cms_11_nl_nl_jam_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/curry-ketchup-1234736.html",
-   "sectie": "Olijfolie extra vierge",
+   "href": "https://www.aldi.nl/product/jam-1234246.html",
+   "sectie": "Biologische amandel- of cashewpasta",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-17"
    }
   },
   {
-   "tekst": "ALL SEASONS\n\nAnanasstukjes 3-pack\nOP=OP\n2.69\n3x140 g\nAnanasstukjes 3-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230333_main_cms_1_nl_nl_ananasstukjes_3_pack_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "FRUITSTROOP\n\n100% appelstroop\nOP=OP\n1.99\n300 g\nkg = 6.63\n100% appelstroop",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1203341_main_cms_3_nl_nl_100_appelstroop_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/ananasstukjes-3-pack-1230333.html",
-   "sectie": "Curry ketchup",
+   "href": "https://www.aldi.nl/product/100percent-appelstroop-1203341.html",
+   "sectie": "Jam",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-18"
    }
   },
   {
-   "tekst": "JACK'S FARM\n\nChicken wings\nOP=OP\n5.69\n1 kg\nChicken wings",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1239065_main_cms_3_nl_nl_chicken_wings_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "KOEK&BAKKER\n\nRijkgevulde luxe ontbijtkoek\nOP=OP\n1.89\n450-465 g\nkg = 4.06\nRijkgevulde luxe ontbijtkoek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1204238_main_cms_3_nl_nl_rijkgevulde_luxe_ontbijtkoek_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/chicken-wings-1239065.html",
-   "sectie": "Gyoza",
+   "href": "https://www.aldi.nl/product/rijkgevulde-luxe-ontbijtkoek-1204238.html",
+   "sectie": "100% appelstroop",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-19"
+   }
+  },
+  {
+   "tekst": "SPEISE ZEIT\n\nVarkens- of rundergoulash\nOP=OP\n4.99\n540 g\nkg = 9.24\nVarkens- of rundergoulash",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229448_main_cms_3_nl_nl_varkens_of_rundergoulash_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/varkens-of-rundergoulash-1229448.html",
+   "sectie": "Rijkgevulde luxe ontbijtkoek",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-20"
    }
   },
   {
-   "tekst": "BISCOTTO\n\nRoomboter amandelkoekjes\nOP=OP\n1.79\n100 g\nkg = 17.90\nRoomboter amandelkoekjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1223571_main_cms_13_nl_nl_roomboter_amandelkoekjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Poolse krakauer\nOP=OP\n3.99\n350 g\nPoolse krakauer",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220956_main_cms_1_nl_nl_poolse_krakauer_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/roomboter-amandelkoekjes-1223571.html",
-   "sectie": "Chicken wings",
+   "href": "https://www.aldi.nl/product/poolse-krakauer-1220956.html",
+   "sectie": "Varkens- of rundergoulash",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-21"
    }
   },
   {
-   "tekst": "MOSER ROTH\n\nChocoladereep\nOP=OP\n2.29\n150 g\nChocoladereep",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1233466_main_cms_10_nl_nl_chocoladereep_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ALL SEASONS\n\nAppelmoes 8-pack\nOP=OP\n1.49\n8x100 g\nkg = 1.86\nAppelmoes 8-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1216081_main_cms_2_nl_nl_appelmoes_8_pack_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/chocoladereep-1233466.html",
-   "sectie": "Roomboter amandelkoekjes",
+   "href": "https://www.aldi.nl/product/appelmoes-8-pack-1216081.html",
+   "sectie": "Poolse krakauer",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-22"
    }
   },
   {
-   "tekst": "CHOCEUR\n\nChocolade-pretzels\nOP=OP\n1.99\n140 g\nChocolade-pretzels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217661_main_cms_7_nl_nl_chocolade_pretzels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "SUN SNACKS\n\nMini-crackers naturel\nOP=OP\n1.79\n500 g\nkg = 3.58\nMini-crackers naturel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1215867_main_cms_2_nl_nl_mini_crackers_naturel_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/chocolade-pretzels-1217661.html",
-   "sectie": "Chocoladereep",
+   "href": "https://www.aldi.nl/product/mini-crackers-naturel-1215867.html",
+   "sectie": "Appelmoes 8-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-23"
    }
   },
   {
-   "tekst": "SWEET LAND\n\nHoestmelangemix\nOP=OP\n1.99\n250 g\nHoestmelangemix",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1233008_main_cms_5_nl_nl_hoestmelangemix_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ALL SEASONS\n\nBoerenkool\n-20%\n0.79\n0.99\n450 g\nBoerenkool",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1241051_main_cms_4_nl_nl_boerenkool_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hoestmelangemix-1233008.html",
-   "sectie": "Chocolade-pretzels",
+   "href": "https://www.aldi.nl/product/boerenkool-1241051.html",
+   "sectie": "Mini-crackers naturel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-24"
    }
   },
   {
-   "tekst": "BARISSIMO\n\nKoffiebonen Milano crema of Siciliano espresso\nOP=OP\n9.99\n1 kg\nKoffiebonen Milano crema of Siciliano espresso",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91226631_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BISCOTTO\n\nWafelmix\nOP=OP\n3.99\n600 g\nWafelmix",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234227_main_cms_1_nl_nl_wafelmix_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/koffiebonen-milano-crema-of-siciliano-espresso-91226631.html",
-   "sectie": "Hoestmelangemix",
+   "href": "https://www.aldi.nl/product/wafelmix-1234227.html",
+   "sectie": "Boerenkool",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-25"
    }
   },
   {
-   "tekst": "BARISSIMO\n\nInstant cappuccino\nOP=OP\n3.29\n500 g\nInstant cappuccino",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91225794_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "FINEST BAKERY\n\nHartwafels\nOP=OP\n1.29\n165 g\nkg = 7.82\nHartwafels",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230161_main_cms_2_nl_nl_hartwafels_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/instant-cappuccino-91225794.html",
-   "sectie": "Koffiebonen Milano crema of Siciliano espresso",
+   "href": "https://www.aldi.nl/product/hartwafels-1230161.html",
+   "sectie": "Wafelmix",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-26"
    }
   },
   {
-   "tekst": "WESTMINSTER\n\nGroene thee\nOP=OP\n0.99\n20 zakjes\nGroene thee",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1211073_main_cms_12_nl_nl_groene_thee_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "Roomboter amandelstaaf\nOP=OP\n2.49\n250 g\nkg = 9.96\nRoomboter amandelstaaf",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229368_main_cms_5_nl_nl_roomboter_amandelstaaf_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/groene-thee-1211073.html",
-   "sectie": "Instant cappuccino",
+   "href": "https://www.aldi.nl/product/roomboter-amandelstaaf-1229368.html",
+   "sectie": "Hartwafels",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-27"
    }
   },
   {
-   "tekst": "100%\n\nAppel- of perensap\nOP=OP\n2.29\n1 l\nAppel- of perensap",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91240782_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "CHOCEUR\n\nPure chocolade\nOP=OP\n3.69\n2x200 g\nkg = 9.20\nPure chocolade",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225377_main_cms_15_nl_nl_pure_chocolade_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/appel-of-perensap-91240782.html",
-   "sectie": "Groene thee",
+   "href": "https://www.aldi.nl/product/pure-chocolade-1225377.html",
+   "sectie": "Roomboter amandelstaaf",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-28"
    }
   },
   {
-   "tekst": "Adega de Pegões wit, rood en rosé\n2 VOOR\n6.00\n7.98\n0.75 l\nAdega de Pegões wit, rood en rosé",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91201673_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "SUN SNACKS\n\nPopcorn toffee-karamel\nOP=OP\n1.29\n125 g\nPopcorn toffee-karamel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234279_main_cms_1_nl_nl_popcorn_toffee_karamel_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/adega-de-pegoes-wit-rood-en-rose-91201673.html",
-   "sectie": "Appel- of perensap",
+   "href": "https://www.aldi.nl/product/popcorn-toffee-karamel-1234279.html",
+   "sectie": "Pure chocolade",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-29"
    }
   },
   {
-   "tekst": "Adega de Pegões selected harvest rood of wit\n-20%\n4.75\n5.99\n0.75 l\nAdega de Pegões selected harvest rood of wit",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91214439_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BARISSIMO\n\nKoffiebonen\nOP=OP\n9.99\n15.35\n1.2 kg\nKoffiebonen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91224479_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/adega-de-pegoes-selected-harvest-rood-of-wit-91214439.html",
-   "sectie": "Adega de Pegões wit, rood en rosé",
+   "href": "https://www.aldi.nl/product/koffiebonen-91224479.html",
+   "sectie": "Popcorn toffee-karamel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-30"
    }
   },
   {
-   "tekst": "LIL ROSE\n\nHot wild berry\nOP=OP\n2.99\n0.75 l\nHot wild berry",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229771_main_cms_1_nl_nl_hot_wild_berry_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BARISSIMO\n\nKoffiecapsules\nOP=OP\n13.99\n19.75\n100 cups\nKoffiecapsules",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91239224_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hot-wild-berry-1229771.html",
-   "sectie": "Adega de Pegões selected harvest rood of wit",
+   "href": "https://www.aldi.nl/product/koffiecapsules-91239224.html",
+   "sectie": "Koffiebonen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-31"
    }
   },
   {
-   "tekst": "TANDIL\n\nVloeibaar wasmiddel\nOP=OP\n6.99\n80 wasbeurten\nVloeibaar wasmiddel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217231_main_cms_17_nl_nl_vloeibaar_wasmiddel_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BARISSIMO\n\nEspresso oploskoffie\nOP=OP\n2.49\n100 g\nEspresso oploskoffie",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244114_main_cms_1_nl_nl_espresso_oploskoffie_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/vloeibaar-wasmiddel-1217231.html",
-   "sectie": "Hot wild berry",
+   "href": "https://www.aldi.nl/product/espresso-oploskoffie-1244114.html",
+   "sectie": "Koffiecapsules",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-32"
    }
   },
   {
-   "tekst": "POWER FORCE\n\nDikke bleek\nOP=OP\n1.49\n2 l\nDikke bleek",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1208960_main_cms_3_nl_nl_dikke_bleek_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "WESTMINSTER\n\nVruchtenthee\n-28%\n0.99\n1.39\n20 zakjes\nVruchtenthee",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1201798_main_cms_5_nl_nl_vruchtenthee_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/dikke-bleek-1208960.html",
-   "sectie": "Vloeibaar wasmiddel",
+   "href": "https://www.aldi.nl/product/vruchtenthee-1201798.html",
+   "sectie": "Espresso oploskoffie",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-33"
    }
   },
   {
-   "tekst": "POWER FORCE\n\nToiletblokken power 5-pack\nOP=OP\n3.29\n5x48 g\nToiletblokken power 5-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1242487_main_cms_4_nl_nl_toiletblokken_power_5_pack_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "RIVER\n\nIce tea\nTOT -25%\n1.19\n1.59\n1.5 l\nIce tea",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91225323_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/toiletblokken-power-5-pack-1242487.html",
-   "sectie": "Dikke bleek",
+   "href": "https://www.aldi.nl/product/ice-tea-91225323.html",
+   "sectie": "Vruchtenthee",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-34"
    }
   },
   {
-   "tekst": "POWER FORCE\n\nVaatwastabletten classic\nOP=OP\n5.49\n100 tabs\nVaatwastabletten classic",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1201558_main_cms_7_nl_nl_vaatwastabletten_classic_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "LACURA\n\nHandzeep\nOP=OP\n0.69\n300 ml\nHandzeep",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1231854_main_cms_6_nl_nl_handzeep_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/vaatwastabletten-classic-1201558.html",
-   "sectie": "Toiletblokken power 5-pack",
+   "href": "https://www.aldi.nl/product/handzeep-1231854.html",
+   "sectie": "Ice tea",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-35"
    }
   },
   {
-   "tekst": "POWER FORCE\n\nZipzakjes\nOP=OP\n2.49\n75 stuks\nZipzakjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1205573_main_cms_4_nl_nl_zipzakjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "TANDIL\n\nOssengalzeep\nOP=OP\n1.49\n1 l\nl = 1.49\nOssengalzeep",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1222225_main_cms_2_nl_nl_ossengalzeep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/zipzakjes-1205573.html",
-   "sectie": "Vaatwastabletten classic",
+   "href": "https://www.aldi.nl/product/ossengalzeep-1222225.html",
+   "sectie": "Handzeep",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-36"
    }
   },
   {
-   "tekst": "PRÉSIDENT\n\nBrie\n-33%\n1.99\n2.99\n200 g\nkg = 9.95\nBrie",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1205722_main_cms_1_nl_nl_brie_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "FLEURIL\n\nWasmiddel\nOP=OP\n8.49\n54 wasbeurten\nWasmiddel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91233497_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/brie-1205722.html",
+   "href": "https://www.aldi.nl/product/wasmiddel-91233497.html",
+   "sectie": "Ossengalzeep",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-37"
+   }
+  },
+  {
+   "tekst": "K3\n\nHaaraccessoire\nOP=OP\n1.99\nPer stuk/set\nHaaraccessoire",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246652_main_cms_6_nl_nl_haaraccessoire_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/haaraccessoire-1246652.html",
+   "sectie": "Wasmiddel",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-38"
+   }
+  },
+  {
+   "tekst": "ROMEO\n\nHondensnacks\n-22%\n0.69\n0.89\n5-20 stuks\nkg = 3.45\nHondensnacks",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225791_main_cms_16_nl_nl_hondensnacks_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/hondensnacks-1225791.html",
+   "sectie": "Haaraccessoire",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-39"
+   }
+  },
+  {
+   "tekst": "ECHTE BOTER\n\nRoomboter gezouten of ongezouten\nOP=OP\n1.49\n200 g\nRoomboter gezouten of ongezouten",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91240177_week48?bfc=on&wid=768&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/roomboter-gezouten-of-ongezouten-91240177.html",
    "sectie": "A-merken",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "Veenlandsche kaas stuk 48+ belegen\nOP=OP\n5.99\n800 g\nVeenlandsche kaas stuk 48+ belegen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1236701_main_cms_1_nl_nl_veenlandsche_kaas_stuk_48_belegen_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "LA VACHE QUI RIT\n\nSmeerkaaspuntjes\nOP=OP\n1.25\n8x15 g\nSmeerkaaspuntjes",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240223_main_cms_2_nl_nl_smeerkaaspuntjes_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/veenlandsche-kaas-stuk-48-belegen-1236701.html",
-   "sectie": "Brie",
+   "href": "https://www.aldi.nl/product/smeerkaaspuntjes-1240223.html",
+   "sectie": "Roomboter gezouten of ongezouten",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "PHILADELPHIA\n\nRoomkaas\n-32%\n1.89\n2.79\n185-200 g\nkg = 9.45\nRoomkaas",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1205826_main_cms_9_nl_nl_roomkaas_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MONA\n\nPudding\nOP=OP\n1.29\n450 ml\nPudding",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91216556_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/roomkaas-1205826.html",
-   "sectie": "Veenlandsche kaas stuk 48+ belegen",
+   "href": "https://www.aldi.nl/product/pudding-91216556.html",
+   "sectie": "Smeerkaaspuntjes",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "EHRMANN\n\nHigh protein skyr\n2 VOOR\n2.50\n450 g\nHigh protein skyr",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91244895_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "XXL NUTRITION\n\nFit yogurt of pudding\nOP=OP\n0.99\n200 g\nFit yogurt of pudding",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91241532_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/high-protein-skyr-91244895.html",
-   "sectie": "Roomkaas",
+   "href": "https://www.aldi.nl/product/fit-yogurt-of-pudding-91241532.html",
+   "sectie": "Pudding",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "ALMHOF\n\nChoco met slagroom\nOP=OP\n0.79\n180 g\nChoco met slagroom",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91244812_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "UNOX\n\nSoep\nOP=OP\n2.49\n800 ml\nSoep",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91236476_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/choco-met-slagroom-91244812.html",
-   "sectie": "High protein skyr",
+   "href": "https://www.aldi.nl/product/soep-91236476.html",
+   "sectie": "Fit yogurt of pudding",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "EHRMANN\n\nMilk twist\nOP=OP\n0.99\n400 ml\nMilk twist",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91244898_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BIFI\n\nWorsten 5-pack\n-24%\n1.99\n2.64\n5x20 g\nkg = 19.90\nWorsten 5-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1211091_main_cms_1_nl_nl_worsten_5_pack_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/milk-twist-91244898.html",
-   "sectie": "Choco met slagroom",
+   "href": "https://www.aldi.nl/product/worsten-5-pack-1211091.html",
+   "sectie": "Soep",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "UNOX\n\nRookworst pittig of kip\nOP=OP\n2.49\n275 g\nRookworst pittig of kip",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91236500_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MARNE\n\nGroninger of Franse mosterd\nOP=OP\n0.99\n195-200 g\nGroninger of Franse mosterd",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91245207_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/rookworst-pittig-of-kip-91236500.html",
-   "sectie": "Milk twist",
+   "href": "https://www.aldi.nl/product/groninger-of-franse-mosterd-91245207.html",
+   "sectie": "Worsten 5-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "HAK\n\nAppelmoes, rode kool of sperziebonen\nOP=OP\n1.29\n710 ml\nAppelmoes, rode kool of sperziebonen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91236846_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MORA\n\nCrispy chicken of kipcorn\nOP=OP\n2.49\n240-300 g\nCrispy chicken of kipcorn",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91236633_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/appelmoes-rode-kool-of-sperziebonen-91236846.html",
-   "sectie": "Rookworst pittig of kip",
+   "href": "https://www.aldi.nl/product/crispy-chicken-of-kipcorn-91236633.html",
+   "sectie": "Groninger of Franse mosterd",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "HONIG\n\nMix of droge soep\n-33%\n0.99\n1.49\n45-87 g\nMix of droge soep",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91225717_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "XXL NUTRITION\n\nFitmeals\nNU VOOR\n3.49\n350-425 g\nFitmeals",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91237960_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mix-of-droge-soep-91225717.html",
-   "sectie": "Appelmoes, rode kool of sperziebonen",
+   "href": "https://www.aldi.nl/product/fitmeals-91237960.html",
+   "sectie": "Crispy chicken of kipcorn",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "HEINZ\n\nSandwichspread\nOP=OP\n1.69\n450 g\nkg = 3.76\nSandwichspread",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1210233_main_cms_2_nl_nl_sandwichspread_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "MENTOS\n\nKauwdragees 6-pack\n-23%\n2.29\n2.99\n225 g\nKauwdragees 6-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1205667_main_cms_5_nl_nl_kauwdragees_6_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sandwichspread-1210233.html",
-   "sectie": "Mix of droge soep",
+   "href": "https://www.aldi.nl/product/kauwdragees-6-pack-1205667.html",
+   "sectie": "Fitmeals",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "CALVÉ\n\nSaus\n2 VOOR\n2.50\n320 ml\nSaus",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91231895_week47?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "ANTA\n\nKeelpastilles\nOP=OP\n1.99\n225 g\nKeelpastilles",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91243945_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/saus-91231895.html",
-   "sectie": "Sandwichspread",
+   "href": "https://www.aldi.nl/product/keelpastilles-91243945.html",
+   "sectie": "Kauwdragees 6-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-11"
    }
   },
   {
-   "tekst": "BECEL\n\nVloeibaar met olijfolie\nOP=OP\n1.99\n500 ml\nl = 3.98\nVloeibaar met olijfolie",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1200410_main_cms_1_nl_nl_vloeibaar_met_olijfolie_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
+   "tekst": "BOLLETJE\n\nKruidnootkoekjes met crèmevulling\nOP=OP\n2.29\n16 stuks, 144 g\nKruidnootkoekjes met crèmevulling",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246063_main_cms_1_nl_nl_kruidnootkoekjes_met_cremevulling_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/vloeibaar-met-olijfolie-1200410.html",
-   "sectie": "Saus",
+   "href": "https://www.aldi.nl/product/kruidnootkoekjes-met-cremevulling-1246063.html",
+   "sectie": "Keelpastilles",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-12"
    }
   },
   {
-   "tekst": "BECEL\n\nProActiv of vloeibaar original\nOP=OP\n1.69\n250 g/500 ml\nProActiv of vloeibaar original",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91200410_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Knoppers 8-pack\n-16%\n1.99\n2.38\n8x25 g\nKnoppers 8-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91216041_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/proactiv-of-vloeibaar-original-91200410.html",
-   "sectie": "Vloeibaar met olijfolie",
+   "href": "https://www.aldi.nl/product/knoppers-8-pack-91216041.html",
+   "sectie": "Kruidnootkoekjes met crèmevulling",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-13"
    }
   },
   {
-   "tekst": "MAGNUM\n\nMagnum double ijs\nOP=OP\n2.89\n3-6 stuks\nMagnum double ijs",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91227772_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "PRINGLES\n\nChips\n-40%\n1.49\n2.49\n165 g\nkg = 9.03\nChips",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1209619_main_cms_14_nl_nl_chips_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/magnum-double-ijs-91227772.html",
-   "sectie": "ProActiv of vloeibaar original",
+   "href": "https://www.aldi.nl/product/chips-1209619.html",
+   "sectie": "Knoppers 8-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-14"
    }
   },
   {
-   "tekst": "WILHELMINA\n\nPepermunt\nOP=OP\n0.99\n200 g\nPepermunt",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1243327_main_cms_1_nl_nl_pepermunt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DUYVIS\n\nBorrelnootjes\nOP=OP\n1.79\n200 g\nBorrelnootjes",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91245217_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pepermunt-1243327.html",
-   "sectie": "Magnum double ijs",
+   "href": "https://www.aldi.nl/product/borrelnootjes-91245217.html",
+   "sectie": "Chips",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-15"
    }
   },
   {
-   "tekst": "HARIBO\n\nSnoep\nOP=OP\n1.19\n180-185 g\nSnoep",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91202004_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "CELCIUS\n\nEnergydrink\nOP=OP\n0.89\n250 ml\nEnergydrink",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91246119_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/snoep-91202004.html",
-   "sectie": "Pepermunt",
+   "href": "https://www.aldi.nl/product/energydrink-91246119.html",
+   "sectie": "Borrelnootjes",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-16"
    }
   },
   {
-   "tekst": "MUSCLE MEAT\n\nProteïne frisdrank zero\nOP=OP\n2.49\n500 ml\nProteïne frisdrank zero",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91245246_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "CHOCOMEL\n\nChocomel\nNU VOOR\n0.99\n1 l\nChocomel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91232787_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/proteine-frisdrank-zero-91245246.html",
-   "sectie": "Snoep",
+   "href": "https://www.aldi.nl/product/chocomel-91232787.html",
+   "sectie": "Energydrink",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-17"
    }
   },
   {
-   "tekst": "COCA-COLA\n\nRegular of zero\nOP=OP\n1.99\n2 l\nRegular of zero",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91235285_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "GROLSCH\n\n0.0 bier 6-pack\nOP=OP\n2.99\n6x330 ml\n0.0 bier 6-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217112_main_cms_1_nl_nl_00_bier_6_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/regular-of-zero-91235285.html",
-   "sectie": "Proteïne frisdrank zero",
+   "href": "https://www.aldi.nl/product/00-bier-6-pack-1217112.html",
+   "sectie": "Chocomel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-18"
    }
   },
   {
-   "tekst": "HERTOG JAN\n\n0.0 bier\nOP=OP\n2.99\n6x330 ml\n0.0 bier",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235459_main_cms_1_nl_nl_00_bier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HERTOG JAN\n\nBier\n-23%\n1.15\n1.50\n0.5 l\nl = 2.30\nBier",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1216320_main_cms_1_nl_nl_bier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/00-bier-1235459.html",
-   "sectie": "Regular of zero",
+   "href": "https://www.aldi.nl/product/bier-1216320.html",
+   "sectie": "0.0 bier 6-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-19"
    }
   },
   {
-   "tekst": "ZWITSAL\n\nWasgel of shampoo\nOP=OP\n3.39\n400 ml\nWasgel of shampoo",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91220464_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "GROLSCH\n\nPremium pilsener 6-pack\nOP=OP\n4.19\n6x330 ml\nPremium pilsener 6-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1231928_main_cms_1_nl_nl_premium_pilsener_6_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/wasgel-of-shampoo-91220464.html",
-   "sectie": "0.0 bier",
+   "href": "https://www.aldi.nl/product/premium-pilsener-6-pack-1231928.html",
+   "sectie": "Bier",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-20"
    }
   },
   {
-   "tekst": "DREFT\n\nAfwasmiddel\nOP=OP\n1.25\n340 ml\nAfwasmiddel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91202189_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "THE PINK STUFF\n\nReiniger\nOP=OP\n1.99\n500-750 ml\nReiniger",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91219183_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/afwasmiddel-91202189.html",
-   "sectie": "Wasgel of shampoo",
+   "href": "https://www.aldi.nl/product/reiniger-91219183.html",
+   "sectie": "Premium pilsener 6-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-21"
    }
   },
   {
-   "tekst": "SWIFFER\n\nStarterspakket of megapack stofwisdoekjes\nOP=OP\n9.99\nPer stuk/72-pack\nStarterspakket of megapack stofwisdoekjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91236478_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "TEMPO\n\nZakdoekjes\nOP=OP\n3.69\n30x10 zakdoekjes\nZakdoekjes",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238184_main_cms_1_nl_nl_zakdoekjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/starterspakket-of-megapack-stofwisdoekjes-91236478.html",
-   "sectie": "Afwasmiddel",
+   "href": "https://www.aldi.nl/product/zakdoekjes-1238184.html",
+   "sectie": "Reiniger",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-22"
    }
   },
   {
-   "tekst": "SHEBA\n\nKattenvoer\n5 VOOR\n3.00\n85 g\nKattenvoer",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91245168_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "FELIX\n\nPartymix kattensnoepjes\n2 VOOR\n2.00\n60 g\nPartymix kattensnoepjes",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91242642_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kattenvoer-91245168.html",
-   "sectie": "Starterspakket of megapack stofwisdoekjes",
+   "href": "https://www.aldi.nl/product/partymix-kattensnoepjes-91242642.html",
+   "sectie": "Zakdoekjes",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-23"
    }
   },
   {
-   "tekst": "Strooisnoep\n-16%\n2.49\n2.99\n300 g\nStrooisnoep",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240965_main_cms_3_nl_nl_strooisnoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "GOURMET\n\nGrand cru-kaas stuk\nOP=OP\n2.99\n200 g\nGrand cru-kaas stuk",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1233569_main_cms_1_nl_nl_grand_cru_kaas_stuk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/strooisnoep-1240965.html",
-   "sectie": "Sint snoepgoed",
+   "href": "https://www.aldi.nl/product/grand-cru-kaas-stuk-1233569.html",
+   "sectie": "Kerstproducten",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "Crunchy kruidnootjespasta\n2.15\n2.69\n350 g\nCrunchy kruidnootjespasta",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235685_main_cms_1_nl_nl_crunchy_kruidnootjespasta_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "GOURMET\n\nRicottadessert\nOP=OP\n1.39\n100 g\nkg = 13.90\nRicottadessert",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1215398_main_cms_6_nl_nl_ricottadessert_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/crunchy-kruidnootjespasta-1235685.html",
-   "sectie": "Strooisnoep",
+   "href": "https://www.aldi.nl/product/ricottadessert-1215398.html",
+   "sectie": "Grand cru-kaas stuk",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Sinterklaas-crèmekoekjes\n-15%\n1.69\n1.99\n20 stuks, 175 g\nSinterklaas-crèmekoekjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232941_main_cms_5_nl_nl_sinterklaas_cremekoekjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "GOURMET\n\nGnocchi\nOP=OP\n1.99\n400 g.\nGnocchi",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91226470_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sinterklaas-cremekoekjes-1232941.html",
-   "sectie": "Crunchy kruidnootjespasta",
+   "href": "https://www.aldi.nl/product/gnocchi-91226470.html",
+   "sectie": "Ricottadessert",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Choco-sintfiguren\n-15%\n1.99\n2.35\n120 g\nChoco-sintfiguren",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232834_main_cms_5_nl_nl_choco_sintfiguren_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "CUCINA\n\nBalsamico- of wittewijnazijn\n-26%\n1.99\n2.69\n500 ml\nBalsamico- of wittewijnazijn",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237691_main_cms_3_nl_nl_balsamico_of_wittewijnazijn_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/choco-sintfiguren-1232834.html",
-   "sectie": "Sinterklaas-crèmekoekjes",
+   "href": "https://www.aldi.nl/product/balsamico-of-wittewijnazijn-1237691.html",
+   "sectie": "Gnocchi",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "Cyclaam\nOP=OP\n2.39\nPer stuk\nCyclaam",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1236232_main_cms_14_nl_nl_cyclaam_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "SUN SNACKS\n\nScrocchi of pico's\nOP=OP\n0.99\n150 g\nScrocchi of pico's",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91236907_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/cyclaam-1236232.html",
+   "href": "https://www.aldi.nl/product/scrocchi-of-picos-91236907.html",
+   "sectie": "Balsamico- of wittewijnazijn",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "Ferrero rocher of Raffaello\nOP=OP\n3.69\n7-28 stuks.\nFerrero rocher of Raffaello",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91213961_week48?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/ferrero-rocher-of-raffaello-91213961.html",
+   "sectie": "Scrocchi of pico's",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "Ballaturi Sangiovese, Tre Uve of Nero d'Avola, Italië\nTOT -19%\n4.25\n5.29\n0.75 l\nBallaturi Sangiovese, Tre Uve of Nero d'Avola, Italië",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91208261_week48?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/ballaturi-sangiovese-tre-uve-of-nero-davola-italie-91208261.html",
+   "sectie": "Ferrero rocher of Raffaello",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "Lagarada port 10 jaar oud\n-20%\n7.99\n9.99\n0.75 l\nl = 10.65\nLagarada port 10 jaar oud",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1204030_main_cms_1_nl_nl_lagarada_port_10_jaar_oud_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/lagarada-port-10-jaar-oud-1204030.html",
+   "sectie": "Ballaturi Sangiovese, Tre Uve of Nero d'Avola, Italië",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-8"
+   }
+  },
+  {
+   "tekst": "Kerstboom met verlichting\nOP=OP\n5.99\nPer stuk\nKerstboom met verlichting",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217109_main_cms_1_nl_nl_kerstboom_met_verlichting_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kerstboom-met-verlichting-1217109.html",
    "sectie": "Bloemen en planten",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "Begonia\nOP=OP\n3.99\nPer stuk\nBegonia",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230951_main_cms_16_nl_nl_begonia_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Lidcactus\nOP=OP\n2.99\nPer stuk\nLidcactus",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1209378_main_cms_6_nl_nl_lidcactus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/begonia-1230951.html",
-   "sectie": "Cyclaam",
+   "href": "https://www.aldi.nl/product/lidcactus-1209378.html",
+   "sectie": "Kerstboom met verlichting",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Potroos\nOP=OP\n1.99\nPer stuk\nPotroos",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1211940_main_cms_35_nl_nl_potroos_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Amaryllis\nOP=OP\n2.99\nPer stuk\nAmaryllis",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1201453_main_cms_7_nl_nl_amaryllis_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/potroos-1211940.html",
-   "sectie": "Begonia",
+   "href": "https://www.aldi.nl/product/amaryllis-1201453.html",
+   "sectie": "Lidcactus",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Poinsettia\nOP=OP\n2.79\nPer stuk\nPoinsettia",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1223854_main_cms_22_nl_nl_poinsettia_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Poinsettia\nVANAF\n1.19\nPer stuk\nPoinsettia",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91217860_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/poinsettia-1223854.html",
-   "sectie": "Potroos",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-4"
-   }
-  },
-  {
-   "tekst": "Rvs kookpan\nVANAF\n14.99\nPer stuk\nRvs kookpan",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91235839_week47?bfc=on&wid=768&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/rvs-kookpan-91235839.html",
-   "sectie": "Keuken",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-1"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\nOvenwanten of pannenlappen 2-pack\nOP=OP\n2.99\n2-pack\nOvenwanten of pannenlappen 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245486_main_cms_23_nl_nl_ovenwanten_of_pannenlappen_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/ovenwanten-of-pannenlappen-2-pack-1245486.html",
-   "sectie": "Pannenkoekenpan",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-3"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\n2-delige multifunctionele keukengerei-set\nOP=OP\n4.99\nPer set.\n2-delige multifunctionele keukengerei-set",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235848_main_cms_2_nl_nl_2_delige_multifunctionele_keukengerei_set_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/2-delige-multifunctionele-keukengerei-set-1235848.html",
-   "sectie": "Ovenwanten of pannenlappen 2-pack",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-4"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nTafelkleed of -loper\nOP=OP\n3.99\nPer stuk.\nTafelkleed of -loper",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245817_main_cms_25_nl_nl_tafelkleed_of_loper_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/tafelkleed-of-loper-1245817.html",
-   "sectie": "2-delige multifunctionele keukengerei-set",
+   "href": "https://www.aldi.nl/product/poinsettia-91217860.html",
+   "sectie": "Rozen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "Sweatshirt\nOP=OP\n17.99\nPer stuk.\nSweatshirt",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245819_main_cms_4_nl_nl_sweatshirt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nGeurkaars met houten lont\nOP=OP\n4.99\nPer stuk\nGeurkaars met houten lont",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240475_main_cms_55_nl_nl_geurkaars_met_houten_lont_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sweatshirt-1245819.html",
-   "sectie": "Lotto kleding",
+   "href": "https://www.aldi.nl/product/geurkaars-met-houten-lont-1240475.html",
+   "sectie": "Geurkaarsen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "T-shirt\nOP=OP\n6.99\nPer stuk\nT-shirt",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245818_main_cms_3_nl_nl_t_shirt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nGeurkaars met schroefdeksel\nOP=OP\n2.49\nPer stuk\nGeurkaars met schroefdeksel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245878_main_cms_28_nl_nl_geurkaars_met_schroefdeksel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/t-shirt-1245818.html",
-   "sectie": "Sweatshirt",
+   "href": "https://www.aldi.nl/product/geurkaars-met-schroefdeksel-1245878.html",
+   "sectie": "Geurkaars met houten lont",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Sweatbroek\nOP=OP\n17.99\nPer stuk\nSweatbroek",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245802_main_cms_3_nl_nl_sweatbroek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nGeurkaars in glas\nOP=OP\n2.99\nper stuk\nGeurkaars in glas",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245922_main_cms_17_nl_nl_geurkaars_in_glas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sweatbroek-1245802.html",
-   "sectie": "T-shirt",
+   "href": "https://www.aldi.nl/product/geurkaars-in-glas-1245922.html",
+   "sectie": "Geurkaars met schroefdeksel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "Sokken 12-pack\nOP=OP\n9.99\nPer set\nSokken 12-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245841_main_cms_4_nl_nl_sokken_12_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AMBIANO\n\nGourmetstel\nOP=OP\n24.99\nPer stuk\nGourmetstel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237730_main_cms_24_nl_nl_gourmetstel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sokken-12-pack-1245841.html",
-   "sectie": "Sweatbroek",
+   "href": "https://www.aldi.nl/product/gourmetstel-1237730.html",
+   "sectie": "Kerst",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-1"
+   }
+  },
+  {
+   "tekst": "AMBIANO\n\nKaasraclette\nOP=OP\n49.99\nPer stuk\nKaasraclette",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245908_main_cms_2_nl_nl_kaasraclette_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kaasraclette-1245908.html",
+   "sectie": "Gourmetstel",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-2"
+   }
+  },
+  {
+   "tekst": "AMBIANO\n\nWaterkoker of broodrooster\nOP=OP\n8.99\nPer stuk\nWaterkoker of broodrooster",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245913_main_cms_5_nl_nl_waterkoker_of_broodrooster_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/waterkoker-of-broodrooster-1245913.html",
+   "sectie": "Kaasraclette",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-3"
+   }
+  },
+  {
+   "tekst": "CROFTON\n\nSpeciaal bestek\nOP=OP\n2.99\nPer stuk/set\nSpeciaal bestek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245861_main_cms_9_nl_nl_speciaal_bestek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/speciaal-bestek-1245861.html",
+   "sectie": "Waterkoker of broodrooster",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nFluffy trui\nOP=OP\n8.99\nPer stuk\nFluffy trui",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245906_main_cms_15_nl_nl_fluffy_trui_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "CROFTON\n\n16-delige bestekset\nOP=OP\n9.99\n16-delig\n16-delige bestekset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237820_main_cms_37_nl_nl_16_delige_bestekset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/fluffy-trui-1245906.html",
+   "href": "https://www.aldi.nl/product/16-delige-bestekset-1237820.html",
+   "sectie": "Speciaal bestek",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "CROFTON\n\n6-delige glazenset\nOP=OP\n9.99\nPer set\n6-delige glazenset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237822_main_cms_30_nl_nl_6_delige_glazenset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/6-delige-glazenset-1237822.html",
+   "sectie": "16-delige bestekset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "CROFTON\n\nKerstmokken met lepels 2-pack\n5.99\nPer set\nKerstmokken met lepels 2-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245921_main_cms_16_nl_nl_kerstmokken_met_lepels_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kerstmokken-met-lepels-2-pack-1245921.html",
+   "sectie": "6-delige glazenset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nCadeautassen\nOP=OP\n1.49\nPer set\nCadeautassen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245902_main_cms_38_nl_nl_cadeautassen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/cadeautassen-1245902.html",
+   "sectie": "Kerstmokken met lepels 2-pack",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-8"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nInpakpapier\nOP=OP\n0.99\nPer stuk\nInpakpapier",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245898_main_cms_43_nl_nl_inpakpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/inpakpapier-1245898.html",
+   "sectie": "Cadeautassen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-9"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nHangende ledkerstkabouter\nOP=OP\n4.99\nPer stuk\nHangende ledkerstkabouter",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245876_main_cms_14_nl_nl_hangende_ledkerstkabouter_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/hangende-ledkerstkabouter-1245876.html",
+   "sectie": "Inpakpapier",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-10"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nTelescopisch kerstfiguur\n4.99\nper stuk\nTelescopisch kerstfiguur",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245917_main_cms_8_nl_nl_telescopisch_kerstfiguur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/telescopisch-kerstfiguur-1245917.html",
+   "sectie": "Hangende ledkerstkabouter",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-11"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nKerstman\nOP=OP\n7.99\nPer stuk\nKerstman",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238489_main_cms_8_nl_nl_kerstman_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kerstman-1238489.html",
+   "sectie": "Telescopisch kerstfiguur",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-12"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nDeurmat\nOP=OP\n3.99\nPer stuk\nDeurmat",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229972_main_cms_48_nl_nl_deurmat_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/deurmat-1229972.html",
+   "sectie": "Kerstman",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-13"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nRaamsjablonen met krijtstiften\nOP=OP\n1.99\nPer set\nRaamsjablonen met krijtstiften",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237321_main_cms_16_nl_nl_raamsjablonen_met_krijtstiften_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/raamsjablonen-met-krijtstiften-1237321.html",
+   "sectie": "Deurmat",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-14"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nKunstplant in pot\nOP=OP\n6.99\nPer stuk\nKunstplant in pot",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245915_main_cms_14_nl_nl_kunstplant_in_pot_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kunstplant-in-pot-1245915.html",
+   "sectie": "Raamsjablonen met krijtstiften",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-15"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nKunstkerststukje\n7.99\nper stuk\nKunstkerststukje",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245916_main_cms_13_nl_nl_kunstkerststukje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kunstkerststukje-1245916.html",
+   "sectie": "Kunstplant in pot",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-16"
+   }
+  },
+  {
+   "tekst": "AMBIANO\n\nSoundbox met kerstmuziek\nOP=OP\n7.99\nPer stuk\nSoundbox met kerstmuziek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245877_main_cms_19_nl_nl_soundbox_met_kerstmuziek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/soundbox-met-kerstmuziek-1245877.html",
+   "sectie": "Kunstkerststukje",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-17"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nMetalen ledlichthouder\nOP=OP\n3.99\nper stuk\nMetalen ledlichthouder",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245911_main_cms_19_nl_nl_metalen_ledlichthouder_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/metalen-ledlichthouder-1245911.html",
+   "sectie": "Soundbox met kerstmuziek",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-18"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nTeddy sierkussen\nOP=OP\n4.99\nPer stuk\nTeddy sierkussen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245881_main_cms_24_nl_nl_teddy_sierkussen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/teddy-sierkussen-1245881.html",
+   "sectie": "Metalen ledlichthouder",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-19"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nTeddy plaid\nOP=OP\n7.99\nPer stuk\nTeddy plaid",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245859_main_cms_27_nl_nl_teddy_plaid_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/teddy-plaid-1245859.html",
+   "sectie": "Teddy sierkussen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-20"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nKersttafelkleed\nOP=OP\n3.99\nPer stuk\nKersttafelkleed",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245831_main_cms_32_nl_nl_kersttafelkleed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kersttafelkleed-1245831.html",
+   "sectie": "Teddy plaid",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-21"
+   }
+  },
+  {
+   "tekst": "AMBIANO\n\nGlazen heteluchtfriteuse\nOP=OP\n49.99\nPer set\nGlazen heteluchtfriteuse",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245907_main_cms_1_nl_nl_glazen_heteluchtfriteuse_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/glazen-heteluchtfriteuse-1245907.html",
+   "sectie": "Kersttafelkleed",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-22"
+   }
+  },
+  {
+   "tekst": "UP2FASHION\n\nPullover\nOP=OP\n9.99\nPer stuk\nPullover",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245893_main_cms_7_nl_nl_pullover_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/pullover-1245893.html",
    "sectie": "Kleding",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nGebreide jurk\nOP=OP\n9.99\nPer stuk\nGebreide jurk",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245799_main_cms_7_nl_nl_gebreide_jurk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nPullover\nOP=OP\n12.99\nPer stuk\nPullover",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245847_main_cms_5_nl_nl_pullover_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/gebreide-jurk-1245799.html",
-   "sectie": "Fluffy trui",
+   "href": "https://www.aldi.nl/product/pullover-1245847.html",
+   "sectie": "Pullover",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nPantalon\nOP=OP\n8.99\nPer stuk\nPantalon",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245643_main_cms_7_nl_nl_pantalon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nPullover of cardigan\nOP=OP\n8.99\nPer stuk\nPullover of cardigan",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245845_main_cms_28_nl_nl_pullover_of_cardigan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pantalon-1245643.html",
-   "sectie": "Gebreide jurk",
+   "href": "https://www.aldi.nl/product/pullover-of-cardigan-1245845.html",
+   "sectie": "Pullover",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "MEXX\n\nPyjama\nOP=OP\n19.99\nPer set\nPyjama",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237479_main_cms_22_nl_nl_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nColtrui\nOP=OP\n7.99\nPer stuk\nColtrui",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244892_main_cms_29_nl_nl_coltrui_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pyjama-1237479.html",
-   "sectie": "Pantalon",
+   "href": "https://www.aldi.nl/product/coltrui-1244892.html",
+   "sectie": "Pullover of cardigan",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nMinimizer BH\nOP=OP\n4.99\nPer stuk\nMinimizer BH",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245801_main_cms_9_nl_nl_minimizer_bh_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nCorduroy overhemd\nOP=OP\n11.99\nPer stuk\nCorduroy overhemd",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245849_main_cms_7_nl_nl_corduroy_overhemd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/minimizer-bh-1245801.html",
+   "href": "https://www.aldi.nl/product/corduroy-overhemd-1245849.html",
+   "sectie": "Coltrui",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "UP2FASHION\n\nFluffy fleecejas\nOP=OP\n7.99\nPer stuk\nFluffy fleecejas",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245888_main_cms_7_nl_nl_fluffy_fleecejas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/fluffy-fleecejas-1245888.html",
+   "sectie": "Corduroy overhemd",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "UP2FASHION\n\nPyjama\nOP=OP\n7.99\nPer set\nPyjama",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245842_main_cms_23_nl_nl_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/pyjama-1245842.html",
+   "sectie": "Fluffy fleecejas",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "UP2FASHION\n\nPantalon\nOP=OP\n9.99\nPer stuk\nPantalon",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245894_main_cms_7_nl_nl_pantalon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/pantalon-1245894.html",
    "sectie": "Pyjama",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-5"
-   }
-  },
-  {
-   "tekst": "Boxershorts 2-pack\nOP=OP\n9.99\n2-pack\nBoxershorts 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237477_main_cms_43_nl_nl_boxershorts_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/boxershorts-2-pack-1237477.html",
-   "sectie": "Minimizer BH",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-6"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nKerstsokken 2-pack\nOP=OP\n1.99\n2-pack\nKerstsokken 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245587_main_cms_20_nl_nl_kerstsokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/kerstsokken-2-pack-1245587.html",
-   "sectie": "Boxershorts 2-pack",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-7"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nLedkaars\nOP=OP\n2.99\nPer stuk/set\nLedkaars",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237793_main_cms_77_nl_nl_ledkaars_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/ledkaars-1237793.html",
-   "sectie": "Kerstaccessoires",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-1"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nLed Ijskristallamp\nOP=OP\n4.99\nPer stuk/set\nLed Ijskristallamp",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237274_main_cms_35_nl_nl_led_ijskristallamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/led-ijskristallamp-1237274.html",
-   "sectie": "Ledkaars",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-2"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nLedlichtgordijn\nOP=OP\n4.99\nPer stuk\nLedlichtgordijn",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237367_main_cms_40_nl_nl_ledlichtgordijn_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/ledlichtgordijn-1237367.html",
-   "sectie": "Led Ijskristallamp",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-3"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nLed kersttafereel\nOP=OP\n9.99\nPer stuk\nLed kersttafereel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237361_main_cms_33_nl_nl_led_kersttafereel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/led-kersttafereel-1237361.html",
-   "sectie": "Ledlichtgordijn",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-4"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\nLedkerstfiguur\nOP=OP\n3.99\nPer stuk\nLedkerstfiguur",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245488_main_cms_49_nl_nl_ledkerstfiguur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/ledkerstfiguur-1245488.html",
-   "sectie": "Led kersttafereel",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-5"
-   }
-  },
-  {
-   "tekst": "HOME CREATION\n\n3D-lichtster\nOP=OP\n6.99\nPer stuk/set\n3D-lichtster",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245487_main_cms_11_nl_nl_3d_lichtster_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/3d-lichtster-1245487.html",
-   "sectie": "Ledkerstfiguur",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-6"
-   }
-  },
-  {
-   "tekst": "CASALUX\n\nLedwandspots 2-pack\nOP=OP\n7.99\n2-pack\nLedwandspots 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245846_main_cms_7_nl_nl_ledwandspots_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/ledwandspots-2-pack-1245846.html",
-   "sectie": "3D-lichtster",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-7"
-   }
-  },
-  {
-   "tekst": "CASALUX\n\nLed-daglichtlamp\nOP=OP\n7.99\nPer stuk\nLed-daglichtlamp",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230188_main_cms_24_nl_nl_led_daglichtlamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/led-daglichtlamp-1230188.html",
-   "sectie": "Ledwandspots 2-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nKunstkerstboom\nOP=OP\n19.99\nPer stuk.\nKunstkerstboom",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245822_main_cms_1_nl_nl_kunstkerstboom_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nThermojeans\nOP=OP\n11.99\nPer stuk\nThermojeans",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237784_main_cms_20_nl_nl_thermojeans_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kunstkerstboom-1245822.html",
-   "sectie": "Led-daglichtlamp",
+   "href": "https://www.aldi.nl/product/thermojeans-1237784.html",
+   "sectie": "Pantalon",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nKerstboomrok\nOP=OP\n2.99\nPer stuk\nKerstboomrok",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237465_main_cms_27_nl_nl_kerstboomrok_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nChelsea boots\nOP=OP\n14.99\nPer paar\nChelsea boots",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245897_main_cms_1_nl_nl_chelsea_boots_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kerstboomrok-1237465.html",
-   "sectie": "Kunstkerstboom",
+   "href": "https://www.aldi.nl/product/chelsea-boots-1245897.html",
+   "sectie": "Thermojeans",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nPapieren kerstdecoratie\nOP=OP\n4.99\nPer stuk/set\nPapieren kerstdecoratie",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237934_main_cms_46_nl_nl_papieren_kerstdecoratie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nLamsvacht laarzen\nOP=OP\n19.99\nPer paar\nLamsvacht laarzen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237782_main_cms_3_nl_nl_lamsvacht_laarzen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/papieren-kerstdecoratie-1237934.html",
-   "sectie": "Kerstboomrok",
+   "href": "https://www.aldi.nl/product/lamsvacht-laarzen-1237782.html",
+   "sectie": "Chelsea boots",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-11"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nKersthangers in koker\nOP=OP\n1.99\nPer set\nKersthangers in koker",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245830_main_cms_19_nl_nl_kersthangers_in_koker_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nVeterboots\nOP=OP\n14.99\nPer paar\nVeterboots",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245865_main_cms_19_nl_nl_veterboots_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kersthangers-in-koker-1245830.html",
-   "sectie": "Papieren kerstdecoratie",
+   "href": "https://www.aldi.nl/product/veterboots-1245865.html",
+   "sectie": "Lamsvacht laarzen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-12"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nSneeuwbol met kerstfiguur\nOP=OP\n0.99\nPer stuk\nSneeuwbol met kerstfiguur",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237459_main_cms_22_nl_nl_sneeuwbol_met_kerstfiguur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nLamsvacht pantoffels\nOP=OP\n17.99\nPer paar\nLamsvacht pantoffels",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91229587_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/sneeuwbol-met-kerstfiguur-1237459.html",
-   "sectie": "Kersthangers in koker",
+   "href": "https://www.aldi.nl/product/lamsvacht-pantoffels-91229587.html",
+   "sectie": "Veterboots",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-13"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nKersthanger huis\nOP=OP\n1.99\nPer stuk\nKersthanger huis",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245828_main_cms_11_nl_nl_kersthanger_huis_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nSokken 2-pack\nOP=OP\n3.99\nPer set\nSokken 2-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245896_main_cms_24_nl_nl_sokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/kersthanger-huis-1245828.html",
-   "sectie": "Sneeuwbol met kerstfiguur",
+   "href": "https://www.aldi.nl/product/sokken-2-pack-1245896.html",
+   "sectie": "Lamsvacht pantoffels",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-14"
    }
   },
   {
-   "tekst": "IJsbergsla\n-23%\n0.65\n0.95\nPer krop\nIJsbergsla",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1222286_main_cms_1_nl_nl_ijsbergsla_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nSokken 3-pack\nOP=OP\n4.99\n3-pack\nSokken 3-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245848_main_cms_60_nl_nl_sokken_3_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/ijsbergsla-1222286.html",
+   "href": "https://www.aldi.nl/product/sokken-3-pack-1245848.html",
+   "sectie": "Sokken 2-pack",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-15"
+   }
+  },
+  {
+   "tekst": "UP2FASHION\n\nBoxershorts kerst 2-pack\nOP=OP\n2.99\n2-pack\nBoxershorts kerst 2-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237756_main_cms_34_nl_nl_boxershorts_kerst_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/boxershorts-kerst-2-pack-1237756.html",
+   "sectie": "Sokken 3-pack",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-16"
+   }
+  },
+  {
+   "tekst": "Kastanjechampignons\n-17%\n1.39\n1.69\n250 g\nkg = 5.56\nKastanjechampignons",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219554_main_cms_12_nl_nl_kastanjechampignons_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/kastanjechampignons-1219554.html",
    "sectie": "Weekend versacties",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "DAYLICIOUS\n\nAardappelschijfjes spek & ui\n-50%\n0.99\n1.99\n500 g\nkg = 1.41\nAardappelschijfjes spek & ui",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219816_main_cms_3_nl_nl_aardappelschijfjes_spek_en_ui_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Quarter pounders\n-27%\n3.99\n5.49\n4 stuks, 500 g\nkg = 39.90\nQuarter pounders",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219345_main_cms_4_nl_nl_quarter_pounders_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/aardappelschijfjes-spek-en-ui-1219816.html",
-   "sectie": "IJsbergsla",
+   "href": "https://www.aldi.nl/product/quarter-pounders-1219345.html",
+   "sectie": "Kastanjechampignons",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "Speklappen\n-19%\n3.49\n4.33\n5 stuks, 400 g\nkg = 8.73\nSpeklappen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1224126_main_cms_5_nl_nl_speklappen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Scharrelkip ovenschotel piri-piri of tandoori\nOP=OP\n4.99\n400-655 g\nScharrelkip ovenschotel piri-piri of tandoori",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91213981_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/speklappen-1224126.html",
-   "sectie": "Aardappelschijfjes spek & ui",
+   "href": "https://www.aldi.nl/product/scharrelkip-ovenschotel-piri-piri-of-tandoori-91213981.html",
+   "sectie": "Quarter pounders",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "XXL varkens- of kipschnitzel\n-21%\n2.49\n3.19\n250 g\nXXL varkens- of kipschnitzel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91200201_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Gegrilde kalkoenfilet\n-19%\n1.59\n1.97\n100 g\nkg = 15.90\nGegrilde kalkoenfilet",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1221788_main_cms_2_nl_nl_gegrilde_kalkoenfilet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/xxl-varkens-of-kipschnitzel-91200201.html",
-   "sectie": "Speklappen",
+   "href": "https://www.aldi.nl/product/gegrilde-kalkoenfilet-1221788.html",
+   "sectie": "Scharrelkip ovenschotel piri-piri of tandoori",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "Hummus naturel\n-30%\n0.89\n1.28\n200 g\nkg = 4.45\nHummus naturel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1201887_main_cms_4_nl_nl_hummus_naturel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DAYLICIOUS\n\nZalmsalade\n-20%\n1.99\n2.49\n250 g\nZalmsalade",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1235825_main_cms_1_nl_nl_zalmsalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hummus-naturel-1201887.html",
-   "sectie": "XXL varkens- of kipschnitzel",
+   "href": "https://www.aldi.nl/product/zalmsalade-1235825.html",
+   "sectie": "Gegrilde kalkoenfilet",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "Tapas roomkaasrolletjes\n-20%\n1.59\n1.99\n100 g\nTapas roomkaasrolletjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1243993_main_cms_16_nl_nl_tapas_roomkaasrolletjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "KNORR\n\nCup-a-soup 10-pack\nOP=OP\n2.79\n10x16g\nCup-a-soup 10-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91245206_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/tapas-roomkaasrolletjes-1243993.html",
-   "sectie": "Hummus naturel",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-6"
-   }
-  },
-  {
-   "tekst": "UNOX\n\nKnaks\nOP=OP\n1.99\n400 g\nKnaks",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91232995_week47?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/knaks-91232995.html",
-   "sectie": "NU of nooit",
+   "href": "https://www.aldi.nl/product/cup-a-soup-10-pack-91245206.html",
+   "sectie": "Weekendacties A-merken",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "KNORR\n\nSpaghetteria of risotteria\nOP=OP\n1.29\n163-175 g\nSpaghetteria of risotteria",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91241010_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "JOHN WEST\n\nTonijn 5-pack\nOP=OP\n5.99\n5x145 g\nTonijn 5-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232626_main_cms_1_nl_nl_tonijn_5_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/spaghetteria-of-risotteria-91241010.html",
-   "sectie": "Knaks",
+   "href": "https://www.aldi.nl/product/tonijn-5-pack-1232626.html",
+   "sectie": "Cup-a-soup 10-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "CHICKEN TONIGHT\n\nRoerbaksaus\nOP=OP\n1.69\n515-535 g\nRoerbaksaus",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91203483_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AARTS\n\nFruitcocktail, asperges of mini-champignons\nOP=OP\n2.49\n314-370 ml\nFruitcocktail, asperges of mini-champignons",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91245943_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/roerbaksaus-91203483.html",
-   "sectie": "Spaghetteria of risotteria",
+   "href": "https://www.aldi.nl/product/fruitcocktail-asperges-of-mini-champignons-91245943.html",
+   "sectie": "Tonijn 5-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "LASSIE\n\nRijstbuiltje 2-pack\n2 VOOR\n2.00\n2x125 g\nRijstbuiltje 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91207007_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "KÜHNE\n\nPiccalilly, milde zuurkool of rode bieten-schijven\nOP=OP\n1.79\n670-690 g\nPiccalilly, milde zuurkool of rode bieten-schijven",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91232706_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/rijstbuiltje-2-pack-91207007.html",
-   "sectie": "Roerbaksaus",
+   "href": "https://www.aldi.nl/product/piccalilly-milde-zuurkool-of-rode-bieten-schijven-91232706.html",
+   "sectie": "Fruitcocktail, asperges of mini-champignons",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "KINDER\n\nBueno 8-pack\nOP=OP\n4.99\n312-344 g\nBueno 8-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91214061_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DE RUIJTER\n\nAnijs-, vruchten- of bosvruchtenhagel\nOP=OP\n1.89\n300-400 g\nAnijs-, vruchten- of bosvruchtenhagel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91235833_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/bueno-8-pack-91214061.html",
-   "sectie": "Rijstbuiltje 2-pack",
+   "href": "https://www.aldi.nl/product/anijs-vruchten-of-bosvruchtenhagel-91235833.html",
+   "sectie": "Piccalilly, milde zuurkool of rode bieten-schijven",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "LU\n\nPim's of scholiertje\nOP=OP\n1.99\n150 g\nPim's of scholiertje",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91228564_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "SMOELTJES\n\nSpeculoos- of cacaokoekjes stroop\nOP=OP\n2.49\n300 g\nSpeculoos- of cacaokoekjes stroop",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91236174_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pims-of-scholiertje-91228564.html",
-   "sectie": "Bueno 8-pack",
+   "href": "https://www.aldi.nl/product/speculoos-of-cacaokoekjes-stroop-91236174.html",
+   "sectie": "Anijs-, vruchten- of bosvruchtenhagel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "KELLOGG'S\n\nFrosties of coco pops repen\nOP=OP\n1.59\n6 stuks, 120-150 g\nFrosties of coco pops repen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91233144_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "KATJA\n\nSnoep\nOP=OP\n2.29\n400-410 g\nSnoep",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91209886_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/frosties-of-coco-pops-repen-91233144.html",
-   "sectie": "Pim's of scholiertje",
+   "href": "https://www.aldi.nl/product/snoep-91209886.html",
+   "sectie": "Speculoos- of cacaokoekjes stroop",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "SMOELTJES\n\nMini-fruitreepjes uitdeelzakjes\nOP=OP\n1.59\n5 stuks, 150 g\nMini-fruitreepjes uitdeelzakjes",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91234673_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "SWEET ORIGINALS\n\nFruitmix bonbons\nOP=OP\n1.79\n200 g\nFruitmix bonbons",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1217222_main_cms_1_nl_nl_fruitmix_bonbons_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mini-fruitreepjes-uitdeelzakjes-91234673.html",
-   "sectie": "Frosties of coco pops repen",
+   "href": "https://www.aldi.nl/product/fruitmix-bonbons-1217222.html",
+   "sectie": "Snoep",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "HARLEKIJNTJES\n\nDrop\nOP=OP\n3.99\n1 kg\nDrop",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91213742_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "BALCONI\n\nMixMax cake\nOP=OP\n2.19\n10x32-35 g\nkg = 62.57\nMixMax cake",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91224421_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/drop-91213742.html",
-   "sectie": "Mini-fruitreepjes uitdeelzakjes",
+   "href": "https://www.aldi.nl/product/mixmax-cake-91224421.html",
+   "sectie": "Fruitmix bonbons",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "FISHERMAN'S FRIEND\n\nPastilles 3-pack\nOP=OP\n1.79\n3x25 g\nPastilles 3-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91236449_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "MILKA\n\nChoco brownie of choco & cake\nOP=OP\n1.69\n5-6 stuks, 150-175 g\nChoco brownie of choco & cake",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91240626_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pastilles-3-pack-91236449.html",
-   "sectie": "Drop",
+   "href": "https://www.aldi.nl/product/choco-brownie-of-choco-en-cake-91240626.html",
+   "sectie": "MixMax cake",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-10"
    }
   },
   {
-   "tekst": "CROKY\n\nChips\nOP=OP\n1.39\n200 g\nChips",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91231981_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "TUC\n\nBake rolls\nOP=OP\n1.19\n150 g\nBake rolls",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91240292_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/chips-91231981.html",
-   "sectie": "Pastilles 3-pack",
+   "href": "https://www.aldi.nl/product/bake-rolls-91240292.html",
+   "sectie": "Choco brownie of choco & cake",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-11"
    }
   },
   {
-   "tekst": "PICKWICK\n\nMix voor chai of matcha latte\nOP=OP\n3.49\n240 g\nMix voor chai of matcha latte",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91244110_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DR. PEPPER OF SCHWEPPES\n\nFrisdrank 6-pack\nOP=OP\n3.99\n6x330 ml\nFrisdrank 6-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91229287_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/mix-voor-chai-of-matcha-latte-91244110.html",
-   "sectie": "Chips",
+   "href": "https://www.aldi.nl/product/frisdrank-6-pack-91229287.html",
+   "sectie": "Bake rolls",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-12"
    }
   },
   {
-   "tekst": "DUBBELFRISSS\n\nBoost\nOP=OP\n0.99\n1.5 l\nBoost",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91235562_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DR. FOOTS\n\nCola regular of zero\n2 VOOR\n1.00\n330 ml\nCola regular of zero",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91213911_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/boost-91235562.html",
-   "sectie": "Mix voor chai of matcha latte",
+   "href": "https://www.aldi.nl/product/cola-regular-of-zero-91213911.html",
+   "sectie": "Frisdrank 6-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-13"
    }
   },
   {
-   "tekst": "COCO-COLA\n\nCreamy vanilla regular of 0%\nOP=OP\n1.99\n1.5 l\nCreamy vanilla regular of 0%",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91246120_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "STADSHAVEN\n\nBock Rammer of Limoncello NEIPA\nOP=OP\n3.99\n0.75 l\nBock Rammer of Limoncello NEIPA",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91245544_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/creamy-vanilla-regular-of-0percent-91246120.html",
-   "sectie": "Boost",
+   "href": "https://www.aldi.nl/product/bock-rammer-of-limoncello-neipa-91245544.html",
+   "sectie": "Cola regular of zero",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-14"
    }
   },
   {
-   "tekst": "GROLSCH OF LEFFE\n\nSpeciaalbier 4-/6-pack\nOP=OP\n5.99\n4x0.5 l/6x330 ml\nSpeciaalbier 4-/6-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91216387_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "BAVARIA OF PALM\n\nSpeciaalbier\nOP=OP\n1.19\n0.5 l\nSpeciaalbier",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91216665_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/speciaalbier-4-6-pack-91216387.html",
-   "sectie": "Creamy vanilla regular of 0%",
+   "href": "https://www.aldi.nl/product/speciaalbier-91216665.html",
+   "sectie": "Bock Rammer of Limoncello NEIPA",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-15"
    }
   },
   {
-   "tekst": "LA CHOUFFE OF KARMELIET\n\nSpeciaalbier 4-pack\nVANAF\n6.59\n4x330 ml\nSpeciaalbier 4-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91206010_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "TEXELS OF AFFLIGEM\n\nBier 6-pack\nVANAF\n7.19\n6x330 ml.\nBier 6-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91242154_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/speciaalbier-4-pack-91206010.html",
-   "sectie": "Speciaalbier 4-/6-pack",
+   "href": "https://www.aldi.nl/product/bier-6-pack-91242154.html",
+   "sectie": "Speciaalbier",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-16"
    }
   },
   {
-   "tekst": "Chouffe Cherry\nOP=OP\n2.69\n50 cl\nChouffe Cherry",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240484_main_cms_1_nl_nl_chouffe_cherry_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "ARIEL\n\nWaspoeder original of kleur\nOP=OP\n4.99\n14 wasbeurten\nWaspoeder original of kleur",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91243222_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/chouffe-cherry-1240484.html",
-   "sectie": "Speciaalbier 4-pack",
+   "href": "https://www.aldi.nl/product/waspoeder-original-of-kleur-91243222.html",
+   "sectie": "Bier 6-pack",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-17"
    }
   },
   {
-   "tekst": "DREFT\n\nWasverzachter\nOP=OP\n2.49\n38 wasbeurten\nWasverzachter",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91233297_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "DREFT\n\n3-in-1 powerspray citroen\nOP=OP\n3.99\n500 ml\n3-in-1 powerspray citroen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240703_main_cms_1_nl_nl_3_in_1_powerspray_citroen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/wasverzachter-91233297.html",
-   "sectie": "Chouffe Cherry",
+   "href": "https://www.aldi.nl/product/3-in-1-powerspray-citroen-1240703.html",
+   "sectie": "Waspoeder original of kleur",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-18"
    }
   },
   {
-   "tekst": "DETTOL\n\nReiniger\nOP=OP\n1.99\n0.5-1 l\nReiniger",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91240702_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AXE\n\nDeodorant\nOP=OP\n2.49\n150 ml\nDeodorant",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91231034_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/reiniger-91240702.html",
-   "sectie": "Wasverzachter",
+   "href": "https://www.aldi.nl/product/deodorant-91231034.html",
+   "sectie": "3-in-1 powerspray citroen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-19"
    }
   },
   {
-   "tekst": "DOVE\n\nDouchegel\nOP=OP\n4.79\n720 ml\nDouchegel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91228438_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AXE\n\nDouchegel\nOP=OP\n1.99\n250 ml\nl = 7.96\nDouchegel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91223785_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/douchegel-91228438.html",
-   "sectie": "Reiniger",
+   "href": "https://www.aldi.nl/product/douchegel-91223785.html",
+   "sectie": "Deodorant",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-20"
    }
   },
   {
-   "tekst": "ORAL B\n\nTandpasta 5-pack\nOP=OP\n8.99\n5x75 ml\nTandpasta 5-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91241611_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "NOVITESSE\n\nFlanellen hoeslaken\nVANAF\n9.99\nPer stuk/2-pack\nFlanellen hoeslaken",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91237792_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/tandpasta-5-pack-91241611.html",
-   "sectie": "Douchegel",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-21"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\nSiliconen bakgerei\nOP=OP\n1.49\nPer stuk\nSiliconen bakgerei",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245832_main_cms_85_nl_nl_siliconen_bakgerei_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/siliconen-bakgerei-1245832.html",
-   "sectie": "Keuken",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-1"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\nSiliconen bakvormen\nOP=OP\n2.49\nPer stuk\nSiliconen bakvormen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245734_main_cms_45_nl_nl_siliconen_bakvormen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/siliconen-bakvormen-1245734.html",
-   "sectie": "Siliconen bakgerei",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-2"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\nGlazen voorraadpotten 4-pack\nOP=OP\n1.99\n4-pack\nGlazen voorraadpotten 4-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244327_main_cms_5_nl_nl_glazen_voorraadpotten_4_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/glazen-voorraadpotten-4-pack-1244327.html",
-   "sectie": "Siliconen bakvormen",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-3"
-   }
-  },
-  {
-   "tekst": "CROFTON\n\nEtagère\nOP=OP\n6.99\nPer stuk\nEtagère",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230645_main_cms_13_nl_nl_etagere_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/etagere-1230645.html",
-   "sectie": "Glazen voorraadpotten 4-pack",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-4"
-   }
-  },
-  {
-   "tekst": "HD-led projector 4K\nOP=OP\n49.99\nPer stuk\nHD-led projector 4K",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1241675_main_cms_12_nl_nl_hd_led_projector_4k_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/hd-led-projector-4k-1241675.html",
+   "href": "https://www.aldi.nl/product/flanellen-hoeslaken-91237792.html",
    "sectie": "Wonen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "CASALUX\n\nStaande lamp\nOP=OP\n14.99\nPer stuk\nStaande lamp",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91239963_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "NOVITESSE\n\nFlanellen dekbedovertrek\nVANAF\n19.99\nPer set\nFlanellen dekbedovertrek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/91237791_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/staande-lamp-91239963.html",
-   "sectie": "HD-led projector 4K",
+   "href": "https://www.aldi.nl/product/flanellen-dekbedovertrek-91237791.html",
+   "sectie": "Flanellen hoeslaken",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "CASALUX\n\nPlafondlamp\nOP=OP\n9.99\nPer stuk.\nPlafondlamp",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244726_main_cms_5_nl_nl_plafondlamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nEcht lamsvacht vloerkleed\nOP=OP\n24.99\nPer stuk\nEcht lamsvacht vloerkleed",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237930_main_cms_20_nl_nl_echt_lamsvacht_vloerkleed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/plafondlamp-1244726.html",
-   "sectie": "Staande lamp",
+   "href": "https://www.aldi.nl/product/echt-lamsvacht-vloerkleed-1237930.html",
+   "sectie": "Flanellen dekbedovertrek",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "AMBIANO\n\nLuchtontvochtiger\nOP=OP\n89.99\nPer stuk\nLuchtontvochtiger",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245765_main_cms_1_nl_nl_luchtontvochtiger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nDeurmat structuur\nOP=OP\n7.99\nPer stuk/set\nDeurmat structuur",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1244860_main_cms_40_nl_nl_deurmat_structuur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/luchtontvochtiger-1245765.html",
-   "sectie": "Plafondlamp",
+   "href": "https://www.aldi.nl/product/deurmat-structuur-1244860.html",
+   "sectie": "Echt lamsvacht vloerkleed",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "AMBIANO\n\nMeubel-, tapijt- en autoreiniger\nOP=OP\n59.99\nPer stuk\nMeubel-, tapijt- en autoreiniger",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1226977_main_cms_13_nl_nl_meubel_tapijt_en_autoreiniger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nDroogloopmat\nOP=OP\n9.99\nPer stuk\nDroogloopmat",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1236481_main_cms_38_nl_nl_droogloopmat_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/meubel-tapijt-en-autoreiniger-1226977.html",
-   "sectie": "Luchtontvochtiger",
+   "href": "https://www.aldi.nl/product/droogloopmat-1236481.html",
+   "sectie": "Deurmat structuur",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "AMBIANO\n\nHygrometer\nOP=OP\n4.99\nPer stuk\nHygrometer",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1202304_main_cms_8_nl_nl_hygrometer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "NOVITESSE\n\nBadmat\nOP=OP\n7.99\nPer stukset\nBadmat",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245981_main_cms_39_nl_nl_badmat_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hygrometer-1202304.html",
-   "sectie": "Meubel-, tapijt- en autoreiniger",
+   "href": "https://www.aldi.nl/product/badmat-1245981.html",
+   "sectie": "Droogloopmat",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-6"
    }
   },
   {
-   "tekst": "AMBIANO\n\nPluizentondeuse\nOP=OP\n3.99\nPer stuk\nPluizentondeuse",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1241024_main_cms_22_nl_nl_pluizentondeuse_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nPluchen sweatshirt\nOP=OP\n6.99\nPer stuk\nPluchen sweatshirt",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246026_main_cms_9_nl_nl_pluchen_sweatshirt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pluizentondeuse-1241024.html",
-   "sectie": "Hygrometer",
+   "href": "https://www.aldi.nl/product/pluchen-sweatshirt-1246026.html",
+   "sectie": "Badmat",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-7"
    }
   },
   {
-   "tekst": "NOVITESSE\n\nDekbedovertrek velours\nVANAF\n7.99\nPer set\nDekbedovertrek velours",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/91237145_week47?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nPluchen sweatbroek\nOP=OP\n6.99\nPer stuk\nPluchen sweatbroek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246022_main_cms_3_nl_nl_pluchen_sweatbroek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/dekbedovertrek-velours-91237145.html",
-   "sectie": "Pluizentondeuse",
+   "href": "https://www.aldi.nl/product/pluchen-sweatbroek-1246022.html",
+   "sectie": "Pluchen sweatshirt",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-8"
    }
   },
   {
-   "tekst": "HOME CREATION\n\nBovenbouwrek\nOP=OP\n9.99\nPer stuk\nBovenbouwrek",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1242944_main_cms_29_nl_nl_bovenbouwrek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "UP2FASHION\n\nFluffy sokken 2-pack\nOP=OP\n2.49\nPer set\nFluffy sokken 2-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246020_main_cms_7_nl_nl_fluffy_sokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/bovenbouwrek-1242944.html",
-   "sectie": "Dekbedovertrek velours",
+   "href": "https://www.aldi.nl/product/fluffy-sokken-2-pack-1246020.html",
+   "sectie": "Pluchen sweatbroek",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-9"
    }
   },
   {
-   "tekst": "WORKZONE\n\nTochtstrip\nOP=OP\n1.99\nPer stuk\nTochtstrip",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229420_main_cms_19_nl_nl_tochtstrip_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "SINGER\n\nNaaimachine Simple 3232\nOP=OP\n139.00\nPer stuk\nNaaimachine Simple 3232",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245918_main_cms_9_nl_nl_naaimachine_simple_3232_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/tochtstrip-1229420.html",
-   "sectie": "Bovenbouwrek",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-10"
-   }
-  },
-  {
-   "tekst": "Bureaukalender\nOP=OP\n2.49\nPer stuk\nBureaukalender",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238148_main_cms_20_nl_nl_bureaukalender_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/bureaukalender-1238148.html",
-   "sectie": "Tochtstrip",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-11"
-   }
-  },
-  {
-   "tekst": "Wandkalender\nOP=OP\n3.99\nPer stuk\nWandkalender",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1238147_main_cms_10_nl_nl_wandkalender_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/wandkalender-1238147.html",
-   "sectie": "Bureaukalender",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-12"
-   }
-  },
-  {
-   "tekst": "BBQ\n\nAanmaakhoutwol\nOP=OP\n2.99\n32 stuks\nAanmaakhoutwol",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245775_main_cms_10_nl_nl_aanmaakhoutwol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/aanmaakhoutwol-1245775.html",
-   "sectie": "Wandkalender",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-13"
-   }
-  },
-  {
-   "tekst": "Lange lucifers\nOP=OP\n0.99\nPer set\nLange lucifers",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245835_main_cms_31_nl_nl_lange_lucifers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/lange-lucifers-1245835.html",
-   "sectie": "Aanmaakhoutwol",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-14"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nHuispak\nOP=OP\n12.99\nPer set\nHuispak",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245777_main_cms_23_nl_nl_huispak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/huispak-1245777.html",
-   "sectie": "Kleding",
+   "href": "https://www.aldi.nl/product/naaimachine-simple-3232-1245918.html",
+   "sectie": "Naaien",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "LILY & DAN\n\nPyjama\nOP=OP\n4.99\nPer set\nPyjama",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245807_main_cms_27_nl_nl_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AMBIANO\n\nMini-naaimachine\nOP=OP\n17.99\nPer stuk\nMini-naaimachine",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1228982_main_cms_26_nl_nl_mini_naaimachine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pyjama-1245807.html",
-   "sectie": "Huispak",
+   "href": "https://www.aldi.nl/product/mini-naaimachine-1228982.html",
+   "sectie": "Naaimachine Simple 3232",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "STITCH/SPIDERMAN\n\nPyjama\nV.A. ZA. 21.11.\n5.99\nPer set\nPyjama",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245880_main_cms_6_nl_nl_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "AMBIANO\n\nHandnaaimachine\nOP=OP\n7.99\nPer stuk\nHandnaaimachine",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1215814_main_cms_7_nl_nl_handnaaimachine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/pyjama-1245880.html",
-   "sectie": "Pyjama",
+   "href": "https://www.aldi.nl/product/handnaaimachine-1215814.html",
+   "sectie": "Mini-naaimachine",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nVelours pyjama\nOP=OP\n6.99\nPer set\nVelours pyjama",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245887_main_cms_5_nl_nl_velours_pyjama_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nHaakset\nOP=OP\n2.99\nPer set\nHaakset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245926_main_cms_30_nl_nl_haakset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/velours-pyjama-1245887.html",
-   "sectie": "Pyjama",
+   "href": "https://www.aldi.nl/product/haakset-1245926.html",
+   "sectie": "Handnaaimachine",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nVelours badjas\nOP=OP\n6.99\nPer stuk.\nVelours badjas",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245891_main_cms_3_nl_nl_velours_badjas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\nSokken garenpakket\nOP=OP\n4.99\nPer set\nSokken garenpakket",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245932_main_cms_24_nl_nl_sokken_garenpakket_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/velours-badjas-1245891.html",
-   "sectie": "Velours pyjama",
+   "href": "https://www.aldi.nl/product/sokken-garenpakket-1245932.html",
+   "sectie": "Haakset",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-5"
    }
   },
   {
-   "tekst": "UP2FASHION\n\nNachthemd\nOP=OP\n5.99\nPer stuk\nNachthemd",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245804_main_cms_7_nl_nl_nachthemd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "Hoogwaardige houten puzzel\nOP=OP\n7.99\nPer stuk\nHoogwaardige houten puzzel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245934_main_cms_29_nl_nl_hoogwaardige_houten_puzzel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/nachthemd-1245804.html",
-   "sectie": "Velours badjas",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-6"
-   }
-  },
-  {
-   "tekst": "STITCH/SPIDERMAN\n\nFleece hoodie\nV.A. ZA. 21.11.\n7.99\nPer stuk\nFleece hoodie",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245890_main_cms_8_nl_nl_fleece_hoodie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/fleece-hoodie-1245890.html",
-   "sectie": "Nachthemd",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-7"
-   }
-  },
-  {
-   "tekst": "ADVENTURIDGE\n\nFleecejas\nOP=OP\n12.99\nPer stuk\nFleecejas",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245778_main_cms_29_nl_nl_fleecejas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/fleecejas-1245778.html",
-   "sectie": "Fleece hoodie",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-8"
-   }
-  },
-  {
-   "tekst": "LILY & DAN\n\nThermo onderkleding\nOP=OP\n4.99\nPer set.\nThermo onderkleding",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245882_main_cms_8_nl_nl_thermo_onderkleding_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/thermo-onderkleding-1245882.html",
-   "sectie": "Fleecejas",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-9"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nEnkel schoenen\nOP=OP\n14.99\nPer paar.\nEnkel schoenen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245837_main_cms_3_nl_nl_enkel_schoenen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/enkel-schoenen-1245837.html",
-   "sectie": "Thermo onderkleding",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-10"
-   }
-  },
-  {
-   "tekst": "LILY & DAN\n\nLaarzen\nOP=OP\n9.99\nPer paar\nLaarzen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237456_main_cms_4_nl_nl_laarzen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/laarzen-1237456.html",
-   "sectie": "Enkel schoenen",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-11"
-   }
-  },
-  {
-   "tekst": "Niet verkrijgbaar\n\nUP2FASHION\n\nGevoerde boots\nOP=OP\n16.99\nPer paar\nGevoerde boots",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245402_main_cms_5_nl_nl_gevoerde_boots_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/gevoerde-boots-1245402.html",
-   "sectie": "Laarzen",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-12"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nCorduroy pantoffels\nOP=OP\n5.99\nPer paar\nCorduroy pantoffels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245735_main_cms_7_nl_nl_corduroy_pantoffels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/corduroy-pantoffels-1245735.html",
-   "sectie": "Gevoerde boots",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-13"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nSpaanse pantoffels\nOP=OP\n8.99\nPer paar\nSpaanse pantoffels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230998_main_cms_14_nl_nl_spaanse_pantoffels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/spaanse-pantoffels-1230998.html",
-   "sectie": "Corduroy pantoffels",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-14"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nPantoffels\nOP=OP\n4.99\nPer paar\nPantoffels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245785_main_cms_8_nl_nl_pantoffels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/pantoffels-1245785.html",
-   "sectie": "Spaanse pantoffels",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-15"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nVilten pantoffels\nOP=OP\n5.99\nPer paar.\nVilten pantoffels",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245838_main_cms_1_nl_nl_vilten_pantoffels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/vilten-pantoffels-1245838.html",
-   "sectie": "Pantoffels",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-16"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nLamswollen inlegzolen\nOP=OP\n3.99\nPer paar\nLamswollen inlegzolen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245733_main_cms_2_nl_nl_lamswollen_inlegzolen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/lamswollen-inlegzolen-1245733.html",
-   "sectie": "Vilten pantoffels",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-17"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nLeren inlegzolen\nOP=OP\n4.99\nPer paar.\nLeren inlegzolen",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245736_main_cms_11_nl_nl_leren_inlegzolen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/leren-inlegzolen-1245736.html",
-   "sectie": "Lamswollen inlegzolen",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-18"
-   }
-  },
-  {
-   "tekst": "UP2FASHION\n\nHuissokken 2-pack\nOP=OP\n2.99\n2-pack\nHuissokken 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245396_main_cms_5_nl_nl_huissokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/huissokken-2-pack-1245396.html",
-   "sectie": "Leren inlegzolen",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-19"
-   }
-  },
-  {
-   "tekst": "PAW PATROL/SPIDERMAN\n\nSokken 2-pack\nV.A. ZA. 21.11.\n1.99\n2-pack\nSokken 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245895_main_cms_9_nl_nl_sokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/sokken-2-pack-1245895.html",
-   "sectie": "Huissokken 2-pack",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-20"
-   }
-  },
-  {
-   "tekst": "LILY & DAN\n\nFluffy anti-slip sokken 2-pack\nOP=OP\n2.49\nPer set\nFluffy anti-slip sokken 2-pack",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245892_main_cms_5_nl_nl_fluffy_anti_slip_sokken_2_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/fluffy-anti-slip-sokken-2-pack-1245892.html",
-   "sectie": "Sokken 2-pack",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-21"
-   }
-  },
-  {
-   "tekst": "KPop Demon Hunter\nOP=OP\n12.99\nKPop Demon Hunter",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245843_main_cms_18_nl_nl_kpop_demon_hunter_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/kpop-demon-hunter-1245843.html",
+   "href": "https://www.aldi.nl/product/hoogwaardige-houten-puzzel-1245934.html",
    "sectie": "Speelgoed",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
   },
   {
-   "tekst": "MATTEL\n\nHot Wheels of Jurassic World speelgoed\nOP=OP\n3.99\nPer stuk/set\nHot Wheels of Jurassic World speelgoed",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245833_main_cms_29_nl_nl_hot_wheels_of_jurassic_world_speelgoed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "TOYLINO\n\nEducatief spel\nOP=OP\n4.99\nPer stuk\nEducatief spel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1237909_main_cms_43_nl_nl_educatief_spel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/hot-wheels-of-jurassic-world-speelgoed-1245833.html",
-   "sectie": "KPop Demon Hunter",
+   "href": "https://www.aldi.nl/product/educatief-spel-1237909.html",
+   "sectie": "Hoogwaardige houten puzzel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-2"
    }
   },
   {
-   "tekst": "FUNKO POP!\n\nVerzamelfiguur\nOP=OP\n8.99\nPer stuk.\nVerzamelfiguur",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225110_main_cms_34_nl_nl_verzamelfiguur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "TOYLINO\n\nRetro spelconsole\nOP=OP\n8.99\nPer stuk\nRetro spelconsole",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246025_main_cms_10_nl_nl_retro_spelconsole_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/verzamelfiguur-1225110.html",
-   "sectie": "Hot Wheels of Jurassic World speelgoed",
+   "href": "https://www.aldi.nl/product/retro-spelconsole-1246025.html",
+   "sectie": "Educatief spel",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-3"
    }
   },
   {
-   "tekst": "DISNEY\n\nDoorables knuffel\nOP=OP\n9.99\nPer stuk\nDoorables knuffel",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245840_main_cms_9_nl_nl_doorables_knuffel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "tekst": "HOME CREATION\n\n103-delige houten schilder- en tekenkoffer\nOP=OP\n9.99\nPer set\n103-delige houten schilder- en tekenkoffer",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229651_main_cms_15_nl_nl_103_delige_houten_schilder_en_tekenkoffer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
-   "href": "https://www.aldi.nl/product/doorables-knuffel-1245840.html",
-   "sectie": "Verzamelfiguur",
+   "href": "https://www.aldi.nl/product/103-delige-houten-schilder-en-tekenkoffer-1229651.html",
+   "sectie": "Retro spelconsole",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-4"
+   }
+  },
+  {
+   "tekst": "DISNEY/TOYSTORY/DISNEY PRINCESS/STITCH/FROZEN/PEPPA PIG/CARS\n\nSticker- en kleurplatenboek\nOP=OP\n1.99\nPer stuk\nSticker- en kleurplatenboek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245904_main_cms_31_nl_nl_sticker_en_kleurplatenboek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/sticker-en-kleurplatenboek-1245904.html",
+   "sectie": "103-delige houten schilder- en tekenkoffer",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "Licht- en geluidenboek\nOP=OP\n4.99\nPer stuk\nLicht- en geluidenboek",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245440_main_cms_6_nl_nl_licht_en_geluidenboek_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/licht-en-geluidenboek-1245440.html",
+   "sectie": "Sticker- en kleurplatenboek",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "MATTEL\n\nHot Wheels Tracks\nOP=OP\n17.99\nPer set\nHot Wheels Tracks",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245910_main_cms_14_nl_nl_hot_wheels_tracks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/hot-wheels-tracks-1245910.html",
+   "sectie": "Licht- en geluidenboek",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "MATTEL\n\nHotwheels XL voertuig\nOP=OP\n6.99\nPer stuk.\nHotwheels XL voertuig",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245909_main_cms_33_nl_nl_hotwheels_xl_voertuig_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/hotwheels-xl-voertuig-1245909.html",
+   "sectie": "Hot Wheels Tracks",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-8"
+   }
+  },
+  {
+   "tekst": "GRINCH\n\nSchrijfwaren, diamond painting of stickers\nOP=OP\n2.99\nPer stuk\nSchrijfwaren, diamond painting of stickers",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245993_main_cms_11_nl_nl_schrijfwaren_diamond_painting_of_stickers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/schrijfwaren-diamond-painting-of-stickers-1245993.html",
+   "sectie": "Hotwheels XL voertuig",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-9"
+   }
+  },
+  {
+   "tekst": "TOYLINO\n\nKeyboard\nOP=OP\n4.99\nPer stuk\nKeyboard",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245912_main_cms_6_nl_nl_keyboard_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/keyboard-1245912.html",
+   "sectie": "Schrijfwaren, diamond painting of stickers",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-10"
+   }
+  },
+  {
+   "tekst": "TOYLINO\n\nDigitale kindercamera\nOP=OP\n9.99\nPer stuk\nDigitale kindercamera",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245914_main_cms_19_nl_nl_digitale_kindercamera_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/digitale-kindercamera-1245914.html",
+   "sectie": "Keyboard",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-11"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\n3D-pen\nOP=OP\n12.99\nPer set\n3D-pen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1239962_main_cms_6_nl_nl_3d_pen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/3d-pen-1239962.html",
+   "sectie": "Digitale kindercamera",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-12"
+   }
+  },
+  {
+   "tekst": "HOME CREATION\n\nNavulverpakking 3D-pen\nOP=OP\n2.49\nPer set\nNavulverpakking 3D-pen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245901_main_cms_10_nl_nl_navulverpakking_3d_pen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/navulverpakking-3d-pen-1245901.html",
+   "sectie": "3D-pen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-13"
+   }
+  },
+  {
+   "tekst": "UHU\n\nLijm assortiment\nOP=OP\n2.99\nPer set\nLijm assortiment",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245886_main_cms_7_nl_nl_lijm_assortiment_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/lijm-assortiment-1245886.html",
+   "sectie": "Navulverpakking 3D-pen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-14"
+   }
+  },
+  {
+   "tekst": "Speciale-effectenpuzzel\nOP=OP\n3.99\nPer stuk\nkg = 10.78\nSpeciale-effectenpuzzel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245927_main_cms_87_nl_nl_speciale_effectenpuzzel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/speciale-effectenpuzzel-1245927.html",
+   "sectie": "Lijm assortiment",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-15"
+   }
+  },
+  {
+   "tekst": "SCHEPPACH\n\nAccuboormachine\nOP=OP\n59.99\nPer set\nAccuboormachine",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246079_main_cms_2_nl_nl_accuboormachine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/accuboormachine-1246079.html",
+   "sectie": "Klussen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-1"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nSchroevendraaier- en bitset\nOP=OP\n17.99\nPer set\nSchroevendraaier- en bitset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229115_main_cms_2_nl_nl_schroevendraaier_en_bitset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/schroevendraaier-en-bitset-1229115.html",
+   "sectie": "Accuboormachine",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-2"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nMulti- of universele ratelsleutel\nOP=OP\n4.99\nPer stuk/set.\nMulti- of universele ratelsleutel",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1243268_main_cms_20_nl_nl_multi_of_universele_ratelsleutel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/multi-of-universele-ratelsleutel-1243268.html",
+   "sectie": "Schroevendraaier- en bitset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-3"
+   }
+  },
+  {
+   "tekst": "Gevulde gereedschapskoffer\nOP=OP\n34.99\nPer set\nGevulde gereedschapskoffer",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245991_main_cms_1_nl_nl_gevulde_gereedschapskoffer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/gevulde-gereedschapskoffer-1245991.html",
+   "sectie": "Multi- of universele ratelsleutel",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-4"
+   }
+  },
+  {
+   "tekst": "FERREX\n\nSpeciaalborenset\nOP=OP\n4.99\nPer set.\nSpeciaalborenset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229171_main_cms_7_nl_nl_speciaalborenset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/speciaalborenset-1229171.html",
+   "sectie": "Gevulde gereedschapskoffer",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nRingsteeksleutelset\nOP=OP\n9.99\nPer set\nkg = 14.69\nRingsteeksleutelset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245920_main_cms_8_nl_nl_ringsteeksleutelset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/ringsteeksleutelset-1245920.html",
+   "sectie": "Speciaalborenset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nSnelspanklemmenset\nOP=OP\n6.99\nPer set\nSnelspanklemmenset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1230759_main_cms_4_nl_nl_snelspanklemmenset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/snelspanklemmenset-1230759.html",
+   "sectie": "Ringsteeksleutelset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nNietpistoolset\nOP=OP\n4.99\nPer set\nNietpistoolset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1229457_main_cms_3_nl_nl_nietpistoolset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/nietpistoolset-1229457.html",
+   "sectie": "Snelspanklemmenset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-8"
+   }
+  },
+  {
+   "tekst": "FERREX\n\n204-delige boor- en bitset\nOP=OP\n14.99\nPer set\n204-delige boor- en bitset",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1206064_main_cms_2_nl_nl_204_delige_boor_en_bitset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/204-delige-boor-en-bitset-1206064.html",
+   "sectie": "Nietpistoolset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-9"
+   }
+  },
+  {
+   "tekst": "CASALUX\n\nLedzaklamp\nOP=OP\n1.99\nPer stuk.\nLedzaklamp",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1236407_main_cms_24_nl_nl_ledzaklamp_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/ledzaklamp-1236407.html",
+   "sectie": "204-delige boor- en bitset",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-10"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nVerlengsnoer voor binnen\nOP=OP\n5.99\nPer stuk\nVerlengsnoer voor binnen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246015_main_cms_16_nl_nl_verlengsnoer_voor_binnen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/verlengsnoer-voor-binnen-1246015.html",
+   "sectie": "Ledzaklamp",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-11"
+   }
+  },
+  {
+   "tekst": "WORKZONE\n\nElektrische verwarming\nOP=OP\n19.99\nPer stuk\nElektrische verwarming",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245919_main_cms_27_nl_nl_elektrische_verwarming_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/elektrische-verwarming-1245919.html",
+   "sectie": "Verlengsnoer voor binnen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-12"
+   }
+  },
+  {
+   "tekst": "SMARTWARES\n\nBlusspray\nOP=OP\n9.99\nPer stuk\nBlusspray",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240720_main_cms_9_nl_nl_blusspray_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/blusspray-1240720.html",
+   "sectie": "Elektrische verwarming",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-13"
+   }
+  },
+  {
+   "tekst": "TOPCRAFT\n\nWerkjas\nOP=OP\n29.99\nPer stuk\nWerkjas",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245935_main_cms_26_nl_nl_werkjas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/werkjas-1245935.html",
+   "sectie": "Blusspray",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-14"
+   }
+  },
+  {
+   "tekst": "TOPCRAFT\n\nWerk­handschoenen\nOP=OP\n1.99\nPer paar.\nWerk­handschoenen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245984_main_cms_35_nl_nl_werk_handschoenen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/werkhandschoenen-1245984.html",
+   "sectie": "Werkjas",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-15"
+   }
+  },
+  {
+   "tekst": "TOPCRAFT\n\nWerklaarzen\nOP=OP\n24.99\nPer paar\nWerklaarzen",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245995_main_cms_8_nl_nl_werklaarzen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/werklaarzen-1245995.html",
+   "sectie": "Werk­handschoenen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-16"
+   }
+  },
+  {
+   "tekst": "VARTA\n\nAA- of AAA- batterijen 24-pack\nOP=OP\n6.99\n24-pack\nAA- of AAA- batterijen 24-pack",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1245491_main_cms_28_nl_nl_aa_of_aaa_batterijen_24_pack_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/aa-of-aaa-batterijen-24-pack-1245491.html",
+   "sectie": "Werklaarzen",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-17"
+   }
+  },
+  {
+   "tekst": "Pyro fountain box\nOP=OP\n8.99\n20 stuks\nPyro fountain box",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1206152_main_cms_1_nl_nl_pyro_fountain_box_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/pyro-fountain-box-1206152.html",
+   "sectie": "Vuurwerk",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-1"
+   }
+  },
+  {
+   "tekst": "X-treme box\nOP=OP\n12.99\n10 stuks\nX-treme box",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1246247_main_cms_1_nl_nl_x_treme_box_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/x-treme-box-1246247.html",
+   "sectie": "Pyro fountain box",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-2"
+   }
+  },
+  {
+   "tekst": "Neon flare set\nOP=OP\n2.99\n2 stuks\nNeon flare set",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1240666_main_cms_1_nl_nl_neon_flare_set_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/neon-flare-set-1240666.html",
+   "sectie": "X-treme box",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-3"
+   }
+  },
+  {
+   "tekst": "Midnight magix box\nOP=OP\n9.99\n40 stuks\nMidnight magix box",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1224912_main_cms_4_nl_nl_midnight_magix_box_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/midnight-magix-box-1224912.html",
+   "sectie": "Neon flare set",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-4"
+   }
+  },
+  {
+   "tekst": "Knetterkogels\nOP=OP\n5.99\n45 stuks\nKnetterkogels",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220639_main_cms_2_nl_nl_knetterkogels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/knetterkogels-1220639.html",
+   "sectie": "Midnight magix box",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-5"
+   }
+  },
+  {
+   "tekst": "Knettersticks\nOP=OP\n3.99\n85 stuks\nKnettersticks",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232909_main_cms_1_nl_nl_knettersticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/knettersticks-1232909.html",
+   "sectie": "Knetterkogels",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-6"
+   }
+  },
+  {
+   "tekst": "Color wonderlights\nOP=OP\n1.99\n10 stuks\nColor wonderlights",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1232907_main_cms_1_nl_nl_color_wonderlights_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/color-wonderlights-1232907.html",
+   "sectie": "Knettersticks",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-7"
+   }
+  },
+  {
+   "tekst": "Vuurwerkbril\nOP=OP\n0.99\nPer stuk\nVuurwerkbril",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1231286_main_cms_3_nl_nl_vuurwerkbril_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/vuurwerkbril-1231286.html",
+   "sectie": "Color wonderlights",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-8"
+   }
+  },
+  {
+   "tekst": "Aansteeklonten\nOP=OP\n0.99\n5 stuks\nAansteeklonten",
+   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1220158_main_cms_2_nl_nl_aansteeklonten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+   "alt": "",
+   "href": "https://www.aldi.nl/product/aansteeklonten-1220158.html",
+   "sectie": "Vuurwerkbril",
+   "attrs": {
+    "data-testid": "product-tile-grid-product-tile-9"
    }
   }
  ]

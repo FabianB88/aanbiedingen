@@ -1,6 +1,6 @@
 {
  "url": "https://www.plus.nl/aanbiedingen",
- "aantal": 168,
+ "aantal": 170,
  "kaarten": [
   {
    "tekst": "5 voor 4.99\nAlle XXL Nutrition Repen\n4.\n99\n11.25 - 12.95",
@@ -483,11 +483,21 @@
    }
   },
   {
+   "tekst": "OP=OP\n500 gram 3.99\nPLUS Goudse jong belegen stuk\nPer 500 g\n3.\n99\n7.50",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/412960_M/c1b4047bdbacb3598d6d5060ef5ccb96/412960.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/plus-goudse-jong-belegen-stuk-krimp-500-g-412960",
+   "sectie": "Alle Milner Kaas plakken",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "25 % korting\nAlle Boursin, La Vache Qui Rit en Port Salut\nBijv. Cheezdippers naturel\n2.\n61\n3.49",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_37_M/e0bb4e92ed0a3cbc4916f83a20ab04b2/4456_37.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4456-37",
-   "sectie": "Alle Milner Kaas plakken",
+   "sectie": "PLUS Goudse jong belegen stuk",
    "attrs": {
     "data-container": ""
    }
@@ -1583,11 +1593,21 @@
    }
   },
   {
+   "tekst": "1+1 gratis\nPLUS Keukenpapier 3-laags\nBijv. Keukenpapier 3-laags ultra\n3.\n29\n6.58",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_54_M/22e26d2543e6b3c1cc49222942ac0c68/4456_54.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4456-54",
+   "sectie": "Page Compleet Schoon toiletpapier",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "PLUS Vloeibaar wasmiddel kleur 22sc\nPer 1100 ml\n1.\n99\n2.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/494362_M/7d099cb8aabf68f51ae389d0ed6894cf/494362.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/product/plus-vloeibaar-wasmiddel-kleur-22sc-fles-1100-ml-494362",
-   "sectie": "PLUS Keukenpapier (half)vel 3laags eco",
+   "sectie": "PLUS Keukenpapier 3-laags",
    "attrs": {
     "data-container": ""
    }

@@ -1,12 +1,20 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=10",
- "aantal": 1,
+ "aantal": 2,
  "kaarten": [
   {
    "tekst": "€ 50,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
    "href": "https://www.coolblue.nl/product/977296/aeg-ap91ab21dg-animal-9000.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 100,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/969137/epson-ef-62b.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }
