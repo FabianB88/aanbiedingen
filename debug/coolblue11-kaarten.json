@@ -1,6 +1,6 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=11",
- "aantal": 4,
+ "aantal": 3,
  "kaarten": [
   {
    "tekst": "€ 75,- cashback",
@@ -15,14 +15,6 @@
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
    "href": "https://www.coolblue.nl/product/980321/siemens-eq500-iaroma-tp5x3b07.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
-  {
-   "tekst": "€ 100,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/980322/siemens-eq600-iaroma-tp6x3b08.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   },

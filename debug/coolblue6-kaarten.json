@@ -1,6 +1,6 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=6",
- "aantal": 5,
+ "aantal": 6,
  "kaarten": [
   {
    "tekst": "€ 40,- cashback",
@@ -31,6 +31,14 @@
    "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2076497",
    "alt": "Beko RFNE448E55W",
    "href": "https://www.coolblue.nl/product/951817/beko-rfne448e55w.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 100,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/980322/siemens-eq600-iaroma-tp6x3b08.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   },
