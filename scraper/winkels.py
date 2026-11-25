@@ -765,6 +765,4 @@ WINKELS = {
     "mediamarkt": ("MediaMarkt", "NL", mediamarkt),
     "amazon": ("Amazon.nl", "NL", amazon),
     "pepper": ("Pepper.com", "NL", pepper),
-    "scapino": ("Scapino", "NL", scapino),
-    "joybuy": ("Joybuy", "NL", joybuy),
 }
