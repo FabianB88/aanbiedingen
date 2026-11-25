@@ -1,15 +1,7 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=6",
- "aantal": 4,
+ "aantal": 3,
  "kaarten": [
-  {
-   "tekst": "€ 75,- cashback",
-   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
-   "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/914294/aeg-lr86cb86-powercare.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
   {
    "tekst": "€ 50,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
@@ -19,18 +11,18 @@
    "attrs": {}
   },
   {
-   "tekst": "Whirlpool WMW47HMB\nBeoordeling is 8,4 van de 10, gebaseerd op 34 reviews.\n34 reviews\nKleur zwart|Kabellengte 1,35 m\nMeestal549,-\n\n499,-\n\nOp voorraad\n\nVergelijken\nVoordelige Tweedekans\n\nvan\n\n468,-",
-   "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2173455",
-   "alt": "Whirlpool WMW47HMB",
-   "href": "https://www.coolblue.nl/product/965095/whirlpool-wmw47hmb.html",
-   "sectie": "Black Friday 2026 topdeals",
-   "attrs": {}
-  },
-  {
    "tekst": "€ 75,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2202892",
    "alt": "AEG TR86CBC87 AbsoluteCare",
    "href": "https://www.coolblue.nl/product/967772/aeg-tr86cbc87-absolutecare.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "Bosch WQH246CLNL Iron Assist\nBeoordeling is 8,5 van de 10, gebaseerd op 18 reviews.\n18 reviews\nOnze keuze voor een droger die kleding opfrist en strijkwerk vermindert|Kleur wit|Kabellengte 1,45 m|60 dB maximaal geluidsniveau\nProductinformatieblad\nopent in nieuw tabblad\nAdviesprijs1.319,-\n\n949,-\n\nof 25,99 per maand\n\nOp voorraad\n\nVergelijken\nVoordelige Tweedekans\n\nvan\n\n845,-",
+   "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2184982",
+   "alt": "Bosch WQH246CLNL Iron Assist",
+   "href": "https://www.coolblue.nl/product/965949/bosch-wqh246clnl-iron-assist.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }

@@ -1213,11 +1213,31 @@
    }
   },
   {
+   "tekst": "Heritage de Chasse Haut Medoc\nPer 750 ml\n9.\n99\n13.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/183900_M/dc60d1a2978b61aca126bc695be1017e/183900.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "Heritage de Chasse Haut Medoc",
+   "href": "https://www.plus.nl/product/heritage-de-chasse-haut-medoc-fles-750-ml-183900",
+   "sectie": "Grootse wijnen, kleine prijsjes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "Les Etoiles de Doisy Sauternes\nPer 375 ml\n13.\n49\n17.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/183897_M/8f1a813027f44e1fe1a2bb8971a3a929/183897.png?w=96&h=96&fit=pad&fm=webp&q=85",
    "alt": "Les Etoiles de Doisy Sauternes",
    "href": "https://www.plus.nl/product/les-etoiles-de-doisy-sauternes-fles-375-ml-183897",
-   "sectie": "Grootse wijnen, kleine prijsjes",
+   "sectie": "Heritage de Chasse Haut Medoc",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Colò Primitivo Puglia IGP velvet\nPer 750 ml\n8.\n99\n11.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/183903_M/ebed1b433b680344905262c26ffbb4e4/183903.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "Colò Primitivo Puglia IGP velvet",
+   "href": "https://www.plus.nl/product/colo-primitivo-puglia-igp-velvet-fles-750-ml-183903",
+   "sectie": "Les Etoiles de Doisy Sauternes",
    "attrs": {
     "data-container": ""
    }
@@ -1227,27 +1247,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/183906_M/10d6e76c036d2e3200bcbc8630321f98/183906.png?w=96&h=96&fit=pad&fm=webp&q=85",
    "alt": "Chateau de l'Horte Blanquette de Limoux brut",
    "href": "https://www.plus.nl/product/chateau-de-l-horte-blanquette-de-limoux-brut-fles-750-ml-183906",
-   "sectie": "Les Etoiles de Doisy Sauternes",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "Creamstone Buttery Chardonnay\nPer 750 ml\n5.\n99\n7.98",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/203079_M/776bb6a311c2241894b88f49c44697da/203079.png?w=96&h=96&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/creamstone-buttery-chardonnay-fles-750-ml-203079",
-   "sectie": "Chateau de l'Horte Blanquette de Limoux brut",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "Fritz & Frieda DAC Grüner Veltliner\nPer 750 ml\n5.\n99\n7.98",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/381052_M/a4d839ad44a7a8664ec6ba82c306d10a/381052.png?w=96&h=96&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/fritz-frieda-dac-gruner-veltliner-fles-750-ml-381052",
-   "sectie": "Creamstone Buttery Chardonnay",
+   "sectie": "Colò Primitivo Puglia IGP velvet",
    "attrs": {
     "data-container": ""
    }

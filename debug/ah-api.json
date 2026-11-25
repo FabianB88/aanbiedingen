@@ -65608,7 +65608,7 @@
     {
      "id": "AH",
      "label": "AH",
-     "count": 7959,
+     "count": 7975,
      "display": true
     },
     {
@@ -65752,7 +65752,7 @@
     {
      "id": "Delicata",
      "label": "Delicata",
-     "count": 348,
+     "count": 346,
      "display": true
     },
     {
@@ -66259,7 +66259,7 @@
     {
      "id": "998",
      "label": "Chocolade",
-     "count": 887,
+     "count": 880,
      "display": true
     },
     {
@@ -66349,7 +66349,7 @@
     {
      "id": "1246",
      "label": "Koek",
-     "count": 812,
+     "count": 813,
      "display": true
     },
     {
@@ -66403,7 +66403,7 @@
     {
      "id": "1948",
      "label": "Mondhygiene",
-     "count": 617,
+     "count": 616,
      "display": true
     },
     {
@@ -66439,13 +66439,13 @@
     {
      "id": "1462",
      "label": "Rode wijn",
-     "count": 628,
+     "count": 627,
      "display": true
     },
     {
      "id": "10480",
      "label": "Sauzen",
-     "count": 953,
+     "count": 952,
      "display": true
     },
     {
@@ -66469,7 +66469,7 @@
     {
      "id": "1839",
      "label": "Snoep",
-     "count": 667,
+     "count": 666,
      "display": true
     },
     {
@@ -66493,7 +66493,7 @@
     {
      "id": "6852",
      "label": "Stevige rode wijn",
-     "count": 302,
+     "count": 301,
      "display": true
     },
     {
@@ -66559,7 +66559,7 @@
     {
      "id": "1701",
      "label": "Witte wijn",
-     "count": 735,
+     "count": 734,
      "display": true
     },
     {
@@ -66616,37 +66616,37 @@
     {
      "id": "sp_include_intolerance_geen_eieren",
      "label": "eieren",
-     "count": 13102,
+     "count": 13099,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_gluten",
      "label": "gluten",
-     "count": 10445,
+     "count": 10440,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_lactose",
      "label": "lactose",
-     "count": 10004,
+     "count": 10006,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_lupine",
      "label": "lupine",
-     "count": 15226,
+     "count": 15229,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_melk",
      "label": "melk",
-     "count": 10013,
+     "count": 10015,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_mosterd",
      "label": "mosterd",
-     "count": 13903,
+     "count": 13906,
      "display": true
     },
     {
@@ -66658,43 +66658,43 @@
     {
      "id": "sp_include_intolerance_geen_pindas",
      "label": "pinda's",
-     "count": 13393,
+     "count": 13397,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_schelpdieren",
      "label": "schelpdieren",
-     "count": 15337,
+     "count": 15346,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_selderij",
      "label": "selderij",
-     "count": 14485,
+     "count": 14494,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sesam",
      "label": "sesam",
-     "count": 14392,
+     "count": 14391,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_soja",
      "label": "soja",
-     "count": 11383,
+     "count": 11385,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_sulfiet",
      "label": "sulfiet",
-     "count": 14658,
+     "count": 14667,
      "display": true
     },
     {
      "id": "sp_include_intolerance_geen_vis",
      "label": "vis",
-     "count": 14811,
+     "count": 14815,
      "display": true
     }
    ],
@@ -66715,13 +66715,13 @@
     {
      "id": "sp_include_dieet_laag_vet",
      "label": "Laag vet",
-     "count": 5957,
+     "count": 5958,
      "display": true
     },
     {
      "id": "sp_include_dieet_laag_zout",
      "label": "Laag zout",
-     "count": 6888,
+     "count": 6886,
      "display": true
     },
     {
@@ -66733,7 +66733,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10021,
+     "count": 10023,
      "display": true
     }
    ],
@@ -66766,13 +66766,13 @@
     {
      "id": "d",
      "label": "Score D",
-     "count": 2987,
+     "count": 2992,
      "display": true
     },
     {
      "id": "e",
      "label": "Score E",
-     "count": 3326,
+     "count": 3329,
      "display": true
     },
     {
@@ -66793,7 +66793,7 @@
     {
      "id": "Bonus",
      "label": "Bonus",
-     "count": 15764,
+     "count": 15768,
      "display": true
     }
    ],
@@ -66808,7 +66808,7 @@
     {
      "id": "np_biologisch",
      "label": "Biologisch",
-     "count": 1311,
+     "count": 1312,
      "display": true
     }
    ],
@@ -66838,7 +66838,22 @@
     {
      "id": "diepvries",
      "label": "Diepvries",
-     "count": 1106,
+     "count": 1117,
+     "display": true
+    }
+   ],
+   "type": "PROPERTY",
+   "booleanFilter": true
+  },
+  {
+   "id": "np_feestfav",
+   "allLabel": null,
+   "label": "Voor de feestdagen",
+   "options": [
+    {
+     "id": "np_feestfav",
+     "label": "Voor de feestdagen",
+     "count": 515,
      "display": true
     }
    ],
@@ -66854,21 +66869,6 @@
      "id": "np_lokaal",
      "label": "Uit Nederland",
      "count": 490,
-     "display": true
-    }
-   ],
-   "type": "PROPERTY",
-   "booleanFilter": true
-  },
-  {
-   "id": "np_feestfav",
-   "allLabel": null,
-   "label": "Voor de feestdagen",
-   "options": [
-    {
-     "id": "np_feestfav",
-     "label": "Voor de feestdagen",
-     "count": 480,
      "display": true
     }
    ],
@@ -66898,7 +66898,7 @@
     {
      "id": "sp_include_dieet_vegetarisch",
      "label": "Vegetarisch",
-     "count": 10021,
+     "count": 10023,
      "display": true
     }
    ],

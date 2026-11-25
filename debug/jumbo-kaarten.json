@@ -1,13 +1,13 @@
 {
  "url": "https://www.jumbo.com/aanbiedingen/nu",
- "aantal": 57,
+ "aantal": 58,
  "kaarten": [
   {
-   "tekst": "2 voor 3,49\nCampina vla\n\nwo 25 nov t/m di 1 dec",
-   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2048/Weekaanbiedingen-Week-48_91.png",
-   "alt": "Campina vla",
-   "href": "https://www.jumbo.com/aanbiedingen/campina-vla/3023330",
-   "sectie": "Page",
+   "tekst": "5 voor 10,00\nAlle gourmet of pizzarette\n\nwo 25 nov t/m di 22 dec",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_gourmet.png",
+   "alt": "Alle gourmet of pizzarette",
+   "href": "https://www.jumbo.com/aanbiedingen/alle-gourmet-of-pizzarette/3022726",
+   "sectie": "Samen spellen spelen",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -16,11 +16,11 @@
    }
   },
   {
-   "tekst": "5 voor 10,00\nAlle gourmet of pizzarette\n\nwo 25 nov t/m di 22 dec",
-   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_gourmet.png",
-   "alt": "Alle gourmet of pizzarette",
-   "href": "https://www.jumbo.com/aanbiedingen/alle-gourmet-of-pizzarette/3022726",
-   "sectie": "Cornet, LeFort, Omer, Ypra, Brugse Zot of Straffe Hendrik",
+   "tekst": "2 voor 3,49\nCampina vla\n\nwo 25 nov t/m di 1 dec",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2048/Weekaanbiedingen-Week-48_91.png",
+   "alt": "Campina vla",
+   "href": "https://www.jumbo.com/aanbiedingen/campina-vla/3023330",
+   "sectie": "Page",
    "attrs": {
     "data-testid": "heavy-promotion-card",
     "data-v-826ac64e": "",
@@ -500,7 +500,7 @@
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
     "data-v-bb725044": "",
-    "data-testid": "promotion-card-10"
+    "data-testid": "promotion-card-11"
    }
   },
   {
@@ -513,7 +513,7 @@
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
     "data-v-bb725044": "",
-    "data-testid": "promotion-card-11"
+    "data-testid": "promotion-card-12"
    }
   },
   {
@@ -605,7 +605,7 @@
    }
   },
   {
-   "tekst": "Alleen online - OP=OP\nVanaf 4,99",
+   "tekst": "OP=OP\nVanaf 4,99",
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Afprijzingen/wa48_wijnen.png",
    "alt": "Diverse wijnen",
    "href": "",
@@ -678,16 +678,26 @@
    }
   },
   {
+   "tekst": "Alleen online - OP=OP\n9,99",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Afprijzingen/wa48_catisfactions.png",
+   "alt": "Catisfactions of Pedigree Megabox",
+   "href": "",
+   "sectie": "Alle Robijn Klein & Krachtig, wasmiddeldoekjes, capsules, drywash of quickwash",
+   "attrs": {
+    "data-v-0d7607c7": ""
+   }
+  },
+  {
    "tekst": "OP=OP\n79,99\nPizzarette-Gourmetstel\n\nwo 25 nov t/m vr 4 dec",
    "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Afprijzingen/wa48_pizzarette.png",
    "alt": "Pizzarette-Gourmetstel",
    "href": "https://www.jumbo.com/aanbiedingen/pizzarette-gourmetstel/wa48_pizzarette",
-   "sectie": "Alle HEMA panty's",
+   "sectie": "Elektronica",
    "attrs": {
     "data-v-826ac64e": "",
     "data-v-0d7607c7": "",
     "data-v-bb725044": "",
-    "data-testid": "promotion-card-3"
+    "data-testid": "promotion-card-4"
    }
   },
   {
