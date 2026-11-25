@@ -659,6 +659,19 @@ def amazon():
     return uit
 
 
+def scapino():
+    return _deals("scapino", ["https://www.scapino.nl/black-friday",
+                              "https://www.scapino.nl/sale"])
+
+
+def joybuy():
+    # Joybuy is een JavaScript-app: de producten komen via API-verkeer, dat haal() opvangt
+    items = _deals("joybuy", ["https://www.joybuy.nl/black-friday",
+                              "https://www.joybuy.nl/deals",
+                              "https://www.joybuy.nl/"])
+    return items
+
+
 # ------------------------------------------------------------------ Pepper.com
 PEPPER_FEEDS = ["https://nl.pepper.com/rss/hot",
                 "https://nl.pepper.com/rss/nieuw"]
@@ -749,4 +762,6 @@ WINKELS = {
     "mediamarkt": ("MediaMarkt", "NL", mediamarkt),
     "amazon": ("Amazon.nl", "NL", amazon),
     "pepper": ("Pepper.com", "NL", pepper),
+    "scapino": ("Scapino", "NL", scapino),
+    "joybuy": ("Joybuy", "NL", joybuy),
 }

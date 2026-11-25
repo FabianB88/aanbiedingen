@@ -163,9 +163,9 @@ def haal(winkel, urls, selector=None, klik_teksten=None, wacht=4, tabs=None, tra
         def op_response(r):
             try:
                 ct = r.headers.get("content-type", "")
-                if "json" in ct and (r.request.resource_type in ("xhr", "fetch") or winkel == "nettorama"):
+                if "json" in ct and (r.request.resource_type in ("xhr", "fetch") or winkel in ("joybuy", "scapino")):
                     body = r.text()
-                    if len(body) > 200 and (winkel == "nettorama" or re.search(r"price|prijs|preis|promotion|offer|bonus", body, re.I)):
+                    if len(body) > 200 and (winkel in ("joybuy", "scapino") or re.search(r"price|prijs|preis|promotion|offer|bonus", body, re.I)):
                         responses.append({"url": r.url, "body": body[:3000000]})
             except Exception:
                 pass

@@ -162,7 +162,8 @@ const WINKELS = {
   kaufland:{naam:"Kaufland",kleur:"#E10915"},
   bol:{naam:"bol.com",kleur:"#0000A4"}, coolblue:{naam:"Coolblue",kleur:"#0090E3"},
   mediamarkt:{naam:"MediaMarkt",kleur:"#DF0000"}, amazon:{naam:"Amazon.nl",kleur:"#FF9900"},
-  lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}, pepper:{naam:"Pepper.com",kleur:"#E4502D"}
+  lidl_online:{naam:"Lidl webshop",kleur:"#0050AA"}, pepper:{naam:"Pepper.com",kleur:"#E4502D"},
+  scapino:{naam:"Scapino",kleur:"#E3001B"}, joybuy:{naam:"Joybuy",kleur:"#E1251B"}
 };
 const OPSLAG = "aanbiedingen-v1";
 const standaard = {actief:0, lijstModus:"overzicht", echtMin:30, verborgen:[], gevolgd:[], lijstjes:[], gezien:{}, sorteer:"korting", cat:"", alleenPct:false, geenMeer:false};
@@ -218,7 +219,7 @@ async function start(){
 function zichtbaar(){
   return data.filter(a => !st.verborgen.includes(a.winkel) && !a.nonfood);
 }
-const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon","pepper"];
+const WEBSHOPS = ["bol","coolblue","mediamarkt","amazon","pepper","scapino","joybuy"];
 // bij welk tabblad hoort een aanbieding; winkelknoppen blijven zichtbaar, ook als je ze uitzet
 const soort = a => (a.bf || WEBSHOPS.includes(a.winkel)) ? "bf" : a.nonfood ? "nonfood" : "boodschappen";
 const pastBij = (a, s) => s==="echt" ? !!a.echt && (a.korting||0) >= st.echtMin : soort(a)===s;
