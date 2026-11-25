@@ -1,10 +1,10 @@
 {
- "url": "https://www.jumbo.com/aanbiedingen/alle-1fruit/3022529",
+ "url": "https://www.jumbo.com/aanbiedingen/campina-vla/3023330",
  "kaarten": [
   {
-   "tekst": "Alle 1FRUIT\n\n2 voor 1,00\nGeldig van wo 18 t/m di 24 nov\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 18 t/m di 24 nov.",
-   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_19.png",
-   "alt": "Alle 1FRUIT",
+   "tekst": "Campina vla\n\nAlle pakken à 1 liter\n\n2 voor 3,49\nGeldig van wo 25 nov t/m di 1 dec\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 25 nov t/m di 1 dec.",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2048/Weekaanbiedingen-Week-48_91.png",
+   "alt": "Campina vla",
    "href": "",
    "sectie": "Wat eten we?",
    "attrs": {
@@ -15,33 +15,153 @@
    }
   },
   {
-   "tekst": "1FRUIT Peer 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/23072026_1784810164630_1784810167689_8720157404101_1.png",
+   "tekst": "Campina Vlaflip Dubbelvla Chocolade Vanillesmaak met Chocolade-Karamelsmaaksaus 1 L\n2 voor 3,49\nPrijs: € 2,49\n2\n49\n€ 2,49 per liter\n2,49/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728006657733_1728006668309_526956_PAK_08712800007265_H1N1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/1fruit-peer-200ml-764449PAK",
-   "sectie": "Alle 1FRUIT",
+   "href": "https://www.jumbo.com/producten/campina-vlaflip-dubbelvla-chocolade-vanillesmaak-met-chocolade-karamelsmaaksaus-1-l-526956PAK",
+   "sectie": "Campina vla",
    "attrs": {
-    "data-v-b08dd1a6": ""
+    "data-v-86a97f4a": ""
    }
   },
   {
-   "tekst": "1FRUIT Appel 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557769279_1786557774642_8720157404088_1.png",
+   "tekst": "Campina Zacht en Luchtig Chocolade Smaak 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728007411429_1728007422471_97050_PAK_08712800039488_H1N1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/1fruit-appel-200ml-764448PAK",
-   "sectie": "1FRUIT Peer 200ml",
+   "href": "https://www.jumbo.com/producten/campina-zacht-en-luchtig-chocolade-smaak-1-l-97050PAK",
+   "sectie": "Campina Vlaflip Dubbelvla Chocolade Vanillesmaak met Chocolade-Karamelsmaaksaus ",
    "attrs": {
-    "data-v-b08dd1a6": ""
+    "data-v-86a97f4a": ""
    }
   },
   {
-   "tekst": "1FRUIT Sinaasappel 200ml\n\n200 ml\n\n2 voor 1,00\nPrijs: € 0,99\n0\n99\n€ 4,95 per liter\n4,95/liter",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/12082026_1786557770420_1786557773226_8720157404125_1.png",
+   "tekst": "Campina Vla Slagroom Vanillesmaak 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728009720718_1728009733755_527089_PAK_08712800001256_H1N1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/1fruit-sinaasappel-200ml-764460PAK",
-   "sectie": "1FRUIT Appel 200ml",
+   "href": "https://www.jumbo.com/producten/campina-vla-slagroom-vanillesmaak-1-l-527089PAK",
+   "sectie": "Campina Zacht en Luchtig Chocolade Smaak 1 L",
    "attrs": {
-    "data-v-b08dd1a6": ""
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vla Vanille Smaak 1 L\n2 voor 3,49\nPrijs: € 1,99\n1\n99\n€ 1,99 per liter\n1,99/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728005919845_1728005930664_526921_PAK_08712800001225_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vla-vanille-smaak-1-l-526921PAK",
+   "sectie": "Campina Vla Slagroom Vanillesmaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Zacht en Luchtig Banaan Smaak 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/08102024_1728352715694_1728352728572_527058_PAK_08712800007654_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-zacht-en-luchtig-banaan-smaak-1-l-527058PAK",
+   "sectie": "Campina Vla Vanille Smaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Appel Kaneel Vla 1L\n2 voor 3,49\nPrijs: € 2,69\n2\n69\n€ 2,69 per liter\n2,69/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/10042026_1775823750863_1775823764810_761032_PAK_08712800003076_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-appel-kaneel-vla-1l-761032PAK",
+   "sectie": "Campina Zacht en Luchtig Banaan Smaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vla Rum Smaak Rozijnen 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/09022026_1770640403604_1770640406553_8712800003083_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vla-rum-smaak-rozijnen-1-l-737711PAK",
+   "sectie": "Campina Appel Kaneel Vla 1L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vla Chocolade 1 L\n\n1 liter\n\n2 voor 3,49\nPrijs: € 1,99\n1\n99\n€ 1,99 per liter\n1,99/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728004059667_1728004071969_526979_PAK_08712800001034_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vla-chocolade-1-l-526979PAK",
+   "sectie": "Campina Vla Rum Smaak Rozijnen 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vlaflip Halfvolle Yoghurt en Frambozenvla met Bosvruchtensaus 1 L\n2 voor 3,49\nPrijs: € 2,79\n2\n79\n€ 2,79 per liter\n2,79/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/24092024_1727188367399_1727188371101_8712800145165_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vlaflip-halfvolle-yoghurt-en-frambozenvla-met-bosvruchtensaus-1-l-188331PAK",
+   "sectie": "Campina Vla Chocolade 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Zacht en Luchtig Vanille Smaak 1 L\n\n1 liter\n\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728008272063_1728008284861_527060_PAK_08712800001539_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-zacht-en-luchtig-vanille-smaak-1-l-527060PAK",
+   "sectie": "Campina Vlaflip Halfvolle Yoghurt en Frambozenvla met Bosvruchtensaus 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vlaflip Halfvolle Yoghurt en Vla Vanillesmaak met Rode Vruchtensaus 1 L\n2 voor 3,49\nPrijs: € 2,49\n2\n49\n€ 2,49 per liter\n2,49/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/25112025_1764042548452_1764042563801_188332_PAK_08712800145158_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vlaflip-halfvolle-yoghurt-en-vla-vanillesmaak-met-rode-vruchtensaus-1-l-188332PAK",
+   "sectie": "Campina Zacht en Luchtig Vanille Smaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Bolletjes Vla Vanille Smaak 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/09022026_1770640403594_1770640406321_8712800003090_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-bolletjes-vla-vanille-smaak-1-l-737710PAK",
+   "sectie": "Campina Vlaflip Halfvolle Yoghurt en Vla Vanillesmaak met Rode Vruchtensaus 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Dubbelvla Chocolade Vanille Smaak 1 L\n2 voor 3,49\nPrijs: € 2,29\n2\n29\n€ 2,29 per liter\n2,29/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/04102024_1728008866739_1728008879365_527093_PAK_08712800001348_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-dubbelvla-chocolade-vanille-smaak-1-l-527093PAK",
+   "sectie": "Campina Bolletjes Vla Vanille Smaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Vla Limited Edition 1L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8712800001386_1788417924103_08712800001386_H1N1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-vla-limited-edition-1l-673390PAK",
+   "sectie": "Campina Dubbelvla Chocolade Vanille Smaak 1 L",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Campina Zacht en Luchtig Framboos Smaak 1 L\n2 voor 3,49\nPrijs: € 2,39\n2\n39\n€ 2,39 per liter\n2,39/liter",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/24042025_1745483548620_1745483553328_8712800001546_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/campina-zacht-en-luchtig-framboos-smaak-1-l-527059PAK",
+   "sectie": "Campina Vla Limited Edition 1L",
+   "attrs": {
+    "data-v-86a97f4a": ""
    }
   }
  ]

@@ -1,10 +1,10 @@
 {
- "url": "https://www.jumbo.com/aanbiedingen/prei/3024034",
+ "url": "https://www.jumbo.com/aanbiedingen/alle-gourmet-of-pizzarette/3022726",
  "kaarten": [
   {
-   "tekst": "Prei\n\nLos, per stuk\n\n2 voor 1,00\nGeldig van wo 18 t/m di 24 nov\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 18 t/m di 24 nov.",
-   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Weekaanbiedingen/Week%2047/Weekaanbiedingen-Week-47_8.png",
-   "alt": "Prei",
+   "tekst": "Alle gourmet of pizzarette\n\n5 voor 10,00\nGeldig van wo 25 nov t/m di 22 dec\nBij boodschappen bestellen geldt de aanbieding voor bezorg- en ophaalmomenten op wo 25 nov t/m di 22 dec.",
+   "img": "https://www.jumbo.com/INTERSHOP/static/WFS/Jumbo-Grocery-Site/-/Jumbo-Grocery/nl_NL/Images_Aanbiedingen/2026/Kies%20en%20Mix/km_gourmet.png",
+   "alt": "Alle gourmet of pizzarette",
    "href": "",
    "sectie": "Wat eten we?",
    "attrs": {
@@ -15,13 +15,303 @@
    }
   },
   {
-   "tekst": "Jumbo Prei\n2 voor 1,00\nPrijs: € 0,65\n0\n65\n€ 0,65 per stuk\n0,65/stuk",
-   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/18092023_1695059507098_1695059511451_8718452689743_1.png",
+   "tekst": "Jumbo Mini Garnalen Yuzu-Marinade 100 g\n\n100 g\n\n5 voor 10,00\nPrijs: € 3,00\n3\n00\n€ 30,00 per kilo\n30,00/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/19112026_1795105951935_1795105961886_8726900060969_1.png",
    "alt": "",
-   "href": "https://www.jumbo.com/producten/jumbo-prei-543359STK",
-   "sectie": "Prei",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-garnalen-yuzu-marinade-100-g-778823DS",
+   "sectie": "Alle gourmet of pizzarette",
    "attrs": {
-    "data-v-b08dd1a6": ""
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmetschotel kastchampignons. ui, courgette 165 g\n5 voor 10,00\nPrijs: € 2,69\n2\n69\n€ 16,30 per kilo\n16,30/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900031785Triorodeuikastanjechampignonscourgette165gmiddentransparant8eadd478-f999-49d2-922d-bf3ba393f5dd-1793195639479.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmetschotel-kastchampignons-ui-courgette-165-g-778619BAK",
+   "sectie": "Jumbo Mini Garnalen Yuzu-Marinade 100 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmetschotel champignon. paprika. prei 165 g\n5 voor 10,00\nPrijs: € 2,69\n2\n69\n€ 16,30 per kilo\n16,30/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900031778Triopreichampignonspaprika165gmiddentransparant5ccf2428-944a-45b9-90cd-b7e3c8a62eb7-1793195640262.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmetschotel-champignon-paprika-prei-165-g-778617BAK",
+   "sectie": "Jumbo Gourmetschotel kastchampignons. ui, courgette 165 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Varkenshaas 120 g\n\n120 g\n\n5 voor 10,00\nPrijs: € 2,79\n2\n79\n€ 23,25 per kilo\n23,25/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452852543Varkenshaasd1fa2330-9fde-4836-ae8b-0f6c393c19fb-1794587445285.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-varkenshaas-120-g-635013TRA",
+   "sectie": "Jumbo Gourmetschotel champignon. paprika. prei 165 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Mini Lapje Gekruid\n5 voor 10,00\nPrijs: € 2,79\n2\n79\n€ 23,25 per kilo\n23,25/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452852550MiniLapjegekruida59fabe3-ce06-4f7e-bec5-be32dd575a39-1794587445208.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-lapje-gekruid-635016TRA",
+   "sectie": "Jumbo Gourmet Mini Varkenshaas 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Vega Mini Kerstster 150 g\n\n150 g\n\n5 voor 10,00\nPrijs: € 2,25\n2\n25\n€ 15,00 per kilo\n15,00/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900041609Minikerstster6b9befc2-f69a-47b7-8c0c-be32484501a7-1794587917221.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-vega-mini-kerstster-150-g-707042BAK",
+   "sectie": "Jumbo Mini Lapje Gekruid",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Mini Kip Krokant160 g\n\n160 g\n\n5 voor 10,00\nPrijs: € 2,29\n2\n29\n€ 14,31 per kilo\n14,31/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900070425MiniKipKrokantzoalsDAM90d4a3f3-9bce-496d-99d2-7075e0537f0d-1795535457023.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-kip-krokant160-g-635146TRA",
+   "sectie": "Jumbo Gourmet Vega Mini Kerstster 150 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizzatopping Kipreepjes Italiaanse Stijl 110 g\n\n110 g\n\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 21,73 per kilo\n21,73/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/06102026_1791311552766_1791311557584_8726900042286_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizzatopping-kipreepjes-italiaanse-stijl-110-g-767149TRA",
+   "sectie": "Jumbo Mini Kip Krokant160 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Grillburger 150 g\n\n150 g\n\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 16,67 per kilo\n16,67/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8717228618758Grillburger480960ed-f893-454a-9ac4-c17d97b03059-1794587752628.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-grillburger-150-g-680830TRA",
+   "sectie": "Jumbo Pizzatopping Kipreepjes Italiaanse Stijl 110 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Biefstuk 100 g\n\n100 g\n\n5 voor 10,00\nPrijs: € 3,29\n3\n29\n€ 32,90 per kilo\n32,90/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452879717biefstuknaturel6745ca97-a928-42b3-aa33-84c428c5be29-1794587751909.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-biefstuk-100-g-646447TRA",
+   "sectie": "Jumbo Gourmet Mini Grillburger 150 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Slavinken 150 g\n\n150 g\n\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 16,67 per kilo\n16,67/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900010971minislavinken512ba0ab-5537-43be-b9e6-5fa022d4c708-1794587445209.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-slavinken-150-g-201426TRA",
+   "sectie": "Jumbo Gourmet Mini Biefstuk 100 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Kipfilet 120 g\n\n120 g\n\n5 voor 10,00\nPrijs: € 3,00\n3\n00\n€ 25,00 per kilo\n25,00/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452931682Kipfiletlapjes92b23741-4b09-49e2-ac91-d110cd056299-1794587916490.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-kipfilet-120-g-697225TRA",
+   "sectie": "Jumbo Gourmet Mini Slavinken 150 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Gehakt Cordon Bleu 210 g\n\n210 g\n\n5 voor 10,00\nPrijs: € 2,29\n2\n29\n€ 10,90 per kilo\n10,90/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8717228616327Minigehcordonbleub2d9daaa-5f73-457a-ad12-9ab23588e330-1794587445194.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-gehakt-cordon-bleu-210-g-213636TRA",
+   "sectie": "Jumbo Gourmet Mini Kipfilet 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizzatopping Ham Naturel 110 g\n\n110 g\n\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 21,73 per kilo\n21,73/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/06102026_1791289952014_1791289956659_8726900030337_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizzatopping-ham-naturel-110-g-767526TRA",
+   "sectie": "Jumbo Gourmet Mini Gehakt Cordon Bleu 210 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizza Chorizo 100g\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 23,90 per kilo\n23,90/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900031440Chorizobaktransparantd9be1f72-19bf-4921-b06b-6dc0b18d5b3e-1793195496943.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizza-chorizo-100g-768216STK",
+   "sectie": "Jumbo Pizzatopping Ham Naturel 110 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Biefstuk Gemarineerd 120 g\n\n120 g\n\n5 voor 10,00\nPrijs: € 3,29\n3\n29\n€ 27,42 per kilo\n27,42/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8717228616334biefstukgemarineerde7b91e6c-d090-4728-905e-5803533b11bf-1794587752626.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-biefstuk-gemarineerd-120-g-680088TRA",
+   "sectie": "Jumbo Pizza Chorizo 100g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Kipsaté 135 g\n\n135 g\n\n5 voor 10,00\nPrijs: € 3,00\n3\n00\n€ 25,00 per kilo\n25,00/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452931699MiniKipsateef2d4085-3ee0-4f7e-bed8-cc44aa1aecc2-1794587445214.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-kipsate-135-g-308440BAK",
+   "sectie": "Jumbo Gourmet Mini Biefstuk Gemarineerd 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizzatopping Kipreepjes Gemarineerd 110 g\n\n110 g\n\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 21,73 per kilo\n21,73/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/06102026_1791311552687_1791311557846_8726900042309_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizzatopping-kipreepjes-gemarineerd-110-g-767161TRA",
+   "sectie": "Jumbo Gourmet Mini Kipsaté 135 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Gemarineerde Slavink 160 g\n\n160 g\n\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 15,63 per kilo\n15,63/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900010957MiniSlavinkgemarineerd87836c7f-8015-4a7a-8a08-892bc90d43d6-1794587445166.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-gemarineerde-slavink-160-g-508356TRA",
+   "sectie": "Jumbo Pizzatopping Kipreepjes Gemarineerd 110 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizza Pepperoni 100g\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 23,90 per kilo\n23,90/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/097ade5929f247e5be1608453f66336b051217ba-b895-4edf-b883-faca77da6bf3-1793202103975.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizza-pepperoni-100g-768214STK",
+   "sectie": "Jumbo Gourmet Mini Gemarineerde Slavink 160 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Vega Mini Kaasburger 120 g\n\n120 g\n\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 20,83 per kilo\n20,83/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900041593Minivegakaasschnitzel11848b73-1602-4a6a-926f-74b961c18d34-1794587916472.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-vega-mini-kaasburger-120-g-707041BAK",
+   "sectie": "Jumbo Pizza Pepperoni 100g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Mini Shaslick 120g\n5 voor 10,00\nPrijs: € 2,79\n2\n79\n€ 18,60 per kilo\n18,60/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900042262Minishaslickv2transparantee95a926-0498-43bd-9168-917ebcd7fadc-1793196212427.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-shaslick-120g-767163TRA",
+   "sectie": "Jumbo Gourmet Vega Mini Kaasburger 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmetschotel Plantaardig 180 g\n\n180 g\n\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 13,89 per kilo\n13,89/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900041586Gourmetschotelplantaardig180gKERSTfristransparant68c1155c-92ab-493d-9774-9a12707e6017-1794587743486.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmetschotel-plantaardig-180-g-687361TRA",
+   "sectie": "Jumbo Mini Shaslick 120g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Wienerschnitzel 150 g\n\n150 g\n\n5 voor 10,00\nPrijs: € 2,29\n2\n29\n€ 15,27 per kilo\n15,27/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452998081MiniWienerSchnitzel9f6f27f2-cd9f-4594-92c4-568b412558e0-1794587752023.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-wienerschnitzel-150-g-680086TRA",
+   "sectie": "Jumbo Gourmetschotel Plantaardig 180 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Angusburgers 150 g\n\n150 g\n\n5 voor 10,00\nPrijs: € 2,79\n2\n79\n€ 18,60 per kilo\n18,60/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452755387MiniAngusburgera0d811db-c6b1-42ab-aed2-612c93c3ee25-1794587447907.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-angusburgers-150-g-628765TRA",
+   "sectie": "Jumbo Gourmet Mini Wienerschnitzel 150 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Varkenssteak 120 g\n\n120 g\n\n5 voor 10,00\nPrijs: € 2,29\n2\n29\n€ 19,08 per kilo\n19,08/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8718452937202MiniVarkenssteak6888c5ff-c379-476d-b755-1b49265cd7b4-1794587445203.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-varkenssteak-120-g-213686TRA",
+   "sectie": "Jumbo Gourmet Mini Angusburgers 150 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Gourmet Mini Zalmblokjes 120 g\n5 voor 10,00\nPrijs: € 3,00\n3\n00\n€ 25,00 per kilo\n25,00/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900041548Minizalmblokjes8c353613-b97c-4d27-88dc-2e5440fc4e43-1794587916298.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-gourmet-mini-zalmblokjes-120-g-699760TRA",
+   "sectie": "Jumbo Gourmet Mini Varkenssteak 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Pizzatopping Rul Gehakt Naturel 110 g\n\n110 g\n\n5 voor 10,00\nPrijs: € 2,39\n2\n39\n€ 21,73 per kilo\n21,73/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/06102026_1791289952051_1791289957050_8726900042293_1.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-pizzatopping-rul-gehakt-naturel-110-g-767160TRA",
+   "sectie": "Jumbo Gourmet Mini Zalmblokjes 120 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Mini Hamburger 180 g\n\n180 g\n\n5 voor 10,00\nPrijs: € 2,29\n2\n29\n€ 12,72 per kilo\n12,72/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900010940Minihamburger60cf727e-b59c-4229-8499-9aa425a4e1dd-1794587446771.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-hamburger-180-g-634981TRA",
+   "sectie": "Jumbo Pizzatopping Rul Gehakt Naturel 110 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
+   }
+  },
+  {
+   "tekst": "Jumbo Mini Chipolata Varken 120g\n5 voor 10,00\nPrijs: € 2,50\n2\n50\n€ 20,83 per kilo\n20,83/kilo",
+   "img": "https://www.jumbo.com/dam-images/fit-in/360x360/Products/8726900042255minichipolata315c56bb-5226-4b8a-afa9-762461fe32b3-1794587946896.png",
+   "alt": "",
+   "href": "https://www.jumbo.com/producten/jumbo-mini-chipolata-varken-120g-767162TRA",
+   "sectie": "Jumbo Mini Hamburger 180 g",
+   "attrs": {
+    "data-v-86a97f4a": ""
    }
   }
  ]

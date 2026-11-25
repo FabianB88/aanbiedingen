@@ -1,7 +1,127 @@
 {
  "url": "https://www.aldi-sued.de/de/angebote.html",
- "aantal": 41,
+ "aantal": 53,
  "kaarten": [
+  {
+   "tekst": "ALDI\n\nÄpfel fein-säuerlich 1 kg\n\n1,89 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/c06d270f-ddeb-4158-a224-31bded3d8b36/pfel%20feinsuerlich%201%20kg",
+   "alt": "Äpfel fein-säuerlich 1 kg",
+   "href": "https://www.aldi-sued.de/produkt/aldi-aepfel-fein-saeuerlich-1-kg-000000000000778061",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "NATUR LIEBLINGE\n\nEisbergsalat, Stück\n\nSpare 24 %\n0,75 €²0,99 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a25e9d84-bf49-481e-b6fc-ee2628246973/Eisbergsalat%20Stck",
+   "alt": "Eisbergsalat, Stück",
+   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-eisbergsalat-stueck-000000000000228479",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "NATUR LIEBLINGE\n\nKaki Krumme Dinger 1 kg\n\n1 kg\n\n(2,29 €/1 kg)\n\n2,29 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b5effa39-c069-4f02-b34c-4986adb1380f/Kaki%20Krumme%20Dinger%201%20kg",
+   "alt": "Kaki Krumme Dinger 1 kg",
+   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-kaki-krumme-dinger-1-kg-000000000000230565",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "NATUR LIEBLINGE\n\nOrangen 2 kg\n\n2 kg\n\n(1,25 €/1 kg)\n\n2,49 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1176b6a5-4d77-474c-9296-3660102fbab3/Orangen%202%20kg",
+   "alt": "Orangen 2 kg",
+   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-orangen-2-kg-000000000000266098",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "NATUR LIEBLINGE\n\nCocktailrispentomaten 500 g\n\n500 g\n\n(4,38 €/1 kg)\n\n2,19 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/718b1924-f0bf-49c9-9da2-6bf6876f21c1/Cocktailrispentomaten%20500%20g",
+   "alt": "Cocktailrispentomaten 500 g",
+   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-cocktailrispentomaten-500-g-000000000000309604",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "BIO NATURLAND\n\nBio Naturland Zitronen 500 g\n\n500 g\n\n(2,38 €/1 kg)\n\n1,19 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/4ae21171-96f3-4a73-8b5e-8b5eab35a53d/Bio%20Naturland%20Zitronen%20500%20g",
+   "alt": "Bio Naturland Zitronen 500 g",
+   "href": "https://www.aldi-sued.de/produkt/bio-naturland-bio-naturland-zitronen-500-g-000000000000482464",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "BIO NATURLAND\n\nBio Naturland Hokkaido, lose\n\n1,29 €/1 kg",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/5741f843-bb8f-45e5-8a8f-3eaefacf1964/Bio%20Naturland%20Hokkaido%20lose",
+   "alt": "Bio Naturland Hokkaido, lose",
+   "href": "https://www.aldi-sued.de/produkt/bio-naturland-bio-naturland-hokkaido-lose-000000000000523858",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "BIO\n\nBio Zucchini 500 g\n\n500 g\n\n(2,78 €/1 kg)\n\n1,39 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2a67d9e9-ca95-4f0c-86a6-12bb4efbe030/Bio%20Zucchini%20500%20g",
+   "alt": "Bio Zucchini 500 g",
+   "href": "https://www.aldi-sued.de/produkt/bio-bio-zucchini-500-g-000000000000228039",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "ALDI KLEINE SCHÄTZE\n\nDrillinge 1 kg\n\n1 kg\n\n(1,69 €/1 kg)\n\nSpare 22 %\n1,69 €²2,19 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/703e45fa-6f50-410b-8c9e-6f57d062e364/Drillinge%201%20kg",
+   "alt": "Drillinge 1 kg",
+   "href": "https://www.aldi-sued.de/produkt/aldi-kleine-schaetze-drillinge-1-kg-000000000000228577",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Gurke, Stück\n\n0,59 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/54425b30-f798-45b8-b8b6-8ff55a9cdb66/Gurke%20Stck",
+   "alt": "Gurke, Stück",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-gurke-stueck-000000000000229921",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Avocado, Stück\n\n0,77 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b4b4d9f0-1409-48a4-a1cb-6c3c47243667/Avocado%20Stck",
+   "alt": "Avocado, Stück",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-avocado-stueck-000000000000457123",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Conference Birnen 1 kg\n\n1,49 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/fda5ad4e-dab0-45c4-bbb4-90d7e9c8a9f8/Conference%20Birnen%201%20kg",
+   "alt": "Conference Birnen 1 kg",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-conference-birnen-1-kg-000000000000784447",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
   {
    "tekst": "Verfügbar seit 23.11.2026\n\nJES COLLECTION\n\nWeihnachtsdeko oder -Accessoire, Gebäckdose\n\n1,00 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/80742ac8-b65d-41c7-8da0-5a933d710c4a/Weihnachtsdeko%20oder%20Accessoire%20Gebckdose",
@@ -293,6 +413,56 @@
    }
   },
   {
+   "tekst": "Kühlung\n\nMILSANI\n\nDeutsche Markenbutter 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0c2893c8-a6ef-4437-9a94-673a20ee9db9/Deutsche%20Markenbutter%20250%20g",
+   "alt": "Deutsche Markenbutter 250 g",
+   "href": "https://www.aldi-sued.de/produkt/milsani-deutsche-markenbutter-250-g-000000000000202682",
+   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein ungesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ad3ace41-6e65-4336-9db9-589d56c161d1/Streichfein%20ungesalzen%20250%20g",
+   "alt": "Streichfein ungesalzen 250 g",
+   "href": "https://www.aldi-sued.de/produkt/milsani-streichfein-ungesalzen-250-g-000000000000203022",
+   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein gesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a73f8bc2-6b8c-46a0-ae2c-25f9a823e199/Streichfein%20gesalzen%20250%20g",
+   "alt": "Streichfein gesalzen 250 g",
+   "href": "https://www.aldi-sued.de/produkt/milsani-streichfein-gesalzen-250-g-000000000000203023",
+   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\nRegional verfügbar\n\nMILSANI\n\nWeidebutter 250 g\n\n250 g\n\n(6,36 €/1 kg)\n\n1,59 €²1,75 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2bc52356-bd35-49a2-b8a5-838e3593d8e9/Weidebutter%20250%20g",
+   "alt": "Weidebutter 250 g",
+   "href": "https://www.aldi-sued.de/produkt/milsani-weidebutter-250-g-000000000000271276",
+   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein ungesalzen XXL 400 g\n\n400 g\n\n(3,88 €/1 kg)\n\n1,55 €²1,79 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0593b419-9cf0-4844-be76-706001d4dcd7/Streichfein%20ungesalzen%20XXL%20400%20g",
+   "alt": "Streichfein ungesalzen XXL 400 g",
+   "href": "https://www.aldi-sued.de/produkt/milsani-streichfein-ungesalzen-xxl-400-g-000000000000630567",
+   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
    "tekst": "CACHET\n\nKatzenfutter Nass 100 g, Rinderpastete\n\n100 g\n\n(2,00 €/1 kg)\n\nSpare 20 %\n0,20 €²0,25 €",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2af039f9-6e5f-4758-a418-aea50bbaa39f/Katzenfutter%20Nass%20100%20g%20Rinderpastete",
    "alt": "Katzenfutter Nass 100 g, Rinderpastete",
@@ -357,56 +527,6 @@
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/5bd2b4d0-dcc7-4c93-89af-ec6e2fc4ac34/Hunde%20Nassfutter%20150%20g%20Rinderpastete",
    "alt": "Hunde Nassfutter 150 g, Rinderpastete",
    "href": "https://www.aldi-sued.de/produkt/romeo-premium-hunde-nassfutter-150-g-rinderpastete-000000000594178001",
-   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "ROMEO\n\nClassic Hunde-Nassfutter 300 g, Rind & Leber\n\n300 g\n\n(1,83 €/1 kg)\n\n0,55 €²0,60 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/52ccc1da-c949-4311-b1ec-ed2dd1e0e66e/Classic%20HundeNassfutter%20300%20g%20Rind%20%20Leber",
-   "alt": "Classic Hunde-Nassfutter 300 g, Rind & Leber",
-   "href": "https://www.aldi-sued.de/produkt/romeo-classic-hunde-nassfutter-300-g-rind-leber-000000000594276001",
-   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "CACHET\n\nKatzennassfutter 12 x 100 g, Fleisch in Soße\n\n1,2 kg\n\n(1,96 €/1 kg)\n\n2,35 €²2,54 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0be42d34-a2e1-4194-95c5-367233b942bc/Katzennassfutter%2012%20x%20100%20g%20Fleisch%20in%20Soe",
-   "alt": "Katzennassfutter 12 x 100 g, Fleisch in Soße",
-   "href": "https://www.aldi-sued.de/produkt/cachet-katzennassfutter-12-x-100-g-fleisch-in-sosse-000000000594446001",
-   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "ROMEO WILD ROOTS\n\nHundenassfutter 400 g, Pferd\n\n400 g\n\n(3,23 €/1 kg)\n\n1,29 €²1,45 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/219461ab-9ea5-4d5a-aab6-19187ff1f930/Hundenassfutter%20400%20g%20Pferd",
-   "alt": "Hundenassfutter 400 g, Pferd",
-   "href": "https://www.aldi-sued.de/produkt/romeo-wild-roots-hundenassfutter-400-g-pferd-000000000594460001",
-   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "ROMEO\n\nClassic Hund Nass 1,24 kg, Rind\n\n1,24 kg\n\n(1,12 €/1 kg)\n\n1,39 €²1,49 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/6d8fe541-fa21-4a48-8dfa-5d26ebec5250/Classic%20Hund%20Nass%20124%20kg%20Rind",
-   "alt": "Classic Hund Nass 1,24 kg, Rind",
-   "href": "https://www.aldi-sued.de/produkt/romeo-classic-hund-nass-1-24-kg-rind-000000000594512001",
-   "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "CACHET PREMIUM\n\nKatzenfutter Nass 415 g, Truthahn und Wild\n\n415 g\n\n(2,14 €/1 kg)\n\n0,89 €²0,99 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/aad6052e-a1e8-440a-ae68-40689bd687dc/Katzenfutter%20Nass%20415%20g%20Truthahn%20und%20Wild",
-   "alt": "Katzenfutter Nass 415 g, Truthahn und Wild",
-   "href": "https://www.aldi-sued.de/produkt/cachet-premium-katzenfutter-nass-415-g-truthahn-und-wild-000000000594589001",
    "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",
    "attrs": {
     "data-track-type": "internal"
