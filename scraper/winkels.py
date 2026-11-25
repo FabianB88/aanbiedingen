@@ -351,7 +351,10 @@ def lidl_grid(g):
         if m:
             geldig = m.group(0)
     pack = ((g.get("price") or {}).get("packaging") or {}).get("text", "")
-    return {"ref": "van", "titel": titel, "merk": (g.get("brand") or {}).get("name", ""), "actie": actie,
+    # Lidl vergelijkt soms met de adviesprijs van de fabrikant in plaats van de eigen van-prijs
+    advies = bool(disc.get("fromRecommendedPrice")) or (
+        (g.get("price") or {}).get("recommendedPrice") and (g.get("price") or {}).get("recommendedPrice") == was)
+    return {"ref": "advies" if advies else "van", "titel": titel, "merk": (g.get("brand") or {}).get("name", ""), "actie": actie,
             "prijs_nu": nu, "prijs_was": was, "eenheid": pack, "img": g.get("image", ""),
             "url": "https://www.lidl.nl" + (g.get("canonicalPath") or ""), "geldig": geldig,
             "cat_hint": g.get("category", "")}
