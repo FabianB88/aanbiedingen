@@ -3,16 +3,6 @@
  "aantal": 53,
  "kaarten": [
   {
-   "tekst": "ALDI\n\nÄpfel fein-säuerlich 1 kg\n\n1,89 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/c06d270f-ddeb-4158-a224-31bded3d8b36/pfel%20feinsuerlich%201%20kg",
-   "alt": "Äpfel fein-säuerlich 1 kg",
-   "href": "https://www.aldi-sued.de/produkt/aldi-aepfel-fein-saeuerlich-1-kg-000000000000778061",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
    "tekst": "NATUR LIEBLINGE\n\nEisbergsalat, Stück\n\nSpare 24 %\n0,75 €²0,99 €",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a25e9d84-bf49-481e-b6fc-ee2628246973/Eisbergsalat%20Stck",
    "alt": "Eisbergsalat, Stück",
@@ -27,56 +17,6 @@
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b5effa39-c069-4f02-b34c-4986adb1380f/Kaki%20Krumme%20Dinger%201%20kg",
    "alt": "Kaki Krumme Dinger 1 kg",
    "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-kaki-krumme-dinger-1-kg-000000000000230565",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "NATUR LIEBLINGE\n\nOrangen 2 kg\n\n2 kg\n\n(1,25 €/1 kg)\n\n2,49 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1176b6a5-4d77-474c-9296-3660102fbab3/Orangen%202%20kg",
-   "alt": "Orangen 2 kg",
-   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-orangen-2-kg-000000000000266098",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "NATUR LIEBLINGE\n\nCocktailrispentomaten 500 g\n\n500 g\n\n(4,38 €/1 kg)\n\n2,19 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/718b1924-f0bf-49c9-9da2-6bf6876f21c1/Cocktailrispentomaten%20500%20g",
-   "alt": "Cocktailrispentomaten 500 g",
-   "href": "https://www.aldi-sued.de/produkt/natur-lieblinge-cocktailrispentomaten-500-g-000000000000309604",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "BIO NATURLAND\n\nBio Naturland Zitronen 500 g\n\n500 g\n\n(2,38 €/1 kg)\n\n1,19 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/4ae21171-96f3-4a73-8b5e-8b5eab35a53d/Bio%20Naturland%20Zitronen%20500%20g",
-   "alt": "Bio Naturland Zitronen 500 g",
-   "href": "https://www.aldi-sued.de/produkt/bio-naturland-bio-naturland-zitronen-500-g-000000000000482464",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "BIO NATURLAND\n\nBio Naturland Hokkaido, lose\n\n1,29 €/1 kg",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/5741f843-bb8f-45e5-8a8f-3eaefacf1964/Bio%20Naturland%20Hokkaido%20lose",
-   "alt": "Bio Naturland Hokkaido, lose",
-   "href": "https://www.aldi-sued.de/produkt/bio-naturland-bio-naturland-hokkaido-lose-000000000000523858",
-   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
-   "attrs": {
-    "data-track-type": "internal"
-   }
-  },
-  {
-   "tekst": "BIO\n\nBio Zucchini 500 g\n\n500 g\n\n(2,78 €/1 kg)\n\n1,39 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2a67d9e9-ca95-4f0c-86a6-12bb4efbe030/Bio%20Zucchini%20500%20g",
-   "alt": "Bio Zucchini 500 g",
-   "href": "https://www.aldi-sued.de/produkt/bio-bio-zucchini-500-g-000000000000228039",
    "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
    "attrs": {
     "data-track-type": "internal"
@@ -103,20 +43,80 @@
    }
   },
   {
-   "tekst": "Avocado, Stück\n\n0,77 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/b4b4d9f0-1409-48a4-a1cb-6c3c47243667/Avocado%20Stck",
-   "alt": "Avocado, Stück",
-   "href": "https://www.aldi-sued.de/produkt/no-brand-avocado-stueck-000000000000457123",
+   "tekst": "Kühlung\n\nGOLDEN SEAFOOD\n\nBackfisch, Knusper 280 g\n\n280 g\n\n(9,25 €/1 kg)\n\nSpare 25 %\n2,59 €²3,49 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/14d60515-870d-41e9-a6f5-2c1a1562f20b/Backfisch%20Knusper%20280%20g",
+   "alt": "Backfisch, Knusper 280 g",
+   "href": "https://www.aldi-sued.de/produkt/golden-seafood-backfisch-knusper-280-g-000000000654678001",
    "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
    "attrs": {
     "data-track-type": "internal"
    }
   },
   {
-   "tekst": "Conference Birnen 1 kg\n\n1,49 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/fda5ad4e-dab0-45c4-bbb4-90d7e9c8a9f8/Conference%20Birnen%201%20kg",
-   "alt": "Conference Birnen 1 kg",
-   "href": "https://www.aldi-sued.de/produkt/no-brand-conference-birnen-1-kg-000000000000784447",
+   "tekst": "Kühlung\n\nGOLDEN SEAFOOD\n\nBackfisch, Kibbelinge 300 g\n\n300 g\n\n(8,63 €/1 kg)\n\nSpare 25 %\n2,59 €²3,49 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/20335642-cccf-4df3-9e8f-172d2198ab75/Backfisch%20Kibbelinge%20300%20g",
+   "alt": "Backfisch, Kibbelinge 300 g",
+   "href": "https://www.aldi-sued.de/produkt/golden-seafood-backfisch-kibbelinge-300-g-000000000654678002",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nPutenschnitzel 500 g\n\n500 g\n\n(10,98 €/1 kg)\n\nSpare 21 %\n5,49 €²6,99 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/4835e258-91e1-446b-abe1-2b819ec708a2/Putenschnitzel%20500%20g",
+   "alt": "Putenschnitzel 500 g",
+   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-putenschnitzel-500-g-000000000000341244",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nHähnchen Ministeaks XXL 800 g\n\n800 g\n\n(8,74 €/1 kg)\n\n6,99 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/5eb16e12-605b-4b2a-a77f-7d84def1d9a4/Hhnchen%20Ministeaks%20XXL%20800%20g",
+   "alt": "Hähnchen Ministeaks XXL 800 g",
+   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-ministeaks-xxl-800-g-000000000000486763",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nHackfleisch Gemischt XXL 800 g\n\n800 g\n\n(6,49 €/1 kg)\n\nSpare 20 %\n5,19 €²6,49 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/699c4784-8e97-453b-a390-e627e947bb5b/Hackfleisch%20Gemischt%20XXL%20800%20g",
+   "alt": "Hackfleisch Gemischt XXL 800 g",
+   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-gemischt-xxl-800-g-000000000000725302",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "MEINE METZGEREI\n\nSchweine-Nackensteak Natur 500 g\n\n500 g\n\n(7,58 €/1 kg)\n\nSpare 20 %\n3,79 €²4,79 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/28a8cc4e-1b43-4251-8604-347ad36a0c4c/SchweineNackensteak%20Natur%20500%20g",
+   "alt": "Schweine-Nackensteak Natur 500 g",
+   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-schweine-nackensteak-natur-500-g-000000000000731631",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "Kühlung\n\nMEINE METZGEREI\n\nSchweine-Bauchscheiben Natur 600 g\n\n600 g\n\n(6,98 €/1 kg)\n\nSpare 16 %\n4,19 €²4,99 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/db2db1ae-08a9-4816-9a64-c795269a8a1b/SchweineBauchscheiben%20Natur%20600%20g",
+   "alt": "Schweine-Bauchscheiben Natur 600 g",
+   "href": "https://www.aldi-sued.de/produkt/meine-metzgerei-schweine-bauchscheiben-natur-600-g-000000000000767183",
+   "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
+   "attrs": {
+    "data-track-type": "internal"
+   }
+  },
+  {
+   "tekst": "2023 Faustino Rioja Crianza DOCa 0,75 l\n\n750 ml\n\n(5,32 €/1 l)\n\nSpare 33 %\n3,99 €²5,99 €",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/acc4aa9a-420a-4662-9a51-79c636299e4b/2023%20Faustino%20Rioja%20Crianza%20DOCa%20075%20l",
+   "alt": "2023 Faustino Rioja Crianza DOCa 0,75 l",
+   "href": "https://www.aldi-sued.de/produkt/no-brand-2023-faustino-rioja-crianza-doca-0-75-l-000000000000182696",
    "sectie": "WOCHENANGEBOTE MO., 23.11. – SA., 28.11.",
    "attrs": {
     "data-track-type": "internal"
@@ -223,7 +223,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nGARDENLINE\n\nChristrose\n\n3,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nGARDENLINE\n\nChristrose\n\n3,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/78bacba2-f324-4433-9fcd-db07a480ec74/Christrose",
    "alt": "Christrose",
    "href": "https://www.aldi-sued.de/produkt/gardenline-christrose-000000000000682924",
@@ -233,7 +233,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nGLÜCKSBLATT\n\nToilettenpapier Kamille 3-lagig, 16 x 150 Blatt\n\n5,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nGLÜCKSBLATT\n\nToilettenpapier Kamille 3-lagig, 16 x 150 Blatt\n\n5,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a8c79651-2b68-4839-ae92-3f7ac6733d5e/Toilettenpapier%20Kamille%203lagig%2016%20x%20150%20Blatt",
    "alt": "Toilettenpapier Kamille 3-lagig, 16 x 150 Blatt",
    "href": "https://www.aldi-sued.de/produkt/gluecksblatt-toilettenpapier-kamille-3-lagig-16-x-150-blatt-000000000000667660",
@@ -243,7 +243,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nUP2FASHION WOMEN\n\nDamen Leichtsteppmantel, Pink, M 40/42\n\n12,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\nAktion\n\nUP2FASHION WOMEN\n\nDamen Leichtsteppmantel, Pink, M 40/42\n\n12,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ce6b6a6a-4a36-4915-9691-337c217e6eb7/Damen%20Leichtsteppmantel%20Pink%20M%204042",
    "alt": "Damen Leichtsteppmantel, Pink, M 40/42",
    "href": "https://www.aldi-sued.de/produkt/up2fashion-women-damen-leichtsteppmantel-pink-m-40-42-000000000738114001",
@@ -253,7 +253,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nUP2FASHION MEN\n\nHerren Lederhandschuhe, Schwarz, 8,5\n\n12,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nUP2FASHION MEN\n\nHerren Lederhandschuhe, Schwarz, 8,5\n\n12,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/769017b3-2941-4e0c-891c-3a4acc01e6a0/Herren%20Lederhandschuhe%20Schwarz%2085",
    "alt": "Herren Lederhandschuhe, Schwarz, 8,5",
    "href": "https://www.aldi-sued.de/produkt/up2fashion-men-herren-lederhandschuhe-schwarz-8-5-000000000746161001",
@@ -263,7 +263,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nLACURA\n\nSeidenkissenbezüge 2er-Pack, Beige\n\n19,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nLACURA\n\nSeidenkissenbezüge 2er-Pack, Beige\n\n19,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/810cebbd-391b-45e0-8755-0d1999557b16/Seidenkissenbezge%202erPack%20Beige",
    "alt": "Seidenkissenbezüge 2er-Pack, Beige",
    "href": "https://www.aldi-sued.de/produkt/lacura-seidenkissenbezuege-2er-pack-beige-000000000740606001",
@@ -273,7 +273,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nTANDIL\n\nWaschmittel XXL 5 l, Aqua Touch\n\n5 l\n\n(1,56 €/1 l)\n\n7,79 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\nAktion\n\nTANDIL\n\nWaschmittel XXL 5 l, Aqua Touch\n\n5 l\n\n(1,56 €/1 l)\n\n7,79 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1377df1f-cf79-4f9f-b9b5-f63b723efbbc/Waschmittel%20XXL%205%20l%20Aqua%20Touch",
    "alt": "Waschmittel XXL 5 l, Aqua Touch",
    "href": "https://www.aldi-sued.de/produkt/tandil-waschmittel-xxl-5-l-aqua-touch-000000000629435001",
@@ -283,7 +283,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\nAktion\n\nUP2FASHION MEN\n\nHerren-Thermojeans, Blau, 48\n\n7,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\nAktion\n\nUP2FASHION MEN\n\nHerren-Thermojeans, Blau, 48\n\n7,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/31c66d13-b2eb-4235-a5bd-791726d9a452/HerrenThermojeans%20Blau%2048",
    "alt": "Herren-Thermojeans, Blau, 48",
    "href": "https://www.aldi-sued.de/produkt/up2fashion-men-herren-thermojeans-blau-48-000000000741621001",
@@ -293,7 +293,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nGARDENLINE\n\nWeihnachtsstern Busch 4,5 Liter\n\n6,79 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nGARDENLINE\n\nWeihnachtsstern Busch 4,5 Liter\n\n6,79 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/31944892-22d2-4b74-92fa-f77280755c48/Weihnachtsstern%20Busch%2045%20Liter",
    "alt": "Weihnachtsstern Busch 4,5 Liter",
    "href": "https://www.aldi-sued.de/produkt/gardenline-weihnachtsstern-busch-4-5-liter-000000000000760242",
@@ -303,7 +303,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nAMBIANO\n\nMedizinisches Messgerät, Oberarm Blutdruckmessgerät\n\n12,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nAMBIANO\n\nMedizinisches Messgerät, Oberarm Blutdruckmessgerät\n\n12,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/26a413a2-7fa0-4d03-9055-4be1e1938921/Medizinisches%20Messgert%20Oberarm%20Blutdruckmessgert",
    "alt": "Medizinisches Messgerät, Oberarm Blutdruckmessgerät",
    "href": "https://www.aldi-sued.de/produkt/ambiano-medizinisches-messgeraet-oberarm-blutdruckmessgeraet-000000000751521001",
@@ -313,7 +313,7 @@
    }
   },
   {
-   "tekst": "Verfügbar ab 26.11.2026\n\nDamen-Baumwoll-BH, Weiß, 85B\n\n9,99 €¹",
+   "tekst": "Verfügbar seit 26.11.2026\n\nDamen-Baumwoll-BH, Weiß, 85B\n\n9,99 €¹",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/1be1e083-e629-46b2-92bb-25970529cf92/DamenBaumwollBH%20Wei%2085B",
    "alt": "Damen-Baumwoll-BH, Weiß, 85B",
    "href": "https://www.aldi-sued.de/produkt/no-brand-damen-baumwoll-bh-weiss-85b-000000000223860003",
@@ -413,7 +413,7 @@
    }
   },
   {
-   "tekst": "Kühlung\n\nMILSANI\n\nDeutsche Markenbutter 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "tekst": "Kühlung\n\nMILSANI\n\nDeutsche Markenbutter 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,15 €",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/0c2893c8-a6ef-4437-9a94-673a20ee9db9/Deutsche%20Markenbutter%20250%20g",
    "alt": "Deutsche Markenbutter 250 g",
    "href": "https://www.aldi-sued.de/produkt/milsani-deutsche-markenbutter-250-g-000000000000202682",
@@ -423,7 +423,7 @@
    }
   },
   {
-   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein ungesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein ungesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,15 €",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/ad3ace41-6e65-4336-9db9-589d56c161d1/Streichfein%20ungesalzen%20250%20g",
    "alt": "Streichfein ungesalzen 250 g",
    "href": "https://www.aldi-sued.de/produkt/milsani-streichfein-ungesalzen-250-g-000000000000203022",
@@ -433,7 +433,7 @@
    }
   },
   {
-   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein gesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,14 €",
+   "tekst": "Kühlung\n\nMILSANI\n\nStreichfein gesalzen 250 g\n\n250 g\n\n(3,96 €/1 kg)\n\n0,99 €²1,15 €",
    "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/a73f8bc2-6b8c-46a0-ae2c-25f9a823e199/Streichfein%20gesalzen%20250%20g",
    "alt": "Streichfein gesalzen 250 g",
    "href": "https://www.aldi-sued.de/produkt/milsani-streichfein-gesalzen-250-g-000000000000203023",
@@ -444,7 +444,7 @@
   },
   {
    "tekst": "Kühlung\nRegional verfügbar\n\nMILSANI\n\nWeidebutter 250 g\n\n250 g\n\n(6,36 €/1 kg)\n\n1,59 €²1,75 €",
-   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/306/2bc52356-bd35-49a2-b8a5-838e3593d8e9/Weidebutter%20250%20g",
+   "img": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/png/scaleWidth/306/b3a19892-6710-461e-8e72-329ba2d28964/Weidebutter%20250%20g",
    "alt": "Weidebutter 250 g",
    "href": "https://www.aldi-sued.de/produkt/milsani-weidebutter-250-g-000000000000271276",
    "sectie": "DAUERHAFT GÜNSTIGE PRODUKTE.",

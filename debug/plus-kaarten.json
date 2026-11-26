@@ -633,11 +633,21 @@
    }
   },
   {
+   "tekst": "25 % korting\nPLUS Rochebaron, chaumes en camembert rustique\nBijv. Camembert rustique 45+\n3.\n21\n4.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_90_M/c0174e45029b77324bc77fb2492a8c70/4457_90.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4457-90",
+   "sectie": "Emmi Kaasfondue original",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "2 voor 6.00\nBiologisch PLUS en Fryske Kies & Mix Goudse kaas 50+ plakken\n t/m 19 jan\n6.\n00\n6.78 - 8.38",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_188_M/dfc07d2e2a972ca73e418c476ca5e044/4457_188.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-188",
-   "sectie": "Emmi Kaasfondue original",
+   "sectie": "PLUS Rochebaron, chaumes en camembert rustique",
    "attrs": {
     "data-container": ""
    }
@@ -975,7 +985,7 @@
   {
    "tekst": "3 voor 2.50\nPLUS Mini stol amandelspijs\nPer 1 st\n t/m 5 jan\n0.\n99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/777743_M/15c9f2fffa56ae34284441bed6c8777a/777743.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "PLUS Mini Stol Amandelspijs Zak 1 ST",
    "href": "https://www.plus.nl/product/plus-mini-stol-amandelspijs-wikkel-1-st-777743",
    "sectie": "PLUS Kies & Mix American Bakery Cookies, vanille- of chocolade muffins",
    "attrs": {
@@ -1267,7 +1277,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/183903_M/ebed1b433b680344905262c26ffbb4e4/183903.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "Colò Primitivo Puglia IGP velvet",
    "href": "https://www.plus.nl/product/colo-primitivo-puglia-igp-velvet-fles-750-ml-183903",
-   "sectie": "Les Etoiles de Doisy Sauternes",
+   "sectie": "Heritage de Chasse-Spleen Haut Medoc",
    "attrs": {
     "data-container": ""
    }
@@ -1314,7 +1324,7 @@
   },
   {
    "tekst": "Monte Tessa Montepulciano\n4.\n99\n6.65",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_163_M/dcc046b8f88bf91c367ea7269c63e1fd/4457_163.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_163_M/23b2203d010026240817763af278f0ee/4457_163.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-163",
    "sectie": "Chateau de l'Horte Rouge de l'Horte",
@@ -1333,11 +1343,21 @@
    }
   },
   {
+   "tekst": "Sensi Campoluce Chianti DOCG\n5.\n99\n7.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_173_M/d7997e2610dd3984b032ae33dce581ea/4457_173.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4457-173",
+   "sectie": "Stoney Creek",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "Andrés Alonso Seleccion especial\n7.\n99\n9.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_170_M/856137887594d6d663c19a658529662a/4457_170.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-170",
-   "sectie": "Stoney Creek",
+   "sectie": "Sensi Campoluce Chianti DOCG",
    "attrs": {
     "data-container": ""
    }
@@ -1353,21 +1373,11 @@
    }
   },
   {
-   "tekst": "Sensi Campoluce Chianti DOCG\n5.\n99\n7.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_173_M/d7997e2610dd3984b032ae33dce581ea/4457_173.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-173",
-   "sectie": "Marques de Caceres Rioja crianza DOCa",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
    "tekst": "Wijn van de maand november Villa Mondi Valpolicella Ripasso\n7.\n49\n9.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4453_66_M/3d70bb76eda9fa7cbbcb9ebf0511d323/4453_66.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4453-66",
-   "sectie": "Sensi Campoluce Chianti DOCG",
+   "sectie": "Marques de Caceres Rioja crianza DOCa",
    "attrs": {
     "data-container": ""
    }
@@ -1403,21 +1413,11 @@
    }
   },
   {
-   "tekst": "Comte de Saint Aignan Touraine Sauvignon Blanc\n5.\n99\n7.89",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_160_M/f85a71bf2f951f9fae0c3ef56705f2ff/4457_160.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Piana del Bosso Pinot Grigio\n5.\n99\n7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_161_M/1d8cac210d6cc66026bcc8d64dc69ccd/4457_161.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-160",
+   "href": "https://www.plus.nl/aanbiedingen/4457-161",
    "sectie": "Creamstone Buttery Chardonnay",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "Monte Alina Verdejo\n4.\n99\n6.65",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_158_M/696c9989b88d86ae784d6beabf2d4586/4457_158.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-158",
-   "sectie": "Comte de Saint Aignan Touraine Sauvignon Blanc",
    "attrs": {
     "data-container": ""
    }
@@ -1427,7 +1427,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_166_M/cc1c316a8234d50c18a7990ee1b78014/4457_166.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-166",
-   "sectie": "Monte Alina Verdejo",
+   "sectie": "Piana del Bosso Pinot Grigio",
    "attrs": {
     "data-container": ""
    }
@@ -1453,20 +1453,30 @@
    }
   },
   {
-   "tekst": "Casata Monticello Gavi DOCG\n6.\n49\n8.49",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_172_M/f4deb498dc4ea898fd63e0cfe89e538b/4457_172.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Comte de Saint Aignan Touraine Sauvignon Blanc\n5.\n99\n7.89",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_160_M/f85a71bf2f951f9fae0c3ef56705f2ff/4457_160.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-172",
+   "href": "https://www.plus.nl/aanbiedingen/4457-160",
    "sectie": "Andrés Alonso Verdejo albarino",
    "attrs": {
     "data-container": ""
    }
   },
   {
-   "tekst": "Piana del Bosso Pinot Grigio\n5.\n99\n7.98",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_161_M/1d8cac210d6cc66026bcc8d64dc69ccd/4457_161.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Casata Monticello Gavi DOCG\n6.\n49\n8.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_172_M/f4deb498dc4ea898fd63e0cfe89e538b/4457_172.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-161",
+   "href": "https://www.plus.nl/aanbiedingen/4457-172",
+   "sectie": "Comte de Saint Aignan Touraine Sauvignon Blanc",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "Monte Alina Verdejo\n4.\n99\n6.65",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_158_M/696c9989b88d86ae784d6beabf2d4586/4457_158.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4457-158",
    "sectie": "Casata Monticello Gavi DOCG",
    "attrs": {
     "data-container": ""
@@ -1477,7 +1487,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_162_M/2e09799301933ebedbe548dc504293c2/4457_162.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-162",
-   "sectie": "Piana del Bosso Pinot Grigio",
+   "sectie": "Monte Alina Verdejo",
    "attrs": {
     "data-container": ""
    }
@@ -1513,20 +1523,40 @@
    }
   },
   {
-   "tekst": "4.00 korting\nSalmari Likeur en Vodka\n t/m 8 dec",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_24_M/a9b8c3cddb2ae2365b90a0674c154001/4521_24.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Poliakov Vodka, Cafe Marakesh en Pisang Ambon\n t/m 8 dec\n12.\n49\n15.49 - 16.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_1_M/00e78e3df5a10a9b503a5316351d2eb1/4521_1.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-24",
+   "href": "https://www.plus.nl/aanbiedingen/4521-1",
    "sectie": "Callia Sparkling 0.0%",
    "attrs": {
     "data-container": ""
    }
   },
   {
-   "tekst": "Poliakov Vodka, Cafe Marakesh en Pisang Ambon\n t/m 8 dec\n12.\n49\n15.49 - 16.49",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_1_M/00e78e3df5a10a9b503a5316351d2eb1/4521_1.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "4.00 korting\nCoeberg, Bols en Passoã\nBijv. Vodka\n t/m 8 dec\n11.\n99\n15.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_25_M/9d727459937483c9ff9e9861fc307f37/4521_25.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-1",
+   "href": "https://www.plus.nl/aanbiedingen/4521-25",
+   "sectie": "Poliakov Vodka, Cafe Marakesh en Pisang Ambon",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "4.00 korting\nSalmari Likeur en Vodka\n t/m 8 dec",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_24_M/a9b8c3cddb2ae2365b90a0674c154001/4521_24.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4521-24",
+   "sectie": "Coeberg, Bols en Passoã",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nSafari en Sourz Red Berry\nBijv. Exotic Fruit\n t/m 8 dec\n11.\n25\n14.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_22_M/d91418c19abdde72492bfedec37fa04c/4521_22.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4521-22",
    "sectie": "Salmari Likeur en Vodka",
    "attrs": {
     "data-container": ""
@@ -1537,17 +1567,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_21_M/588cc315629a2b8fac233b2541080942/4521_21.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4521-21",
-   "sectie": "Poliakov Vodka, Cafe Marakesh en Pisang Ambon",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "Limoncello Di Capri Limoncello\nPer 500 ml\n t/m 8 dec\n11.\n99\n14.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/800705_M/fdf5e9f87cb2ff679c1b6e895e9a63a2/800705.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/limoncello-di-capri-limoncello-fles-500-ml-800705",
-   "sectie": "Cazadores Tequila en Jack Daniel's Gentleman Jack",
+   "sectie": "Safari en Sourz Red Berry",
    "attrs": {
     "data-container": ""
    }
@@ -1557,27 +1577,17 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_5_M/7ca2c177da78342cabdf90dbf14b35cd/4521_5.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4521-5",
-   "sectie": "Limoncello Di Capri Limoncello",
+   "sectie": "Cazadores Tequila en Jack Daniel's Gentleman Jack",
    "attrs": {
     "data-container": ""
    }
   },
   {
-   "tekst": "4.00 korting\nCoeberg, Bols en Passoã\nBijv. Vodka\n t/m 8 dec\n11.\n99\n15.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_25_M/9d727459937483c9ff9e9861fc307f37/4521_25.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Limoncello Di Capri Limoncello\nPer 500 ml\n t/m 8 dec\n11.\n99\n14.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/800705_M/fdf5e9f87cb2ff679c1b6e895e9a63a2/800705.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-25",
+   "href": "https://www.plus.nl/product/limoncello-di-capri-limoncello-fles-500-ml-800705",
    "sectie": "Juttertje, Trojka en Berentzen Apfelkorn",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "25 % korting\nSafari en Sourz Red Berry\nBijv. Exotic Fruit\n t/m 8 dec\n11.\n25\n14.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_22_M/d91418c19abdde72492bfedec37fa04c/4521_22.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-22",
-   "sectie": "Coeberg, Bols en Passoã",
    "attrs": {
     "data-container": ""
    }
@@ -1587,7 +1597,7 @@
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_4_M/5168f1fb33d0f0e300b62908a38248af/4521_4.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4521-4",
-   "sectie": "Safari en Sourz Red Berry",
+   "sectie": "Limoncello Di Capri Limoncello",
    "attrs": {
     "data-container": ""
    }
@@ -1653,41 +1663,11 @@
    }
   },
   {
-   "tekst": "Four Roses Whisky\nPer 700 ml\nBekijk beschikbaarheid\n t/m 8 dec\n16.\n49\n21.39",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/119368_M/ff3e370f78147ab8683e54502161fee1/119368.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/four-roses-whisky-fles-700-ml-119368",
-   "sectie": "Johnnie Walker Whisky",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "5.00 korting\nJim Beam Whiskey\nBijv. Bourbon\n t/m 8 dec\n16.\n99\n21.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_7_M/85f16c2057415a0e3ea3a99543455fbc/4521_7.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-7",
-   "sectie": "Four Roses Whisky",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "25 % korting\nJameson en Clan Campbell Whisky en Gibson's Gin\nBijv. Whiskey\n t/m 8 dec\n25.\n87\n34.49",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_9_M/2b45f720969e991be3c6e396bdcad0be/4521_9.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4521-9",
-   "sectie": "Jim Beam Whiskey",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
    "tekst": "25 % korting\nLaphroaig Select cask\nPer 700 ml\nBekijk beschikbaarheid\n t/m 8 dec\n35.\n24\n46.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/950539_M/70f182a215b87f9e83c738a1d3c8075b/950539.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/product/laphroaig-select-cask-koker-700-ml-950539",
-   "sectie": "Jameson en Clan Campbell Whisky en Gibson's Gin",
+   "sectie": "Johnnie Walker Whisky",
    "attrs": {
     "data-container": ""
    }
@@ -1713,11 +1693,41 @@
    }
   },
   {
+   "tekst": "Four Roses Whisky\nPer 700 ml\nBekijk beschikbaarheid\n t/m 8 dec\n16.\n49\n21.39",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/119368_M/ff3e370f78147ab8683e54502161fee1/119368.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/product/four-roses-whisky-fles-700-ml-119368",
+   "sectie": "Bowmore en Glen Moray Whisky",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "5.00 korting\nJim Beam Whiskey\nBijv. Bourbon\n t/m 8 dec\n16.\n99\n21.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_7_M/85f16c2057415a0e3ea3a99543455fbc/4521_7.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4521-7",
+   "sectie": "Four Roses Whisky",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "25 % korting\nJameson en Clan Campbell Whisky en Gibson's Gin\nBijv. Whiskey\n t/m 8 dec\n25.\n87\n34.49",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_9_M/2b45f720969e991be3c6e396bdcad0be/4521_9.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4521-9",
+   "sectie": "Jim Beam Whiskey",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "Olifant Jenever, Dujardin Vieux en Boomsma Jenever en Beerenburg\n t/m 8 dec\n12.\n99\n15.99 - 17.29",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4521_2_M/33aa6b25d7385bdc11a3d0333cbad8b1/4521_2.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4521-2",
-   "sectie": "Bowmore en Glen Moray Whisky",
+   "sectie": "Jameson en Clan Campbell Whisky en Gibson's Gin",
    "attrs": {
     "data-container": ""
    }
@@ -1883,11 +1893,21 @@
    }
   },
   {
+   "tekst": "Klene Pinpassen\nPer 210 g\n1.\n99\n2.69",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/553137_M/4e211bbdb39f03b884071fc07b8742a7/553137.png?w=96&h=96&fit=pad&fm=webp&q=85",
+   "alt": "Klene Pinpassen",
+   "href": "https://www.plus.nl/product/klene-pinpassen-zak-210-g-553137",
+   "sectie": "Klene Crypto",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "Klene Muntdrop\nPer 210 g\n1.\n99\n2.69",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/552825_M/cfea07006e600ef0baced3647e47e046/552825.png?w=96&h=96&fit=pad&fm=webp&q=85",
    "alt": "Klene Muntdrop",
    "href": "https://www.plus.nl/product/klene-muntdrop-zak-210-g-552825",
-   "sectie": "Klene Crypto",
+   "sectie": "Klene Pinpassen",
    "attrs": {
     "data-container": ""
    }
@@ -1898,16 +1918,6 @@
    "alt": "Klene Zakkenrollers",
    "href": "https://www.plus.nl/product/klene-zakkenrollers-zak-210-g-553139",
    "sectie": "Klene Muntdrop",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "Klene Engelse drop\nPer 270 g\n1.\n99\n2.75",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/752644_M/cd3056f22b86fe19a637f1c62d4c86e9/752644.png?w=96&h=96&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/klene-engelse-drop-zak-270-g-752644",
-   "sectie": "Klene Zakkenrollers",
    "attrs": {
     "data-container": ""
    }
@@ -2063,27 +2073,17 @@
    }
   },
   {
-   "tekst": "25 % korting\nPLUS Rochebaron, chaumes en camembert rustique\nBijv. Camembert rustique 45+\n3.\n21\n4.29",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_90_M/c0174e45029b77324bc77fb2492a8c70/4457_90.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "tekst": "Chovi Aioli\nPer 180 ml\n1.\n49\n1.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/561376_M/262917e396065f909acc9f484dbdfede/561376.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-90",
+   "href": "https://www.plus.nl/product/chovi-aioli-kuipje-180-ml-561376",
    "sectie": "Gijs Kaaskoekjes, -bolletjes en -stengels",
    "attrs": {
     "data-container": ""
    }
   },
   {
-   "tekst": "Chovi Aioli\nPer 180 ml\n1.\n49\n1.99",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/561376_M/262917e396065f909acc9f484dbdfede/561376.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/product/chovi-aioli-kuipje-180-ml-561376",
-   "sectie": "PLUS Rochebaron, chaumes en camembert rustique",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
-   "tekst": "3 voor 6.00\nPLUS Kies & Mix Tapas\n t/m 12 jan\n6.\n00\n6.15 - 11.97",
+   "tekst": "3 voor 6.00\nPLUS Kies & Mix Tapas\n t/m 19 jan\n6.\n00\n6.15 - 11.97",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4456_145_M/25c273e9acd236d3c7f8ed03fb979379/4456_145.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4456-145",

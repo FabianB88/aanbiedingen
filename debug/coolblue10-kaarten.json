@@ -1,6 +1,6 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=10",
- "aantal": 3,
+ "aantal": 4,
  "kaarten": [
   {
    "tekst": "€ 100,- cashback",
@@ -19,10 +19,18 @@
    "attrs": {}
   },
   {
-   "tekst": "€ 100,- cashback",
+   "tekst": "€ 75,- cashback",
    "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
    "alt": "Black Friday",
-   "href": "https://www.coolblue.nl/product/969137/epson-ef-62b.html",
+   "href": "https://www.coolblue.nl/product/926181/aeg-lwr8716ad6-powercare-autodose-10-6-kg.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
+  {
+   "tekst": "€ 75,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/980321/siemens-eq500-iaroma-tp5x3b07.html",
    "sectie": "Black Friday 2026 topdeals",
    "attrs": {}
   }

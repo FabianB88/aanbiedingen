@@ -1,6 +1,6 @@
 {
  "url": "https://www.aldi.nl/aanbiedingen.html",
- "aantal": 224,
+ "aantal": 223,
  "kaarten": [
   {
    "tekst": "FLEURIL\n\nWasmiddel\nOP=OP\n8.49\n54 wasbeurten\nWasmiddel",
@@ -563,16 +563,6 @@
    }
   },
   {
-   "tekst": "CHOCEUR\n\nPure chocolade\nOP=OP\n3.69\n2x200 g\nkg = 9.20\nPure chocolade",
-   "img": "https://s7g10.scene7.com/is/image/aldinord/product_1225377_main_cms_15_nl_nl_pure_chocolade_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
-   "alt": "",
-   "href": "https://www.aldi.nl/product/pure-chocolade-1225377.html",
-   "sectie": "Roomboter amandelstaaf",
-   "attrs": {
-    "data-testid": "product-tile-grid-product-tile-28"
-   }
-  },
-  {
    "tekst": "SUN SNACKS\n\nPopcorn toffee-karamel\nOP=OP\n1.29\n125 g\nPopcorn toffee-karamel",
    "img": "https://s7g10.scene7.com/is/image/aldinord/product_1234279_main_cms_1_nl_nl_popcorn_toffee_karamel_cw01_2024?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
@@ -687,7 +677,7 @@
    "img": "https://s7g10.scene7.com/is/image/aldinord/91240177_week48?bfc=on&wid=768&fmt=webp-alpha",
    "alt": "",
    "href": "https://www.aldi.nl/product/roomboter-gezouten-of-ongezouten-91240177.html",
-   "sectie": "A-merken",
+   "sectie": "A-merken voor ALDI-prijzen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
@@ -1447,7 +1437,7 @@
    "img": "https://s7g10.scene7.com/is/image/aldinord/product_1219554_main_cms_12_nl_nl_kastanjechampignons_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
    "href": "https://www.aldi.nl/product/kastanjechampignons-1219554.html",
-   "sectie": "Weekend versacties",
+   "sectie": "Weekend: Vers",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }
@@ -1497,7 +1487,7 @@
    "img": "https://s7g10.scene7.com/is/image/aldinord/91245206_week48?bfc=on&wid=1440&fmt=webp-alpha",
    "alt": "",
    "href": "https://www.aldi.nl/product/cup-a-soup-10-pack-91245206.html",
-   "sectie": "Weekendacties A-merken",
+   "sectie": "Weekend: A-merken voor ALDI-prijzen",
    "attrs": {
     "data-testid": "product-tile-grid-product-tile-1"
    }

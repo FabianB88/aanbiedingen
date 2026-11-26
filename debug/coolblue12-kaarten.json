@@ -1,7 +1,15 @@
 {
  "url": "https://www.coolblue.nl/black-friday-top-deals?pagina=12",
- "aantal": 3,
+ "aantal": 4,
  "kaarten": [
+  {
+   "tekst": "€ 100,- cashback",
+   "img": "https://image.coolblue.nl/transparent/max/178xauto/content/589343",
+   "alt": "Black Friday",
+   "href": "https://www.coolblue.nl/product/983703/sony-bravia-6-55-oled-2026.html",
+   "sectie": "Black Friday 2026 topdeals",
+   "attrs": {}
+  },
   {
    "tekst": "Wisberg WBWD16A3DWNB HygienicSteam - 10/6 kg\nBeoordeling is 0 van de 10.\n0 reviews\nKleur wit|1950 W vermogen|Kabellengte 1,93 m\nProductinformatieblad\nopent in nieuw tabblad\nAdviesprijs1.149,-\n\n579,-\n\nOp voorraad\n\nVergelijken",
    "img": "https://image.coolblue.nl/transparent/max/640xauto/products/2047270963",
