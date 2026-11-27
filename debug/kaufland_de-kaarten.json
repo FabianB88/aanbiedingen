@@ -1,6 +1,6 @@
 {
  "url": "https://filiale.kaufland.de/angebote/uebersicht.html",
- "aantal": 848,
+ "aantal": 857,
  "kaarten": [
   {
    "tekst": "MILKA\nWeihnachtsmann\nje 56 - 95-g-Stück\n(1 kg = 11.69 - 19.83)\n-62%\n1.11\n2.99",
@@ -411,6 +411,14 @@
    "attrs": {}
   },
   {
+   "tekst": "Mit Kaufland Card XTRA **\n-39%\n1.99\n3.29",
+   "img": "https://filiale.kaufland.de/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/xtra-badge-8feab62ea1.svg",
+   "alt": "XTRA",
+   "href": "https://filiale.kaufland.de/angebote/uebersicht.html?kloffer-category=817_Bio2#",
+   "sectie": "Kaufland Card XTRA",
+   "attrs": {}
+  },
+  {
    "tekst": "Mit Kaufland Card XTRA **\n-50%\n1.99\n3.99",
    "img": "https://filiale.kaufland.de/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/assets/img/xtra-badge-8feab62ea1.svg",
    "alt": "XTRA",
@@ -467,7 +475,7 @@
    "attrs": {}
   },
   {
-   "tekst": "Coupons\nGültig am 26.11.\nJetzt anmelden\nE-Mail-Adresse oder Handynummer\nEinloggen\nSocial-Media-Login?\n \nJetzt anmelden\nNoch keine Kaufland Card XTRA?\n \nJetzt registrieren\nGratis\nLorem ipsum dolor\nLorem ipsum\nAktivieren\n-80\n-20%\nLorem ipsum extra\nLorem ipsum\nAktivieren\n-100\nWeitere Gratis-Produkte entdecken",
+   "tekst": "Coupons\nGültig am 27.11.\nJetzt anmelden\nE-Mail-Adresse oder Handynummer\nEinloggen\nSocial-Media-Login?\n \nJetzt anmelden\nNoch keine Kaufland Card XTRA?\n \nJetzt registrieren\nGratis\nLorem ipsum dolor\nLorem ipsum\nAktivieren\n-80\n-20%\nLorem ipsum extra\nLorem ipsum\nAktivieren\n-100\nMehr anzeigen",
    "img": "https://filiale.kaufland.de/content/dam/kaufland/website/consumer/de_DE/graphic/svg/kaufland-card-xtra/kaufland-card-xtra-content-design-flyout.svg",
    "alt": "",
    "href": "https://filiale.kaufland.de/angebote/uebersicht.html?kloffer-category=817_Bio2",
@@ -3190,14 +3198,6 @@
    "tekst": "XXL-Thermo-Einkaufskorb\nje\nnur\n7.99",
    "img": "https://kaufland.media.schwarz/is/image/schwarz/20711298_P_1146340?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
    "alt": "XXL-Thermo-Einkaufskorb",
-   "href": "https://filiale.kaufland.de/angebote/uebersicht.html?kloffer-category=817_Bio2#",
-   "sectie": "Heim, Haus",
-   "attrs": {}
-  },
-  {
-   "tekst": "EASYMAXX\nSchuhregal faltbar\nje\nnur\n14.99",
-   "img": "https://kaufland.media.schwarz/is/image/schwarz/4067522074977_DE_V_4752-1?JGstbGVnYWN5LW9uc2l0ZS0yJA==",
-   "alt": "EASYMAXX Schuhregal faltbar",
    "href": "https://filiale.kaufland.de/angebote/uebersicht.html?kloffer-category=817_Bio2#",
    "sectie": "Heim, Haus",
    "attrs": {}

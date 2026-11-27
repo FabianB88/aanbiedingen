@@ -1,6 +1,6 @@
 {
  "url": "https://www.plus.nl/aanbiedingen",
- "aantal": 230,
+ "aantal": 236,
  "kaarten": [
   {
    "tekst": "OP=OP\n3 voor 17.99\nPage Compleet schoon en sensitive\n17.\n99\n50.97",
@@ -143,11 +143,21 @@
    }
   },
   {
+   "tekst": "1+1 gratis\nFeestelijk PLUS Gourmet mini's\nBijv. Gourmet mini steakpuntjes oosters\n3.\n99\n7.98",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_56_M/225cd2b2a82098aacac31ad54c88acb9/4457_56.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "",
+   "href": "https://www.plus.nl/aanbiedingen/4457-56",
+   "sectie": "Sinterklaas",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "OP=OP\n2+1 gratis\nPLUS Chocolade kruidnoten\nBijv. Chocolade kruidnoten wit pistache\n5.\n98\n8.97",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/26aOs1fv2z2zoGeM5jfKFn/0194ab25844de983cd83e76039605054/PLUS_Glazen-2025_APP_2-Zegels_Retina.png?h=50",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-8",
-   "sectie": "Sinterklaas",
+   "sectie": "Feestelijk PLUS Gourmet mini's",
    "attrs": {
     "data-container": ""
    }
@@ -175,7 +185,7 @@
   {
    "tekst": "PLUS Handappels Kanzi tas\nPer 1500 g\n2.\n99\n3.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/183942_M/58b1bf6e4c2d6e640e292ef700fab294/183942.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "PLUS Handappels Kanzi tas",
    "href": "https://www.plus.nl/product/plus-handappels-kanzi-tas-zak-1500-g-183942",
    "sectie": "Aardappelen, groente, fruit",
    "attrs": {
@@ -185,7 +195,7 @@
   {
    "tekst": "PLUS Mandarijnen extra groot GVP\nPer 1500 g\n3.\n49\n4.49",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/796552_M/212cb4bed457dd6932cc2d260ed1ec7c/796552.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "PLUS Mandarijnen GVP per net 1500 gr",
    "href": "https://www.plus.nl/product/plus-mandarijnen-extra-groot-gvp-net-1500-g-796552",
    "sectie": "PLUS Handappels Kanzi tas",
    "attrs": {
@@ -195,7 +205,7 @@
   {
    "tekst": "PLUS Watermeloen eetrijp\nPer 1 st\n2.\n99\n5.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/828703_M/82fcae0450476adfe0ad9fc396bfc312/828703.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "PLUS Watermeloen eetrijp",
    "href": "https://www.plus.nl/product/plus-watermeloen-eetrijp-stuk-1-st-828703",
    "sectie": "PLUS Mandarijnen extra groot GVP",
    "attrs": {
@@ -205,7 +215,7 @@
   {
    "tekst": "PLUS Mango\nPer 1 st\n1.\n49\n1.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/852877_M/5c65c551147985664e686f2d84f84a2b/852877.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "PLUS Mango per stuk",
    "href": "https://www.plus.nl/product/plus-mango-stuk-1-st-852877",
    "sectie": "PLUS Watermeloen eetrijp",
    "attrs": {
@@ -215,7 +225,7 @@
   {
    "tekst": "500 gram 2.99\nZespri Kiwi gold\nPer 500 gram\n2.\n99\n3.79",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/166366_M/b175288a8f9ebfd58d579260ffc4cee6/166366.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Zespri Kiwi gold",
    "href": "https://www.plus.nl/product/zespri-kiwi-gold-kg-1000-g-166366",
    "sectie": "PLUS Mango",
    "attrs": {
@@ -255,7 +265,7 @@
   {
    "tekst": "Eat Me Avocado\nPer 2 st\n2.\n49\n3.19",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/561137_M/2cb54743c0abedab1a8d6dec7218069f/561137.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Eat Me Avocado",
    "href": "https://www.plus.nl/product/eat-me-avocado-bakje-met-deksel-2-st-561137",
    "sectie": "PLUS Verse frites en zoete aardappelfrites",
    "attrs": {
@@ -355,7 +365,7 @@
   {
    "tekst": "450 gram 6.49\nUit de keuken van PLUS Daging Rendang\nPer 450 gram\nVanaf dinsdag 1 dec\n t/m 31 dec\n7.\n04\n7.49",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/738558_M/00a67763bb360508bc9edc5c6eb77fbe/738558.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Uit de keuken van PLUS Daging Rendang",
    "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-daging-rendang-kg-450-g-738558",
    "sectie": "Verse maaltijden, gemak, salades",
    "attrs": {
@@ -385,7 +395,7 @@
   {
    "tekst": "Uit de keuken van PLUS Pizza Quattro formaggi\nPer 1 st\nVanaf dinsdag 1 dec\n t/m 31 dec\n5.\n99\n6.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/184073_M/6254f3deaaa440c937c526dc17ac209f/184073.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Uit de keuken van PLUS Pizza Quattro formaggi Stuk 1 ST",
    "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-pizza-quattro-formaggi-stuk-1-st-184073",
    "sectie": "Uit de Keuken van PLUS Verse pizza",
    "attrs": {
@@ -415,7 +425,7 @@
   {
    "tekst": "450 gram 5.99\nUit de keuken van PLUS Spaghetti meatball\nPer 450 gram\n5.\n99\n6.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/738568_M/294807d408edc1e412aaa00348628f10/738568.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Uit de keuken van PLUS Spaghetti meatball",
    "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-spaghetti-meatball-kg-450-g-738568",
    "sectie": "Jan Poffertjes",
    "attrs": {
@@ -435,7 +445,7 @@
   {
    "tekst": "Uit de keuken van PLUS Pizza Funghi\nPer 1 st\n5.\n99\n6.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/182767_M/020469e2dd9fa11984a4f88192fd73ed/182767.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Uit de keuken van PLUS Pizza Funghi Stuk 1 ST",
    "href": "https://www.plus.nl/product/uit-de-keuken-van-plus-pizza-funghi-stuk-1-st-182767",
    "sectie": "Uit de keuken van PLUS Salade Kip Italiaanse stijl",
    "attrs": {
@@ -473,21 +483,11 @@
    }
   },
   {
-   "tekst": "1+1 gratis\nFeestelijk PLUS Gourmet mini's\nBijv. Gourmet mini steakpuntjes oosters\n3.\n99\n7.98",
-   "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_56_M/225cd2b2a82098aacac31ad54c88acb9/4457_56.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
-   "href": "https://www.plus.nl/aanbiedingen/4457-56",
-   "sectie": "PLUS Boerentrots Kipborrelhapjes en kipschnitzels",
-   "attrs": {
-    "data-container": ""
-   }
-  },
-  {
    "tekst": "PLUS Boerentrots Kippenbouten, -poten en -braadsticks\n3.\n49\n4.25 - 5.09",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_48_M/826b275e9c52798cf3148f06bcbd2efd/4457_48.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-48",
-   "sectie": "Feestelijk PLUS Gourmet mini's",
+   "sectie": "PLUS Boerentrots Kipborrelhapjes en kipschnitzels",
    "attrs": {
     "data-container": ""
    }
@@ -545,7 +545,7 @@
   {
    "tekst": "Biologisch PLUS Zalmfilet met huid\nPer 175 g\n4.\n49\n5.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/553693_M/bd3f9fd37bd5dd9beabd2d8eff1a2276/553693.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Biologisch PLUS Zalmfilet met huid",
    "href": "https://www.plus.nl/product/biologisch-plus-zalmfilet-met-huid-tray-175-g-553693",
    "sectie": "PLUS Zalmfilet met huid",
    "attrs": {
@@ -1193,7 +1193,7 @@
    }
   },
   {
-   "tekst": "25 % korting\nGrolsch Speciaalbier, Tripel Karmeliet en Grimbergen\nBijv. Herfstbok fles\n5.\n77\n7.69",
+   "tekst": "25 % korting\nGrolsch Speciaalbier, Tripel Karmeliet en Grimbergen\nBijv. Rijke Herfstbok bier\n5.\n77\n7.69",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4457_138_M/787f73aa61a6cdd02fc4bc31a2edc1a6/4457_138.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4457-138",
@@ -1273,11 +1273,21 @@
    }
   },
   {
+   "tekst": "Heritage de Chasse Haut Medoc\nPer 750 ml\n9.\n99\n13.29",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/183900_M/dc60d1a2978b61aca126bc695be1017e/183900.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Heritage de Chasse Haut Medoc",
+   "href": "https://www.plus.nl/product/heritage-de-chasse-haut-medoc-fles-750-ml-183900",
+   "sectie": "Les Etoiles de Doisy Sauternes",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "Colò Primitivo Puglia IGP velvet\nPer 750 ml\n8.\n99\n11.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/183903_M/ebed1b433b680344905262c26ffbb4e4/183903.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "Colò Primitivo Puglia IGP velvet",
    "href": "https://www.plus.nl/product/colo-primitivo-puglia-igp-velvet-fles-750-ml-183903",
-   "sectie": "Heritage de Chasse-Spleen Haut Medoc",
+   "sectie": "Heritage de Chasse Haut Medoc",
    "attrs": {
     "data-container": ""
    }
@@ -1583,9 +1593,9 @@
    }
   },
   {
-   "tekst": "Limoncello Di Capri Limoncello\nPer 500 ml\n t/m 8 dec\n11.\n99\n14.99",
+   "tekst": "Limoncello Di Capri Limoncello\nPer 500 ml\nBekijk beschikbaarheid\n t/m 8 dec\n11.\n99\n14.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/800705_M/fdf5e9f87cb2ff679c1b6e895e9a63a2/800705.png?w=120&h=120&fit=pad&fm=webp&q=85",
-   "alt": "",
+   "alt": "Limoncello Di Capri Limoncello",
    "href": "https://www.plus.nl/product/limoncello-di-capri-limoncello-fles-500-ml-800705",
    "sectie": "Juttertje, Trojka en Berentzen Apfelkorn",
    "attrs": {
@@ -2273,11 +2283,61 @@
    }
   },
   {
+   "tekst": "OP=OP\nInventum Grillplaat teppanyaki\nPer 1 st\n19.\n99\n39.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/929437_M/03579d2d900096afce8bd795f485dfb1/929437.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Inventum Grillplaat teppanyaki",
+   "href": "https://www.plus.nl/product/inventum-grillplaat-teppanyaki-doos-1-st-929437",
+   "sectie": "Koken, non-food, service",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\nTefal So'Light Twinkle koekenpan 24cm\nPer 1 st\n18.\n99\n49.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/279310_M/f9b0bd956e08b2f33947270ce95c486b/279310.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Tefal So'Light Twinkle koekenpan 24cm",
+   "href": "https://www.plus.nl/product/tefal-so-light-twinkle-koekenpan-24cm-wikkel-1-st-279310",
+   "sectie": "Inventum Grillplaat teppanyaki",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\nTefal So'Light Twinkle koekenpan 28cm\nPer 1 st\n19.\n99\n53.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/279308_M/bef49068c78f9078fc0651fcf6ee70a7/279308.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Tefal So'Light Twinkle koekenpan 28cm",
+   "href": "https://www.plus.nl/product/tefal-so-light-twinkle-koekenpan-28cm-wikkel-1-st-279308",
+   "sectie": "Tefal So'Light Twinkle koekenpan 24cm",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
    "tekst": "OP=OP\nBeter Bikken Buddies\n2.\n99\n10.99",
    "img": "https://images.ctfassets.net/s0lodsnpsezb/4455_212_M/a987be74eafa983bcb0bffd7009339dd/4455_212.png?w=120&h=120&fit=pad&fm=webp&q=85",
    "alt": "",
    "href": "https://www.plus.nl/aanbiedingen/4455-212",
-   "sectie": "Koken, non-food, service",
+   "sectie": "Tefal So'Light Twinkle koekenpan 28cm",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\nLöwenthal Glazen airfryer 4 in 1\nPer 1 st\n39.\n99\n149.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/958220_M/b9946a03d372ad3c6e59e3eeda7d265a/958220.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Löwenthal Glazen airfryer 4 in 1",
+   "href": "https://www.plus.nl/product/lowenthal-glazen-airfryer-4-in-1-doos-1-st-958220",
+   "sectie": "XXL Nutrition Thermo Hydrate Bottle",
+   "attrs": {
+    "data-container": ""
+   }
+  },
+  {
+   "tekst": "OP=OP\nLeonardo Trolley 18 inch\nPer 1 st\n14.\n99\n39.99",
+   "img": "https://images.ctfassets.net/s0lodsnpsezb/958222_M/bcb1dda632f46246ced9c4d874f1b91a/958222.png?w=120&h=120&fit=pad&fm=webp&q=85",
+   "alt": "Leonardo Trolley 18 inch",
+   "href": "https://www.plus.nl/product/leonardo-trolley-18-inch-stuk-1-st-958222",
+   "sectie": "Löwenthal Glazen airfryer 4 in 1",
    "attrs": {
     "data-container": ""
    }
